@@ -1,3 +1,3 @@
 export default () => (
-    <div> Next.js </div>
+    <p>Next.js</p>
 );
