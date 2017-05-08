@@ -2,14 +2,23 @@
 
 exports[`LandingPage component renders styled-component Wrapper 1`] = `
 <div
-  className="kHXxIQ"
+  className="gwhYEr"
 >
   <section
-    className="evsWfp"
+    className="hIRGSg"
   >
     <h1>
-      Moka Haiku: web app agency
+      Moka Haiku:
+      <br />
+      web app agency
     </h1>
+  </section>
+  <section
+    className="eTzQYX"
+  >
+    <h2>
+      Creating fast & interactive web applications with React and Meteor
+    </h2>
   </section>
 </div>
 `;

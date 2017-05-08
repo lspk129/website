@@ -12,6 +12,6 @@ describe('', () => {
 
   it('renders text "Moka Haiku: web app agency" ', () => {
     const content = shallow(<HeroText />);
-    expect(content.find('h1').text()).toEqual('Moka Haiku: web app agency');
+    expect(content.find('h1').text()).toEqual('Moka Haiku:web app agency');
   });
 });

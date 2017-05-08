@@ -6,6 +6,7 @@ export default styled.div`
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  margin: -10px;
   height: 100vh
 `;
 
