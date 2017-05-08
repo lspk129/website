@@ -1,9 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`LandingPage component renders styled-component Wrapper 1`] = `
-<div>
+<div
+  className="kHXxIQ"
+>
   <section
-    className="kHXxIQ"
-  />
+    className="evsWfp"
+  >
+    <h1>
+      Moka Haiku: web app agency
+    </h1>
+  </section>
 </div>
 `;
