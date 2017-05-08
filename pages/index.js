@@ -1,7 +1,8 @@
 import React from 'react';
 
+import LandingPage from '../components/LandingPage';
+
+
 export default () => (
-  <div>
-    <p>Next.js</p>
-  </div>
+  <LandingPage />
 );
