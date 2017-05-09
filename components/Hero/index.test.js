@@ -4,6 +4,7 @@ import renderer from 'react-test-renderer';
 
 
 import LandingPage from './index';
+import HeroImage from './HeroImage';
 
 describe('LandingPage component', () => {
   it('renders styled-component Wrapper', () => {
@@ -13,9 +14,9 @@ describe('LandingPage component', () => {
   });
 });
 
-// describe('Wrapper component', () => {
-//   it('renders style class with image', () => {
-//     const component = shallow(<LandingPage />);
-//     expect(component.find('section').hasClass('kHXxIQ')).toEqual(1);
-//   });
-// });
+describe('Wrapper component', () => {
+  it('renders style class with image', () => {
+    const component = shallow(<LandingPage />);
+    expect(component.find(HeroImage).length).toEqual(2);
+  });
+});

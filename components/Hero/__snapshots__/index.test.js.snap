@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingPage component renders styled-component Wrapper 1`] = `
+<div
+  className="jdeoLn"
+>
+  <h1
+    className="fueiXV"
+  >
+    Moka Haiku:
+    <br />
+    web app agency
+  </h1>
+  <h2
+    className="iFWOXw"
+  >
+    Creating fast & interactive web applications with React and Meteor
+  </h2>
+  <button
+    className="hCEkiN"
+  >
+    get a free consultation
+  </button>
+</div>
+`;
