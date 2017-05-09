@@ -10,7 +10,11 @@ describe('HeroSubtext content', () => {
   });
 
   it('renders text "Creating fast & interactive web applications with React and Meteor" ', () => {
-    const content = shallow(<HeroSubtitle />);
+    const content = shallow(
+      <HeroSubtitle>
+        Creating fast & interactive web applications with React and Meteor
+      </HeroSubtitle>,
+    );
     expect(content.find('h2').text()).toEqual('Creating fast & interactive web applications with React and Meteor');
   });
 });
