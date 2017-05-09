@@ -13,9 +13,9 @@ describe('HeroImage component', () => {
   });
 });
 
-describe('HeroImage component', () => {
-  it('renders div with class', () => {
-    const component = shallow(<HeroImage />);
-    expect(component.find('div').length).toEqual(1);
-  });
-});
+// describe('HeroImage component', () => {
+//   it('renders div with class', () => {
+//     const component = shallow(<HeroImage />);
+//     expect(component.find('div').length).toEqual(1);
+//   });
+// });

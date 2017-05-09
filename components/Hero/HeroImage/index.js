@@ -2,11 +2,13 @@ import styled from 'styled-components';
 
 export default styled.div`
   background-image: url("http://trendytheme.net/demo2/wp/69/multipage/wp-content/uploads/revslider/web-product-dark/webproduct_darkbg2.jpg");
+  background: linear-gradient(210deg, #318EDF, #46c340);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   margin: -10px;
-  height: 100vh
+  height: 100vh;
+  
+  font-family: Roboto;
 `;
-
