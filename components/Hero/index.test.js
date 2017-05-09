@@ -3,20 +3,40 @@ import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 
 
-import LandingPage from './index';
+import Hero from './index';
 import HeroImage from './HeroImage';
+import HeroTitle from './HeroTitle';
+import HeroSubtitle from './HeroSubtitle';
+import HeroButton from './HeroButton';
 
-describe('LandingPage component', () => {
-  it('renders styled-component Wrapper', () => {
-    const component = renderer.create(<LandingPage />);
-    const tree = component.toJSON();
+describe('Hero', () => {
+  it('renders correctly', () => {
+    const wrapper = renderer.create(<Hero />);
+    const tree = wrapper.toJSON();
     expect(tree).toMatchSnapshot();
   });
-});
 
-describe('Wrapper component', () => {
-  it('renders style class with image', () => {
-    const component = shallow(<LandingPage />);
-    expect(component.find(HeroImage).length).toEqual(2);
+  it('renders HeroImage component', () => {
+    const wrapper = shallow(<Hero />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(HeroImage)).toBePresent();
+  });
+
+  it('renders HeroTitle component', () => {
+    const wrapper = shallow(<Hero />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(HeroTitle)).toBePresent();
+  });
+
+  it('renders HeroSubtitle component', () => {
+    const wrapper = shallow(<Hero />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(HeroSubtitle)).toBePresent();
+  });
+
+  it('renders HeroButton component', () => {
+    const wrapper = shallow(<Hero />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(HeroButton)).toBePresent();
   });
 });

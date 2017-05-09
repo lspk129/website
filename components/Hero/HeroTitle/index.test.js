@@ -1,19 +1,25 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import renderer from 'react-test-renderer';
 
 import HeroTitle from './index';
 
-describe('', () => {
-  it('renders h1 element', () => {
-    const content = shallow(<HeroTitle />);
+describe('HeroTitle', () => {
+  it('renders correctly', () => {
+    const wrapper = renderer.create(<HeroTitle />);
+    const tree = wrapper.toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 
-    expect(content.find('h1').length).toEqual(1);
+  it('renders h1 element', () => {
+    const wrapper = shallow(<HeroTitle />);
+    expect(wrapper).toBePresent();
+    expect(wrapper).toHaveTagName('h1');
   });
 
   it('renders text "Moka Haiku: web app agency" ', () => {
-    const content = shallow(
-      <HeroTitle>Moka Haiku:web app agency</HeroTitle>,
-    );
-    expect(content.find('h1').text()).toEqual('Moka Haiku:web app agency');
+    const wrapper = shallow(<HeroTitle>Moka Haiku:web app agency</HeroTitle>);
+    expect(wrapper).toBePresent();
+    expect(wrapper).toHaveText('Moka Haiku:web app agency');
   });
 });

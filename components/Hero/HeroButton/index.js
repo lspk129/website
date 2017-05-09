@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 const Button = styled.button`
@@ -20,9 +19,8 @@ const Button = styled.button`
   padding: 15px 50px;
   top: 65%;
   font-size: 1rem;
-  font-weight: 600
+  font-weight: 600;
+  text-transform: uppercase;
 `;
 
-export default ({ children }) => (
-  <Button>{children}</Button>
-);
+export default Button;

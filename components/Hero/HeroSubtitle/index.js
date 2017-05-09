@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 const HeroSubtitle = styled.h2`
@@ -10,9 +9,4 @@ const HeroSubtitle = styled.h2`
     color: white;
 `;
 
-
-export default ({ children }) => (
-  <HeroSubtitle>
-    { children }
-  </HeroSubtitle>
-);
+export default HeroSubtitle;

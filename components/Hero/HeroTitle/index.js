@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 const HeroTitle = styled.h1`
@@ -15,10 +14,4 @@ const HeroTitle = styled.h1`
   line-height: 4rem;
 `;
 
-export default ({ children }) => (
-  <HeroTitle>
-    { children }
-  </HeroTitle>
-);
-
-// moka <StyledColor>haiku</StyledColor>:<br />web app agency
+export default HeroTitle;
