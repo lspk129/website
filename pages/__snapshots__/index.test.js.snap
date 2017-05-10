@@ -2,22 +2,22 @@
 
 exports[`Home renders correctly 1`] = `
 <div
-  className="sc-bdVaJa hvXiHF"
+  className="sc-bdVaJa bcrzSP"
 >
   <h1
-    className="sc-bwzfXH lpbWeU"
+    className="sc-bwzfXH jQXNWG"
   >
     Moka Haiku:
     <br />
     web app agency
   </h1>
   <h2
-    className="sc-htpNat BsYmE"
+    className="sc-htpNat gINAtw"
   >
     Creating fast & interactive web applications with React and Meteor
   </h2>
   <button
-    className="sc-bxivhb HjdEn"
+    className="sc-bxivhb jxYIva"
   >
     get a free consultation
   </button>

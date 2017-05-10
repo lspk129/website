@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
           {styleTags}
           <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" />
         </Head>
-        <body>
+        <body style={{ margin: 0 }}>
           <div className="root">
             {main}
           </div>

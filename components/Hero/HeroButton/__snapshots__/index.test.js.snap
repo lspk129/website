@@ -2,6 +2,6 @@
 
 exports[`HeroButton renders corretly 1`] = `
 <button
-  className="sc-bdVaJa kQhmrw"
+  className="sc-bdVaJa dHaSIQ"
 />
 `;

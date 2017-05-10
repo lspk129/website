@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 const HeroSubtitle = styled.h2`
-    text-align: center;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+  color: #fff;
+  text-align: center;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  align-self: center;
+  justify-self: center;
 `;
 
 export default HeroSubtitle;

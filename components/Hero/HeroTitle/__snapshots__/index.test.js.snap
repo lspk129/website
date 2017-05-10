@@ -2,6 +2,6 @@
 
 exports[`HeroTitle renders correctly 1`] = `
 <h1
-  className="sc-bdVaJa drKbDu"
+  className="sc-bdVaJa hZmeXS"
 />
 `;

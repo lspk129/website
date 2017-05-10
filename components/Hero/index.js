@@ -16,8 +16,3 @@ export default () => (
     <HeroButton>get a free consultation</HeroButton>
   </HeroImage>
 );
-
-/*
-css grid
-
-*/
