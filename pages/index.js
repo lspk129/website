@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -20,29 +21,16 @@ const muiTheme = {
   },
 };
 
-const styles = {
-  wrapper: {
-    color: 'red',
-  },
-};
-
 class Hero extends Component {
   static getInitialProps({ req }) {
-    let userAgent;
-    if (process.browser) {
-      userAgent = navigator.userAgent;
-    } else {
-      userAgent = req.headers['user-agent'];
-    }
+    const userAgent = process.browser ? navigator.userAgent : req.headers['user-agent'];
     return { userAgent };
   }
 
   render() {
     const { userAgent } = this.props;
-
     return (
       <MuiThemeProvider muiTheme={getMuiTheme({ userAgent, ...muiTheme })}>
-
         <HeroImage>
           <div className="header" />
           <div className="content">
@@ -66,5 +54,9 @@ class Hero extends Component {
     );
   }
 }
+
+Hero.propTypes = {
+  userAgent: PropTypes.string.isRequired,
+};
 
 export default Hero;
