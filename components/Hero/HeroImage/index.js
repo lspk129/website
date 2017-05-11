@@ -10,8 +10,9 @@ const HomeImage = styled.div`
   font-family: Roboto;
   height: 100vh;
   display: grid;
-  grid-template-columns: 20% 60% 20%;
-  grid-template-rows: 20% 25% 15% 15% 1fr;
+  grid-template-rows: 1fr 5fr;
+  align-items: start;
+  justify-tems: center;
 `;
 
 export default HomeImage;
