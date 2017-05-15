@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BodyContainer renders correctly 1`] = `
+<body
+  className="sc-bdVaJa bcSwbK"
+/>
+`;

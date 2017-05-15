@@ -1,24 +1,61 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
+import RaisedButton from 'material-ui/RaisedButton';
 
-import App from './index';
+import Hero from './index';
+import HeroImage from '../components/Hero/HeroImage';
+import HeroTitle from '../components/Hero/HeroTitle';
+import HeroSubtitle from '../components/Hero/HeroSubtitle';
+import HeroHeader from '../components/Hero/HeroHeader';
+import HeroContainer from '../components/Hero/HeroContainer';
 
-describe('With Enzyme', () => {
-  it('App shows Next.js', () => {
-    const app = shallow(
-      <App />
-    );
-
-    expect(app.find('p').text()).toEqual('Next.js');
+describe('Hero', () => {
+  it('renders correctly', () => {
+    const wrapper = renderer.create(<Hero />);
+    const tree = wrapper.toJSON();
+    expect(tree).toMatchSnapshot();
   });
-});
 
-describe('With Snapshot Testing', () => {
-    it('App shows Next.js', () => {
-        const component = renderer.create(<App />);
-        const tree = component.toJSON();
+  it('renders Hero component', () => {
+    const wrapper = shallow(<Hero />);
+    expect(wrapper).toBePresent();
+  });
 
-        expect(tree).toMatchSnapshot();
-    });
+  it('renders HeroHeader component', () => {
+    const wrapper = shallow(<Hero />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(HeroHeader)).toBePresent();
+  });
+
+  it('renders HeroContainer component', () => {
+    const wrapper = shallow(<Hero />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(HeroContainer)).toBePresent();
+  });
+
+  it('renders HeroImage component', () => {
+    const wrapper = shallow(<Hero />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(HeroImage)).toBePresent();
+  });
+
+  it('renders HeroTitle component', () => {
+    const wrapper = shallow(<Hero />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(HeroTitle)).toBePresent();
+  });
+
+  it('renders HeroSubtitle component', () => {
+    const wrapper = shallow(<Hero />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(HeroSubtitle)).toBePresent();
+  });
+
+  it('renders RaisedButton component', () => {
+    const wrapper = shallow(<Hero />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(RaisedButton)).toBePresent();
+    expect(wrapper.find(RaisedButton)).toHaveProp('label', 'get a free consultation');
+  });
 });
