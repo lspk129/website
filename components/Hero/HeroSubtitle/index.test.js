@@ -17,7 +17,7 @@ describe('HeroSubtitle', () => {
     expect(wrapper).toHaveTagName('h2');
   });
 
-  it('renders text "Creating fast & interactive web applications with React and Meteor" ', () => {
+  it('renders text "Creating fast & interactive web applications with React and Meteor"', () => {
     const wrapper = shallow(
       <HeroSubtitle>
         Creating fast & interactive web applications with React and Meteor

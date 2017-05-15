@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const HeroTitle = styled.h1`
-  color: white;
+  color: ${props => props.theme.main};
   font-size: 4rem;
   white-space: nowrap;
   font-weight: bold;
