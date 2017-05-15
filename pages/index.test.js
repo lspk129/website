@@ -7,7 +7,8 @@ import Hero from './index';
 import HeroImage from '../components/Hero/HeroImage';
 import HeroTitle from '../components/Hero/HeroTitle';
 import HeroSubtitle from '../components/Hero/HeroSubtitle';
-
+import HeroHeader from '../components/Hero/HeroHeader';
+import HeroContainer from '../components/Hero/HeroContainer';
 
 describe('Hero', () => {
   it('renders correctly', () => {
@@ -19,6 +20,18 @@ describe('Hero', () => {
   it('renders Hero component', () => {
     const wrapper = shallow(<Hero />);
     expect(wrapper).toBePresent();
+  });
+
+  it('renders HeroHeader component', () => {
+    const wrapper = shallow(<Hero />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(HeroHeader)).toBePresent();
+  });
+
+  it('renders HeroContainer component', () => {
+    const wrapper = shallow(<Hero />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(HeroContainer)).toBePresent();
   });
 
   it('renders HeroImage component', () => {

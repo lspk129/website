@@ -62,7 +62,11 @@ class Hero extends Component {
 }
 
 Hero.propTypes = {
-  userAgent: PropTypes.string.isRequired,
+  userAgent: PropTypes.string,
+};
+
+Hero.defaultProps = {
+  userAgent: '',
 };
 
 export default Hero;

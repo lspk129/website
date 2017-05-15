@@ -2,27 +2,23 @@
 
 exports[`Hero renders correctly 1`] = `
 <div
-  className="sc-bdVaJa cZopoy"
+  className="sc-bdVaJa cdvvQB"
 >
   <div
-    className="header"
-    data-jsx={2933214230}
+    className="sc-ifAKCX gqKAls"
   />
   <div
-    className="content"
-    data-jsx={2933214230}
+    className="sc-bxivhb dWCQdx"
   >
     <h1
-      className="sc-bwzfXH fANEgN"
+      className="sc-bwzfXH debYNE"
     >
       Moka Haiku:
-      <br
-        data-jsx={2933214230}
-      />
+      <br />
       web app agency
     </h1>
     <h2
-      className="sc-htpNat dkpMLj"
+      className="sc-htpNat kpODOr"
     >
       Creating fast & interactive web applications with React and Meteor
     </h2>
@@ -63,7 +59,7 @@ exports[`Hero renders correctly 1`] = `
         style={
           Object {
             "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
-            "backgroundColor": "#f44336",
+            "backgroundColor": "#0097a7",
             "border": 10,
             "borderRadius": 2,
             "boxSizing": "border-box",
