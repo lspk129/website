@@ -2,6 +2,6 @@
 
 exports[`ServicesSection renders correctly 1`] = `
 <h2
-  className="sc-bdVaJa hUZPMp"
+  className="sc-bdVaJa hbgqAY"
 />
 `;

@@ -1,13 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ServiceSection renders correctly 1`] = `
-<div
-  className="sc-bdVaJa fnMtcs"
->
+<div>
   <h2
-    className="sc-bwzfXH iEVclD"
+    className="sc-bdVaJa hbgqAY"
   >
     What we do
   </h2>
+  <div
+    className="sc-bwzfXH heEoUP"
+  >
+    <div
+      className="sc-htpNat fzJKZQ"
+    >
+      <div>
+        <i
+          className="material-icons"
+        >
+          desktop_mac
+        </i>
+      </div>
+      <h3>
+        Web development
+      </h3>
+      <p>
+        We help you build fast, functional, performance oriented websites and web apps
+      </p>
+    </div>
+    <div
+      className="sc-htpNat fzJKZQ"
+    >
+      <div>
+        <i
+          className="material-icons"
+        >
+          color_lens
+        </i>
+      </div>
+      <h3>
+        Web design
+      </h3>
+      <p>
+        We are creating unique and adaptive designs to engage customers
+      </p>
+    </div>
+  </div>
 </div>
 `;

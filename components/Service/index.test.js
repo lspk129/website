@@ -3,7 +3,7 @@ import { shallow, mount } from 'enzyme';
 import renderer from 'react-test-renderer';
 
 import ServiceSection from './';
-import ServiceLayout from './ServiceLayout';
+import ServiceList from './ServiceList';
 import ServiceHeader from './ServiceHeader';
 
 describe('ServiceSection', () => {
@@ -13,10 +13,10 @@ describe('ServiceSection', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('renders ServiceLayout component', () => {
-    const wrapper = shallow(<ServiceSection />);
+  it('renders ServiceList component', () => {
+    const wrapper = mount(<ServiceList />);
     expect(wrapper).toBePresent();
-    expect(wrapper.find(ServiceLayout)).toBePresent();
+    expect(wrapper.find(ServiceList)).toBePresent();
   });
 
   it('renders ServiceHeader component', () => {
@@ -28,6 +28,6 @@ describe('ServiceSection', () => {
   it('renders text "What we do"', () => {
     const wrapper = mount(<ServiceSection />);
     expect(wrapper).toBePresent();
-    expect(wrapper).toHaveText('What we do');
+    expect(wrapper.find(ServiceHeader)).toHaveText('What we do');
   });
 });

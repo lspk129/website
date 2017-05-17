@@ -1,14 +1,15 @@
 import React from 'react';
 
-import ServiceLayout from './ServiceLayout';
 import ServiceHeader from './ServiceHeader';
+import ServiceList from './ServiceList';
 
 const ServiceSection = () => (
-  <ServiceLayout>
+  <div>
     <ServiceHeader>
       What we do
     </ServiceHeader>
-  </ServiceLayout>
+    <ServiceList />
+  </div>
 );
 
 export default ServiceSection;
