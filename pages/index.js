@@ -4,7 +4,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import RaisedButton from 'material-ui/RaisedButton';
-import { red500, black, cyan700, white } from 'material-ui/styles/colors';
+import { red400, black, cyan700, white } from 'material-ui/styles/colors';
 import { ThemeProvider } from 'styled-components';
 
 import HeroImage from '../components/Hero/HeroImage';
@@ -23,13 +23,15 @@ if (!process.tapEventInjected) {
 const themeProvider = (isMUI = false) => {
   const theme = {
     mainColor: cyan700,
-    secondaryColor: red500,
-    backgroundColor: black,
+    secondaryColor: red400,
+    backgroundColor: cyan700,
     textColor: white,
   };
   if (isMUI) return { palette: { accent1Color: theme.mainColor } };
   return {
-    main: theme.textColor,
+    main: theme.mainColor,
+    text: theme.textColor,
+    background: theme.mainColor,
   };
 };
 
