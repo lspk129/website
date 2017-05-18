@@ -8,7 +8,6 @@ const ServiceContainer = styled.div`
   padding-bottom: 100px;
   justify-content: center;
   align-content: center;
-  
 `;
 
 export default ServiceContainer;

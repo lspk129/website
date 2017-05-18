@@ -4,7 +4,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import RaisedButton from 'material-ui/RaisedButton';
-import { red400, black, cyan700, white } from 'material-ui/styles/colors';
+import { red400, cyan700, white } from 'material-ui/styles/colors';
 import { ThemeProvider } from 'styled-components';
 
 import HeroImage from '../components/Hero/HeroImage';
