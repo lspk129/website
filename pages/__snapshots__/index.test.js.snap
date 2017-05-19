@@ -6,6 +6,7 @@ exports[`Hero renders correctly 1`] = `
     className="sc-bdVaJa faRani"
   >
     <div
+<<<<<<< HEAD
       className="sc-ifAKCX gqKAls"
     />
     <div
@@ -13,18 +14,70 @@ exports[`Hero renders correctly 1`] = `
     >
       <h1
         className="sc-bwzfXH debYNE"
+=======
+<<<<<<< HEAD
+      className={undefined}
+      style={
+        Object {
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "backgroundColor": "#ffffff",
+          "borderRadius": 2,
+          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                 0 1px 4px rgba(0, 0, 0, 0.12)",
+          "boxSizing": "border-box",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "display": "inline-block",
+          "fontFamily": "Roboto, sans-serif",
+          "minWidth": 88,
+          "muiPrepared": true,
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+        }
+      }
+    >
+      <button
+        disabled={false}
+        href={undefined}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        onTouchTap={[Function]}
+=======
+      className="sc-bwzfXH ihZAAo"
+    />
+    <div
+      className="sc-htpNat eHHjUf"
+    >
+      <h1
+        className="sc-bxivhb jCfIKw"
+>>>>>>> Add a header by adding a h2 tag with a copy and move Hero section to separate component
       >
         Moka Haiku:
         <br />
         web app agency
       </h1>
       <h2
+<<<<<<< HEAD
         className="sc-htpNat kpODOr"
+=======
+        className="sc-ifAKCX bWUqYE"
+>>>>>>> Add a header by adding a h2 tag with a copy and move Hero section to separate component
       >
         Creating fast & interactive web applications with React and Meteor
       </h2>
       <div
         className={undefined}
+<<<<<<< HEAD
+=======
+>>>>>>> b9d1181... Move Hero section to separate component
+>>>>>>> Add a header by adding a h2 tag with a copy and move Hero section to separate component
         style={
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
@@ -56,11 +109,20 @@ exports[`Hero renders correctly 1`] = `
           onMouseUp={[Function]}
           onTouchEnd={[Function]}
           onTouchStart={[Function]}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Add a header by adding a h2 tag with a copy and move Hero section to separate component
           onTouchTap={[Function]}
           style={
             Object {
               "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+<<<<<<< HEAD
               "backgroundColor": "#0097a7",
+=======
+              "backgroundColor": "#ef5350",
+>>>>>>> Add a header by adding a h2 tag with a copy and move Hero section to separate component
               "border": 10,
               "borderRadius": 2,
               "boxSizing": "border-box",
@@ -86,6 +148,10 @@ exports[`Hero renders correctly 1`] = `
           }
           tabIndex={0}
           type="button"
+<<<<<<< HEAD
+=======
+>>>>>>> b9d1181... Move Hero section to separate component
+>>>>>>> Add a header by adding a h2 tag with a copy and move Hero section to separate component
         >
           <div
             onMouseDown={[Function]}
@@ -128,6 +194,11 @@ exports[`Hero renders correctly 1`] = `
               </span>
             </div>
           </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Add a header by adding a h2 tag with a copy and move Hero section to separate component
         </button>
       </div>
     </div>
@@ -142,6 +213,7 @@ exports[`Hero renders correctly 1`] = `
       className="sc-bZQynM eeZUJA"
     >
       <div
+<<<<<<< HEAD
         className="sc-gzVnrw hLiVYq"
       >
         <i
@@ -171,7 +243,52 @@ exports[`Hero renders correctly 1`] = `
           We are creating unique and adaptive designs to engage customers
         </p>
       </div>
+=======
+        className="sc-gzVnrw iEmyKh"
+      >
+        <div
+          className="web-dev"
+        >
+          <i
+            className="material-icons"
+          >
+            desktop_mac
+          </i>
+          <h3>
+            Web development
+          </h3>
+          <p>
+            We help you build fast, functional, performance oriented websites and web apps
+          </p>
+        </div>
+      </div>
+      <div
+        className="sc-gzVnrw iEmyKh"
+      >
+        <div
+          className="web-design"
+        >
+          <i
+            className="material-icons"
+          >
+            color_lens
+          </i>
+          <h3>
+            Web design
+          </h3>
+          <p>
+            We are creating unique and adaptive designs to engage customers
+          </p>
+>>>>>>> b9d1181... Move Hero section to separate component
+        </div>
+      </button>
+>>>>>>> Add a header by adding a h2 tag with a copy and move Hero section to separate component
     </div>
   </div>
+  <h2
+    className="sc-htoDjs VKuGJ"
+  >
+    We use cutting-edge technologies
+  </h2>
 </div>
 `;

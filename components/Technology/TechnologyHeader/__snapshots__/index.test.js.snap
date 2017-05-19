@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TehcnologyHeader renders corretcly 1`] = `
+<h2
+  className="sc-bdVaJa hbgqAY"
+/>
+`;

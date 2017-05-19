@@ -3,17 +3,12 @@ import PropTypes from 'prop-types';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-import RaisedButton from 'material-ui/RaisedButton';
 import { red400, cyan700, white } from 'material-ui/styles/colors';
 import { ThemeProvider } from 'styled-components';
 
-import HeroImage from '../components/Hero/HeroImage';
-import HeroTitle from '../components/Hero/HeroTitle';
-import HeroSubtitle from '../components/Hero/HeroSubtitle';
-import HeroContainer from '../components/Hero/HeroContainer';
-import HeroHeader from '../components/Hero/HeroHeader';
-
+import Hero from '../components/Hero';
 import Service from '../components/Service';
+import TechnologySection from '../components/Technology';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -35,7 +30,7 @@ const themeProvider = (isMUI = false) => {
   };
 };
 
-class Hero extends Component {
+class IndexPage extends Component {
   static getInitialProps({ req }) {
     const userAgent = process.browser ? navigator.userAgent : req.headers['user-agent'];
     return { userAgent };
@@ -48,19 +43,9 @@ class Hero extends Component {
       <MuiThemeProvider muiTheme={getMuiTheme({ userAgent, ...themeProvider(isMUI) })}>
         <ThemeProvider theme={themeProvider()}>
           <div>
-            <HeroImage>
-              <HeroHeader />
-              <HeroContainer>
-                <HeroTitle>
-              Moka Haiku:<br />web app agency
-            </HeroTitle>
-                <HeroSubtitle>
-              Creating fast & interactive web applications with React and Meteor
-            </HeroSubtitle>
-                <RaisedButton label="get a free consultation" secondary />
-              </HeroContainer>
-            </HeroImage>
+            <Hero />
             <Service />
+            <TechnologySection />
           </div>
         </ThemeProvider>
       </MuiThemeProvider>
@@ -68,12 +53,12 @@ class Hero extends Component {
   }
 }
 
-Hero.propTypes = {
+IndexPage.propTypes = {
   userAgent: PropTypes.string,
 };
 
-Hero.defaultProps = {
+IndexPage.defaultProps = {
   userAgent: '',
 };
 
-export default Hero;
+export default IndexPage;
