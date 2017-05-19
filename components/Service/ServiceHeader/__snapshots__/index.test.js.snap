@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ServicesSection renders correctly 1`] = `
+exports[`ServiceHeader renders correctly 1`] = `
 <h2
   className="sc-bdVaJa hbgqAY"
 />

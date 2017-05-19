@@ -2,9 +2,9 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 
-import ServiceContainer from './index';
+import ServiceContainer from './';
 
-describe('ServiceLayout', () => {
+describe('ServiceContainer', () => {
   it('renders corretcly', () => {
     const wrapper = renderer.create(<ServiceContainer />);
     const tree = wrapper.toJSON();

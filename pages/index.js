@@ -13,7 +13,7 @@ import HeroSubtitle from '../components/Hero/HeroSubtitle';
 import HeroContainer from '../components/Hero/HeroContainer';
 import HeroHeader from '../components/Hero/HeroHeader';
 
-import ServiceSection from '../components/Service';
+import Service from '../components/Service';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -60,7 +60,7 @@ class Hero extends Component {
                 <RaisedButton label="get a free consultation" secondary />
               </HeroContainer>
             </HeroImage>
-            <ServiceSection />
+            <Service />
           </div>
         </ThemeProvider>
       </MuiThemeProvider>

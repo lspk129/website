@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ServiceList renders corretcly 1`] = `
+exports[`ServiceItem renders corretcly 1`] = `
 <div
   className="sc-bdVaJa eIKJMt"
 />

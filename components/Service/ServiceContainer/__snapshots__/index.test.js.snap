@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ServiceLayout renders corretcly 1`] = `
+exports[`ServiceContainer renders corretcly 1`] = `
 <div
   className="sc-bdVaJa jfDaPX"
 />

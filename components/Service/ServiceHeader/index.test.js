@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 
 import ServiceHeader from './';
 
-describe('ServicesSection', () => {
+describe('ServiceHeader', () => {
   it('renders correctly', () => {
     const wrapper = renderer.create(<ServiceHeader />);
     const tree = wrapper.toJSON();

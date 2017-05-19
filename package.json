@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watch",
-    "dev": "next"
+    "dev": "next",
+    "lint": "eslint --ext .js pages/ components/"
   },
   "keywords": [],
   "author": "",
