@@ -1,134 +1,145 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Hero renders correctly 1`] = `
-<div
-  className="sc-bdVaJa cdvvQB"
->
+<div>
   <div
-    className="sc-ifAKCX gqKAls"
-  />
-  <div
-    className="sc-bxivhb dWCQdx"
+    className="sc-bdVaJa jDNeIP"
   >
-    <h1
-      className="sc-bwzfXH debYNE"
-    >
-      Moka Haiku:
-      <br />
-      web app agency
-    </h1>
-    <h2
-      className="sc-htpNat kpODOr"
-    >
-      Creating fast & interactive web applications with React and Meteor
-    </h2>
     <div
-      className={undefined}
-      style={
-        Object {
-          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-          "backgroundColor": "#ffffff",
-          "borderRadius": 2,
-          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
-                 0 1px 4px rgba(0, 0, 0, 0.12)",
-          "boxSizing": "border-box",
-          "color": "rgba(0, 0, 0, 0.87)",
-          "display": "inline-block",
-          "fontFamily": "Roboto, sans-serif",
-          "minWidth": 88,
-          "muiPrepared": true,
-          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-        }
-      }
+      className="sc-ifAKCX gqKAls"
+    />
+    <div
+      className="sc-bxivhb dNkMCm"
     >
-      <button
-        disabled={false}
-        href={undefined}
-        onBlur={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchStart={[Function]}
-        onTouchTap={[Function]}
+      <h1
+        className="sc-bwzfXH debYNE"
+      >
+        Moka Haiku:
+        <br />
+        web app agency
+      </h1>
+      <h2
+        className="sc-htpNat kpODOr"
+      >
+        Creating fast & interactive web applications with React and Meteor
+      </h2>
+      <div
+        className={undefined}
         style={
           Object {
-            "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
-            "backgroundColor": "#0097a7",
-            "border": 10,
+            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+            "backgroundColor": "#ffffff",
             "borderRadius": 2,
+            "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                   0 1px 4px rgba(0, 0, 0, 0.12)",
             "boxSizing": "border-box",
-            "cursor": "pointer",
+            "color": "rgba(0, 0, 0, 0.87)",
             "display": "inline-block",
             "fontFamily": "Roboto, sans-serif",
-            "fontSize": "inherit",
-            "fontWeight": "inherit",
-            "height": 36,
-            "lineHeight": "36px",
-            "margin": 0,
+            "minWidth": 88,
             "muiPrepared": true,
-            "outline": "none",
-            "padding": 0,
-            "position": "relative",
-            "textAlign": "center",
-            "textDecoration": "none",
             "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-            "verticalAlign": null,
-            "width": "100%",
-            "zIndex": 1,
           }
         }
-        tabIndex={0}
-        type="button"
       >
-        <div
+        <button
+          disabled={false}
+          href={undefined}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
           onMouseDown={[Function]}
+          onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           onMouseUp={[Function]}
           onTouchEnd={[Function]}
           onTouchStart={[Function]}
+          onTouchTap={[Function]}
+          style={
+            Object {
+              "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+              "backgroundColor": "#0097a7",
+              "border": 10,
+              "borderRadius": 2,
+              "boxSizing": "border-box",
+              "cursor": "pointer",
+              "display": "inline-block",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "inherit",
+              "fontWeight": "inherit",
+              "height": 36,
+              "lineHeight": "36px",
+              "margin": 0,
+              "muiPrepared": true,
+              "outline": "none",
+              "padding": 0,
+              "position": "relative",
+              "textAlign": "center",
+              "textDecoration": "none",
+              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              "verticalAlign": null,
+              "width": "100%",
+              "zIndex": 1,
+            }
+          }
+          tabIndex={0}
+          type="button"
         >
           <div
-            style={
-              Object {
-                "backgroundColor": false,
-                "borderRadius": 2,
-                "height": 36,
-                "muiPrepared": true,
-                "top": 0,
-                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-              }
-            }
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
           >
-            <span
+            <div
               style={
                 Object {
-                  "color": "#ffffff",
-                  "fontSize": 14,
-                  "fontWeight": 500,
-                  "letterSpacing": 0,
-                  "margin": 0,
+                  "backgroundColor": false,
+                  "borderRadius": 2,
+                  "height": 36,
                   "muiPrepared": true,
-                  "opacity": 1,
-                  "paddingLeft": 16,
-                  "paddingRight": 16,
-                  "position": "relative",
-                  "textTransform": "uppercase",
-                  "userSelect": "none",
+                  "top": 0,
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                 }
               }
             >
-              get a free consultation
-            </span>
+              <span
+                style={
+                  Object {
+                    "color": "#ffffff",
+                    "fontSize": 14,
+                    "fontWeight": 500,
+                    "letterSpacing": 0,
+                    "margin": 0,
+                    "muiPrepared": true,
+                    "opacity": 1,
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "position": "relative",
+                    "textTransform": "uppercase",
+                    "userSelect": "none",
+                  }
+                }
+              >
+                get a free consultation
+              </span>
+            </div>
           </div>
-        </div>
-      </button>
+        </button>
+      </div>
     </div>
+  </div>
+  <div
+    className="sc-EHOje kHPWxh"
+  >
+    <h2
+      className="sc-bZQynM bugpal"
+    >
+      What we do
+    </h2>
   </div>
 </div>
 `;

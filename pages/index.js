@@ -13,6 +13,8 @@ import HeroSubtitle from '../components/Hero/HeroSubtitle';
 import HeroContainer from '../components/Hero/HeroContainer';
 import HeroHeader from '../components/Hero/HeroHeader';
 
+import ServiceSection from '../components/Service';
+
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
   process.tapEventInjected = true;
@@ -43,18 +45,21 @@ class Hero extends Component {
     return (
       <MuiThemeProvider muiTheme={getMuiTheme({ userAgent, ...themeProvider(isMUI) })}>
         <ThemeProvider theme={themeProvider()}>
-          <HeroImage>
-            <HeroHeader />
-            <HeroContainer>
-              <HeroTitle>
+          <div>
+            <HeroImage>
+              <HeroHeader />
+              <HeroContainer>
+                <HeroTitle>
               Moka Haiku:<br />web app agency
             </HeroTitle>
-              <HeroSubtitle>
+                <HeroSubtitle>
               Creating fast & interactive web applications with React and Meteor
             </HeroSubtitle>
-              <RaisedButton label="get a free consultation" secondary />
-            </HeroContainer>
-          </HeroImage>
+                <RaisedButton label="get a free consultation" secondary />
+              </HeroContainer>
+            </HeroImage>
+            <ServiceSection />
+          </div>
         </ThemeProvider>
       </MuiThemeProvider>
     );

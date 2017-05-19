@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceSection renders correctly 1`] = `
+<div
+  className="sc-bdVaJa fnMtcs"
+>
+  <h2
+    className="sc-bwzfXH iEVclD"
+  >
+    What we do
+  </h2>
+</div>
+`;
