@@ -4,7 +4,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import RaisedButton from 'material-ui/RaisedButton';
-import { red500, black, cyan700, white } from 'material-ui/styles/colors';
+import { red400, cyan700, white } from 'material-ui/styles/colors';
 import { ThemeProvider } from 'styled-components';
 
 import HeroImage from '../components/Hero/HeroImage';
@@ -12,6 +12,8 @@ import HeroTitle from '../components/Hero/HeroTitle';
 import HeroSubtitle from '../components/Hero/HeroSubtitle';
 import HeroContainer from '../components/Hero/HeroContainer';
 import HeroHeader from '../components/Hero/HeroHeader';
+
+import Service from '../components/Service';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -21,13 +23,15 @@ if (!process.tapEventInjected) {
 const themeProvider = (isMUI = false) => {
   const theme = {
     mainColor: cyan700,
-    secondaryColor: red500,
-    backgroundColor: black,
+    secondaryColor: red400,
+    backgroundColor: cyan700,
     textColor: white,
   };
   if (isMUI) return { palette: { accent1Color: theme.mainColor } };
   return {
-    main: theme.textColor,
+    main: theme.mainColor,
+    text: theme.textColor,
+    background: theme.mainColor,
   };
 };
 
@@ -43,18 +47,21 @@ class Hero extends Component {
     return (
       <MuiThemeProvider muiTheme={getMuiTheme({ userAgent, ...themeProvider(isMUI) })}>
         <ThemeProvider theme={themeProvider()}>
-          <HeroImage>
-            <HeroHeader />
-            <HeroContainer>
-              <HeroTitle>
+          <div>
+            <HeroImage>
+              <HeroHeader />
+              <HeroContainer>
+                <HeroTitle>
               Moka Haiku:<br />web app agency
             </HeroTitle>
-              <HeroSubtitle>
+                <HeroSubtitle>
               Creating fast & interactive web applications with React and Meteor
             </HeroSubtitle>
-              <RaisedButton label="get a free consultation" secondary />
-            </HeroContainer>
-          </HeroImage>
+                <RaisedButton label="get a free consultation" secondary />
+              </HeroContainer>
+            </HeroImage>
+            <Service />
+          </div>
         </ThemeProvider>
       </MuiThemeProvider>
     );

@@ -23,7 +23,6 @@ describe('HeroSubtitle', () => {
         Creating fast & interactive web applications with React and Meteor
       </HeroSubtitle>,
     );
-    expect(wrapper).toBePresent();
     expect(wrapper).toHaveText('Creating fast & interactive web applications with React and Meteor');
   });
 });
