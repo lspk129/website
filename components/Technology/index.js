@@ -1,11 +1,21 @@
 import React from 'react';
 
 import TechnologyHeader from './TechnologyHeader';
+import TechnologyContainer from './TechnologyContainer';
+import TechnologyItem from './TechnologyItem';
 
-const TechnologySection = () => (
-  <TechnologyHeader>
+const Technology = () => (
+  <div>
+    <TechnologyHeader>
     We use cutting-edge technologies
-  </TechnologyHeader>
+    </TechnologyHeader>
+    <TechnologyContainer>
+      <TechnologyItem>
+        <img src="../../static/react_logo.png" alt="React" />
+        <h3>React.js</h3>
+      </TechnologyItem>
+    </TechnologyContainer>
+  </div>
 );
 
-export default TechnologySection;
+export default Technology;

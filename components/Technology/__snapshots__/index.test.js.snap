@@ -1,9 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TechnologySection renders correctly 1`] = `
-<h2
-  className="sc-bdVaJa hbgqAY"
->
-  We use cutting-edge technologies
-</h2>
+exports[`Technology  renders correctly 1`] = `
+<div>
+  <h2
+    className="sc-bdVaJa hbgqAY"
+  >
+    We use cutting-edge technologies
+  </h2>
+  <div
+    className="sc-bwzfXH hXjzVy"
+  >
+    <div
+      className="sc-htpNat gPfKWp"
+    >
+      <img
+        alt="React"
+        src="../../static/react_logo.png"
+      />
+      <h3>
+        React.js
+      </h3>
+    </div>
+  </div>
+</div>
 `;

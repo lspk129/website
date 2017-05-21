@@ -8,7 +8,7 @@ import { ThemeProvider } from 'styled-components';
 
 import Hero from '../components/Hero';
 import Service from '../components/Service';
-import TechnologySection from '../components/Technology';
+import Technology from '../components/Technology';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -45,7 +45,7 @@ class IndexPage extends Component {
           <div>
             <Hero />
             <Service />
-            <TechnologySection />
+            <Technology />
           </div>
         </ThemeProvider>
       </MuiThemeProvider>
