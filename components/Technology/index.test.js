@@ -49,4 +49,12 @@ describe('Technology ', () => {
   it('renders h3 tag with content "Meteor Js"', () => {
     expect(shallowWrapper.find('h3').at(1)).toHaveText('Meteor Js');
   });
+
+  it('renders img tag to the technologies section', () => {
+    expect(shallowWrapper.find('img').at(2)).toHaveProp('src', '../../static/next_logo.png');
+  });
+
+  it('renders h3 tag with content "Next.js"', () => {
+    expect(shallowWrapper.find('h3').at(2)).toHaveText('Next.js');
+  });
 });

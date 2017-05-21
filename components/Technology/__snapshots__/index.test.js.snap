@@ -8,7 +8,7 @@ exports[`Technology  renders correctly 1`] = `
     We use cutting-edge technologies
   </h2>
   <div
-    className="sc-bwzfXH hXjzVy"
+    className="sc-bwzfXH hKwqyr"
   >
     <div
       className="sc-htpNat gPfKWp"
@@ -30,6 +30,17 @@ exports[`Technology  renders correctly 1`] = `
       />
       <h3>
         Meteor Js
+      </h3>
+    </div>
+    <div
+      className="sc-htpNat gPfKWp"
+    >
+      <img
+        alt="Next"
+        src="../../static/next_logo.png"
+      />
+      <h3>
+        Next.js
       </h3>
     </div>
   </div>

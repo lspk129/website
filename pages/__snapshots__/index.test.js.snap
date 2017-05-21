@@ -180,7 +180,11 @@ exports[`Hero renders correctly 1`] = `
       We use cutting-edge technologies
     </h2>
     <div
+<<<<<<< HEAD
       className="sc-dnqmqq gtiMCc"
+=======
+      className="sc-bZQynM eeZUJA"
+>>>>>>> Add a Next.js description by adding image with a bold copy
     >
       <div
         className="sc-iwsKbI eHqMNK"
@@ -202,6 +206,17 @@ exports[`Hero renders correctly 1`] = `
         />
         <h3>
           Meteor Js
+        </h3>
+      </div>
+      <div
+        className="sc-gzVnrw cpdXst"
+      >
+        <img
+          alt="Next"
+          src="../../static/next_logo.png"
+        />
+        <h3>
+          Next.js
         </h3>
       </div>
     </div>

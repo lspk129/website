@@ -18,6 +18,10 @@ const Technology = () => (
         <img src="../../static/meteor_logo.png" alt="Meteor" />
         <h3>Meteor Js</h3>
       </TechnologyItem>
+      <TechnologyItem>
+        <img src="../../static/next_logo.png" alt="Next" />
+        <h3>Next.js</h3>
+      </TechnologyItem>
     </TechnologyContainer>
   </div>
 );
