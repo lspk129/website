@@ -190,7 +190,18 @@ exports[`Hero renders correctly 1`] = `
           src="../../static/react_logo.png"
         />
         <h3>
-          React.js
+          React Js
+        </h3>
+      </div>
+      <div
+        className="sc-gzVnrw cpdXst"
+      >
+        <img
+          alt="Meteor"
+          src="../../static/meteor_logo.png"
+        />
+        <h3>
+          Meteor Js
         </h3>
       </div>
     </div>
