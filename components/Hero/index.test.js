@@ -17,6 +17,7 @@ describe('Hero', () => {
   const shallowWithContext = node => shallow(node, {
     context: { muiTheme },
   });
+  const shallowWrapper = shallowWithContext(<Hero />);
 
   it('renders correctly', () => {
     const wrapper = shallowWithContext(<Hero />);
@@ -25,44 +26,31 @@ describe('Hero', () => {
   });
 
   it('renders Hero component', () => {
-    const wrapper = shallowWithContext(<Hero />);
-    expect(wrapper).toBePresent();
+    expect(shallowWrapper).toBePresent();
   });
 
   it('renders HeroHeader component', () => {
-    const wrapper = shallowWithContext(<Hero />);
-    expect(wrapper).toBePresent();
-    expect(wrapper.find(HeroHeader)).toBePresent();
+    expect(shallowWrapper.find(HeroHeader)).toBePresent();
   });
 
   it('renders HeroContainer component', () => {
-    const wrapper = shallowWithContext(<Hero />);
-    expect(wrapper).toBePresent();
-    expect(wrapper.find(HeroContainer)).toBePresent();
+    expect(shallowWrapper.find(HeroContainer)).toBePresent();
   });
 
   it('renders HeroImage component', () => {
-    const wrapper = shallowWithContext(<Hero />);
-    expect(wrapper).toBePresent();
-    expect(wrapper.find(HeroImage)).toBePresent();
+    expect(shallowWrapper.find(HeroImage)).toBePresent();
   });
 
   it('renders HeroTitle component', () => {
-    const wrapper = shallowWithContext(<Hero />);
-    expect(wrapper).toBePresent();
-    expect(wrapper.find(HeroTitle)).toBePresent();
+    expect(shallowWrapper.find(HeroTitle)).toBePresent();
   });
 
   it('renders HeroSubtitle component', () => {
-    const wrapper = shallowWithContext(<Hero />);
-    expect(wrapper).toBePresent();
-    expect(wrapper.find(HeroSubtitle)).toBePresent();
+    expect(shallowWrapper.find(HeroSubtitle)).toBePresent();
   });
 
   it('renders RaisedButton component', () => {
-    const wrapper = shallowWithContext(<Hero />);
-    expect(wrapper).toBePresent();
-    expect(wrapper.find(RaisedButton)).toBePresent();
-    expect(wrapper.find(RaisedButton)).toHaveProp('label', 'get a free consultation');
+    expect(shallowWrapper.find(RaisedButton)).toBePresent();
+    expect(shallowWrapper.find(RaisedButton)).toHaveProp('label', 'get a free consultation');
   });
 });

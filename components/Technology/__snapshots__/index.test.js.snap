@@ -8,10 +8,10 @@ exports[`Technology  renders correctly 1`] = `
     We use cutting-edge technologies
   </h2>
   <div
-    className="sc-bwzfXH hKwqyr"
+    className="sc-bwzfXH kWgDpt"
   >
     <div
-      className="sc-htpNat gPfKWp"
+      className="sc-htpNat iszhLP"
     >
       <img
         alt="React"
@@ -22,7 +22,7 @@ exports[`Technology  renders correctly 1`] = `
       </h3>
     </div>
     <div
-      className="sc-htpNat gPfKWp"
+      className="sc-htpNat iszhLP"
     >
       <img
         alt="Meteor"
@@ -33,7 +33,7 @@ exports[`Technology  renders correctly 1`] = `
       </h3>
     </div>
     <div
-      className="sc-htpNat gPfKWp"
+      className="sc-htpNat iszhLP"
     >
       <img
         alt="Next"

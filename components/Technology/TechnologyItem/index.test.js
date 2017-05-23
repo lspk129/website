@@ -5,8 +5,6 @@ import renderer from 'react-test-renderer';
 import TechnologyItem from './';
 
 describe('TechnologyItem', () => {
-  const shallowWrapper = shallow(<TechnologyItem />);
-
   it('renders correctly', () => {
     const wrapper = renderer.create(<TechnologyItem />);
     const tree = wrapper.toJSON();
@@ -14,7 +12,7 @@ describe('TechnologyItem', () => {
   });
 
   it('renders div element', () => {
-    expect(shallowWrapper).toBePresent();
-    expect(shallowWrapper).toHaveTagName('div');
+    const wrapper = shallow(<TechnologyItem />);
+    expect(wrapper).toHaveTagName('div');
   });
 });

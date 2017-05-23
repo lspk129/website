@@ -5,7 +5,7 @@ import renderer from 'react-test-renderer';
 import HeroContainer from './index';
 
 describe('HeroContainer', () => {
-  it('renders corretly', () => {
+  it('renders correctly', () => {
     const wrapper = renderer.create(<HeroContainer />);
     const tree = wrapper.toJSON(wrapper);
     expect(tree).toMatchSnapshot();

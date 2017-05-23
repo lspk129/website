@@ -5,6 +5,7 @@ const HomeImage = styled.div`
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  font-family: Roboto;
   display: grid;
   grid-template-rows: 1fr 5fr;
   align-items: start;

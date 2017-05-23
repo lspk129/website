@@ -5,7 +5,7 @@ import renderer from 'react-test-renderer';
 import TehcnologyHeader from './';
 
 describe('TehcnologyHeader', () => {
-  it('renders corretcly', () => {
+  it('renders correctly', () => {
     const wrapper = renderer.create(<TehcnologyHeader />);
     const tree = wrapper.toJSON();
     expect(tree).toMatchSnapshot();

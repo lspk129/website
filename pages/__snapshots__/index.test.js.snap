@@ -3,7 +3,11 @@
 exports[`Hero renders correctly 1`] = `
 <div>
   <div
+<<<<<<< HEAD
     className="sc-bdVaJa fkdAvI"
+=======
+    className="sc-bdVaJa faRani"
+>>>>>>> Remove .DS_Store files, improve testing, fix typos
   >
     <div
       className="sc-bwzfXH ihZAAo"
@@ -181,6 +185,7 @@ exports[`Hero renders correctly 1`] = `
     </h2>
     <div
 <<<<<<< HEAD
+<<<<<<< HEAD
       className="sc-dnqmqq gtiMCc"
 =======
       className="sc-bZQynM eeZUJA"
@@ -188,6 +193,12 @@ exports[`Hero renders correctly 1`] = `
     >
       <div
         className="sc-iwsKbI eHqMNK"
+=======
+      className="sc-bZQynM ljvaeH"
+    >
+      <div
+        className="sc-gzVnrw hcriOe"
+>>>>>>> Remove .DS_Store files, improve testing, fix typos
       >
         <img
           alt="React"
@@ -198,7 +209,7 @@ exports[`Hero renders correctly 1`] = `
         </h3>
       </div>
       <div
-        className="sc-gzVnrw cpdXst"
+        className="sc-gzVnrw hcriOe"
       >
         <img
           alt="Meteor"
@@ -209,7 +220,7 @@ exports[`Hero renders correctly 1`] = `
         </h3>
       </div>
       <div
-        className="sc-gzVnrw cpdXst"
+        className="sc-gzVnrw hcriOe"
       >
         <img
           alt="Next"
