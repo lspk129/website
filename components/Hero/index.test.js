@@ -4,7 +4,6 @@ import toJson from 'enzyme-to-json';
 import RaisedButton from 'material-ui/RaisedButton';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
-
 import Hero from './';
 import HeroImage from './HeroImage';
 import HeroHeader from './HeroHeader';
