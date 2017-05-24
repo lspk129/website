@@ -11,33 +11,33 @@ exports[`Technology  renders correctly 1`] = `
     className="sc-bwzfXH kWgDpt"
   >
     <div
-      className="sc-htpNat iszhLP"
+      className="sc-htpNat dvrTjc"
     >
       <img
         alt="React"
-        src="../../static/react_logo.png"
+        src="../../static/React_logo.png"
       />
       <h3>
-        React Js
+        React
       </h3>
     </div>
     <div
-      className="sc-htpNat iszhLP"
+      className="sc-htpNat dvrTjc"
     >
       <img
         alt="Meteor"
-        src="../../static/meteor_logo.png"
+        src="../../static/Meteor_logo.png"
       />
       <h3>
-        Meteor Js
+        Meteor
       </h3>
     </div>
     <div
-      className="sc-htpNat iszhLP"
+      className="sc-htpNat dvrTjc"
     >
       <img
         alt="Next"
-        src="../../static/next_logo.png"
+        src="../../static/Nextjs_logo.png"
       />
       <h3>
         Next.js

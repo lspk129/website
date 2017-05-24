@@ -3,11 +3,7 @@
 exports[`Hero renders correctly 1`] = `
 <div>
   <div
-<<<<<<< HEAD
-    className="sc-bdVaJa fkdAvI"
-=======
-    className="sc-bdVaJa faRani"
->>>>>>> Remove .DS_Store files, improve testing, fix typos
+    className="sc-bdVaJa bgfAAn"
   >
     <div
       className="sc-bwzfXH ihZAAo"
@@ -136,17 +132,19 @@ exports[`Hero renders correctly 1`] = `
       </div>
     </div>
   </div>
-  <div>
+  <div
+    className="sc-EHOje jhQFWs"
+  >
     <h2
-      className="sc-EHOje kYWwnP"
+      className="sc-bZQynM ejAqif"
     >
       What we do
     </h2>
     <div
-      className="sc-bZQynM eeZUJA"
+      className="sc-gzVnrw ephMmx"
     >
       <div
-        className="sc-gzVnrw hLiVYq"
+        className="sc-htoDjs hRcvUA"
       >
         <i
           className="material-icons"
@@ -161,7 +159,7 @@ exports[`Hero renders correctly 1`] = `
         </p>
       </div>
       <div
-        className="sc-gzVnrw hLiVYq"
+        className="sc-htoDjs hRcvUA"
       >
         <i
           className="material-icons"
@@ -179,52 +177,41 @@ exports[`Hero renders correctly 1`] = `
   </div>
   <div>
     <h2
-      className="sc-htoDjs VKuGJ"
+      className="sc-dnqmqq hJcdVr"
     >
       We use cutting-edge technologies
     </h2>
     <div
-<<<<<<< HEAD
-<<<<<<< HEAD
-      className="sc-dnqmqq gtiMCc"
-=======
-      className="sc-bZQynM eeZUJA"
->>>>>>> Add a Next.js description by adding image with a bold copy
+      className="sc-iwsKbI gesrfG"
     >
       <div
-        className="sc-iwsKbI eHqMNK"
-=======
-      className="sc-bZQynM ljvaeH"
-    >
-      <div
-        className="sc-gzVnrw hcriOe"
->>>>>>> Remove .DS_Store files, improve testing, fix typos
+        className="sc-gZMcBi hZKfOk"
       >
         <img
           alt="React"
-          src="../../static/react_logo.png"
+          src="../../static/React_logo.png"
         />
         <h3>
-          React Js
+          React
         </h3>
       </div>
       <div
-        className="sc-gzVnrw hcriOe"
+        className="sc-gZMcBi hZKfOk"
       >
         <img
           alt="Meteor"
-          src="../../static/meteor_logo.png"
+          src="../../static/Meteor_logo.png"
         />
         <h3>
-          Meteor Js
+          Meteor
         </h3>
       </div>
       <div
-        className="sc-gzVnrw hcriOe"
+        className="sc-gZMcBi hZKfOk"
       >
         <img
           alt="Next"
-          src="../../static/next_logo.png"
+          src="../../static/Nextjs_logo.png"
         />
         <h3>
           Next.js

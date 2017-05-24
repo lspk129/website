@@ -10,11 +10,6 @@ const TehcnologyItem = styled.div`
     align-self: center;
     justify-self: center;
   }
-  img[alt="Next"] {
-    width: 200px;
-    height: 150px;
-    margin: 25px 0px;
-  }
   &:hover {
     transform: scale(1.2);
   }
