@@ -3,23 +3,23 @@
 exports[`Hero renders correctly 1`] = `
 <div>
   <div
-    className="sc-bdVaJa faRani"
+    className="sc-bdVaJa bgfAAn"
   >
     <div
-      className="sc-ifAKCX gqKAls"
+      className="sc-bwzfXH ihZAAo"
     />
     <div
-      className="sc-bxivhb dNkMCm"
+      className="sc-htpNat eHHjUf"
     >
       <h1
-        className="sc-bwzfXH debYNE"
+        className="sc-bxivhb jCfIKw"
       >
         Moka Haiku:
         <br />
         web app agency
       </h1>
       <h2
-        className="sc-htpNat kpODOr"
+        className="sc-ifAKCX bWUqYE"
       >
         Creating fast & interactive web applications with React and Meteor
       </h2>
@@ -132,17 +132,19 @@ exports[`Hero renders correctly 1`] = `
       </div>
     </div>
   </div>
-  <div>
+  <div
+    className="sc-EHOje jhQFWs"
+  >
     <h2
-      className="sc-EHOje kYWwnP"
+      className="sc-bZQynM ejAqif"
     >
       What we do
     </h2>
     <div
-      className="sc-bZQynM eeZUJA"
+      className="sc-gzVnrw ephMmx"
     >
       <div
-        className="sc-gzVnrw hLiVYq"
+        className="sc-htoDjs hRcvUA"
       >
         <i
           className="material-icons"
@@ -157,7 +159,7 @@ exports[`Hero renders correctly 1`] = `
         </p>
       </div>
       <div
-        className="sc-gzVnrw hLiVYq"
+        className="sc-htoDjs hRcvUA"
       >
         <i
           className="material-icons"
@@ -170,6 +172,50 @@ exports[`Hero renders correctly 1`] = `
         <p>
           We are creating unique and adaptive designs to engage customers
         </p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h2
+      className="sc-dnqmqq hJcdVr"
+    >
+      We use cutting-edge technologies
+    </h2>
+    <div
+      className="sc-iwsKbI gesrfG"
+    >
+      <div
+        className="sc-gZMcBi hZKfOk"
+      >
+        <img
+          alt="React"
+          src="../../static/React_logo.png"
+        />
+        <h3>
+          React
+        </h3>
+      </div>
+      <div
+        className="sc-gZMcBi hZKfOk"
+      >
+        <img
+          alt="Meteor"
+          src="../../static/Meteor_logo.png"
+        />
+        <h3>
+          Meteor
+        </h3>
+      </div>
+      <div
+        className="sc-gZMcBi hZKfOk"
+      >
+        <img
+          alt="Next"
+          src="../../static/Nextjs_logo.png"
+        />
+        <h3>
+          Next.js
+        </h3>
       </div>
     </div>
   </div>

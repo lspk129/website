@@ -1,17 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Service renders correctly 1`] = `
-<div>
+<div
+  className="sc-bdVaJa hJyKNr"
+>
   <h2
-    className="sc-bdVaJa hbgqAY"
+    className="sc-bwzfXH fSlUUc"
   >
     What we do
   </h2>
   <div
-    className="sc-bwzfXH hKwqyr"
+    className="sc-htpNat jdAldW"
   >
     <div
-      className="sc-htpNat fzJKZQ"
+      className="sc-bxivhb doscWV"
     >
       <i
         className="material-icons"
@@ -26,7 +28,7 @@ exports[`Service renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-htpNat fzJKZQ"
+      className="sc-bxivhb doscWV"
     >
       <i
         className="material-icons"

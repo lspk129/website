@@ -1,11 +1,12 @@
 import React from 'react';
 
+import ServiceImage from './ServiceImage';
 import ServiceHeader from './ServiceHeader';
 import ServiceContainer from './ServiceContainer';
 import ServiceItem from './ServiceItem';
 
 const Service = () => (
-  <div>
+  <ServiceImage>
     <ServiceHeader>
       What we do
     </ServiceHeader>
@@ -21,7 +22,7 @@ const Service = () => (
         <p>We are creating unique and adaptive designs to engage customers</p>
       </ServiceItem>
     </ServiceContainer>
-  </div>
+  </ServiceImage>
 );
 
 export default Service;

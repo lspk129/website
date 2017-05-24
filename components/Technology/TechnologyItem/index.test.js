@@ -2,18 +2,17 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 
-import HeroContainer from './index';
+import TechnologyItem from './';
 
-describe('HeroContainer', () => {
+describe('TechnologyItem', () => {
   it('renders correctly', () => {
-    const wrapper = renderer.create(<HeroContainer />);
-    const tree = wrapper.toJSON(wrapper);
+    const wrapper = renderer.create(<TechnologyItem />);
+    const tree = wrapper.toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('renders div element', () => {
-    const wrapper = shallow(<HeroContainer />);
-    expect(wrapper).toBePresent();
+    const wrapper = shallow(<TechnologyItem />);
     expect(wrapper).toHaveTagName('div');
   });
 });
