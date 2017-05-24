@@ -2,6 +2,6 @@
 
 exports[`ServiceHeader renders correctly 1`] = `
 <h2
-  className="sc-bdVaJa hbgqAY"
+  className="sc-bdVaJa bHBKzw"
 />
 `;
