@@ -8,7 +8,8 @@ import { ThemeProvider } from 'styled-components';
 import Scroll from 'react-scroll';
 import { StickyContainer } from 'react-sticky';
 
-import { Navbar, NavbarLogo } from '../components/Navbar';
+import NavbarLogo from '../components/Navbar/NavbarLogo/index';
+import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Service from '../components/Service';
 import Technology from '../components/Technology';

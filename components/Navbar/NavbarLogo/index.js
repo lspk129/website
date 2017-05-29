@@ -1,13 +1,15 @@
-import styled from 'styled-components';
+import React from 'react';
 
-export const NavbarImageWrapper = styled.a`
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  color: #fff;
-  font-size: 20px;
-`;
+import NavbarSection from '../NavbarSection';
+import NavbarImage from './NavbarImage';
+import NavbarImageWrapper from './NavbarImageWrapper';
 
-export const NavbarImage = styled.img`
-  width: 50px;
-`;
+const NavbarLogo = () => (
+  <NavbarSection>
+    <NavbarImageWrapper>
+      <NavbarImage src="../../static/logo_main.png" alt="moka" />
+    </NavbarImageWrapper>
+  </NavbarSection>
+);
+
+export default NavbarLogo;

@@ -1,13 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NavbarImage renders correctly 1`] = `
-<img
-  className="sc-bwzfXH NgBHs"
-/>
-`;
-
 exports[`NavbarLogoWrapper renders correctly 1`] = `
-<a
-  className="sc-bdVaJa eKxmjZ"
-/>
+<nav
+  className="sc-bdVaJa joTcTr"
+>
+  <a
+    className="sc-htpNat dhlRcp"
+  >
+    <img
+      alt="moka"
+      className="sc-bwzfXH dDBWcs"
+      src="../../static/logo_main.png"
+    />
+  </a>
+</nav>
 `;
