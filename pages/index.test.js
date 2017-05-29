@@ -1,6 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
+import Scroll from 'react-scroll';
+
 
 import IndexPage from './index';
 import Hero from '../components/Hero';
@@ -29,5 +31,10 @@ describe('IndexPage', () => {
 
   it('renders Technology component', () => {
     expect(shallowWrapper.find(Technology)).toBePresent();
+  });
+
+  it('renders Scroll.Element component with name link "Service"', () => {
+    expect(shallowWrapper.find(Scroll.Element).at(0)).toBePresent();
+    expect(shallowWrapper.find(Scroll.Element).at(0)).toHaveProp('name', 'Service');
   });
 });

@@ -433,11 +433,7 @@ exports[`IndexPage renders correctly 1`] = `
       <NavbarLogo />
       <Container>
         <Navbar />
-        <_
-          name="Hero"
-        >
-          <Hero />
-        </_>
+        <Hero />
         <_
           name="Service"
         >

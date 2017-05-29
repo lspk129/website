@@ -49,9 +49,7 @@ class IndexPage extends Component {
             <NavbarLogo />
             <StickyContainer>
               <Navbar />
-              <Scroll.Element name="Hero">
-                <Hero />
-              </Scroll.Element>
+              <Hero />
               <Scroll.Element name="Service">
                 <Service />
               </Scroll.Element>
