@@ -8,7 +8,7 @@ import { ThemeProvider } from 'styled-components';
 import Scroll from 'react-scroll';
 import { StickyContainer } from 'react-sticky';
 
-import { Navbar, Logo } from '../components/Navbar';
+import { Navbar, NavbarLogo } from '../components/Navbar';
 import Hero from '../components/Hero';
 import Service from '../components/Service';
 import Technology from '../components/Technology';
@@ -46,7 +46,7 @@ class IndexPage extends Component {
       <MuiThemeProvider muiTheme={getMuiTheme({ userAgent, ...themeProvider(isMUI) })}>
         <ThemeProvider theme={themeProvider()}>
           <div>
-            <Logo />
+            <NavbarLogo />
             <StickyContainer>
               <Navbar />
               <Scroll.Element name="Hero">

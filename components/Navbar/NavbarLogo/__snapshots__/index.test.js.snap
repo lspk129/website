@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarImage renders correctly 1`] = `
+<img
+  className="sc-bwzfXH NgBHs"
+/>
+`;
+
+exports[`NavbarLogoWrapper renders correctly 1`] = `
+<a
+  className="sc-bdVaJa eKxmjZ"
+/>
+`;

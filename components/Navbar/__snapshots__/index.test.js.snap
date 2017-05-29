@@ -25,17 +25,15 @@ exports[`Navbar renders correctly 1`] = `
               className="sc-bdVaJa joTcTr"
               style={Object {}}
             >
-              <styled.div
-                className="NavbarList"
-              >
+              <styled.div>
                 <div
-                  className="NavbarList sc-htpNat fjwyka"
+                  className="sc-bxivhb icgikV"
                 >
                   <styled.div
                     onClick={[Function]}
                   >
                     <div
-                      className="sc-bxivhb etYArC"
+                      className="sc-ifAKCX jJGPgR"
                       onClick={[Function]}
                     >
                       Home
@@ -56,7 +54,7 @@ exports[`Navbar renders correctly 1`] = `
                       >
                         <styled.div>
                           <div
-                            className="sc-bxivhb etYArC"
+                            className="sc-ifAKCX jJGPgR"
                           >
                             Services
                           </div>
@@ -79,7 +77,7 @@ exports[`Navbar renders correctly 1`] = `
                       >
                         <styled.div>
                           <div
-                            className="sc-bxivhb etYArC"
+                            className="sc-ifAKCX jJGPgR"
                           >
                             Technologies
                           </div>
@@ -91,7 +89,7 @@ exports[`Navbar renders correctly 1`] = `
                     onClick={[Function]}
                   >
                     <div
-                      className="sc-bxivhb etYArC"
+                      className="sc-ifAKCX jJGPgR"
                       onClick={[Function]}
                     >
                       Contact us

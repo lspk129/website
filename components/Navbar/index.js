@@ -3,15 +3,15 @@ import Scroll from 'react-scroll';
 import Sticky from 'react-sticky';
 
 import NavbarSection from './NavbarSection';
-import NavbarLogo from './NavbarLogo';
+import { NavbarImageWrapper, NavbarImage } from './NavbarLogo';
 import NavbarList from './NavbarList';
 import NavbarItem from './NavbarItem';
 
-export const Logo = () => (
+export const NavbarLogo = () => (
   <NavbarSection>
-    <NavbarLogo className="NavbarLogo">
-      <img src="../../static/logo_main.png" alt="moka" />
-    </NavbarLogo>
+    <NavbarImageWrapper>
+      <NavbarImage src="../../static/logo_main.png" alt="moka" />
+    </NavbarImageWrapper>
   </NavbarSection>
 );
 
@@ -19,7 +19,7 @@ export const Navbar = () => (
   <Sticky>
     {({ style }) => (
       <NavbarSection style={style}>
-        <NavbarList className="NavbarList">
+        <NavbarList>
           <NavbarItem onClick={() => Scroll.animateScroll.scrollToTop()}>
               Home
           </NavbarItem>

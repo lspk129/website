@@ -430,7 +430,7 @@ exports[`IndexPage renders correctly 1`] = `
     }
   >
     <div>
-      <Logo />
+      <NavbarLogo />
       <Container>
         <Navbar />
         <_

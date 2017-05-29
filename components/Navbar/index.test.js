@@ -3,7 +3,7 @@ import { shallow, mount } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import { StickyContainer, Sticky } from 'react-sticky';
 
-import { Navbar, Logo } from './';
+import { Navbar, NavbarLogo } from './';
 import NavbarSection from './NavbarSection';
 import NavbarList from './NavbarList';
 import NavbarItem from './NavbarItem';
@@ -16,9 +16,14 @@ describe('Navbar', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('renders logo', () => {
-    const wrapper = shallow(<Logo />);
+  it('renders NavbarLogo', () => {
+    const wrapper = shallow(<NavbarLogo />);
     expect(wrapper).toBePresent();
+  });
+
+  it('renders Moka Haiku image', () => {
+    const wrapper = mount(<NavbarLogo />);
+    expect(wrapper.find('img')).toHaveProp('src', '../../static/logo_main.png');
   });
 
   it('renders NavbarSection', () => {
