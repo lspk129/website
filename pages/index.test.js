@@ -37,4 +37,9 @@ describe('IndexPage', () => {
     expect(shallowWrapper.find(Scroll.Element).at(0)).toBePresent();
     expect(shallowWrapper.find(Scroll.Element).at(0)).toHaveProp('name', 'Service');
   });
+
+  it('renders Scroll.Element component with name link "Technology"', () => {
+    expect(shallowWrapper.find(Scroll.Element).at(1)).toBePresent();
+    expect(shallowWrapper.find(Scroll.Element).at(1)).toHaveProp('name', 'Technology');
+  });
 });

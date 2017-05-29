@@ -48,4 +48,8 @@ describe('Navbar', () => {
     expect(deepWrapper.find(Scroll.Link)).toBePresent();
     expect(deepWrapper.find(Scroll.Link).at(0)).toHaveProp('to', 'Service');
   });
+
+  it('renders Scroll.Link component with link to Technologies section', () => {
+    expect(deepWrapper.find(Scroll.Link).at(1)).toHaveProp('to', 'Technology');
+  });
 });
