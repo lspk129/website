@@ -2,14 +2,12 @@ import React from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 
 import HeroImage from './HeroImage';
-import HeroHeader from './HeroHeader';
 import HeroContainer from './HeroContainer';
 import HeroTitle from './HeroTitle';
 import HeroSubtitle from './HeroSubtitle';
 
 const Hero = () => (
   <HeroImage>
-    <HeroHeader />
     <HeroContainer>
       <HeroTitle>
         Moka Haiku:<br />web app agency
