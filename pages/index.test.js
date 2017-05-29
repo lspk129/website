@@ -1,18 +1,17 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import renderer from 'react-test-renderer';
+import toJson from 'enzyme-to-json';
 
 import IndexPage from './index';
 import Hero from '../components/Hero';
 import Service from '../components/Service';
 import Technology from '../components/Technology';
 
-describe('Hero', () => {
+describe('IndexPage', () => {
   const shallowWrapper = shallow(<IndexPage />);
 
   it('renders correctly', () => {
-    const wrapper = renderer.create(<IndexPage />);
-    const tree = wrapper.toJSON();
+    const tree = toJson(shallowWrapper);
     expect(tree).toMatchSnapshot();
   });
 

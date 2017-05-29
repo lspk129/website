@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders correctly 1`] = `
+<Container>
+  <div
+    onScroll={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+  >
+    <Navbar>
+      <Sticky
+        bottomOffset={0}
+        disableCompensation={false}
+        disableHardwareAcceleration={false}
+        relative={false}
+        topOffset={0}
+      >
+        <div>
+          <div />
+          <styled.nav
+            style={Object {}}
+          >
+            <nav
+              className="sc-bdVaJa joTcTr"
+              style={Object {}}
+            >
+              <styled.div
+                className="NavbarList"
+              >
+                <div
+                  className="NavbarList sc-htpNat fjwyka"
+                >
+                  <styled.div
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="sc-bxivhb etYArC"
+                      onClick={[Function]}
+                    >
+                      Home
+                    </div>
+                  </styled.div>
+                  <_
+                    duration={500}
+                    offset={0}
+                    smooth={true}
+                    spy={true}
+                    to="Service"
+                  >
+                    <Link
+                      onClick={[Function]}
+                    >
+                      <a
+                        onClick={[Function]}
+                      >
+                        <styled.div>
+                          <div
+                            className="sc-bxivhb etYArC"
+                          >
+                            Services
+                          </div>
+                        </styled.div>
+                      </a>
+                    </Link>
+                  </_>
+                  <_
+                    duration={500}
+                    offset={0}
+                    smooth={true}
+                    spy={true}
+                    to="Technology"
+                  >
+                    <Link
+                      onClick={[Function]}
+                    >
+                      <a
+                        onClick={[Function]}
+                      >
+                        <styled.div>
+                          <div
+                            className="sc-bxivhb etYArC"
+                          >
+                            Technologies
+                          </div>
+                        </styled.div>
+                      </a>
+                    </Link>
+                  </_>
+                  <styled.div
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="sc-bxivhb etYArC"
+                      onClick={[Function]}
+                    >
+                      Contact us
+                    </div>
+                  </styled.div>
+                </div>
+              </styled.div>
+            </nav>
+          </styled.nav>
+        </div>
+      </Sticky>
+    </Navbar>
+  </div>
+</Container>
+`;
