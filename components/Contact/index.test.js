@@ -5,6 +5,8 @@ import toJson from 'enzyme-to-json';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import TextField from 'material-ui/TextField';
+import SelectField from 'material-ui/SelectField';
+import MenuItem from 'material-ui/MenuItem';
 
 import Contact from './';
 import ContactContainer from './ContactContainer';
@@ -53,5 +55,9 @@ describe('Contact', () => {
 
   it('renders input field with text "Your email"', () => {
     expect(mountWrapper.find(TextField).at(1)).toHaveText('Your email');
+  });
+
+  it('renders SelectField component', () => {
+    expect(mountWrapper.find(SelectField)).toBePresent();
   });
 });
