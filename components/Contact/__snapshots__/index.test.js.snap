@@ -36,7 +36,7 @@ exports[`Contact renders correctly 1`] = `
                 rows={1}
                 style={
                   Object {
-                    "margin": "0px 10px",
+                    "margin": "20px 20px",
                   }
                 }
                 type="text"
@@ -52,7 +52,7 @@ exports[`Contact renders correctly 1`] = `
                       "fontSize": 16,
                       "height": 72,
                       "lineHeight": "24px",
-                      "margin": "0px 10px",
+                      "margin": "20px 20px",
                       "muiPrepared": true,
                       "position": "relative",
                       "transition": "height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
@@ -62,7 +62,7 @@ exports[`Contact renders correctly 1`] = `
                 >
                   <TextFieldLabel
                     disabled={false}
-                    htmlFor="undefined-undefined-Name-40670"
+                    htmlFor="undefined-undefined-Name-25158"
                     muiTheme={
                       Object {
                         "appBar": Object {
@@ -488,7 +488,7 @@ exports[`Contact renders correctly 1`] = `
                     }
                   >
                     <label
-                      htmlFor="undefined-undefined-Name-40670"
+                      htmlFor="undefined-undefined-Name-25158"
                       style={
                         Object {
                           "color": "rgba(0, 0, 0, 0.3)",
@@ -510,7 +510,7 @@ exports[`Contact renders correctly 1`] = `
                   </TextFieldLabel>
                   <input
                     disabled={false}
-                    id="undefined-undefined-Name-40670"
+                    id="undefined-undefined-Name-25158"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
@@ -1012,7 +1012,7 @@ exports[`Contact renders correctly 1`] = `
                 rows={1}
                 style={
                   Object {
-                    "margin": "0px 10px",
+                    "margin": "20px 20px",
                   }
                 }
                 type="text"
@@ -1028,7 +1028,7 @@ exports[`Contact renders correctly 1`] = `
                       "fontSize": 16,
                       "height": 72,
                       "lineHeight": "24px",
-                      "margin": "0px 10px",
+                      "margin": "20px 20px",
                       "muiPrepared": true,
                       "position": "relative",
                       "transition": "height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
@@ -1038,7 +1038,7 @@ exports[`Contact renders correctly 1`] = `
                 >
                   <TextFieldLabel
                     disabled={false}
-                    htmlFor="undefined-undefined-Youremail-57522"
+                    htmlFor="undefined-undefined-Youremail-34193"
                     muiTheme={
                       Object {
                         "appBar": Object {
@@ -1464,7 +1464,7 @@ exports[`Contact renders correctly 1`] = `
                     }
                   >
                     <label
-                      htmlFor="undefined-undefined-Youremail-57522"
+                      htmlFor="undefined-undefined-Youremail-34193"
                       style={
                         Object {
                           "color": "rgba(0, 0, 0, 0.3)",
@@ -1486,7 +1486,7 @@ exports[`Contact renders correctly 1`] = `
                   </TextFieldLabel>
                   <input
                     disabled={false}
-                    id="undefined-undefined-Youremail-57522"
+                    id="undefined-undefined-Youremail-34193"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
@@ -1988,10 +1988,10 @@ exports[`Contact renders correctly 1`] = `
                 onChange={[Function]}
                 style={
                   Object {
-                    "margin": "0px 10px",
+                    "margin": "20px 20px",
                   }
                 }
-                value={1}
+                value=""
               >
                 <TextField
                   disabled={false}
@@ -2002,7 +2002,7 @@ exports[`Contact renders correctly 1`] = `
                   rows={1}
                   style={
                     Object {
-                      "margin": "0px 10px",
+                      "margin": "20px 20px",
                     }
                   }
                   type="text"
@@ -2018,7 +2018,7 @@ exports[`Contact renders correctly 1`] = `
                         "fontSize": 16,
                         "height": 72,
                         "lineHeight": "24px",
-                        "margin": "0px 10px",
+                        "margin": "20px 20px",
                         "muiPrepared": true,
                         "position": "relative",
                         "transition": "height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
@@ -2028,7 +2028,7 @@ exports[`Contact renders correctly 1`] = `
                   >
                     <TextFieldLabel
                       disabled={false}
-                      htmlFor="undefined-undefined-Chooseasubject-19993"
+                      htmlFor="undefined-undefined-Chooseasubject-3187"
                       muiTheme={
                         Object {
                           "appBar": Object {
@@ -2445,7 +2445,7 @@ exports[`Contact renders correctly 1`] = `
                           },
                         }
                       }
-                      shrink={true}
+                      shrink={false}
                       style={
                         Object {
                           "color": "rgba(0, 0, 0, 0.3)",
@@ -2454,7 +2454,7 @@ exports[`Contact renders correctly 1`] = `
                       }
                     >
                       <label
-                        htmlFor="undefined-undefined-Chooseasubject-19993"
+                        htmlFor="undefined-undefined-Chooseasubject-3187"
                         style={
                           Object {
                             "color": "rgba(0, 0, 0, 0.3)",
@@ -2463,7 +2463,7 @@ exports[`Contact renders correctly 1`] = `
                             "pointerEvents": "none",
                             "position": "absolute",
                             "top": 38,
-                            "transform": "scale(0.75) translate(0, -28px)",
+                            "transform": "scale(1) translate(0, 0)",
                             "transformOrigin": "left top",
                             "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                             "userSelect": "none",
@@ -2491,7 +2491,7 @@ exports[`Contact renders correctly 1`] = `
                           "top": 8,
                         }
                       }
-                      id="undefined-undefined-Chooseasubject-19993"
+                      id="undefined-undefined-Chooseasubject-3187"
                       labelStyle={
                         Object {
                           "paddingLeft": 0,
@@ -2527,10 +2527,10 @@ exports[`Contact renders correctly 1`] = `
                           "borderTop": "none",
                         }
                       }
-                      value={1}
+                      value=""
                     >
                       <div
-                        id="undefined-undefined-Chooseasubject-19993"
+                        id="undefined-undefined-Chooseasubject-3187"
                         onBlur={[Function]}
                         onChange={[Function]}
                         onFocus={[Function]}
@@ -2634,9 +2634,7 @@ exports[`Contact renders correctly 1`] = `
                                     "whiteSpace": "nowrap",
                                   }
                                 }
-                              >
-                                I want an introduction to your services...
-                              </div>
+                              />
                               <IconButton
                                 disableTouchRipple={false}
                                 disabled={false}
@@ -3335,6 +3333,184 @@ exports[`Contact renders correctly 1`] = `
                   </div>
                 </TextField>
               </SelectField>
+              <br />
+              <RaisedButton
+                disabled={false}
+                fullWidth={false}
+                label="Send"
+                labelPosition="after"
+                primary={false}
+                secondary={true}
+                style={
+                  Object {
+                    "margin": "20px 20px",
+                  }
+                }
+              >
+                <Paper
+                  circle={false}
+                  rounded={true}
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "margin": "20px 20px",
+                      "minWidth": 88,
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    }
+                  }
+                  transitionEnabled={true}
+                  zDepth={1}
+                >
+                  <div
+                    style={
+                      Object {
+                        "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": 2,
+                        "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                               0 1px 4px rgba(0, 0, 0, 0.12)",
+                        "boxSizing": "border-box",
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "display": "inline-block",
+                        "fontFamily": "Roboto, sans-serif",
+                        "margin": "20px 20px",
+                        "minWidth": 88,
+                        "muiPrepared": true,
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      }
+                    }
+                  >
+                    <EnhancedButton
+                      containerElement="button"
+                      disabled={false}
+                      focusRippleColor="#ffffff"
+                      focusRippleOpacity={0.16}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onKeyboardFocus={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      onTouchTap={[Function]}
+                      style={
+                        Object {
+                          "backgroundColor": "#ff4081",
+                          "borderRadius": 2,
+                          "height": 36,
+                          "lineHeight": "36px",
+                          "padding": 0,
+                          "textAlign": "center",
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={0}
+                      touchRippleColor="#ffffff"
+                      touchRippleOpacity={0.16}
+                      type="button"
+                    >
+                      <button
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchStart={[Function]}
+                        onTouchTap={[Function]}
+                        style={
+                          Object {
+                            "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                            "backgroundColor": "#ff4081",
+                            "border": 10,
+                            "borderRadius": 2,
+                            "boxSizing": "border-box",
+                            "cursor": "pointer",
+                            "display": "inline-block",
+                            "fontFamily": "Roboto, sans-serif",
+                            "fontSize": "inherit",
+                            "fontWeight": "inherit",
+                            "height": 36,
+                            "lineHeight": "36px",
+                            "margin": 0,
+                            "muiPrepared": true,
+                            "outline": "none",
+                            "padding": 0,
+                            "position": "relative",
+                            "textAlign": "center",
+                            "textDecoration": "none",
+                            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                            "verticalAlign": null,
+                            "width": "100%",
+                            "zIndex": 1,
+                          }
+                        }
+                        tabIndex={0}
+                        type="button"
+                      >
+                        <TouchRipple
+                          abortOnScroll={true}
+                          color="#ffffff"
+                          opacity={0.16}
+                        >
+                          <div
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchStart={[Function]}
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "backgroundColor": false,
+                                  "borderRadius": 2,
+                                  "height": 36,
+                                  "muiPrepared": true,
+                                  "top": 0,
+                                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                }
+                              }
+                            >
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#ffffff",
+                                    "fontSize": 14,
+                                    "fontWeight": 500,
+                                    "letterSpacing": 0,
+                                    "margin": 0,
+                                    "muiPrepared": true,
+                                    "opacity": 1,
+                                    "paddingLeft": 16,
+                                    "paddingRight": 16,
+                                    "position": "relative",
+                                    "textTransform": "uppercase",
+                                    "userSelect": "none",
+                                  }
+                                }
+                              >
+                                Send
+                              </span>
+                            </div>
+                          </div>
+                        </TouchRipple>
+                      </button>
+                    </EnhancedButton>
+                  </div>
+                </Paper>
+              </RaisedButton>
             </form>
           </styled.form>
         </div>

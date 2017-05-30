@@ -6,7 +6,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import TextField from 'material-ui/TextField';
 import SelectField from 'material-ui/SelectField';
-import MenuItem from 'material-ui/MenuItem';
+import RaisedButton from 'material-ui/RaisedButton';
 
 import Contact from './';
 import ContactContainer from './ContactContainer';
@@ -59,5 +59,9 @@ describe('Contact', () => {
 
   it('renders SelectField component', () => {
     expect(mountWrapper.find(SelectField)).toBePresent();
+  });
+
+  it('renders RaisedButton component with text "Send"', () => {
+    expect(mountWrapper.find(RaisedButton)).toHaveText('Send');
   });
 });
