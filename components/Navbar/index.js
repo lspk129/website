@@ -1,14 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Scroll from 'react-scroll';
 import Sticky from 'react-sticky';
 import RaisedButton from 'material-ui/RaisedButton';
-import { cyan700 } from 'material-ui/styles/colors';
+import muiThemeable from 'material-ui/styles/muiThemeable';
 
 import NavbarSection from './NavbarSection';
 import NavbarList from './NavbarList';
 import NavbarItem from './NavbarItem';
 
-const Navbar = () => (
+const Navbar = props => (
   <Sticky>
     {({ style }) => (
       <NavbarSection style={style}>
@@ -28,7 +29,7 @@ const Navbar = () => (
           </Scroll.Link>
           <RaisedButton
             label="Contact us"
-            labelColor={cyan700}
+            labelColor={props.muiTheme.palette.accent1Color}
             labelStyle={{ fontSize: '15px' }}
             onClick={() => Scroll.animateScroll.scrollToBottom()}
           />
@@ -38,4 +39,11 @@ const Navbar = () => (
   </Sticky>
 );
 
-export default Navbar;
+Navbar.propTypes = {
+  muiTheme: PropTypes.shape({
+    palette: PropTypes.object,
+    accent1Color: PropTypes.string,
+  }).isRequired,
+};
+
+export default muiThemeable()(Navbar);

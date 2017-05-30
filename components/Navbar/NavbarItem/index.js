@@ -5,7 +5,7 @@ const NavbarItem = styled.div`
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
   cursor: pointer;
   display: inline-block;
   &:after {
