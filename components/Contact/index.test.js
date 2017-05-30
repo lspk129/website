@@ -1,6 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { mount } from 'enzyme';
-import renderer from 'react-test-renderer';
+import toJson from 'enzyme-to-json';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+import TextField from 'material-ui/TextField';
 
 import Contact from './';
 import ContactContainer from './ContactContainer';
@@ -8,12 +12,22 @@ import ContactInfoSection from './ContactInfoSection';
 import ConsultationSection from './ConsultationSection';
 import ContactTitle from './ContactTitle';
 
+
+if (!process.tapEventInjected) {
+  injectTapEventPlugin();
+  process.tapEventInjected = true;
+}
+
 describe('Contact', () => {
-  const mountWrapper = mount(<Contact />);
+  const muiTheme = getMuiTheme();
+  const mountWithContext = node => mount(node, {
+    context: { muiTheme },
+    childContextTypes: { muiTheme: PropTypes.object },
+  });
+  const mountWrapper = mountWithContext(<Contact />);
 
   it('renders correctly', () => {
-    const wrapper = renderer.create(<Contact />);
-    const tree = wrapper.toJSON();
+    const tree = toJson(mountWrapper);
     expect(tree).toMatchSnapshot();
   });
 
@@ -31,5 +45,9 @@ describe('Contact', () => {
 
   it('renders text "Get free consultation"', () => {
     expect(mountWrapper.find(ContactTitle)).toHaveText('Get a free consultation');
+  });
+
+  it('renders input field with text "Name"', () => {
+    expect(mountWrapper.find(TextField)).toHaveText('Name');
   });
 });
