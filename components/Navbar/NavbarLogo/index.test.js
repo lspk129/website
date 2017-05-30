@@ -3,8 +3,7 @@ import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
 
 import NavbarLogo from './index';
-import NavbarImage from './NavbarImage';
-import NavbarImageWrapper from './NavbarImageWrapper';
+import Image from './Image';
 
 describe('NavbarLogoWrapper', () => {
   const shallowWrapper = mount(<NavbarLogo />);
@@ -19,17 +18,12 @@ describe('NavbarLogoWrapper', () => {
     expect(shallowWrapper).toBePresent();
   });
 
-  it('renders NavbarImage component with image tag', () => {
-    expect(shallowWrapper.find(NavbarImage)).toBePresent();
-    expect(shallowWrapper.find(NavbarImage)).toHaveTagName('styled.img');
-  });
-
-  it('renders NavbarImageWrapper component with anchor tag', () => {
-    expect(shallowWrapper.find(NavbarImageWrapper)).toBePresent();
-    expect(shallowWrapper.find(NavbarImageWrapper)).toHaveTagName('styled.a');
+  it('renders Image component with image tag', () => {
+    expect(shallowWrapper.find(Image)).toBePresent();
+    expect(shallowWrapper.find(Image)).toHaveTagName('styled.img');
   });
 
   it('renders Moka Haiku image', () => {
-    expect(shallowWrapper.find('img')).toHaveProp('src', '../../static/logo_main.png');
+    expect(shallowWrapper.find('img')).toHaveProp('src', '/static/logo_main.png');
   });
 });

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-const NavbarImage = styled.img`
+const Image = styled.img`
   width: 100px;
   padding-top: 10px;
 `;
 
-export default NavbarImage;
+export default Image;

@@ -35,7 +35,7 @@ describe('Technology ', () => {
   });
 
   it('renders img tag to the technologies section', () => {
-    expect(shallowWrapper.find('img').at(0)).toHaveProp('src', '../../static/React_logo.png');
+    expect(shallowWrapper.find('img').at(0)).toHaveProp('src', '/static/React_logo.png');
   });
 
   it('renders h3 tag with content "React"', () => {
@@ -43,7 +43,7 @@ describe('Technology ', () => {
   });
 
   it('renders img tag to the technologies section', () => {
-    expect(shallowWrapper.find('img').at(1)).toHaveProp('src', '../../static/Meteor_logo.png');
+    expect(shallowWrapper.find('img').at(1)).toHaveProp('src', '/static/Meteor_logo.png');
   });
 
   it('renders h3 tag with content "Meteor"', () => {
@@ -51,7 +51,7 @@ describe('Technology ', () => {
   });
 
   it('renders img tag to the technologies section', () => {
-    expect(shallowWrapper.find('img').at(2)).toHaveProp('src', '../../static/Nextjs_logo.png');
+    expect(shallowWrapper.find('img').at(2)).toHaveProp('src', '/static/Nextjs_logo.png');
   });
 
   it('renders h3 tag with content "Next.js"', () => {

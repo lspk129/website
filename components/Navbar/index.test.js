@@ -22,7 +22,7 @@ describe('Navbar', () => {
   const muiTheme = getMuiTheme();
   const mountWithContext = node => mount(node, {
     context: { muiTheme },
-    childContextTypes: { muiTheme: PropTypes.object },
+    childContextTypes: { muiTheme: PropTypes.object.isRequired },
   });
   const mountWrapper = mountWithContext(<StickyContainer><Navbar /></StickyContainer>);
 

@@ -1,14 +1,11 @@
 import React from 'react';
 
 import NavbarSection from '../NavbarSection';
-import NavbarImage from './NavbarImage';
-import NavbarImageWrapper from './NavbarImageWrapper';
+import Image from './Image';
 
 const NavbarLogo = () => (
   <NavbarSection>
-    <NavbarImageWrapper>
-      <NavbarImage src="../../static/logo_main.png" alt="moka" />
-    </NavbarImageWrapper>
+    <Image src="/static/logo_main.png" alt="Moka Haiku web development agency" />
   </NavbarSection>
 );
 

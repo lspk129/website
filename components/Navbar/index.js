@@ -35,14 +35,15 @@ const Navbar = props => (
           />
         </NavbarList>
       </NavbarSection>
-        )}
+    )}
   </Sticky>
 );
 
 Navbar.propTypes = {
   muiTheme: PropTypes.shape({
-    palette: PropTypes.object,
-    accent1Color: PropTypes.string,
+    palette: PropTypes.shape({
+      accent1Color: PropTypes.string.isRequired,
+    }).isRequired,
   }).isRequired,
 };
 
