@@ -48,6 +48,10 @@ describe('Contact', () => {
   });
 
   it('renders input field with text "Name"', () => {
-    expect(mountWrapper.find(TextField)).toHaveText('Name');
+    expect(mountWrapper.find(TextField).at(0)).toHaveText('Name');
+  });
+
+  it('renders input field with text "Your email"', () => {
+    expect(mountWrapper.find(TextField).at(1)).toHaveText('Your email');
   });
 });

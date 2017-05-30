@@ -2,6 +2,6 @@
 
 exports[`ContactForm renders correctly 1`] = `
 <form
-  className="sc-bdVaJa bmlAUW"
+  className="sc-bdVaJa fePDys"
 />
 `;

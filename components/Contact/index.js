@@ -8,7 +8,7 @@ import ContactTitle from './ContactTitle';
 import ContactForm from './ContactForm';
 
 const styles = {
-  margin: 20,
+  margin: '0px 10px',
 };
 
 const Contact = () => (
@@ -21,6 +21,7 @@ const Contact = () => (
     <ConsultationSection>
       <ContactForm>
         <TextField style={styles} floatingLabelText="Name" />
+        <TextField style={styles} floatingLabelText="Your email" />
       </ContactForm>
     </ConsultationSection>
   </ContactContainer>
