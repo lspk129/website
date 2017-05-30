@@ -18,7 +18,6 @@ class Contact extends Component {
   constructor(props) {
     super(props);
     this.state = { value: '' };
-
     this.handleChange = this.handleChange.bind(this);
   }
 
@@ -43,12 +42,21 @@ class Contact extends Component {
               value={this.state.value}
               onChange={this.handleChange}
               style={styles}
-              autoWidth
+              fullWidth
             >
               <MenuItem value={1} primaryText="I want an introduction to your services..." />
               <MenuItem value={2} primaryText="I want a free price quote..." />
               <MenuItem value={3} primaryText="I want to ask a question" />
-            </SelectField><br />
+            </SelectField>
+            {this.state.value === 3 && (
+              <TextField
+                floatingLabelText="Your question"
+                multiLine
+                rows={4}
+                style={styles}
+                fullWidth
+              />
+            )}
             <RaisedButton style={styles} label="Send" secondary />
           </ContactForm>
         </ConsultationSection>
