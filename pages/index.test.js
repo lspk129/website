@@ -3,11 +3,11 @@ import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import Scroll from 'react-scroll';
 
-
 import IndexPage from './index';
 import Hero from '../components/Hero';
 import Service from '../components/Service';
 import Technology from '../components/Technology';
+import Contact from '../components/Contact';
 
 describe('IndexPage', () => {
   const shallowWrapper = shallow(<IndexPage />);
@@ -41,5 +41,9 @@ describe('IndexPage', () => {
   it('renders Scroll.Element component with name link "Technology"', () => {
     expect(shallowWrapper.find(Scroll.Element).at(1)).toBePresent();
     expect(shallowWrapper.find(Scroll.Element).at(1)).toHaveProp('name', 'Technology');
+  });
+
+  it('renders Contact component', () => {
+    expect(shallowWrapper.find(Contact)).toBePresent();
   });
 });

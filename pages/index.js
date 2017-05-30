@@ -13,6 +13,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Service from '../components/Service';
 import Technology from '../components/Technology';
+import Contact from '../components/Contact';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -58,6 +59,10 @@ class IndexPage extends Component {
                 <Technology />
               </Scroll.Element>
             </StickyContainer>
+            <Hero />
+            <Service />
+            <Technology />
+            <Contact />
           </div>
         </ThemeProvider>
       </MuiThemeProvider>

@@ -448,4 +448,26 @@ exports[`IndexPage renders correctly 1`] = `
     </div>
   </ThemeProvider>
 </MuiThemeProvider>
+  </div>
+  <div
+    className="sc-gqjmRU rEHZR"
+  >
+    <div
+      className="sc-VigVT hARrLG"
+    >
+      <h3
+        className="sc-fjdhpX jMSAXb"
+      >
+        Get a free consultation
+      </h3>
+    </div>
+    <div
+      className="sc-jTzLTM jakFmJ"
+    >
+      <form
+        className="sc-jzJRlG enxKql"
+      />
+    </div>
+  </div>
+</div>
 `;

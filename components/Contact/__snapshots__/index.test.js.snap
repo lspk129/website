@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact renders correctly 1`] = `
+<div
+  className="sc-bdVaJa gptHmk"
+>
+  <div
+    className="sc-bwzfXH hchiPD"
+  >
+    <h3
+      className="sc-bxivhb NHGCn"
+    >
+      Get a free consultation
+    </h3>
+  </div>
+  <div
+    className="sc-htpNat dGiqIK"
+  >
+    <form
+      className="sc-ifAKCX cFlEyZ"
+    />
+  </div>
+</div>
+`;
