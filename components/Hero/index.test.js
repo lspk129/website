@@ -6,7 +6,6 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 import Hero from './';
 import HeroImage from './HeroImage';
-import HeroHeader from './HeroHeader';
 import HeroContainer from './HeroContainer';
 import HeroTitle from './HeroTitle';
 import HeroSubtitle from './HeroSubtitle';
@@ -26,10 +25,6 @@ describe('Hero', () => {
 
   it('renders Hero component', () => {
     expect(shallowWrapper).toBePresent();
-  });
-
-  it('renders HeroHeader component', () => {
-    expect(shallowWrapper.find(HeroHeader)).toBePresent();
   });
 
   it('renders HeroContainer component', () => {

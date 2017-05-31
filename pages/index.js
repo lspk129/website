@@ -5,7 +5,11 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import { red400, cyan700, white } from 'material-ui/styles/colors';
 import { ThemeProvider } from 'styled-components';
+import Scroll from 'react-scroll';
+import { StickyContainer } from 'react-sticky';
 
+import NavbarLogo from '../components/Navbar/NavbarLogo/index';
+import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Service from '../components/Service';
 import Technology from '../components/Technology';
@@ -43,9 +47,17 @@ class IndexPage extends Component {
       <MuiThemeProvider muiTheme={getMuiTheme({ userAgent, ...themeProvider(isMUI) })}>
         <ThemeProvider theme={themeProvider()}>
           <div>
-            <Hero />
-            <Service />
-            <Technology />
+            <NavbarLogo />
+            <StickyContainer>
+              <Navbar />
+              <Hero />
+              <Scroll.Element name="Service">
+                <Service />
+              </Scroll.Element>
+              <Scroll.Element name="Technology">
+                <Technology />
+              </Scroll.Element>
+            </StickyContainer>
           </div>
         </ThemeProvider>
       </MuiThemeProvider>

@@ -2,7 +2,6 @@
 
 exports[`Hero renders correctly 1`] = `
 <styled.div>
-  <styled.div />
   <styled.div>
     <styled.h1>
       Moka Haiku:
