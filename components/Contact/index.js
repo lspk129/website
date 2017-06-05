@@ -2,46 +2,66 @@ import React, { Component } from 'react';
 import TextField from 'material-ui/TextField';
 import SelectField from 'material-ui/SelectField';
 import MenuItem from 'material-ui/MenuItem';
-import RaisedButton from 'material-ui/RaisedButton';
+import FloatingActionButton from 'material-ui/FloatingActionButton';
 
 import ContactContainer from './ContactContainer';
 import ContactInfoSection from './ContactInfoSection';
 import ConsultationSection from './ConsultationSection';
 import ContactTitle from './ContactTitle';
 import ContactForm from './ContactForm';
-
-const styles = {
-  margin: '20px 20px',
-};
+import RaisedButtonWithStyle from './ContactForm/RaisedButtonWithStyle';
+import FlexComponent from './ContactForm/FlexComponent';
+import PTag from './ContactForm/PTag';
 
 class Contact extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { value: '' };
-    this.handleChange = this.handleChange.bind(this);
-  }
+  state = {
+    value: '',
+  };
 
-  handleChange(event, index, value) {
-    this.setState({ value });
-  }
+  handleChange = (event, index, value) => this.setState({ value });
 
   render() {
     return (
       <ContactContainer>
         <ContactInfoSection>
           <ContactTitle>
+            Contact us
+          </ContactTitle>
+          <ContactForm center>
+            <FlexComponent>
+              <FloatingActionButton secondary>
+                <i className="fa fa-envelope" />
+              </FloatingActionButton>
+              <PTag>info@mokahaiku.com</PTag>
+            </FlexComponent>
+            <FlexComponent>
+              <FloatingActionButton secondary>
+                <i className="fa fa-twitter" />
+              </FloatingActionButton>
+              <PTag>@mokahaiku</PTag>
+            </FlexComponent>
+            <FlexComponent>
+              <FloatingActionButton secondary>
+                <i className="fa fa-globe" />
+              </FloatingActionButton>
+              <PTag>www.mokahaiku.com</PTag>
+            </FlexComponent>
+          </ContactForm>
+        </ContactInfoSection>
+
+        <ConsultationSection>
+          <ContactTitle>
             Get a free consultation
           </ContactTitle>
-        </ContactInfoSection>
-        <ConsultationSection>
           <ContactForm>
-            <TextField style={styles} floatingLabelText="Name" />
-            <TextField style={styles} floatingLabelText="Your email" />
+            <FlexComponent between>
+              <TextField floatingLabelText="Name" />
+              <TextField floatingLabelText="Your email" />
+            </FlexComponent>
             <SelectField
               floatingLabelText="Choose a subject"
               value={this.state.value}
               onChange={this.handleChange}
-              style={styles}
               fullWidth
             >
               <MenuItem value={1} primaryText="I want an introduction to your services..." />
@@ -53,11 +73,10 @@ class Contact extends Component {
                 floatingLabelText="Your question"
                 multiLine
                 rows={4}
-                style={styles}
                 fullWidth
               />
             )}
-            <RaisedButton style={styles} label="Send" secondary />
+            <RaisedButtonWithStyle label="Send" secondary />
           </ContactForm>
         </ConsultationSection>
       </ContactContainer>

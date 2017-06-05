@@ -7,12 +7,14 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import TextField from 'material-ui/TextField';
 import SelectField from 'material-ui/SelectField';
 import RaisedButton from 'material-ui/RaisedButton';
+import FloatingActionButton from 'material-ui/FloatingActionButton';
 
 import Contact from './';
 import ContactContainer from './ContactContainer';
 import ContactInfoSection from './ContactInfoSection';
 import ConsultationSection from './ConsultationSection';
 import ContactTitle from './ContactTitle';
+import PTag from './ContactForm/PTag';
 
 
 if (!process.tapEventInjected) {
@@ -46,7 +48,11 @@ describe('Contact', () => {
   });
 
   it('renders text "Get free consultation"', () => {
-    expect(mountWrapper.find(ContactTitle)).toHaveText('Get a free consultation');
+    expect(mountWrapper.find(ContactTitle).at(0)).toHaveText('Contact us');
+  });
+
+  it('renders text "Get free consultation"', () => {
+    expect(mountWrapper.find(ContactTitle).at(1)).toHaveText('Get a free consultation');
   });
 
   it('renders input field with text "Name"', () => {
@@ -63,5 +69,20 @@ describe('Contact', () => {
 
   it('renders RaisedButton component with text "Send"', () => {
     expect(mountWrapper.find(RaisedButton)).toHaveText('Send');
+  });
+
+  it('renders FloatingActionButton with envelope icon and text "info@mokahaiku.com"', () => {
+    expect(mountWrapper.find(FloatingActionButton).at(0).find('i')).toHaveClassName('fa-envelope');
+    expect(mountWrapper.find(PTag).at(0)).toHaveText('info@mokahaiku.com');
+  });
+
+  it('renders FloatingActionButton with Twitter icon and text "@mokahaiku"', () => {
+    expect(mountWrapper.find(FloatingActionButton).at(1).find('i')).toHaveClassName('fa-twitter');
+    expect(mountWrapper.find(PTag).at(1)).toHaveText('@mokahaiku');
+  });
+
+  it('renders FloatingActionButton with globe icon and text "www.mokahaiku.com"', () => {
+    expect(mountWrapper.find(FloatingActionButton).at(2).find('i')).toHaveClassName('fa-globe');
+    expect(mountWrapper.find(PTag).at(2)).toHaveText('www.mokahaiku.com');
   });
 });

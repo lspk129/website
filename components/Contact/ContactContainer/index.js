@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 const ContactContainer = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #f0f0f0;
 `;
 
 export default ContactContainer;
