@@ -23,8 +23,8 @@ if (!process.tapEventInjected) {
 const themeProvider = (isMUI = false) => {
   const theme = {
     mainColor: cyan700,
-    secondaryColor: red400,
-    backgroundColor: cyan700,
+    secondaryColor: cyan700,
+    backgroundColor: red400,
     textColor: white,
   };
   if (isMUI) return { palette: { accent1Color: theme.mainColor } };
