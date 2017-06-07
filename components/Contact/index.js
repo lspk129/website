@@ -2,16 +2,18 @@ import React, { Component } from 'react';
 import TextField from 'material-ui/TextField';
 import SelectField from 'material-ui/SelectField';
 import MenuItem from 'material-ui/MenuItem';
-import FloatingActionButton from 'material-ui/FloatingActionButton';
+import muiThemeable from 'material-ui/styles/muiThemeable';
 
 import ContactContainer from './ContactContainer';
 import ContactInfoSection from './ContactInfoSection';
 import ConsultationSection from './ConsultationSection';
 import ContactTitle from './ContactTitle';
 import ContactForm from './ContactForm';
-import RaisedButtonWithStyle from './ContactForm/RaisedButtonWithStyle';
-import FlexComponent from './ContactForm/FlexComponent';
-import PTag from './ContactForm/PTag';
+import RaisedButtonStyled from './Components/RaisedButtonStyled';
+import FlexboxLine from './Components/FlexboxLine';
+import Paragraph from './Components/Paragraph';
+import PaperIcon from './Components/PaperIcons';
+import FontAwesomeIcon from './Components/FontAwesomeIcon';
 
 class Contact extends Component {
   state = {
@@ -28,24 +30,24 @@ class Contact extends Component {
             Contact us
           </ContactTitle>
           <ContactForm center>
-            <FlexComponent>
-              <FloatingActionButton secondary>
-                <i className="fa fa-envelope" />
-              </FloatingActionButton>
-              <PTag>info@mokahaiku.com</PTag>
-            </FlexComponent>
-            <FlexComponent>
-              <FloatingActionButton secondary>
-                <i className="fa fa-twitter" />
-              </FloatingActionButton>
-              <PTag>@mokahaiku</PTag>
-            </FlexComponent>
-            <FlexComponent>
-              <FloatingActionButton secondary>
-                <i className="fa fa-globe" />
-              </FloatingActionButton>
-              <PTag>www.mokahaiku.com</PTag>
-            </FlexComponent>
+            <FlexboxLine>
+              <PaperIcon circle>
+                <FontAwesomeIcon className="fa fa-envelope" />
+              </PaperIcon>
+              <Paragraph>info@mokahaiku.com</Paragraph>
+            </FlexboxLine>
+            <FlexboxLine>
+              <PaperIcon circle >
+                <FontAwesomeIcon className="fa fa-twitter" />
+              </PaperIcon>
+              <Paragraph>@mokahaiku</Paragraph>
+            </FlexboxLine>
+            <FlexboxLine>
+              <PaperIcon circle>
+                <FontAwesomeIcon className="fa fa-globe" />
+              </PaperIcon>
+              <Paragraph>www.mokahaiku.com</Paragraph>
+            </FlexboxLine>
           </ContactForm>
         </ContactInfoSection>
 
@@ -54,10 +56,10 @@ class Contact extends Component {
             Get a free consultation
           </ContactTitle>
           <ContactForm>
-            <FlexComponent between>
+            <FlexboxLine between>
               <TextField floatingLabelText="Name" />
               <TextField floatingLabelText="Your email" />
-            </FlexComponent>
+            </FlexboxLine>
             <SelectField
               floatingLabelText="Choose a subject"
               value={this.state.value}
@@ -76,7 +78,7 @@ class Contact extends Component {
                 fullWidth
               />
             )}
-            <RaisedButtonWithStyle label="Send" secondary />
+            <RaisedButtonStyled label="Send" secondary />
           </ContactForm>
         </ConsultationSection>
       </ContactContainer>
@@ -84,4 +86,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default muiThemeable()(Contact);

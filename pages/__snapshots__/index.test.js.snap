@@ -586,7 +586,7 @@ exports[`IndexPage renders correctly 1`] = `
     className="sc-gqjmRU cMqPQP"
   >
     <div
-      className="sc-VigVT gUSOfa"
+      className="sc-VigVT khddf"
     >
       <h3
         className="sc-fjdhpX fTfxkC"
@@ -600,98 +600,25 @@ exports[`IndexPage renders correctly 1`] = `
           className="sc-kAzzGY chRbts"
         >
           <div
-            className={undefined}
+            className="sc-kgoBCf dwMNmw"
             style={
               Object {
                 "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-                "backgroundColor": "transparent",
+                "backgroundColor": "#ffffff",
                 "borderRadius": "50%",
-                "boxShadow": "0 3px 10px rgba(0, 0, 0, 0.16),
-                       0 3px 10px rgba(0, 0, 0, 0.23)",
+                "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                       0 1px 4px rgba(0, 0, 0, 0.12)",
                 "boxSizing": "border-box",
                 "color": "rgba(0, 0, 0, 0.87)",
-                "display": "inline-block",
                 "fontFamily": "Roboto, sans-serif",
                 "muiPrepared": true,
                 "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
               }
             }
           >
-            <button
-              disabled={false}
-              href={undefined}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              onKeyDown={[Function]}
-              onKeyUp={[Function]}
-              onMouseDown={[Function]}
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
-              onMouseUp={[Function]}
-              onTouchEnd={[Function]}
-              onTouchStart={[Function]}
-              onTouchTap={[Function]}
-              style={
-                Object {
-                  "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
-                  "backgroundColor": "#0097a7",
-                  "border": 10,
-                  "borderRadius": "50%",
-                  "boxSizing": "border-box",
-                  "cursor": "pointer",
-                  "display": "inline-block",
-                  "fontFamily": "Roboto, sans-serif",
-                  "fontSize": "inherit",
-                  "fontWeight": "inherit",
-                  "height": 56,
-                  "margin": 0,
-                  "muiPrepared": true,
-                  "outline": "none",
-                  "overflow": "hidden",
-                  "padding": 0,
-                  "position": "relative",
-                  "textAlign": "center",
-                  "textDecoration": "none",
-                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                  "verticalAlign": "bottom",
-                  "width": 56,
-                  "zIndex": 1,
-                }
-              }
-              tabIndex={0}
-              type="button"
-            >
-              <div
-                onMouseDown={[Function]}
-                onMouseLeave={[Function]}
-                onMouseUp={[Function]}
-                onTouchEnd={[Function]}
-                onTouchStart={[Function]}
-              >
-                <div
-                  style={
-                    Object {
-                      "muiPrepared": true,
-                      "top": 0,
-                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                    }
-                  }
-                >
-                  <i
-                    className="fa fa-envelope"
-                    style={
-                      Object {
-                        "color": "#ffffff",
-                        "fill": "#ffffff",
-                        "height": 56,
-                        "lineHeight": "56px",
-                      }
-                    }
-                  />
-                </div>
-              </div>
-            </button>
+            <i
+              className="fa fa-envelope sc-kGXeez elJMpR"
+            />
           </div>
           <p
             className="sc-chPdSV fcoGOb"
@@ -703,98 +630,25 @@ exports[`IndexPage renders correctly 1`] = `
           className="sc-kAzzGY chRbts"
         >
           <div
-            className={undefined}
+            className="sc-kgoBCf dwMNmw"
             style={
               Object {
                 "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-                "backgroundColor": "transparent",
+                "backgroundColor": "#ffffff",
                 "borderRadius": "50%",
-                "boxShadow": "0 3px 10px rgba(0, 0, 0, 0.16),
-                       0 3px 10px rgba(0, 0, 0, 0.23)",
+                "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                       0 1px 4px rgba(0, 0, 0, 0.12)",
                 "boxSizing": "border-box",
                 "color": "rgba(0, 0, 0, 0.87)",
-                "display": "inline-block",
                 "fontFamily": "Roboto, sans-serif",
                 "muiPrepared": true,
                 "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
               }
             }
           >
-            <button
-              disabled={false}
-              href={undefined}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              onKeyDown={[Function]}
-              onKeyUp={[Function]}
-              onMouseDown={[Function]}
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
-              onMouseUp={[Function]}
-              onTouchEnd={[Function]}
-              onTouchStart={[Function]}
-              onTouchTap={[Function]}
-              style={
-                Object {
-                  "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
-                  "backgroundColor": "#0097a7",
-                  "border": 10,
-                  "borderRadius": "50%",
-                  "boxSizing": "border-box",
-                  "cursor": "pointer",
-                  "display": "inline-block",
-                  "fontFamily": "Roboto, sans-serif",
-                  "fontSize": "inherit",
-                  "fontWeight": "inherit",
-                  "height": 56,
-                  "margin": 0,
-                  "muiPrepared": true,
-                  "outline": "none",
-                  "overflow": "hidden",
-                  "padding": 0,
-                  "position": "relative",
-                  "textAlign": "center",
-                  "textDecoration": "none",
-                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                  "verticalAlign": "bottom",
-                  "width": 56,
-                  "zIndex": 1,
-                }
-              }
-              tabIndex={0}
-              type="button"
-            >
-              <div
-                onMouseDown={[Function]}
-                onMouseLeave={[Function]}
-                onMouseUp={[Function]}
-                onTouchEnd={[Function]}
-                onTouchStart={[Function]}
-              >
-                <div
-                  style={
-                    Object {
-                      "muiPrepared": true,
-                      "top": 0,
-                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                    }
-                  }
-                >
-                  <i
-                    className="fa fa-twitter"
-                    style={
-                      Object {
-                        "color": "#ffffff",
-                        "fill": "#ffffff",
-                        "height": 56,
-                        "lineHeight": "56px",
-                      }
-                    }
-                  />
-                </div>
-              </div>
-            </button>
+            <i
+              className="fa fa-twitter sc-kGXeez elJMpR"
+            />
           </div>
           <p
             className="sc-chPdSV fcoGOb"
@@ -806,98 +660,25 @@ exports[`IndexPage renders correctly 1`] = `
           className="sc-kAzzGY chRbts"
         >
           <div
-            className={undefined}
+            className="sc-kgoBCf dwMNmw"
             style={
               Object {
                 "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-                "backgroundColor": "transparent",
+                "backgroundColor": "#ffffff",
                 "borderRadius": "50%",
-                "boxShadow": "0 3px 10px rgba(0, 0, 0, 0.16),
-                       0 3px 10px rgba(0, 0, 0, 0.23)",
+                "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                       0 1px 4px rgba(0, 0, 0, 0.12)",
                 "boxSizing": "border-box",
                 "color": "rgba(0, 0, 0, 0.87)",
-                "display": "inline-block",
                 "fontFamily": "Roboto, sans-serif",
                 "muiPrepared": true,
                 "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
               }
             }
           >
-            <button
-              disabled={false}
-              href={undefined}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              onKeyDown={[Function]}
-              onKeyUp={[Function]}
-              onMouseDown={[Function]}
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
-              onMouseUp={[Function]}
-              onTouchEnd={[Function]}
-              onTouchStart={[Function]}
-              onTouchTap={[Function]}
-              style={
-                Object {
-                  "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
-                  "backgroundColor": "#0097a7",
-                  "border": 10,
-                  "borderRadius": "50%",
-                  "boxSizing": "border-box",
-                  "cursor": "pointer",
-                  "display": "inline-block",
-                  "fontFamily": "Roboto, sans-serif",
-                  "fontSize": "inherit",
-                  "fontWeight": "inherit",
-                  "height": 56,
-                  "margin": 0,
-                  "muiPrepared": true,
-                  "outline": "none",
-                  "overflow": "hidden",
-                  "padding": 0,
-                  "position": "relative",
-                  "textAlign": "center",
-                  "textDecoration": "none",
-                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                  "verticalAlign": "bottom",
-                  "width": 56,
-                  "zIndex": 1,
-                }
-              }
-              tabIndex={0}
-              type="button"
-            >
-              <div
-                onMouseDown={[Function]}
-                onMouseLeave={[Function]}
-                onMouseUp={[Function]}
-                onTouchEnd={[Function]}
-                onTouchStart={[Function]}
-              >
-                <div
-                  style={
-                    Object {
-                      "muiPrepared": true,
-                      "top": 0,
-                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                    }
-                  }
-                >
-                  <i
-                    className="fa fa-globe"
-                    style={
-                      Object {
-                        "color": "#ffffff",
-                        "fill": "#ffffff",
-                        "height": 56,
-                        "lineHeight": "56px",
-                      }
-                    }
-                  />
-                </div>
-              </div>
-            </button>
+            <i
+              className="fa fa-globe sc-kGXeez elJMpR"
+            />
           </div>
           <p
             className="sc-chPdSV fcoGOb"
@@ -908,7 +689,7 @@ exports[`IndexPage renders correctly 1`] = `
       </form>
     </div>
     <div
-      className="sc-jTzLTM hDRkHN"
+      className="sc-jTzLTM chaDUf"
     >
       <h3
         className="sc-fjdhpX fTfxkC"
@@ -941,7 +722,7 @@ exports[`IndexPage renders correctly 1`] = `
           >
             <label
               className={undefined}
-              htmlFor="undefined-undefined-Name-42231"
+              htmlFor="undefined-undefined-Name-45661"
               onTouchTap={undefined}
               style={
                 Object {
@@ -963,7 +744,7 @@ exports[`IndexPage renders correctly 1`] = `
             </label>
             <input
               disabled={false}
-              id="undefined-undefined-Name-42231"
+              id="undefined-undefined-Name-45661"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -1049,7 +830,7 @@ exports[`IndexPage renders correctly 1`] = `
           >
             <label
               className={undefined}
-              htmlFor="undefined-undefined-Youremail-28233"
+              htmlFor="undefined-undefined-Youremail-43702"
               onTouchTap={undefined}
               style={
                 Object {
@@ -1071,7 +852,7 @@ exports[`IndexPage renders correctly 1`] = `
             </label>
             <input
               disabled={false}
-              id="undefined-undefined-Youremail-28233"
+              id="undefined-undefined-Youremail-43702"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -1158,7 +939,7 @@ exports[`IndexPage renders correctly 1`] = `
         >
           <label
             className={undefined}
-            htmlFor="undefined-undefined-Chooseasubject-13289"
+            htmlFor="undefined-undefined-Chooseasubject-38644"
             onTouchTap={undefined}
             style={
               Object {
@@ -1180,7 +961,7 @@ exports[`IndexPage renders correctly 1`] = `
           </label>
           <div
             className={undefined}
-            id="undefined-undefined-Chooseasubject-13289"
+            id="undefined-undefined-Chooseasubject-38644"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}

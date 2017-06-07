@@ -1,9 +1,9 @@
 import RaisedButton from 'material-ui/RaisedButton';
 import styled from 'styled-components';
 
-const RaisedButtonWithStyle = styled(RaisedButton)`
+const RaisedButtonStyled = styled(RaisedButton)`
   margin-top: 30px;
   justify-self: start;
 `;
 
-export default RaisedButtonWithStyle;
+export default RaisedButtonStyled;
