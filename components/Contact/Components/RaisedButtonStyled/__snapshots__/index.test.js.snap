@@ -6,7 +6,7 @@ exports[`RaisedButtonStyled renders correctly 1`] = `
   secondary={true}
 >
   <RaisedButton
-    className="sc-bdVaJa fEyLpB"
+    className="sc-bdVaJa faoXie"
     disabled={false}
     fullWidth={false}
     label="Send"
@@ -16,7 +16,7 @@ exports[`RaisedButtonStyled renders correctly 1`] = `
   >
     <Paper
       circle={false}
-      className="sc-bdVaJa fEyLpB"
+      className="sc-bdVaJa faoXie"
       rounded={true}
       style={
         Object {
@@ -29,7 +29,7 @@ exports[`RaisedButtonStyled renders correctly 1`] = `
       zDepth={1}
     >
       <div
-        className="sc-bdVaJa fEyLpB"
+        className="sc-bdVaJa faoXie"
         style={
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",

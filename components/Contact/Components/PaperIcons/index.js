@@ -2,9 +2,9 @@ import Paper from 'material-ui/Paper';
 import styled from 'styled-components';
 
 const PaperIcon = styled(Paper)`
-  display: grid;
+  display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
   width: 50px;
   height: 50px;
 `;

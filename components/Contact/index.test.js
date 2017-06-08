@@ -8,13 +8,11 @@ import TextField from 'material-ui/TextField';
 import SelectField from 'material-ui/SelectField';
 
 import Contact from './';
-import ContactContainer from './ContactContainer';
-import ContactInfoSection from './ContactInfoSection';
-import ConsultationSection from './ConsultationSection';
 import ContactTitle from './ContactTitle';
 import Paragraph from './Components/Paragraph';
 import PaperIcons from './Components/PaperIcons';
 import RaisedButtonStyled from './Components/RaisedButtonStyled';
+import StyledColumn from './StyledColumn';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -32,18 +30,6 @@ describe('Contact', () => {
   it('renders correctly', () => {
     const tree = toJson(mountWrapper);
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders ContactContainer component', () => {
-    expect(mountWrapper.find(ContactContainer)).toBePresent();
-  });
-
-  it('renders ContactInfoSection component', () => {
-    expect(mountWrapper.find(ContactInfoSection)).toBePresent();
-  });
-
-  it('renders ConsultationSection component', () => {
-    expect(mountWrapper.find(ConsultationSection)).toBePresent();
   });
 
   it('renders text "Get free consultation"', () => {
@@ -70,17 +56,21 @@ describe('Contact', () => {
     expect(mountWrapper.find(RaisedButtonStyled)).toBePresent();
   });
 
-  it('renders FloatingActionButton with envelope icon and text "info@mokahaiku.com"', () => {
+  it('renders StyledColumn component', () => {
+    expect(mountWrapper.find(StyledColumn)).toBePresent();
+  });
+
+  it('renders PaperIcons component with envelope icon and text "info@mokahaiku.com"', () => {
     expect(mountWrapper.find(PaperIcons).at(0).find('i')).toHaveClassName('fa-envelope');
     expect(mountWrapper.find(Paragraph).at(0)).toHaveText('info@mokahaiku.com');
   });
 
-  it('renders FloatingActionButton with Twitter icon and text "@mokahaiku"', () => {
+  it('renders PaperIcons component with Twitter icon and text "@mokahaiku"', () => {
     expect(mountWrapper.find(PaperIcons).at(1).find('i')).toHaveClassName('fa fa-twitter');
     expect(mountWrapper.find(Paragraph).at(1)).toHaveText('@mokahaiku');
   });
 
-  it('renders FloatingActionButton with globe icon and text "www.mokahaiku.com"', () => {
+  it('renders PaperIcons component with globe icon and text "www.mokahaiku.com"', () => {
     expect(mountWrapper.find(PaperIcons).at(2).find('i')).toHaveClassName('fa-globe');
     expect(mountWrapper.find(Paragraph).at(2)).toHaveText('www.mokahaiku.com');
   });
