@@ -6,12 +6,12 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import TextField from 'material-ui/TextField';
 import SelectField from 'material-ui/SelectField';
+import RaisedButton from 'material-ui/RaisedButton';
 
 import Contact from './';
 import ContactTitle from './ContactTitle';
 import Paragraph from './Components/Paragraph';
 import PaperIcons from './Components/PaperIcons';
-import RaisedButtonStyled from './Components/RaisedButtonStyled';
 import StyledColumn from './StyledColumn';
 
 if (!process.tapEventInjected) {
@@ -52,8 +52,8 @@ describe('Contact', () => {
     expect(mountWrapper.find(SelectField)).toBePresent();
   });
 
-  it('renders RaisedButtonStyled component', () => {
-    expect(mountWrapper.find(RaisedButtonStyled)).toBePresent();
+  it('renders RaisedButton component', () => {
+    expect(mountWrapper.find(RaisedButton)).toBePresent();
   });
 
   it('renders StyledColumn component', () => {

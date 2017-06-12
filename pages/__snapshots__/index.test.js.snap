@@ -586,7 +586,7 @@ exports[`IndexPage renders correctly 1`] = `
     className="sc-VigVT dEPqsG"
   >
     <div
-      className="sc-kGXeez fwdRDQ sc-jTzLTM hkqtbL"
+      className="sc-kgoBCf eBXAcg sc-jTzLTM hkqtbL"
     >
       <h3
         className="sc-jzJRlG jVGqnA"
@@ -603,7 +603,7 @@ exports[`IndexPage renders correctly 1`] = `
             className="sc-VigVT dEPqsG"
           >
             <div
-              className="sc-chPdSV hEzbfH"
+              className="sc-kAzzGY bUSrPI"
               style={
                 Object {
                   "WebkitTapHighlightColor": "rgba(0,0,0,0)",
@@ -620,11 +620,11 @@ exports[`IndexPage renders correctly 1`] = `
               }
             >
               <i
-                className="fa fa-envelope sc-kgoBCf bqEqUJ"
+                className="fa fa-envelope sc-chPdSV fMHPzs"
               />
             </div>
             <p
-              className="sc-kAzzGY fHVnVo"
+              className="sc-cSHVUG CsXun"
             >
               info@mokahaiku.com
             </p>
@@ -641,7 +641,7 @@ exports[`IndexPage renders correctly 1`] = `
             className="sc-VigVT dEPqsG"
           >
             <div
-              className="sc-chPdSV hEzbfH"
+              className="sc-kAzzGY bUSrPI"
               style={
                 Object {
                   "WebkitTapHighlightColor": "rgba(0,0,0,0)",
@@ -658,11 +658,11 @@ exports[`IndexPage renders correctly 1`] = `
               }
             >
               <i
-                className="fa fa-twitter sc-kgoBCf bqEqUJ"
+                className="fa fa-twitter sc-chPdSV fMHPzs"
               />
             </div>
             <p
-              className="sc-kAzzGY fHVnVo"
+              className="sc-cSHVUG CsXun"
             >
               @mokahaiku
             </p>
@@ -679,7 +679,7 @@ exports[`IndexPage renders correctly 1`] = `
             className="sc-VigVT dEPqsG"
           >
             <div
-              className="sc-chPdSV hEzbfH"
+              className="sc-kAzzGY bUSrPI"
               style={
                 Object {
                   "WebkitTapHighlightColor": "rgba(0,0,0,0)",
@@ -696,11 +696,11 @@ exports[`IndexPage renders correctly 1`] = `
               }
             >
               <i
-                className="fa fa-globe sc-kgoBCf bqEqUJ"
+                className="fa fa-globe sc-chPdSV fMHPzs"
               />
             </div>
             <p
-              className="sc-kAzzGY fHVnVo"
+              className="sc-cSHVUG CsXun"
             >
               www.mokahaiku.com
             </p>
@@ -743,7 +743,7 @@ exports[`IndexPage renders correctly 1`] = `
             >
               <label
                 className={undefined}
-                htmlFor="undefined-undefined-Name-36584"
+                htmlFor="undefined-undefined-Name-32066"
                 onTouchTap={undefined}
                 style={
                   Object {
@@ -765,7 +765,7 @@ exports[`IndexPage renders correctly 1`] = `
               </label>
               <input
                 disabled={false}
-                id="undefined-undefined-Name-36584"
+                id="undefined-undefined-Name-32066"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -855,7 +855,7 @@ exports[`IndexPage renders correctly 1`] = `
             >
               <label
                 className={undefined}
-                htmlFor="undefined-undefined-Youremail-54453"
+                htmlFor="undefined-undefined-Youremail-33233"
                 onTouchTap={undefined}
                 style={
                   Object {
@@ -877,7 +877,7 @@ exports[`IndexPage renders correctly 1`] = `
               </label>
               <input
                 disabled={false}
-                id="undefined-undefined-Youremail-54453"
+                id="undefined-undefined-Youremail-33233"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -967,7 +967,7 @@ exports[`IndexPage renders correctly 1`] = `
             >
               <label
                 className={undefined}
-                htmlFor="undefined-undefined-Chooseasubject-36968"
+                htmlFor="undefined-undefined-Chooseasubject-49955"
                 onTouchTap={undefined}
                 style={
                   Object {
@@ -989,7 +989,7 @@ exports[`IndexPage renders correctly 1`] = `
               </label>
               <div
                 className={undefined}
-                id="undefined-undefined-Chooseasubject-36968"
+                id="undefined-undefined-Chooseasubject-49955"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -1211,7 +1211,7 @@ exports[`IndexPage renders correctly 1`] = `
             className="sc-jTzLTM exGayA"
           >
             <div
-              className="sc-cSHVUG FFMWU"
+              className={undefined}
               style={
                 Object {
                   "WebkitTapHighlightColor": "rgba(0,0,0,0)",

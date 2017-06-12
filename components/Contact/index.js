@@ -4,14 +4,13 @@ import SelectField from 'material-ui/SelectField';
 import MenuItem from 'material-ui/MenuItem';
 import muiThemeable from 'material-ui/styles/muiThemeable';
 import { Row, Column } from 'hedron';
+import RaisedButton from 'material-ui/RaisedButton';
 
 import ContactTitle from './ContactTitle';
-import RaisedButtonStyled from './Components/RaisedButtonStyled';
 import Paragraph from './Components/Paragraph';
 import PaperIcons from './Components/PaperIcons';
 import FontAwesomeIcon from './Components/FontAwesomeIcon';
 import StyledColumn from './StyledColumn';
-
 
 class Contact extends Component {
   state = {
@@ -88,16 +87,16 @@ class Contact extends Component {
                   <MenuItem value={3} primaryText="I want to ask a question" />
                 </SelectField>
                 {this.state.value === 3 && (
-                <TextField
-                  floatingLabelText="Your question"
-                  multiLine
-                  rows={4}
-                  fullWidth
-                />
+                  <TextField
+                    floatingLabelText="Your question"
+                    multiLine
+                    rows={4}
+                    fullWidth
+                  />
             )}
               </Column>
               <Column>
-                <RaisedButtonStyled label="Send" secondary />
+                <RaisedButton label={'Send'} secondary />
               </Column>
             </Row>
           </form>

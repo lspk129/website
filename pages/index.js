@@ -25,6 +25,7 @@ const themeProvider = (isMUI = false) => {
     mainColor: cyan700,
     secondaryColor: cyan700,
     backgroundColor: red400,
+    secondaryBackgroundColor: '#f0f0f0',
     textColor: white,
   };
   if (isMUI) return { palette: { accent1Color: theme.mainColor } };
@@ -32,6 +33,7 @@ const themeProvider = (isMUI = false) => {
     main: theme.mainColor,
     text: theme.textColor,
     background: theme.mainColor,
+    secondaryBackground: theme.secondaryBackgroundColor,
   };
 };
 

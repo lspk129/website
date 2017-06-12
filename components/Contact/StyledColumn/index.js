@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Column } from 'hedron';
 
 const StyledColumn = styled(Column)`
-  background: #f0f0f0;
+  background: ${props => props.theme.secondaryBackground};
 `;
 
 export default StyledColumn;

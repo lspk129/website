@@ -432,20 +432,20 @@ exports[`Contact renders correctly 1`] = `
             md={6}
           >
             <Breakpoints
-              className="sc-dnqmqq ePntyC"
+              className="sc-htoDjs fVDrWZ"
               md={6}
             >
               <Styled(ColumnContainer)
-                className="sc-dnqmqq ePntyC"
+                className="sc-htoDjs fVDrWZ"
                 md={6}
               >
                 <ColumnContainer
-                  className="sc-dnqmqq ePntyC sc-htpNat Xnkqb"
+                  className="sc-htoDjs fVDrWZ sc-htpNat Xnkqb"
                   divisions={12}
                   md={6}
                 >
                   <div
-                    className="sc-dnqmqq ePntyC sc-htpNat Xnkqb"
+                    className="sc-htoDjs fVDrWZ sc-htpNat Xnkqb"
                   >
                     <styled.h3>
                       <h3
@@ -500,13 +500,13 @@ exports[`Contact renders correctly 1`] = `
                                         >
                                           <Paper
                                             circle={true}
-                                            className="sc-gzVnrw bsTNcC"
+                                            className="sc-bZQynM xGsGA"
                                             rounded={true}
                                             transitionEnabled={true}
                                             zDepth={1}
                                           >
                                             <div
-                                              className="sc-gzVnrw bsTNcC"
+                                              className="sc-bZQynM xGsGA"
                                               style={
                                                 Object {
                                                   "WebkitTapHighlightColor": "rgba(0,0,0,0)",
@@ -526,7 +526,7 @@ exports[`Contact renders correctly 1`] = `
                                                 className="fa fa-envelope"
                                               >
                                                 <i
-                                                  className="fa fa-envelope sc-htoDjs JvJgA"
+                                                  className="fa fa-envelope sc-gzVnrw ZyJST"
                                                 />
                                               </styled.i>
                                             </div>
@@ -534,7 +534,7 @@ exports[`Contact renders correctly 1`] = `
                                         </Styled(Paper)>
                                         <styled.p>
                                           <p
-                                            className="sc-bZQynM iHMYWK"
+                                            className="sc-EHOje jlNXVO"
                                           >
                                             info@mokahaiku.com
                                           </p>
@@ -595,13 +595,13 @@ exports[`Contact renders correctly 1`] = `
                                         >
                                           <Paper
                                             circle={true}
-                                            className="sc-gzVnrw bsTNcC"
+                                            className="sc-bZQynM xGsGA"
                                             rounded={true}
                                             transitionEnabled={true}
                                             zDepth={1}
                                           >
                                             <div
-                                              className="sc-gzVnrw bsTNcC"
+                                              className="sc-bZQynM xGsGA"
                                               style={
                                                 Object {
                                                   "WebkitTapHighlightColor": "rgba(0,0,0,0)",
@@ -621,7 +621,7 @@ exports[`Contact renders correctly 1`] = `
                                                 className="fa fa-twitter"
                                               >
                                                 <i
-                                                  className="fa fa-twitter sc-htoDjs JvJgA"
+                                                  className="fa fa-twitter sc-gzVnrw ZyJST"
                                                 />
                                               </styled.i>
                                             </div>
@@ -629,7 +629,7 @@ exports[`Contact renders correctly 1`] = `
                                         </Styled(Paper)>
                                         <styled.p>
                                           <p
-                                            className="sc-bZQynM iHMYWK"
+                                            className="sc-EHOje jlNXVO"
                                           >
                                             @mokahaiku
                                           </p>
@@ -690,13 +690,13 @@ exports[`Contact renders correctly 1`] = `
                                         >
                                           <Paper
                                             circle={true}
-                                            className="sc-gzVnrw bsTNcC"
+                                            className="sc-bZQynM xGsGA"
                                             rounded={true}
                                             transitionEnabled={true}
                                             zDepth={1}
                                           >
                                             <div
-                                              className="sc-gzVnrw bsTNcC"
+                                              className="sc-bZQynM xGsGA"
                                               style={
                                                 Object {
                                                   "WebkitTapHighlightColor": "rgba(0,0,0,0)",
@@ -716,7 +716,7 @@ exports[`Contact renders correctly 1`] = `
                                                 className="fa fa-globe"
                                               >
                                                 <i
-                                                  className="fa fa-globe sc-htoDjs JvJgA"
+                                                  className="fa fa-globe sc-gzVnrw ZyJST"
                                                 />
                                               </styled.i>
                                             </div>
@@ -724,7 +724,7 @@ exports[`Contact renders correctly 1`] = `
                                         </Styled(Paper)>
                                         <styled.p>
                                           <p
-                                            className="sc-bZQynM iHMYWK"
+                                            className="sc-EHOje jlNXVO"
                                           >
                                             www.mokahaiku.com
                                           </p>
@@ -821,7 +821,7 @@ exports[`Contact renders correctly 1`] = `
                                     >
                                       <TextFieldLabel
                                         disabled={false}
-                                        htmlFor="undefined-undefined-Name-31098"
+                                        htmlFor="undefined-undefined-Name-5511"
                                         muiTheme={
                                           Object {
                                             "appBar": Object {
@@ -1247,7 +1247,7 @@ exports[`Contact renders correctly 1`] = `
                                         }
                                       >
                                         <label
-                                          htmlFor="undefined-undefined-Name-31098"
+                                          htmlFor="undefined-undefined-Name-5511"
                                           style={
                                             Object {
                                               "color": "rgba(0, 0, 0, 0.3)",
@@ -1269,7 +1269,7 @@ exports[`Contact renders correctly 1`] = `
                                       </TextFieldLabel>
                                       <input
                                         disabled={false}
-                                        id="undefined-undefined-Name-31098"
+                                        id="undefined-undefined-Name-5511"
                                         onBlur={[Function]}
                                         onChange={[Function]}
                                         onFocus={[Function]}
@@ -1811,7 +1811,7 @@ exports[`Contact renders correctly 1`] = `
                                     >
                                       <TextFieldLabel
                                         disabled={false}
-                                        htmlFor="undefined-undefined-Youremail-7431"
+                                        htmlFor="undefined-undefined-Youremail-2371"
                                         muiTheme={
                                           Object {
                                             "appBar": Object {
@@ -2237,7 +2237,7 @@ exports[`Contact renders correctly 1`] = `
                                         }
                                       >
                                         <label
-                                          htmlFor="undefined-undefined-Youremail-7431"
+                                          htmlFor="undefined-undefined-Youremail-2371"
                                           style={
                                             Object {
                                               "color": "rgba(0, 0, 0, 0.3)",
@@ -2259,7 +2259,7 @@ exports[`Contact renders correctly 1`] = `
                                       </TextFieldLabel>
                                       <input
                                         disabled={false}
-                                        id="undefined-undefined-Youremail-7431"
+                                        id="undefined-undefined-Youremail-2371"
                                         onBlur={[Function]}
                                         onChange={[Function]}
                                         onFocus={[Function]}
@@ -2807,7 +2807,7 @@ exports[`Contact renders correctly 1`] = `
                                       >
                                         <TextFieldLabel
                                           disabled={false}
-                                          htmlFor="undefined-undefined-Chooseasubject-27933"
+                                          htmlFor="undefined-undefined-Chooseasubject-51631"
                                           muiTheme={
                                             Object {
                                               "appBar": Object {
@@ -3233,7 +3233,7 @@ exports[`Contact renders correctly 1`] = `
                                           }
                                         >
                                           <label
-                                            htmlFor="undefined-undefined-Chooseasubject-27933"
+                                            htmlFor="undefined-undefined-Chooseasubject-51631"
                                             style={
                                               Object {
                                                 "color": "rgba(0, 0, 0, 0.3)",
@@ -3270,7 +3270,7 @@ exports[`Contact renders correctly 1`] = `
                                               "top": 8,
                                             }
                                           }
-                                          id="undefined-undefined-Chooseasubject-27933"
+                                          id="undefined-undefined-Chooseasubject-51631"
                                           labelStyle={
                                             Object {
                                               "paddingLeft": 0,
@@ -3309,7 +3309,7 @@ exports[`Contact renders correctly 1`] = `
                                           value=""
                                         >
                                           <div
-                                            id="undefined-undefined-Chooseasubject-27933"
+                                            id="undefined-undefined-Chooseasubject-51631"
                                             onBlur={[Function]}
                                             onChange={[Function]}
                                             onFocus={[Function]}
@@ -4129,63 +4129,87 @@ exports[`Contact renders correctly 1`] = `
                                 <div
                                   className="sc-htpNat bKOCBb"
                                 >
-                                  <Styled(RaisedButton)
+                                  <RaisedButton
+                                    disabled={false}
+                                    fullWidth={false}
                                     label="Send"
+                                    labelPosition="after"
+                                    primary={false}
                                     secondary={true}
                                   >
-                                    <RaisedButton
-                                      className="sc-EHOje dtFQTe"
-                                      disabled={false}
-                                      fullWidth={false}
-                                      label="Send"
-                                      labelPosition="after"
-                                      primary={false}
-                                      secondary={true}
+                                    <Paper
+                                      circle={false}
+                                      rounded={true}
+                                      style={
+                                        Object {
+                                          "display": "inline-block",
+                                          "minWidth": 88,
+                                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                        }
+                                      }
+                                      transitionEnabled={true}
+                                      zDepth={1}
                                     >
-                                      <Paper
-                                        circle={false}
-                                        className="sc-EHOje dtFQTe"
-                                        rounded={true}
+                                      <div
                                         style={
                                           Object {
+                                            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                                            "backgroundColor": "#ffffff",
+                                            "borderRadius": 2,
+                                            "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                                                   0 1px 4px rgba(0, 0, 0, 0.12)",
+                                            "boxSizing": "border-box",
+                                            "color": "rgba(0, 0, 0, 0.87)",
                                             "display": "inline-block",
+                                            "fontFamily": "Roboto, sans-serif",
                                             "minWidth": 88,
+                                            "muiPrepared": true,
                                             "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                                           }
                                         }
-                                        transitionEnabled={true}
-                                        zDepth={1}
                                       >
-                                        <div
-                                          className="sc-EHOje dtFQTe"
+                                        <EnhancedButton
+                                          containerElement="button"
+                                          disabled={false}
+                                          focusRippleColor="#ffffff"
+                                          focusRippleOpacity={0.16}
+                                          onBlur={[Function]}
+                                          onClick={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          onKeyUp={[Function]}
+                                          onKeyboardFocus={[Function]}
+                                          onMouseDown={[Function]}
+                                          onMouseEnter={[Function]}
+                                          onMouseLeave={[Function]}
+                                          onMouseUp={[Function]}
+                                          onTouchEnd={[Function]}
+                                          onTouchStart={[Function]}
+                                          onTouchTap={[Function]}
                                           style={
                                             Object {
-                                              "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-                                              "backgroundColor": "#ffffff",
+                                              "backgroundColor": "#ff4081",
                                               "borderRadius": 2,
-                                              "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
-                                                     0 1px 4px rgba(0, 0, 0, 0.12)",
-                                              "boxSizing": "border-box",
-                                              "color": "rgba(0, 0, 0, 0.87)",
-                                              "display": "inline-block",
-                                              "fontFamily": "Roboto, sans-serif",
-                                              "minWidth": 88,
-                                              "muiPrepared": true,
+                                              "height": 36,
+                                              "lineHeight": "36px",
+                                              "padding": 0,
+                                              "textAlign": "center",
                                               "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                              "width": "100%",
                                             }
                                           }
+                                          tabIndex={0}
+                                          touchRippleColor="#ffffff"
+                                          touchRippleOpacity={0.16}
+                                          type="button"
                                         >
-                                          <EnhancedButton
-                                            containerElement="button"
+                                          <button
                                             disabled={false}
-                                            focusRippleColor="#ffffff"
-                                            focusRippleOpacity={0.16}
                                             onBlur={[Function]}
                                             onClick={[Function]}
                                             onFocus={[Function]}
                                             onKeyDown={[Function]}
                                             onKeyUp={[Function]}
-                                            onKeyboardFocus={[Function]}
                                             onMouseDown={[Function]}
                                             onMouseEnter={[Function]}
                                             onMouseLeave={[Function]}
@@ -4195,118 +4219,86 @@ exports[`Contact renders correctly 1`] = `
                                             onTouchTap={[Function]}
                                             style={
                                               Object {
+                                                "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
                                                 "backgroundColor": "#ff4081",
+                                                "border": 10,
                                                 "borderRadius": 2,
+                                                "boxSizing": "border-box",
+                                                "cursor": "pointer",
+                                                "display": "inline-block",
+                                                "fontFamily": "Roboto, sans-serif",
+                                                "fontSize": "inherit",
+                                                "fontWeight": "inherit",
                                                 "height": 36,
                                                 "lineHeight": "36px",
+                                                "margin": 0,
+                                                "muiPrepared": true,
+                                                "outline": "none",
                                                 "padding": 0,
+                                                "position": "relative",
                                                 "textAlign": "center",
+                                                "textDecoration": "none",
                                                 "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                                "verticalAlign": null,
                                                 "width": "100%",
+                                                "zIndex": 1,
                                               }
                                             }
                                             tabIndex={0}
-                                            touchRippleColor="#ffffff"
-                                            touchRippleOpacity={0.16}
                                             type="button"
                                           >
-                                            <button
-                                              disabled={false}
-                                              onBlur={[Function]}
-                                              onClick={[Function]}
-                                              onFocus={[Function]}
-                                              onKeyDown={[Function]}
-                                              onKeyUp={[Function]}
-                                              onMouseDown={[Function]}
-                                              onMouseEnter={[Function]}
-                                              onMouseLeave={[Function]}
-                                              onMouseUp={[Function]}
-                                              onTouchEnd={[Function]}
-                                              onTouchStart={[Function]}
-                                              onTouchTap={[Function]}
-                                              style={
-                                                Object {
-                                                  "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
-                                                  "backgroundColor": "#ff4081",
-                                                  "border": 10,
-                                                  "borderRadius": 2,
-                                                  "boxSizing": "border-box",
-                                                  "cursor": "pointer",
-                                                  "display": "inline-block",
-                                                  "fontFamily": "Roboto, sans-serif",
-                                                  "fontSize": "inherit",
-                                                  "fontWeight": "inherit",
-                                                  "height": 36,
-                                                  "lineHeight": "36px",
-                                                  "margin": 0,
-                                                  "muiPrepared": true,
-                                                  "outline": "none",
-                                                  "padding": 0,
-                                                  "position": "relative",
-                                                  "textAlign": "center",
-                                                  "textDecoration": "none",
-                                                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                                                  "verticalAlign": null,
-                                                  "width": "100%",
-                                                  "zIndex": 1,
-                                                }
-                                              }
-                                              tabIndex={0}
-                                              type="button"
+                                            <TouchRipple
+                                              abortOnScroll={true}
+                                              color="#ffffff"
+                                              opacity={0.16}
                                             >
-                                              <TouchRipple
-                                                abortOnScroll={true}
-                                                color="#ffffff"
-                                                opacity={0.16}
+                                              <div
+                                                onMouseDown={[Function]}
+                                                onMouseLeave={[Function]}
+                                                onMouseUp={[Function]}
+                                                onTouchEnd={[Function]}
+                                                onTouchStart={[Function]}
                                               >
                                                 <div
-                                                  onMouseDown={[Function]}
-                                                  onMouseLeave={[Function]}
-                                                  onMouseUp={[Function]}
-                                                  onTouchEnd={[Function]}
-                                                  onTouchStart={[Function]}
+                                                  style={
+                                                    Object {
+                                                      "backgroundColor": false,
+                                                      "borderRadius": 2,
+                                                      "height": 36,
+                                                      "muiPrepared": true,
+                                                      "top": 0,
+                                                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                                    }
+                                                  }
                                                 >
-                                                  <div
+                                                  <span
                                                     style={
                                                       Object {
-                                                        "backgroundColor": false,
-                                                        "borderRadius": 2,
-                                                        "height": 36,
+                                                        "color": "#ffffff",
+                                                        "fontSize": 14,
+                                                        "fontWeight": 500,
+                                                        "letterSpacing": 0,
+                                                        "margin": 0,
                                                         "muiPrepared": true,
-                                                        "top": 0,
-                                                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                                        "opacity": 1,
+                                                        "paddingLeft": 16,
+                                                        "paddingRight": 16,
+                                                        "position": "relative",
+                                                        "textTransform": "uppercase",
+                                                        "userSelect": "none",
                                                       }
                                                     }
                                                   >
-                                                    <span
-                                                      style={
-                                                        Object {
-                                                          "color": "#ffffff",
-                                                          "fontSize": 14,
-                                                          "fontWeight": 500,
-                                                          "letterSpacing": 0,
-                                                          "margin": 0,
-                                                          "muiPrepared": true,
-                                                          "opacity": 1,
-                                                          "paddingLeft": 16,
-                                                          "paddingRight": 16,
-                                                          "position": "relative",
-                                                          "textTransform": "uppercase",
-                                                          "userSelect": "none",
-                                                        }
-                                                      }
-                                                    >
-                                                      Send
-                                                    </span>
-                                                  </div>
+                                                    Send
+                                                  </span>
                                                 </div>
-                                              </TouchRipple>
-                                            </button>
-                                          </EnhancedButton>
-                                        </div>
-                                      </Paper>
-                                    </RaisedButton>
-                                  </Styled(RaisedButton)>
+                                              </div>
+                                            </TouchRipple>
+                                          </button>
+                                        </EnhancedButton>
+                                      </div>
+                                    </Paper>
+                                  </RaisedButton>
                                 </div>
                               </ColumnContainer>
                             </Styled(ColumnContainer)>
