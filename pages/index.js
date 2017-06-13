@@ -60,11 +60,8 @@ class IndexPage extends Component {
               <Scroll.Element name="Technology">
                 <Technology />
               </Scroll.Element>
+              <Contact />
             </StickyContainer>
-            <Hero />
-            <Service />
-            <Technology />
-            <Contact />
           </div>
         </ThemeProvider>
       </MuiThemeProvider>
