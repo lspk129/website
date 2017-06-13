@@ -13,6 +13,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Service from '../components/Service';
 import Technology from '../components/Technology';
+import Contact from '../components/Contact';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -22,8 +23,9 @@ if (!process.tapEventInjected) {
 const themeProvider = (isMUI = false) => {
   const theme = {
     mainColor: cyan700,
-    secondaryColor: red400,
-    backgroundColor: cyan700,
+    secondaryColor: cyan700,
+    backgroundColor: red400,
+    secondaryBackgroundColor: '#f0f0f0',
     textColor: white,
   };
   if (isMUI) return { palette: { accent1Color: theme.mainColor } };
@@ -31,6 +33,7 @@ const themeProvider = (isMUI = false) => {
     main: theme.mainColor,
     text: theme.textColor,
     background: theme.mainColor,
+    secondaryBackground: theme.secondaryBackgroundColor,
   };
 };
 
@@ -57,6 +60,7 @@ class IndexPage extends Component {
               <Scroll.Element name="Technology">
                 <Technology />
               </Scroll.Element>
+              <Contact />
             </StickyContainer>
           </div>
         </ThemeProvider>

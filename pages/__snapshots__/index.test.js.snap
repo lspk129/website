@@ -425,6 +425,7 @@ exports[`IndexPage renders correctly 1`] = `
       Object {
         "background": "#0097a7",
         "main": "#0097a7",
+        "secondaryBackground": "#f0f0f0",
         "text": "#ffffff",
       }
     }
@@ -444,6 +445,7 @@ exports[`IndexPage renders correctly 1`] = `
         >
           <Technology />
         </_>
+        <MuiComponent />
       </Container>
     </div>
   </ThemeProvider>
