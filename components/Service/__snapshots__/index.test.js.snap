@@ -2,18 +2,22 @@
 
 exports[`Service renders correctly 1`] = `
 <div
-  className="sc-bdVaJa jUOrQs"
+  className="sc-htpNat bHYCIK"
 >
-  <h2
-    className="sc-bwzfXH fSlUUc"
-  >
-    What we do
-  </h2>
   <div
-    className="sc-htpNat jdAldW"
+    className="sc-bwzfXH bwGlur"
+  >
+    <h2
+      className="sc-EHOje DpMQc"
+    >
+      What we do
+    </h2>
+  </div>
+  <div
+    className="sc-bxivhb coctll"
   >
     <div
-      className="sc-bxivhb dBlyaG"
+      className="sc-ifAKCX iHjkTX"
     >
       <svg
         className="icons"
@@ -35,15 +39,19 @@ exports[`Service renders correctly 1`] = `
           />
         </g>
       </svg>
-      <h3>
+      <h3
+        className="sc-bZQynM IUWUv"
+      >
         Web development
       </h3>
-      <p>
+      <p
+        className="sc-gzVnrw ibZhkv"
+      >
         We help you build fast, functional, performance oriented websites and web apps
       </p>
     </div>
     <div
-      className="sc-bxivhb dBlyaG"
+      className="sc-ifAKCX iHjkTX"
     >
       <svg
         className="icons"
@@ -65,10 +73,14 @@ exports[`Service renders correctly 1`] = `
           />
         </g>
       </svg>
-      <h3>
+      <h3
+        className="sc-bZQynM IUWUv"
+      >
         Web design
       </h3>
-      <p>
+      <p
+        className="sc-gzVnrw ibZhkv"
+      >
         We are creating unique and adaptive designs to engage customers
       </p>
     </div>

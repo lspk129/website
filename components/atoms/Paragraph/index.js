@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-const Paragraph = styled.p`
-  padding-left: 20px;
-`;
+const Paragraph = styled.p``;
 
 export default Paragraph;

@@ -432,24 +432,26 @@ exports[`Contact renders correctly 1`] = `
             md={6}
           >
             <Breakpoints
-              className="sc-gzVnrw edKrVV"
+              className="sc-htoDjs czTGmr"
               md={6}
             >
               <Styled(ColumnContainer)
-                className="sc-gzVnrw edKrVV"
+                className="sc-htoDjs czTGmr"
                 md={6}
               >
                 <ColumnContainer
-                  className="sc-gzVnrw edKrVV sc-htpNat Xnkqb"
+                  className="sc-htoDjs czTGmr sc-htpNat Xnkqb"
                   divisions={12}
                   md={6}
                 >
                   <div
-                    className="sc-gzVnrw edKrVV sc-htpNat Xnkqb"
+                    className="sc-htoDjs czTGmr sc-htpNat Xnkqb"
                   >
-                    <styled.h3>
+                    <styled.h3
+                      upperCase={true}
+                    >
                       <h3
-                        className="sc-ifAKCX cqbNVN"
+                        className="sc-dnqmqq kjpepz"
                       >
                         Contact us
                       </h3>
@@ -500,13 +502,13 @@ exports[`Contact renders correctly 1`] = `
                                         >
                                           <Paper
                                             circle={true}
-                                            className="sc-bZQynM xGsGA"
+                                            className="sc-gzVnrw bsTNcC"
                                             rounded={true}
                                             transitionEnabled={true}
                                             zDepth={1}
                                           >
                                             <div
-                                              className="sc-bZQynM xGsGA"
+                                              className="sc-gzVnrw bsTNcC"
                                               style={
                                                 Object {
                                                   "WebkitTapHighlightColor": "rgba(0,0,0,0)",
@@ -553,13 +555,26 @@ exports[`Contact renders correctly 1`] = `
                                             </div>
                                           </Paper>
                                         </Styled(Paper)>
-                                        <styled.p>
-                                          <p
-                                            className="sc-EHOje jlNXVO"
+                                        <Styled(Component)
+                                          left={3}
+                                        >
+                                          <Component
+                                            className="sc-EHOje grxYva"
+                                            left={3}
                                           >
-                                            info@mokahaiku.com
-                                          </p>
-                                        </styled.p>
+                                            <div
+                                              className="sc-EHOje grxYva"
+                                            >
+                                              <styled.p>
+                                                <p
+                                                  className="sc-bZQynM bOrPFB"
+                                                >
+                                                  info@mokahaiku.com
+                                                </p>
+                                              </styled.p>
+                                            </div>
+                                          </Component>
+                                        </Styled(Component)>
                                       </section>
                                     </RowContainer>
                                   </Styled(RowContainer)>
@@ -616,13 +631,13 @@ exports[`Contact renders correctly 1`] = `
                                         >
                                           <Paper
                                             circle={true}
-                                            className="sc-bZQynM xGsGA"
+                                            className="sc-gzVnrw bsTNcC"
                                             rounded={true}
                                             transitionEnabled={true}
                                             zDepth={1}
                                           >
                                             <div
-                                              className="sc-bZQynM xGsGA"
+                                              className="sc-gzVnrw bsTNcC"
                                               style={
                                                 Object {
                                                   "WebkitTapHighlightColor": "rgba(0,0,0,0)",
@@ -669,13 +684,26 @@ exports[`Contact renders correctly 1`] = `
                                             </div>
                                           </Paper>
                                         </Styled(Paper)>
-                                        <styled.p>
-                                          <p
-                                            className="sc-EHOje jlNXVO"
+                                        <Styled(Component)
+                                          left={3}
+                                        >
+                                          <Component
+                                            className="sc-EHOje grxYva"
+                                            left={3}
                                           >
-                                            @mokahaiku
-                                          </p>
-                                        </styled.p>
+                                            <div
+                                              className="sc-EHOje grxYva"
+                                            >
+                                              <styled.p>
+                                                <p
+                                                  className="sc-bZQynM bOrPFB"
+                                                >
+                                                  @mokahaiku
+                                                </p>
+                                              </styled.p>
+                                            </div>
+                                          </Component>
+                                        </Styled(Component)>
                                       </section>
                                     </RowContainer>
                                   </Styled(RowContainer)>
@@ -732,13 +760,13 @@ exports[`Contact renders correctly 1`] = `
                                         >
                                           <Paper
                                             circle={true}
-                                            className="sc-bZQynM xGsGA"
+                                            className="sc-gzVnrw bsTNcC"
                                             rounded={true}
                                             transitionEnabled={true}
                                             zDepth={1}
                                           >
                                             <div
-                                              className="sc-bZQynM xGsGA"
+                                              className="sc-gzVnrw bsTNcC"
                                               style={
                                                 Object {
                                                   "WebkitTapHighlightColor": "rgba(0,0,0,0)",
@@ -785,13 +813,26 @@ exports[`Contact renders correctly 1`] = `
                                             </div>
                                           </Paper>
                                         </Styled(Paper)>
-                                        <styled.p>
-                                          <p
-                                            className="sc-EHOje jlNXVO"
+                                        <Styled(Component)
+                                          left={3}
+                                        >
+                                          <Component
+                                            className="sc-EHOje grxYva"
+                                            left={3}
                                           >
-                                            www.mokahaiku.com
-                                          </p>
-                                        </styled.p>
+                                            <div
+                                              className="sc-EHOje grxYva"
+                                            >
+                                              <styled.p>
+                                                <p
+                                                  className="sc-bZQynM bOrPFB"
+                                                >
+                                                  www.mokahaiku.com
+                                                </p>
+                                              </styled.p>
+                                            </div>
+                                          </Component>
+                                        </Styled(Component)>
                                       </section>
                                     </RowContainer>
                                   </Styled(RowContainer)>
@@ -823,9 +864,11 @@ exports[`Contact renders correctly 1`] = `
                 <div
                   className="sc-htpNat Xnkqb"
                 >
-                  <styled.h3>
+                  <styled.h3
+                    upperCase={true}
+                  >
                     <h3
-                      className="sc-ifAKCX cqbNVN"
+                      className="sc-dnqmqq kjpepz"
                     >
                       Get a free consultation
                     </h3>
@@ -884,7 +927,7 @@ exports[`Contact renders correctly 1`] = `
                                     >
                                       <TextFieldLabel
                                         disabled={false}
-                                        htmlFor="undefined-undefined-Name-65527"
+                                        htmlFor="undefined-undefined-Name-58472"
                                         muiTheme={
                                           Object {
                                             "appBar": Object {
@@ -1310,7 +1353,7 @@ exports[`Contact renders correctly 1`] = `
                                         }
                                       >
                                         <label
-                                          htmlFor="undefined-undefined-Name-65527"
+                                          htmlFor="undefined-undefined-Name-58472"
                                           style={
                                             Object {
                                               "color": "rgba(0, 0, 0, 0.3)",
@@ -1332,7 +1375,7 @@ exports[`Contact renders correctly 1`] = `
                                       </TextFieldLabel>
                                       <input
                                         disabled={false}
-                                        id="undefined-undefined-Name-65527"
+                                        id="undefined-undefined-Name-58472"
                                         onBlur={[Function]}
                                         onChange={[Function]}
                                         onFocus={[Function]}
@@ -1874,7 +1917,7 @@ exports[`Contact renders correctly 1`] = `
                                     >
                                       <TextFieldLabel
                                         disabled={false}
-                                        htmlFor="undefined-undefined-Youremail-57047"
+                                        htmlFor="undefined-undefined-Youremail-43732"
                                         muiTheme={
                                           Object {
                                             "appBar": Object {
@@ -2300,7 +2343,7 @@ exports[`Contact renders correctly 1`] = `
                                         }
                                       >
                                         <label
-                                          htmlFor="undefined-undefined-Youremail-57047"
+                                          htmlFor="undefined-undefined-Youremail-43732"
                                           style={
                                             Object {
                                               "color": "rgba(0, 0, 0, 0.3)",
@@ -2322,7 +2365,7 @@ exports[`Contact renders correctly 1`] = `
                                       </TextFieldLabel>
                                       <input
                                         disabled={false}
-                                        id="undefined-undefined-Youremail-57047"
+                                        id="undefined-undefined-Youremail-43732"
                                         onBlur={[Function]}
                                         onChange={[Function]}
                                         onFocus={[Function]}
@@ -2870,7 +2913,7 @@ exports[`Contact renders correctly 1`] = `
                                       >
                                         <TextFieldLabel
                                           disabled={false}
-                                          htmlFor="undefined-undefined-Chooseasubject-21697"
+                                          htmlFor="undefined-undefined-Chooseasubject-55399"
                                           muiTheme={
                                             Object {
                                               "appBar": Object {
@@ -3296,7 +3339,7 @@ exports[`Contact renders correctly 1`] = `
                                           }
                                         >
                                           <label
-                                            htmlFor="undefined-undefined-Chooseasubject-21697"
+                                            htmlFor="undefined-undefined-Chooseasubject-55399"
                                             style={
                                               Object {
                                                 "color": "rgba(0, 0, 0, 0.3)",
@@ -3333,7 +3376,7 @@ exports[`Contact renders correctly 1`] = `
                                               "top": 8,
                                             }
                                           }
-                                          id="undefined-undefined-Chooseasubject-21697"
+                                          id="undefined-undefined-Chooseasubject-55399"
                                           labelStyle={
                                             Object {
                                               "paddingLeft": 0,
@@ -3372,7 +3415,7 @@ exports[`Contact renders correctly 1`] = `
                                           value=""
                                         >
                                           <div
-                                            id="undefined-undefined-Chooseasubject-21697"
+                                            id="undefined-undefined-Chooseasubject-55399"
                                             onBlur={[Function]}
                                             onChange={[Function]}
                                             onFocus={[Function]}

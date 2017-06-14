@@ -5,8 +5,8 @@ const HomeImage = styled.div`
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  font-family: Roboto;
   display: grid;
+  text-align: center;
 `;
 
 export default HomeImage;

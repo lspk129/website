@@ -2,15 +2,23 @@
 
 exports[`Hero renders correctly 1`] = `
 <styled.div>
-  <styled.div>
+  <Styled(Component)
+    all={5}
+  >
     <styled.h1>
       Moka Haiku:
       <br />
       web app agency
     </styled.h1>
-    <styled.h2>
-      Creating fast & interactive web applications with React and Meteor
-    </styled.h2>
+    <Styled(Component)
+      bottom={4}
+    >
+      <styled.h2
+        white={true}
+      >
+        Creating fast & interactive web applications with React and Meteor
+      </styled.h2>
+    </Styled(Component)>
     <RaisedButton
       disabled={false}
       fullWidth={false}
@@ -19,6 +27,6 @@ exports[`Hero renders correctly 1`] = `
       primary={false}
       secondary={true}
     />
-  </styled.div>
+  </Styled(Component)>
 </styled.div>
 `;

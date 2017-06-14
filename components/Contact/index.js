@@ -4,11 +4,12 @@ import { Row, Column } from 'hedron';
 import muiThemeable from 'material-ui/styles/muiThemeable';
 import { TextField, SelectField, MenuItem, RaisedButton } from 'material-ui';
 import { FaEnvelope, FaTwitter, FaGlobe } from 'react-icons/lib/fa';
+import { Padding } from 'styled-components-spacing';
 
-import ContactTitle from './ContactTitle';
-import Paragraph from './Components/Paragraph';
-import PaperIcons from './Components/PaperIcons';
+import Paragraph from '../atoms/Paragraph';
+import PaperIcons from '../atoms/PaperIcons';
 import StyledColumn from './StyledColumn';
+import Heading from '../atoms/Heading';
 
 class Contact extends Component {
   state = {
@@ -21,9 +22,9 @@ class Contact extends Component {
     return (
       <Row>
         <StyledColumn md={6}>
-          <ContactTitle>
+          <Heading upperCase>
             Contact us
-          </ContactTitle>
+          </Heading>
 
 
           <Row justifyContent={'center'}>
@@ -32,7 +33,9 @@ class Contact extends Component {
                 <PaperIcons circle>
                   <FaEnvelope color={this.props.muiTheme.palette.accent1Color} />
                 </PaperIcons>
-                <Paragraph>info@mokahaiku.com</Paragraph>
+                <Padding left={3}>
+                  <Paragraph>info@mokahaiku.com</Paragraph>
+                </Padding>
               </Row>
             </Column>
           </Row>
@@ -43,7 +46,9 @@ class Contact extends Component {
                 <PaperIcons circle >
                   <FaTwitter color={this.props.muiTheme.palette.accent1Color} />
                 </PaperIcons>
-                <Paragraph>@mokahaiku</Paragraph>
+                <Padding left={3}>
+                  <Paragraph>@mokahaiku</Paragraph>
+                </Padding>
               </Row>
             </Column>
           </Row>
@@ -54,7 +59,9 @@ class Contact extends Component {
                 <PaperIcons circle>
                   <FaGlobe color={this.props.muiTheme.palette.accent1Color} />
                 </PaperIcons>
-                <Paragraph>www.mokahaiku.com</Paragraph>
+                <Padding left={3}>
+                  <Paragraph>www.mokahaiku.com</Paragraph>
+                </Padding>
               </Row>
             </Column>
           </Row>
@@ -62,9 +69,9 @@ class Contact extends Component {
         </StyledColumn>
 
         <Column md={6}>
-          <ContactTitle>
+          <Heading upperCase>
             Get a free consultation
-          </ContactTitle>
+          </Heading>
           <form>
             <Row>
               <Column md={6}>

@@ -2,19 +2,19 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 
-import ContactTitle from './';
+import Subtitle from './';
 
-describe('ContactTitle', () => {
-  const shallowWrapper = shallow(<ContactTitle />);
+describe('Subtitle', () => {
+  const shallowWrapper = shallow(<Subtitle />);
 
   it('renders correctly', () => {
-    const wrapper = renderer.create(<ContactTitle />);
+    const wrapper = renderer.create(<Subtitle />);
     const tree = wrapper.toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('renders h3 element', () => {
+  it('renders h2 tag', () => {
     expect(shallowWrapper).toBePresent();
-    expect(shallowWrapper).toHaveTagName('h3');
+    expect(shallowWrapper).toHaveTagName('h2');
   });
 });

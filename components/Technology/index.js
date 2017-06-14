@@ -1,26 +1,30 @@
 import React from 'react';
+import { Padding } from 'styled-components-spacing';
 
-import TechnologyHeader from './TechnologyHeader';
+import Subtitle from '../atoms/Subtitle';
+import Heading from '../atoms/Heading';
 import TechnologyContainer from './TechnologyContainer';
 import TechnologyItem from './TechnologyItem';
 
 const Technology = () => (
   <div>
-    <TechnologyHeader>
+    <Padding all={5} >
+      <Subtitle>
       We use cutting-edge technologies
-    </TechnologyHeader>
+    </Subtitle>
+    </Padding>
     <TechnologyContainer>
       <TechnologyItem>
         <img src="/static/React_logo.png" alt="React" />
-        <h3>React</h3>
+        <Heading>React</Heading>
       </TechnologyItem>
       <TechnologyItem>
         <img src="/static/Meteor_logo.png" alt="Meteor" />
-        <h3>Meteor</h3>
+        <Heading>Meteor</Heading>
       </TechnologyItem>
       <TechnologyItem>
         <img src="/static/Nextjs_logo.png" alt="Next" />
-        <h3>Next.js</h3>
+        <Heading>Next.js</Heading>
       </TechnologyItem>
     </TechnologyContainer>
   </div>
