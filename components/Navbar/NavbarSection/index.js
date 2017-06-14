@@ -6,7 +6,7 @@ const NavbarSection = styled.nav`
   display: grid;
   grid-template-rows: 1fr;
   justify-content: center;
-  z-index: 1;
+  z-index: 2;
 `;
 
 export default NavbarSection;

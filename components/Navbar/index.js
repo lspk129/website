@@ -17,18 +17,18 @@ const Navbar = props => (
           <NavbarItem onClick={() => Scroll.animateScroll.scrollToTop()}>
               HOME
           </NavbarItem>
-          <Scroll.Link to="Service" spy smooth duration={500}>
+          <Scroll.Link to={'Service'} spy smooth duration={500}>
             <NavbarItem>
               SERVICES
             </NavbarItem>
           </Scroll.Link>
-          <Scroll.Link to="Technology" spy smooth duration={500}>
+          <Scroll.Link to={'Technology'} spy smooth duration={500}>
             <NavbarItem>
               TECHNOLOGIES
             </NavbarItem>
           </Scroll.Link>
           <RaisedButton
-            label="Contact us"
+            label={'Contact us'}
             labelColor={props.muiTheme.palette.accent1Color}
             labelStyle={{ fontSize: '15px' }}
             onClick={() => Scroll.animateScroll.scrollToBottom()}

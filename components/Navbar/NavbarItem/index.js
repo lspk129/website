@@ -7,9 +7,8 @@ const NavbarItem = styled.div`
   text-decoration: none;
   font-size: 16px;
   cursor: pointer;
-  display: inline-block;
   &:after {
-    display: block;
+    display: grid;
     content: '';
     border-bottom: solid 2px ${props => props.theme.text};  
     transform: scaleX(0);  

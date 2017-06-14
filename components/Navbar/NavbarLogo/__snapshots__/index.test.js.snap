@@ -2,7 +2,7 @@
 
 exports[`NavbarLogoWrapper renders correctly 1`] = `
 <nav
-  className="sc-bdVaJa kcDfjc"
+  className="sc-bdVaJa kFxInC"
 >
   <img
     alt="Moka Haiku web development agency"

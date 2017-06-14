@@ -440,18 +440,18 @@ exports[`Navbar renders correctly 1`] = `
               style={Object {}}
             >
               <nav
-                className="sc-bdVaJa kcDfjc"
+                className="sc-bdVaJa kFxInC"
                 style={Object {}}
               >
                 <styled.div>
                   <div
-                    className="sc-bwzfXH cGbWui"
+                    className="sc-bwzfXH eOYhVv"
                   >
                     <styled.div
                       onClick={[Function]}
                     >
                       <div
-                        className="sc-htpNat kaeKcn"
+                        className="sc-htpNat kSCvQP"
                         onClick={[Function]}
                       >
                         HOME
@@ -472,7 +472,7 @@ exports[`Navbar renders correctly 1`] = `
                         >
                           <styled.div>
                             <div
-                              className="sc-htpNat kaeKcn"
+                              className="sc-htpNat kSCvQP"
                             >
                               SERVICES
                             </div>
@@ -495,7 +495,7 @@ exports[`Navbar renders correctly 1`] = `
                         >
                           <styled.div>
                             <div
-                              className="sc-htpNat kaeKcn"
+                              className="sc-htpNat kSCvQP"
                             >
                               TECHNOLOGIES
                             </div>
