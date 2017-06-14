@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 import renderer from 'react-test-renderer';
+import { MdDesktopMac, MdColorLens } from 'react-icons/lib/md';
 
 import Service from './';
 import ServiceHeader from './ServiceHeader';
@@ -35,9 +36,8 @@ describe('Service', () => {
     expect(shallowWrapper.find(ServiceItem)).toBePresent();
   });
 
-  it('renders image of service', () => {
-    expect(shallowWrapper.find('i').at(0)).toHaveClassName('material-icons');
-    expect(shallowWrapper.find('i').at(0)).toHaveText('desktop_mac');
+  it('renders MdDesktopMac component with desktop icon', () => {
+    expect(shallowWrapper.find(MdDesktopMac)).toBePresent();
   });
 
   it('renders h3 element with content "Web development"', () => {
@@ -50,9 +50,8 @@ describe('Service', () => {
     );
   });
 
-  it('renders image of service', () => {
-    expect(shallowWrapper.find('i').at(1)).toHaveClassName('material-icons');
-    expect(shallowWrapper.find('i').at(1)).toHaveText('color_lens');
+  it('renders MdColorLens component with color lens icon', () => {
+    expect(shallowWrapper.find(MdColorLens)).toBePresent();
   });
 
   it('renders h3 element with content "Web design"', () => {

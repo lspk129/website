@@ -5,13 +5,12 @@ const ServiceItem = styled.div`
   &:hover {
     background: ${props => props.theme.background};
     color: ${props => props.theme.text};
-    .material-icons {
+    .icons {
       color: ${props => props.theme.text};
     }
   };
-  .material-icons {
+  .icons {
     transition: all 0.5s ease-in-out;
-    font-size: 48px;
     padding: 20px ;
     color: ${props => props.theme.background};
   }

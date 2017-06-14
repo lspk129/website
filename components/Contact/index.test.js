@@ -4,9 +4,8 @@ import { mount } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-import TextField from 'material-ui/TextField';
-import SelectField from 'material-ui/SelectField';
-import RaisedButton from 'material-ui/RaisedButton';
+import { TextField, SelectField, RaisedButton } from 'material-ui/';
+import { FaEnvelope, FaTwitter, FaGlobe } from 'react-icons/lib/fa';
 
 import Contact from './';
 import ContactTitle from './ContactTitle';
@@ -60,18 +59,18 @@ describe('Contact', () => {
     expect(mountWrapper.find(StyledColumn)).toBePresent();
   });
 
-  it('renders PaperIcons component with envelope icon and text "info@mokahaiku.com"', () => {
-    expect(mountWrapper.find(PaperIcons).at(0).find('i')).toHaveClassName('fa-envelope');
+  it('renders FaEnvelope component with envelope icon and text "info@mokahaiku.com"', () => {
+    expect(mountWrapper.find(PaperIcons).at(0).find(FaEnvelope)).toBePresent();
     expect(mountWrapper.find(Paragraph).at(0)).toHaveText('info@mokahaiku.com');
   });
 
-  it('renders PaperIcons component with Twitter icon and text "@mokahaiku"', () => {
-    expect(mountWrapper.find(PaperIcons).at(1).find('i')).toHaveClassName('fa fa-twitter');
+  it('renders FaTwitter component with Twitter icon and text "@mokahaiku"', () => {
+    expect(mountWrapper.find(PaperIcons).at(1).find(FaTwitter)).toBePresent();
     expect(mountWrapper.find(Paragraph).at(1)).toHaveText('@mokahaiku');
   });
 
-  it('renders PaperIcons component with globe icon and text "www.mokahaiku.com"', () => {
-    expect(mountWrapper.find(PaperIcons).at(2).find('i')).toHaveClassName('fa-globe');
+  it('renders FaGlobe component with globe icon and text "www.mokahaiku.com"', () => {
+    expect(mountWrapper.find(PaperIcons).at(2).find(FaGlobe)).toBePresent();
     expect(mountWrapper.find(Paragraph).at(2)).toHaveText('www.mokahaiku.com');
   });
 });

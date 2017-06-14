@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdDesktopMac, MdColorLens } from 'react-icons/lib/md';
 
 import ServiceImage from './ServiceImage';
 import ServiceHeader from './ServiceHeader';
@@ -12,12 +13,12 @@ const Service = () => (
     </ServiceHeader>
     <ServiceContainer>
       <ServiceItem>
-        <i className="material-icons">desktop_mac</i>
+        <MdDesktopMac className={'icons'} size={48} />
         <h3>Web development</h3>
         <p>We help you build fast, functional, performance oriented websites and web apps</p>
       </ServiceItem>
       <ServiceItem>
-        <i className="material-icons">color_lens</i>
+        <MdColorLens className={'icons'} size={48} />
         <h3>Web design</h3>
         <p>We are creating unique and adaptive designs to engage customers</p>
       </ServiceItem>

@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import TextField from 'material-ui/TextField';
-import SelectField from 'material-ui/SelectField';
-import MenuItem from 'material-ui/MenuItem';
-import muiThemeable from 'material-ui/styles/muiThemeable';
+import PropTypes from 'prop-types';
 import { Row, Column } from 'hedron';
-import RaisedButton from 'material-ui/RaisedButton';
+import muiThemeable from 'material-ui/styles/muiThemeable';
+import { TextField, SelectField, MenuItem, RaisedButton } from 'material-ui';
+import { FaEnvelope, FaTwitter, FaGlobe } from 'react-icons/lib/fa';
 
 import ContactTitle from './ContactTitle';
 import Paragraph from './Components/Paragraph';
 import PaperIcons from './Components/PaperIcons';
-import FontAwesomeIcon from './Components/FontAwesomeIcon';
 import StyledColumn from './StyledColumn';
 
 class Contact extends Component {
@@ -32,7 +30,7 @@ class Contact extends Component {
             <Column lg={7} md={9} sm={8}>
               <Row >
                 <PaperIcons circle>
-                  <FontAwesomeIcon className="fa fa-envelope" />
+                  <FaEnvelope color={this.props.muiTheme.palette.accent1Color} />
                 </PaperIcons>
                 <Paragraph>info@mokahaiku.com</Paragraph>
               </Row>
@@ -43,7 +41,7 @@ class Contact extends Component {
             <Column lg={7} md={9} sm={8}>
               <Row >
                 <PaperIcons circle >
-                  <FontAwesomeIcon className="fa fa-twitter" />
+                  <FaTwitter color={this.props.muiTheme.palette.accent1Color} />
                 </PaperIcons>
                 <Paragraph>@mokahaiku</Paragraph>
               </Row>
@@ -54,7 +52,7 @@ class Contact extends Component {
             <Column lg={7} md={9} sm={8}>
               <Row >
                 <PaperIcons circle>
-                  <FontAwesomeIcon className="fa fa-globe" />
+                  <FaGlobe color={this.props.muiTheme.palette.accent1Color} />
                 </PaperIcons>
                 <Paragraph>www.mokahaiku.com</Paragraph>
               </Row>
@@ -105,5 +103,13 @@ class Contact extends Component {
     );
   }
 }
+
+Contact.propTypes = {
+  muiTheme: PropTypes.shape({
+    palette: PropTypes.shape({
+      accent1Color: PropTypes.string.isRequired,
+    }).isRequired,
+  }).isRequired,
+};
 
 export default muiThemeable()(Contact);
