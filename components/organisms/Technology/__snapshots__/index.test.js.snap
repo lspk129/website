@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Technology  renders correctly 1`] = `
+<div>
+  <div
+    className="sc-bwzfXH bwGlur"
+  >
+    <h2
+      className="sc-htpNat cfKHUg"
+    >
+      We use cutting-edge technologies
+    </h2>
+  </div>
+  <div
+    className="sc-ifAKCX hWWEBg"
+  >
+    <div
+      className="sc-EHOje bnuKnq"
+    >
+      <img
+        alt="React"
+        src="/static/React_logo.png"
+      />
+      <h3
+        className="sc-bxivhb cmloyM"
+      >
+        React
+      </h3>
+    </div>
+    <div
+      className="sc-EHOje bnuKnq"
+    >
+      <img
+        alt="Meteor"
+        src="/static/Meteor_logo.png"
+      />
+      <h3
+        className="sc-bxivhb cmloyM"
+      >
+        Meteor
+      </h3>
+    </div>
+    <div
+      className="sc-EHOje bnuKnq"
+    >
+      <img
+        alt="Next"
+        src="/static/Nextjs_logo.png"
+      />
+      <h3
+        className="sc-bxivhb cmloyM"
+      >
+        Next.js
+      </h3>
+    </div>
+  </div>
+</div>
+`;

@@ -21,6 +21,7 @@
     "react-icons": "^2.2.5",
     "react-scroll": "^1.5.2",
     "react-sticky": "^6.0.1",
+    "react-styled-flexboxgrid": "^2.0.1",
     "react-tap-event-plugin": "^2.0.1",
     "styled-components": "2.0.0-17",
     "styled-components-spacing": "^2.1.3"

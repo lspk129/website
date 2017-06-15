@@ -2,7 +2,7 @@ import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
-import BodyContainer from '../components/Body/index';
+import BodyContainer from '../components/atoms/Body';
 
 export default class MyDocument extends Document {
   render() {

@@ -8,12 +8,12 @@ import { ThemeProvider } from 'styled-components';
 import Scroll from 'react-scroll';
 import { StickyContainer } from 'react-sticky';
 
-import NavbarLogo from '../components/Navbar/NavbarLogo/index';
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import Service from '../components/Service';
-import Technology from '../components/Technology';
-import Contact from '../components/Contact';
+import NavbarLogo from '../components/organisms/Navbar/NavbarLogo/index';
+import Navbar from '../components/organisms/Navbar';
+import Hero from '../components/organisms/Hero';
+import Service from '../components/organisms/Service';
+import Technology from '../components/organisms/Technology';
+import Contact from '../components/organisms/Contact';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -34,6 +34,7 @@ const themeProvider = (isMUI = false) => {
     text: theme.textColor,
     background: theme.mainColor,
     secondaryBackground: theme.secondaryBackgroundColor,
+    flexboxgrid: { gutterWidth: 0 },
   };
 };
 

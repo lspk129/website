@@ -3445,6 +3445,10 @@ lodash.isequal@^3.0:
     lodash._baseisequal "^3.0.0"
     lodash._bindcallback "^3.0.0"
 
+lodash.isinteger@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz#619c0af3d03f8b04c31f5882840b77b11cd68343"
+
 lodash.isnil@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/lodash.isnil/-/lodash.isnil-4.0.0.tgz#49e28cd559013458c814c5479d3c663a21bfaa6c"
@@ -4358,6 +4362,12 @@ react-sticky@^6.0.1:
   dependencies:
     prop-types "^15.5.8"
     raf "^3.3.0"
+
+react-styled-flexboxgrid@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-styled-flexboxgrid/-/react-styled-flexboxgrid-2.0.1.tgz#be5e188c6c1db8ae619806ecf18a2901541c0ee7"
+  dependencies:
+    lodash.isinteger "^4.0.4"
 
 react-tap-event-plugin@^2.0.1:
   version "2.0.1"

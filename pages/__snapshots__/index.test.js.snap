@@ -424,6 +424,9 @@ exports[`IndexPage renders correctly 1`] = `
     theme={
       Object {
         "background": "#0097a7",
+        "flexboxgrid": Object {
+          "gutterWidth": 0,
+        },
         "main": "#0097a7",
         "secondaryBackground": "#f0f0f0",
         "text": "#ffffff",
