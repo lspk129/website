@@ -1,57 +1,97 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Technology  renders correctly 1`] = `
-<div>
-  <div
-    className="sc-bwzfXH bwGlur"
+<div
+  className="sc-bdVaJa ePJfYc"
+>
+  <h2
+    className="sc-bxivhb kixuJS"
   >
-    <h2
-      className="sc-htpNat cfKHUg"
-    >
-      We use cutting-edge technologies
-    </h2>
-  </div>
+    We use cutting-edge technologies
+  </h2>
   <div
-    className="sc-ifAKCX hWWEBg"
+    className="Row__Row-kNtYPA jaQNpG"
   >
     <div
-      className="sc-EHOje bnuKnq"
+      className="Col__Col-hCQanm fyLqBb"
     >
-      <img
-        alt="React"
-        src="/static/React_logo.png"
-      />
-      <h3
-        className="sc-bxivhb cmloyM"
+      <div
+        className="sc-ifAKCX haIUXD"
+        scale={true}
       >
-        React
-      </h3>
+        <div
+          className="sc-bdVaJa iGScBl"
+        >
+          <img
+            alt="React"
+            src="/static/React_logo.png"
+          />
+          <h3
+            className="sc-bwzfXH gCrSZp"
+          >
+            React
+          </h3>
+          <p
+            className="sc-htpNat KtFsv"
+          >
+            
+          </p>
+        </div>
+      </div>
     </div>
     <div
-      className="sc-EHOje bnuKnq"
+      className="Col__Col-hCQanm fyLqBb"
     >
-      <img
-        alt="Meteor"
-        src="/static/Meteor_logo.png"
-      />
-      <h3
-        className="sc-bxivhb cmloyM"
+      <div
+        className="sc-ifAKCX haIUXD"
+        scale={true}
       >
-        Meteor
-      </h3>
+        <div
+          className="sc-bdVaJa iGScBl"
+        >
+          <img
+            alt="Meteor"
+            src="/static/Meteor_logo.png"
+          />
+          <h3
+            className="sc-bwzfXH gCrSZp"
+          >
+            Meteor
+          </h3>
+          <p
+            className="sc-htpNat KtFsv"
+          >
+            
+          </p>
+        </div>
+      </div>
     </div>
     <div
-      className="sc-EHOje bnuKnq"
+      className="Col__Col-hCQanm fyLqBb"
     >
-      <img
-        alt="Next"
-        src="/static/Nextjs_logo.png"
-      />
-      <h3
-        className="sc-bxivhb cmloyM"
+      <div
+        className="sc-ifAKCX haIUXD"
+        scale={true}
       >
-        Next.js
-      </h3>
+        <div
+          className="sc-bdVaJa iGScBl"
+        >
+          <img
+            alt="Next.js"
+            src="/static/Nextjs_logo.png"
+          />
+          <h3
+            className="sc-bwzfXH gCrSZp"
+          >
+            Next.js
+          </h3>
+          <p
+            className="sc-htpNat KtFsv"
+          >
+            
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </div>

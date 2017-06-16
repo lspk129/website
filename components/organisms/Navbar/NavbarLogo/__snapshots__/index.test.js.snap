@@ -7,7 +7,7 @@ exports[`NavbarLogoWrapper renders correctly 1`] = `
   <img
     alt="Moka Haiku web development agency"
     className="sc-bwzfXH dDBWcs"
-    src="/static/logo_main.png"
+    src="/static/MokaHaiku_main.png"
   />
 </nav>
 `;

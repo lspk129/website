@@ -24,6 +24,6 @@ describe('NavbarLogoWrapper', () => {
   });
 
   it('renders Moka Haiku image', () => {
-    expect(shallowWrapper.find('img')).toHaveProp('src', '/static/logo_main.png');
+    expect(shallowWrapper.find('img')).toHaveProp('src', '/static/MokaHaiku_main.png');
   });
 });

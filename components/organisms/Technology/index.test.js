@@ -3,10 +3,10 @@ import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
 
 import Technology from './';
+import Card from '../../molecules/Card';
 import Subtitle from '../../atoms/Subtitle';
-import Heading from '../../atoms/Heading';
-import TechnologyContainer from './TechnologyContainer';
-import TechnologyItem from './TechnologyItem';
+import Division from '../../atoms/Division';
+import DivisionHover from '../../atoms/DivisionHover';
 
 describe('Technology ', () => {
   const mountWrapper = mount(<Technology />);
@@ -22,39 +22,40 @@ describe('Technology ', () => {
     expect(mountWrapper.find(Subtitle)).toBePresent();
   });
 
-  it('renders text "We use cutting-edge technologies"', () => {
+  it('renders Subtitle component with content "We use cutting-edge technologies"', () => {
     expect(mountWrapper.find(Subtitle)).toHaveText('We use cutting-edge technologies');
   });
 
-  it('renders TechnologyContainer', () => {
-    expect(mountWrapper.find(TechnologyContainer)).toBePresent();
+  it('renders DivisionHover component', () => {
+    expect(mountWrapper.find(DivisionHover)).toBePresent();
   });
 
-  it('renders TechnologyItem', () => {
-    expect(mountWrapper.find(TechnologyItem)).toBePresent();
+  it('renders Division component', () => {
+    expect(mountWrapper.find(Division)).toBePresent();
+  });
+
+  it('renders Card component with label "React"', () => {
+    expect(mountWrapper.find(Card).at(0)).toHaveProp('label', 'React');
+  });
+
+  it('renders Card component with label "Meteor"', () => {
+    expect(mountWrapper.find(Card).at(1)).toHaveProp('label', 'Meteor');
+  });
+
+  it('renders Card component with label "Next.js"', () => {
+    expect(mountWrapper.find(Card).at(2)).toHaveProp('label', 'Next.js');
   });
 
   it('renders img tag to the technologies section', () => {
     expect(mountWrapper.find('img').at(0)).toHaveProp('src', '/static/React_logo.png');
   });
 
-  it('renders Heading component with content "React"', () => {
-    expect(mountWrapper.find(Heading).at(0)).toHaveText('React');
-  });
-
   it('renders img tag to the technologies section', () => {
     expect(mountWrapper.find('img').at(1)).toHaveProp('src', '/static/Meteor_logo.png');
   });
 
-  it('renders Heading component with content "Meteor"', () => {
-    expect(mountWrapper.find(Heading).at(1)).toHaveText('Meteor');
-  });
 
   it('renders img tag to the technologies section', () => {
     expect(mountWrapper.find('img').at(2)).toHaveProp('src', '/static/Nextjs_logo.png');
-  });
-
-  it('renders Heading component with content "Next.js"', () => {
-    expect(mountWrapper.find(Heading).at(2)).toHaveText('Next.js');
   });
 });

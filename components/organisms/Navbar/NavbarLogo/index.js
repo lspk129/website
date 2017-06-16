@@ -5,7 +5,7 @@ import Image from './Image';
 
 const NavbarLogo = () => (
   <NavbarSection>
-    <Image src="/static/logo_main.png" alt="Moka Haiku web development agency" />
+    <Image src="/static/MokaHaiku_main.png" alt="Moka Haiku web development agency" />
   </NavbarSection>
 );
 

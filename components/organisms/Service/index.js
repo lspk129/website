@@ -9,12 +9,12 @@ import DivisionHover from '../../atoms/DivisionHover';
 
 const Service = () => (
   <Division bg src={'../../../static/Service_image.jpg'} pb={3}>
-    <Division my={3}>
+    <Division py={3}>
       <Subtitle>What we do</Subtitle>
     </Division>
     <Row center={'xs'}>
       <Col md={3} sm={4} xs={12}>
-        <DivisionHover>
+        <DivisionHover bgcolor height={260}>
           <Card
             image={<MdDesktopMac className={'icons'} size={48} />}
             label={'Web development'}
@@ -23,7 +23,7 @@ const Service = () => (
         </DivisionHover>
       </Col>
       <Col md={3} sm={4} xs={12}>
-        <DivisionHover>
+        <DivisionHover bgcolor height={260}>
           <Card
             image={<MdColorLens className={'icons'} size={48} />}
             label={'Web design'}

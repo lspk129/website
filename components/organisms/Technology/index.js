@@ -1,33 +1,45 @@
 import React from 'react';
-import { Padding } from 'styled-components-spacing';
+import { Row, Col } from 'react-styled-flexboxgrid';
 
+import Card from '../../molecules/Card';
 import Subtitle from '../../atoms/Subtitle';
-import Heading from '../../atoms/Heading';
-import TechnologyContainer from './TechnologyContainer';
-import TechnologyItem from './TechnologyItem';
+import Division from '../../atoms/Division';
+import DivisionHover from '../../atoms/DivisionHover';
 
 const Technology = () => (
-  <div>
-    <Padding all={5} >
+  <Division pb={3}>
+    <Division py={3}>
       <Subtitle>
-      We use cutting-edge technologies
-    </Subtitle>
-    </Padding>
-    <TechnologyContainer>
-      <TechnologyItem>
-        <img src="/static/React_logo.png" alt="React" />
-        <Heading>React</Heading>
-      </TechnologyItem>
-      <TechnologyItem>
-        <img src="/static/Meteor_logo.png" alt="Meteor" />
-        <Heading>Meteor</Heading>
-      </TechnologyItem>
-      <TechnologyItem>
-        <img src="/static/Nextjs_logo.png" alt="Next" />
-        <Heading>Next.js</Heading>
-      </TechnologyItem>
-    </TechnologyContainer>
-  </div>
+        We use cutting-edge technologies
+      </Subtitle>
+    </Division>
+    <Row center={'xs'}>
+      <Col md={3} sm={4} xs={12}>
+        <DivisionHover scale>
+          <Card
+            image={<img src="/static/React_logo.png" alt="React" />}
+            label={'React'}
+          />
+        </DivisionHover>
+      </Col>
+      <Col md={3} sm={4} xs={12}>
+        <DivisionHover scale>
+          <Card
+            image={<img src="/static/Meteor_logo.png" alt="Meteor" />}
+            label={'Meteor'}
+          />
+        </DivisionHover>
+      </Col>
+      <Col md={3} sm={4} xs={12}>
+        <DivisionHover scale>
+          <Card
+            image={<img src="/static/Nextjs_logo.png" alt="Next.js" />}
+            label={'Next.js'}
+          />
+        </DivisionHover>
+      </Col>
+    </Row>
+  </Division>
 );
 
 export default Technology;

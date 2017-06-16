@@ -21,7 +21,8 @@ exports[`Service renders correctly 1`] = `
       className="Col__Col-hCQanm fyLqBb"
     >
       <div
-        className="sc-ifAKCX gSYKAI"
+        className="sc-ifAKCX bpFcba"
+        height={260}
       >
         <div
           className="sc-bdVaJa iGScBl"
@@ -63,7 +64,8 @@ exports[`Service renders correctly 1`] = `
       className="Col__Col-hCQanm fyLqBb"
     >
       <div
-        className="sc-ifAKCX gSYKAI"
+        className="sc-ifAKCX bpFcba"
+        height={260}
       >
         <div
           className="sc-bdVaJa iGScBl"
