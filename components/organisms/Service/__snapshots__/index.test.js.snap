@@ -6,7 +6,7 @@ exports[`Service renders correctly 1`] = `
   src="../../../static/Service_image.jpg"
 >
   <div
-    className="sc-bdVaJa jPFSDz"
+    className="sc-bdVaJa jlgDbv"
   >
     <h2
       className="sc-bxivhb kixuJS"
@@ -53,7 +53,7 @@ exports[`Service renders correctly 1`] = `
             Web development
           </h3>
           <p
-            className="sc-htpNat KtFsv"
+            className="sc-htpNat iLNOgD"
           >
             We help you build fast, functional, performance oriented websites and web apps
           </p>
@@ -96,7 +96,7 @@ exports[`Service renders correctly 1`] = `
             Web design
           </h3>
           <p
-            className="sc-htpNat KtFsv"
+            className="sc-htpNat iLNOgD"
           >
             We are creating unique and adaptive designs to engage customers
           </p>

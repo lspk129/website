@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-import { red400, cyan700, white } from 'material-ui/styles/colors';
+import { red400, cyan700, white, grey200 } from 'material-ui/styles/colors';
 import { ThemeProvider } from 'styled-components';
 import Scroll from 'react-scroll';
 import { StickyContainer } from 'react-sticky';
@@ -23,18 +23,26 @@ if (!process.tapEventInjected) {
 const themeProvider = (isMUI = false) => {
   const theme = {
     mainColor: cyan700,
-    secondaryColor: cyan700,
-    backgroundColor: red400,
-    secondaryBackgroundColor: '#f0f0f0',
+    secondaryColor: red400,
+    backgroundColor: grey200,
     textColor: white,
   };
-  if (isMUI) return { palette: { accent1Color: theme.mainColor } };
+  if (isMUI) {
+    return {
+      palette: {
+        accent1Color: theme.mainColor,
+        backgroundColor: theme.backgroundColor,
+      },
+    };
+  }
   return {
     main: theme.mainColor,
     text: theme.textColor,
     background: theme.mainColor,
-    secondaryBackground: theme.secondaryBackgroundColor,
-    flexboxgrid: { gutterWidth: 0 },
+    secondaryBackground: theme.backgroundColor,
+    flexboxgrid: {
+      gutterWidth: 0,
+    },
   };
 };
 

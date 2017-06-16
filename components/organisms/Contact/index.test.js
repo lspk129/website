@@ -9,9 +9,9 @@ import { FaEnvelope, FaTwitter, FaGlobe } from 'react-icons/lib/fa';
 
 import Contact from './';
 import Heading from '../../atoms/Heading';
-import Paragraph from '../../atoms/Paragraph';
-import PaperIcons from '../../atoms/PaperIcons';
-import StyledColumn from './StyledColumn';
+import IconWithLabel from '../../molecules/IconWithLabel';
+import Division from '../../atoms/Division';
+import ColStyled from '../../atoms/ColStyled';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -22,7 +22,7 @@ describe('Contact', () => {
   const muiTheme = getMuiTheme();
   const mountWithContext = node => mount(node, {
     context: { muiTheme },
-    childContextTypes: { muiTheme: PropTypes.object },
+    childContextTypes: { muiTheme: PropTypes.object.isRequired },
   });
   const mountWrapper = mountWithContext(<Contact />);
 
@@ -55,22 +55,26 @@ describe('Contact', () => {
     expect(mountWrapper.find(RaisedButton)).toBePresent();
   });
 
-  it('renders StyledColumn component', () => {
-    expect(mountWrapper.find(StyledColumn)).toBePresent();
+  it('renders Division component', () => {
+    expect(mountWrapper.find(Division)).toBePresent();
   });
 
-  it('renders FaEnvelope component with envelope icon and text "info@mokahaiku.com"', () => {
-    expect(mountWrapper.find(PaperIcons).at(0).find(FaEnvelope)).toBePresent();
-    expect(mountWrapper.find(Paragraph).at(0)).toHaveText('info@mokahaiku.com');
+  it('renders ColStyled component', () => {
+    expect(mountWrapper.find(ColStyled)).toBePresent();
+  });
+
+  it('renders IconWithLabel component with envelope icon and text "info@mokahaiku.com"', () => {
+    expect(mountWrapper.find(IconWithLabel).at(0).find(FaEnvelope)).toBePresent();
+    expect(mountWrapper.find(IconWithLabel).at(0)).toHaveText('info@mokahaiku.com');
   });
 
   it('renders FaTwitter component with Twitter icon and text "@mokahaiku"', () => {
-    expect(mountWrapper.find(PaperIcons).at(1).find(FaTwitter)).toBePresent();
-    expect(mountWrapper.find(Paragraph).at(1)).toHaveText('@mokahaiku');
+    expect(mountWrapper.find(IconWithLabel).at(1).find(FaTwitter)).toBePresent();
+    expect(mountWrapper.find(IconWithLabel).at(1)).toHaveText('@mokahaiku');
   });
 
   it('renders FaGlobe component with globe icon and text "www.mokahaiku.com"', () => {
-    expect(mountWrapper.find(PaperIcons).at(2).find(FaGlobe)).toBePresent();
-    expect(mountWrapper.find(Paragraph).at(2)).toHaveText('www.mokahaiku.com');
+    expect(mountWrapper.find(IconWithLabel).at(2).find(FaGlobe)).toBePresent();
+    expect(mountWrapper.find(IconWithLabel).at(2)).toHaveText('www.mokahaiku.com');
   });
 });

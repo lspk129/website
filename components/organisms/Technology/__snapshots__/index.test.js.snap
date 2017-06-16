@@ -2,13 +2,17 @@
 
 exports[`Technology  renders correctly 1`] = `
 <div
-  className="sc-bdVaJa ePJfYc"
+  className="sc-bdVaJa cWJixI"
 >
-  <h2
-    className="sc-bxivhb kixuJS"
+  <div
+    className="sc-bdVaJa jlgDbv"
   >
-    We use cutting-edge technologies
-  </h2>
+    <h2
+      className="sc-bxivhb kixuJS"
+    >
+      We use cutting-edge technologies
+    </h2>
+  </div>
   <div
     className="Row__Row-kNtYPA jaQNpG"
   >
@@ -32,7 +36,7 @@ exports[`Technology  renders correctly 1`] = `
             React
           </h3>
           <p
-            className="sc-htpNat KtFsv"
+            className="sc-htpNat iLNOgD"
           >
             
           </p>
@@ -59,7 +63,7 @@ exports[`Technology  renders correctly 1`] = `
             Meteor
           </h3>
           <p
-            className="sc-htpNat KtFsv"
+            className="sc-htpNat iLNOgD"
           >
             
           </p>
@@ -86,7 +90,7 @@ exports[`Technology  renders correctly 1`] = `
             Next.js
           </h3>
           <p
-            className="sc-htpNat KtFsv"
+            className="sc-htpNat iLNOgD"
           >
             
           </p>
