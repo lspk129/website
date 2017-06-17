@@ -26,6 +26,9 @@ const Division = styled.div`
     background-size: cover;
     display: grid;
   `}
+  ${props => props.bgColor && `
+    background-color: ${props.bgColor};
+   `}
 `;
 
 export default Division;

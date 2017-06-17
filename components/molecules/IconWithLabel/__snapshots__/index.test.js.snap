@@ -9,7 +9,7 @@ exports[`IconWithLabel renders correctly 1`] = `
     m={2}
   >
     <div
-      className="sc-bwzfXH giFvnC"
+      className="sc-bwzfXH bYqJzi"
     >
       <Row
         center="xs"

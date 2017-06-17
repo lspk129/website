@@ -8,7 +8,7 @@ exports[`Hero renders correctly 1`] = `
     src="../../../static/Hero_image.jpg"
   >
     <div
-      className="sc-bdVaJa ivIrGI"
+      className="sc-bdVaJa idNquV"
       src="../../../static/Hero_image.jpg"
     >
       <styled.h1
@@ -36,7 +36,7 @@ exports[`Hero renders correctly 1`] = `
         textAlign="center"
       >
         <div
-          className="sc-bdVaJa ctclex"
+          className="sc-bdVaJa gzFADh"
         >
           <RaisedButton
             disabled={false}

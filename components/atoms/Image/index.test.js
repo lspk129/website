@@ -2,19 +2,19 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 
-import NavbarItem from './';
+import Image from './';
 
-describe('NavbarItem', () => {
-  const shallowWrapper = shallow(<NavbarItem />);
+describe('Image', () => {
+  const shallowWrapper = shallow(<Image />);
 
   it('renders correctly', () => {
-    const wrapper = renderer.create(<NavbarItem />);
+    const wrapper = renderer.create(<Image />);
     const tree = wrapper.toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('renders div element', () => {
+  it('renders img tag', () => {
     expect(shallowWrapper).toBePresent();
-    expect(shallowWrapper).toHaveTagName('div');
+    expect(shallowWrapper).toHaveTagName('img');
   });
 });

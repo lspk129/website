@@ -2,10 +2,10 @@
 
 exports[`Technology  renders correctly 1`] = `
 <div
-  className="sc-bdVaJa cWJixI"
+  className="sc-bdVaJa fJFMoJ"
 >
   <div
-    className="sc-bdVaJa jlgDbv"
+    className="sc-bdVaJa eroyXJ"
   >
     <h2
       className="sc-bxivhb kixuJS"
@@ -24,7 +24,7 @@ exports[`Technology  renders correctly 1`] = `
         scale={true}
       >
         <div
-          className="sc-bdVaJa iGScBl"
+          className="sc-bdVaJa jKGJER"
         >
           <img
             alt="React"
@@ -51,7 +51,7 @@ exports[`Technology  renders correctly 1`] = `
         scale={true}
       >
         <div
-          className="sc-bdVaJa iGScBl"
+          className="sc-bdVaJa jKGJER"
         >
           <img
             alt="Meteor"
@@ -78,7 +78,7 @@ exports[`Technology  renders correctly 1`] = `
         scale={true}
       >
         <div
-          className="sc-bdVaJa iGScBl"
+          className="sc-bdVaJa jKGJER"
         >
           <img
             alt="Next.js"

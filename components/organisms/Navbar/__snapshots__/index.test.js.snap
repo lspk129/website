@@ -436,254 +436,288 @@ exports[`Navbar renders correctly 1`] = `
         >
           <div>
             <div />
-            <styled.nav
+            <styled.div
+              bgColor="#ff4081"
               style={Object {}}
             >
-              <nav
-                className="sc-bdVaJa kFxInC"
+              <div
+                className="sc-htpNat fcQaSL"
                 style={Object {}}
               >
-                <styled.div>
+                <Row
+                  center="xs"
+                >
                   <div
-                    className="sc-bwzfXH eOYhVv"
+                    className="Row__Row-kNtYPA jaQNpG"
                   >
-                    <styled.div
-                      onClick={[Function]}
-                    >
+                    <Col>
                       <div
-                        className="sc-htpNat kSCvQP"
-                        onClick={[Function]}
+                        className="Col__Col-hCQanm rqKxU"
                       >
-                        HOME
+                        <styled.div
+                          onClick={[Function]}
+                        >
+                          <div
+                            className="sc-bdVaJa hgwNKU"
+                            onClick={[Function]}
+                          >
+                            HOME
+                          </div>
+                        </styled.div>
                       </div>
-                    </styled.div>
-                    <_
-                      duration={500}
-                      offset={0}
-                      smooth={true}
-                      spy={true}
-                      to="Service"
-                    >
-                      <Link
-                        onClick={[Function]}
+                    </Col>
+                    <Col>
+                      <div
+                        className="Col__Col-hCQanm rqKxU"
                       >
-                        <a
-                          onClick={[Function]}
+                        <_
+                          duration={500}
+                          offset={0}
+                          smooth={true}
+                          spy={true}
+                          to="Service"
                         >
-                          <styled.div>
-                            <div
-                              className="sc-htpNat kSCvQP"
+                          <Link
+                            onClick={[Function]}
+                          >
+                            <a
+                              onClick={[Function]}
                             >
-                              SERVICES
-                            </div>
-                          </styled.div>
-                        </a>
-                      </Link>
-                    </_>
-                    <_
-                      duration={500}
-                      offset={0}
-                      smooth={true}
-                      spy={true}
-                      to="Technology"
-                    >
-                      <Link
-                        onClick={[Function]}
+                              <styled.div>
+                                <div
+                                  className="sc-bdVaJa hgwNKU"
+                                >
+                                  SERVICES
+                                </div>
+                              </styled.div>
+                            </a>
+                          </Link>
+                        </_>
+                      </div>
+                    </Col>
+                    <Col>
+                      <div
+                        className="Col__Col-hCQanm rqKxU"
                       >
-                        <a
-                          onClick={[Function]}
+                        <_
+                          duration={500}
+                          offset={0}
+                          smooth={true}
+                          spy={true}
+                          to="Technology"
                         >
-                          <styled.div>
-                            <div
-                              className="sc-htpNat kSCvQP"
+                          <Link
+                            onClick={[Function]}
+                          >
+                            <a
+                              onClick={[Function]}
                             >
-                              TECHNOLOGIES
-                            </div>
-                          </styled.div>
-                        </a>
-                      </Link>
-                    </_>
-                    <RaisedButton
-                      disabled={false}
-                      fullWidth={false}
-                      label="Contact us"
-                      labelColor="#ff4081"
-                      labelPosition="after"
-                      labelStyle={
-                        Object {
-                          "fontSize": "15px",
-                        }
-                      }
-                      onClick={[Function]}
-                      primary={false}
-                      secondary={false}
+                              <styled.div>
+                                <div
+                                  className="sc-bdVaJa hgwNKU"
+                                >
+                                  TECHNOLOGIES
+                                </div>
+                              </styled.div>
+                            </a>
+                          </Link>
+                        </_>
+                      </div>
+                    </Col>
+                    <Styled(Col)
+                      align="center"
                     >
-                      <Paper
-                        circle={false}
-                        rounded={true}
-                        style={
-                          Object {
-                            "display": "inline-block",
-                            "minWidth": 88,
-                            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                          }
-                        }
-                        transitionEnabled={true}
-                        zDepth={1}
+                      <Col
+                        align="center"
+                        className="sc-bwzfXH ixDvrf"
                       >
                         <div
-                          style={
-                            Object {
-                              "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-                              "backgroundColor": "#ffffff",
-                              "borderRadius": 2,
-                              "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
-                                     0 1px 4px rgba(0, 0, 0, 0.12)",
-                              "boxSizing": "border-box",
-                              "color": "rgba(0, 0, 0, 0.87)",
-                              "display": "inline-block",
-                              "fontFamily": "Roboto, sans-serif",
-                              "minWidth": 88,
-                              "muiPrepared": true,
-                              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                            }
-                          }
+                          className="sc-bwzfXH ixDvrf Col__Col-hCQanm rqKxU"
                         >
-                          <EnhancedButton
-                            containerElement="button"
+                          <RaisedButton
                             disabled={false}
-                            focusRippleColor="#ff4081"
-                            focusRippleOpacity={0.1}
-                            onBlur={[Function]}
-                            onClick={[Function]}
-                            onFocus={[Function]}
-                            onKeyDown={[Function]}
-                            onKeyUp={[Function]}
-                            onKeyboardFocus={[Function]}
-                            onMouseDown={[Function]}
-                            onMouseEnter={[Function]}
-                            onMouseLeave={[Function]}
-                            onMouseUp={[Function]}
-                            onTouchEnd={[Function]}
-                            onTouchStart={[Function]}
-                            onTouchTap={[Function]}
-                            style={
+                            fullWidth={false}
+                            label="Contact us"
+                            labelColor="#ff4081"
+                            labelPosition="after"
+                            labelStyle={
                               Object {
-                                "backgroundColor": "#ffffff",
-                                "borderRadius": 2,
-                                "height": 36,
-                                "lineHeight": "36px",
-                                "padding": 0,
-                                "textAlign": "center",
-                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                                "width": "100%",
+                                "fontSize": "15px",
                               }
                             }
-                            tabIndex={0}
-                            touchRippleColor="#ff4081"
-                            touchRippleOpacity={0.1}
-                            type="button"
+                            onClick={[Function]}
+                            primary={false}
+                            secondary={false}
                           >
-                            <button
-                              disabled={false}
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onKeyDown={[Function]}
-                              onKeyUp={[Function]}
-                              onMouseDown={[Function]}
-                              onMouseEnter={[Function]}
-                              onMouseLeave={[Function]}
-                              onMouseUp={[Function]}
-                              onTouchEnd={[Function]}
-                              onTouchStart={[Function]}
-                              onTouchTap={[Function]}
+                            <Paper
+                              circle={false}
+                              rounded={true}
                               style={
                                 Object {
-                                  "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
-                                  "backgroundColor": "#ffffff",
-                                  "border": 10,
-                                  "borderRadius": 2,
-                                  "boxSizing": "border-box",
-                                  "cursor": "pointer",
                                   "display": "inline-block",
-                                  "fontFamily": "Roboto, sans-serif",
-                                  "fontSize": "inherit",
-                                  "fontWeight": "inherit",
-                                  "height": 36,
-                                  "lineHeight": "36px",
-                                  "margin": 0,
-                                  "muiPrepared": true,
-                                  "outline": "none",
-                                  "padding": 0,
-                                  "position": "relative",
-                                  "textAlign": "center",
-                                  "textDecoration": "none",
+                                  "minWidth": 88,
                                   "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                                  "verticalAlign": null,
-                                  "width": "100%",
-                                  "zIndex": 1,
                                 }
                               }
-                              tabIndex={0}
-                              type="button"
+                              transitionEnabled={true}
+                              zDepth={1}
                             >
-                              <TouchRipple
-                                abortOnScroll={true}
-                                color="#ff4081"
-                                opacity={0.1}
+                              <div
+                                style={
+                                  Object {
+                                    "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                                    "backgroundColor": "#ffffff",
+                                    "borderRadius": 2,
+                                    "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                                           0 1px 4px rgba(0, 0, 0, 0.12)",
+                                    "boxSizing": "border-box",
+                                    "color": "rgba(0, 0, 0, 0.87)",
+                                    "display": "inline-block",
+                                    "fontFamily": "Roboto, sans-serif",
+                                    "minWidth": 88,
+                                    "muiPrepared": true,
+                                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  }
+                                }
                               >
-                                <div
+                                <EnhancedButton
+                                  containerElement="button"
+                                  disabled={false}
+                                  focusRippleColor="#ff4081"
+                                  focusRippleOpacity={0.1}
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onKeyboardFocus={[Function]}
                                   onMouseDown={[Function]}
+                                  onMouseEnter={[Function]}
                                   onMouseLeave={[Function]}
                                   onMouseUp={[Function]}
                                   onTouchEnd={[Function]}
                                   onTouchStart={[Function]}
+                                  onTouchTap={[Function]}
+                                  style={
+                                    Object {
+                                      "backgroundColor": "#ffffff",
+                                      "borderRadius": 2,
+                                      "height": 36,
+                                      "lineHeight": "36px",
+                                      "padding": 0,
+                                      "textAlign": "center",
+                                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      "width": "100%",
+                                    }
+                                  }
+                                  tabIndex={0}
+                                  touchRippleColor="#ff4081"
+                                  touchRippleOpacity={0.1}
+                                  type="button"
                                 >
-                                  <div
+                                  <button
+                                    disabled={false}
+                                    onBlur={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onKeyUp={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseEnter={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchStart={[Function]}
+                                    onTouchTap={[Function]}
                                     style={
                                       Object {
-                                        "backgroundColor": false,
+                                        "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                                        "backgroundColor": "#ffffff",
+                                        "border": 10,
                                         "borderRadius": 2,
+                                        "boxSizing": "border-box",
+                                        "cursor": "pointer",
+                                        "display": "inline-block",
+                                        "fontFamily": "Roboto, sans-serif",
+                                        "fontSize": "inherit",
+                                        "fontWeight": "inherit",
                                         "height": 36,
+                                        "lineHeight": "36px",
+                                        "margin": 0,
                                         "muiPrepared": true,
-                                        "top": 0,
+                                        "outline": "none",
+                                        "padding": 0,
+                                        "position": "relative",
+                                        "textAlign": "center",
+                                        "textDecoration": "none",
                                         "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                        "verticalAlign": null,
+                                        "width": "100%",
+                                        "zIndex": 1,
                                       }
                                     }
+                                    tabIndex={0}
+                                    type="button"
                                   >
-                                    <span
-                                      style={
-                                        Object {
-                                          "color": "#ff4081",
-                                          "fontSize": "15px",
-                                          "fontWeight": 500,
-                                          "letterSpacing": 0,
-                                          "margin": 0,
-                                          "muiPrepared": true,
-                                          "opacity": 1,
-                                          "paddingLeft": 16,
-                                          "paddingRight": 16,
-                                          "position": "relative",
-                                          "textTransform": "uppercase",
-                                          "userSelect": "none",
-                                        }
-                                      }
+                                    <TouchRipple
+                                      abortOnScroll={true}
+                                      color="#ff4081"
+                                      opacity={0.1}
                                     >
-                                      Contact us
-                                    </span>
-                                  </div>
-                                </div>
-                              </TouchRipple>
-                            </button>
-                          </EnhancedButton>
+                                      <div
+                                        onMouseDown={[Function]}
+                                        onMouseLeave={[Function]}
+                                        onMouseUp={[Function]}
+                                        onTouchEnd={[Function]}
+                                        onTouchStart={[Function]}
+                                      >
+                                        <div
+                                          style={
+                                            Object {
+                                              "backgroundColor": false,
+                                              "borderRadius": 2,
+                                              "height": 36,
+                                              "muiPrepared": true,
+                                              "top": 0,
+                                              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            style={
+                                              Object {
+                                                "color": "#ff4081",
+                                                "fontSize": "15px",
+                                                "fontWeight": 500,
+                                                "letterSpacing": 0,
+                                                "margin": 0,
+                                                "muiPrepared": true,
+                                                "opacity": 1,
+                                                "paddingLeft": 16,
+                                                "paddingRight": 16,
+                                                "position": "relative",
+                                                "textTransform": "uppercase",
+                                                "userSelect": "none",
+                                              }
+                                            }
+                                          >
+                                            Contact us
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </TouchRipple>
+                                  </button>
+                                </EnhancedButton>
+                              </div>
+                            </Paper>
+                          </RaisedButton>
                         </div>
-                      </Paper>
-                    </RaisedButton>
+                      </Col>
+                    </Styled(Col)>
                   </div>
-                </styled.div>
-              </nav>
-            </styled.nav>
+                </Row>
+              </div>
+            </styled.div>
           </div>
         </Sticky>
       </Navbar>

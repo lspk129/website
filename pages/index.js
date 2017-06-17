@@ -8,7 +8,7 @@ import { ThemeProvider } from 'styled-components';
 import Scroll from 'react-scroll';
 import { StickyContainer } from 'react-sticky';
 
-import NavbarLogo from '../components/organisms/Navbar/NavbarLogo/index';
+import NavbarLogo from '../components/organisms/NavbarLogo';
 import Navbar from '../components/organisms/Navbar';
 import Hero from '../components/organisms/Hero';
 import Service from '../components/organisms/Service';
@@ -63,10 +63,10 @@ class IndexPage extends Component {
             <StickyContainer>
               <Navbar />
               <Hero />
-              <Scroll.Element name="Service">
+              <Scroll.Element name={'Service'}>
                 <Service />
               </Scroll.Element>
-              <Scroll.Element name="Technology">
+              <Scroll.Element name={'Technology'}>
                 <Technology />
               </Scroll.Element>
               <Contact />

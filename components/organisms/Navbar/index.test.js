@@ -9,9 +9,9 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
 import Navbar from './';
-import NavbarSection from './NavbarSection';
-import NavbarList from './NavbarList';
-import NavbarItem from './NavbarItem';
+import AnimatedBorder from '../../atoms/AnimatedBorder';
+import ColStyled from '../../atoms/ColStyled';
+import Division from '../../atoms/Division';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -35,16 +35,16 @@ describe('Navbar', () => {
     expect(mountWrapper).toBePresent();
   });
 
-  it('renders NavbarSection component', () => {
-    expect(mountWrapper.find(NavbarSection)).toBePresent();
+  it('renders ColStyled component', () => {
+    expect(mountWrapper.find(ColStyled)).toBePresent();
   });
 
-  it('renders NavbarList component', () => {
-    expect(mountWrapper.find(NavbarList)).toBePresent();
+  it('renders Division component', () => {
+    expect(mountWrapper.find(Division)).toBePresent();
   });
 
-  it('renders NavbarItem component', () => {
-    expect(mountWrapper.find(NavbarItem)).toBePresent();
+  it('renders AnimatedBorder component', () => {
+    expect(mountWrapper.find(AnimatedBorder)).toBePresent();
   });
 
   it('renders Sticky component', () => {

@@ -2,11 +2,11 @@
 
 exports[`Service renders correctly 1`] = `
 <div
-  className="sc-bdVaJa HCICf"
+  className="sc-bdVaJa khZUEa"
   src="../../../static/Service_image.jpg"
 >
   <div
-    className="sc-bdVaJa jlgDbv"
+    className="sc-bdVaJa eroyXJ"
   >
     <h2
       className="sc-bxivhb kixuJS"
@@ -25,7 +25,7 @@ exports[`Service renders correctly 1`] = `
         height={260}
       >
         <div
-          className="sc-bdVaJa iGScBl"
+          className="sc-bdVaJa jKGJER"
         >
           <svg
             className="icons"
@@ -68,7 +68,7 @@ exports[`Service renders correctly 1`] = `
         height={260}
       >
         <div
-          className="sc-bdVaJa iGScBl"
+          className="sc-bdVaJa jKGJER"
         >
           <svg
             className="icons"

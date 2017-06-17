@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const NavbarItem = styled.div`
+const AnimatedBorder = styled.div`
   color: ${props => props.theme.text};
   text-align: center;
   padding: 14px 16px;
@@ -20,4 +20,4 @@ const NavbarItem = styled.div`
 
 `;
 
-export default NavbarItem;
+export default AnimatedBorder;

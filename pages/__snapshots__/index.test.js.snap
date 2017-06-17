@@ -437,7 +437,7 @@ exports[`IndexPage renders correctly 1`] = `
     }
   >
     <div>
-      <NavbarLogo />
+      <MuiComponent />
       <Container>
         <MuiComponent />
         <Hero />

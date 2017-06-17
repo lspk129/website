@@ -4,37 +4,49 @@ import Scroll from 'react-scroll';
 import Sticky from 'react-sticky';
 import RaisedButton from 'material-ui/RaisedButton';
 import muiThemeable from 'material-ui/styles/muiThemeable';
+import { Row, Col } from 'react-styled-flexboxgrid';
 
-import NavbarSection from './NavbarSection';
-import NavbarList from './NavbarList';
-import NavbarItem from './NavbarItem';
+import AnimatedBorder from '../../atoms/AnimatedBorder';
+import ColStyled from '../../atoms/ColStyled';
+import Division from '../../atoms/Division';
 
 const Navbar = props => (
   <Sticky>
     {({ style }) => (
-      <NavbarSection style={style}>
-        <NavbarList>
-          <NavbarItem onClick={() => Scroll.animateScroll.scrollToTop()}>
+      <Division
+        style={style}
+        bgColor={props.muiTheme.palette.accent1Color}
+      >
+        <Row center={'xs'}>
+          <Col>
+            <AnimatedBorder onClick={() => Scroll.animateScroll.scrollToTop()}>
               HOME
-          </NavbarItem>
-          <Scroll.Link to={'Service'} spy smooth duration={500}>
-            <NavbarItem>
+            </AnimatedBorder>
+          </Col>
+          <Col>
+            <Scroll.Link to={'Service'} spy smooth duration={500}>
+              <AnimatedBorder>
               SERVICES
-            </NavbarItem>
-          </Scroll.Link>
-          <Scroll.Link to={'Technology'} spy smooth duration={500}>
-            <NavbarItem>
-              TECHNOLOGIES
-            </NavbarItem>
-          </Scroll.Link>
-          <RaisedButton
-            label={'Contact us'}
-            labelColor={props.muiTheme.palette.accent1Color}
-            labelStyle={{ fontSize: '15px' }}
-            onClick={() => Scroll.animateScroll.scrollToBottom()}
-          />
-        </NavbarList>
-      </NavbarSection>
+            </AnimatedBorder>
+            </Scroll.Link>
+          </Col>
+          <Col>
+            <Scroll.Link to={'Technology'} spy smooth duration={500}>
+              <AnimatedBorder>
+                TECHNOLOGIES
+              </AnimatedBorder>
+            </Scroll.Link>
+          </Col>
+          <ColStyled align={'center'}>
+            <RaisedButton
+              label={'Contact us'}
+              labelColor={props.muiTheme.palette.accent1Color}
+              labelStyle={{ fontSize: '15px' }}
+              onClick={() => Scroll.animateScroll.scrollToBottom()}
+            />
+          </ColStyled>
+        </Row>
+      </Division>
     )}
   </Sticky>
 );
