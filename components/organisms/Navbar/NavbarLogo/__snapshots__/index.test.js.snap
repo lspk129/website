@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`NavbarLogoWrapper renders correctly 1`] = `
-<img
-  alt="Moka Haiku web development agency"
-  className="sc-bdVaJa igiXd"
-  src="/static/MokaHaiku_main.png"
-/>
-`;

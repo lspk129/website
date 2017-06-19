@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Paragraph = styled.p`
-  ${props => props.px && `padding: 0rem ${props.px}rem`};
+  ${({ px }) => px && `padding: 0rem ${px}rem`};
 `;
 
 export default Paragraph;

@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 
 import Card from './';
 import Division from '../../atoms/Division';
-import Heading from '../../atoms/Heading';
+import Title from '../../atoms/Title';
 import Paragraph from '../../atoms/Paragraph';
 
 describe('Card', () => {
@@ -24,8 +24,8 @@ describe('Card', () => {
     expect(shallowWrapper.find(Division)).toBePresent();
   });
 
-  it('renders Heading component', () => {
-    expect(shallowWrapper.find(Heading)).toBePresent();
+  it('renders Title component', () => {
+    expect(shallowWrapper.find(Title)).toBePresent();
   });
 
   it('renders Paragraph component', () => {

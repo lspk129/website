@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 
 import Technology from './';
 import Card from '../../molecules/Card';
-import Subtitle from '../../atoms/Subtitle';
+import Title from '../../atoms/Title';
 import Division from '../../atoms/Division';
 import DivisionHover from '../../atoms/DivisionHover';
 
@@ -17,13 +17,13 @@ describe('Technology ', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('renders Subtitle', () => {
+  it('renders Title', () => {
     expect(mountWrapper).toBePresent();
-    expect(mountWrapper.find(Subtitle)).toBePresent();
+    expect(mountWrapper.find(Title)).toBePresent();
   });
 
-  it('renders Subtitle component with content "We use cutting-edge technologies"', () => {
-    expect(mountWrapper.find(Subtitle)).toHaveText('We use cutting-edge technologies');
+  it('renders Title component with content "We use cutting-edge technologies"', () => {
+    expect(mountWrapper.find(Title)).toHaveText('We use cutting-edge technologies');
   });
 
   it('renders DivisionHover component', () => {

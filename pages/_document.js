@@ -2,7 +2,7 @@ import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
-import BodyContainer from '../components/atoms/Body';
+import Body from '../components/atoms/Body';
 
 export default class MyDocument extends Document {
   render() {
@@ -13,17 +13,17 @@ export default class MyDocument extends Document {
       <html lang="en">
         <Head>
           <title>My page</title>
-          {styleTags}
           <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+          {styleTags}
         </Head>
-        <BodyContainer>
+        <Body>
           <div className="root">
             {main}
           </div>
           <NextScript />
-        </BodyContainer>
+        </Body>
       </html>
     );
   }

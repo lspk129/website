@@ -5,10 +5,10 @@ import muiThemeable from 'material-ui/styles/muiThemeable';
 import { TextField, SelectField, MenuItem, RaisedButton } from 'material-ui';
 import { FaEnvelope, FaTwitter, FaGlobe } from 'react-icons/lib/fa';
 
-import Heading from '../../atoms/Heading';
 import IconWithLabel from '../../molecules/IconWithLabel';
-import Division from '../../atoms/Division';
 import ColStyled from '../../atoms/ColStyled';
+import Division from '../../atoms/Division';
+import Title from '../../atoms/Title';
 
 class Contact extends Component {
   state = {
@@ -25,9 +25,9 @@ class Contact extends Component {
             <Col>
               <Division py={3}>
                 <Division pb={1}>
-                  <Heading upperCase>
+                  <Title tag={'h3'} upperCase>
                     Contact us
-                  </Heading>
+                  </Title>
                 </Division>
                 <IconWithLabel
                   icon={<FaEnvelope color={this.props.muiTheme.palette.accent1Color} />}
@@ -49,9 +49,9 @@ class Contact extends Component {
         <Col xs={10} sm={6}>
           <Division py={3}>
             <Division pb={1}>
-              <Heading upperCase>
+              <Title tag={'h3'} upperCase>
                 Get a free consultation
-              </Heading>
+              </Title>
             </Division>
             <form>
               <Row center={'xs'}>
@@ -79,13 +79,13 @@ class Contact extends Component {
                       <MenuItem value={3} primaryText="I want to ask a question" />
                     </SelectField>
                     {this.state.value === 3 && (
-                    <TextField
-                      floatingLabelText="Your question"
-                      multiLine
-                      rows={4}
-                      fullWidth
-                    />
-                  )}
+                      <TextField
+                        floatingLabelText="Your question"
+                        multiLine
+                        rows={4}
+                        fullWidth
+                      />
+                    )}
                   </Division>
                 </Col>
               </Row>

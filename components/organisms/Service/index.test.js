@@ -7,7 +7,7 @@ import Service from './';
 import Division from '../../atoms/Division';
 import DivisionHover from '../../atoms/DivisionHover';
 import Card from '../../molecules/Card';
-import Subtitle from '../../atoms/Subtitle';
+import Title from '../../atoms/Title';
 
 describe('Service', () => {
   const mountWrapper = mount(<Service />);
@@ -18,14 +18,14 @@ describe('Service', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('renders Subtitle component', () => {
+  it('renders Title component', () => {
     expect(mountWrapper).toBePresent();
-    expect(mountWrapper.find(Subtitle)).toBePresent();
+    expect(mountWrapper.find(Title)).toBePresent();
   });
 
   it('renders text "What we do"', () => {
     const wrapper = mount(<Service />);
-    expect(wrapper.find(Subtitle)).toHaveText('What we do');
+    expect(wrapper.find(Title)).toHaveText('What we do');
   });
   it('renders Card component', () => {
     expect(mountWrapper.find(Card)).toBePresent();

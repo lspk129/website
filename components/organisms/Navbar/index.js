@@ -16,6 +16,7 @@ const Navbar = props => (
       <Division
         style={style}
         bgColor={props.muiTheme.palette.accent1Color}
+        zIndex={2}
       >
         <Row center={'xs'}>
           <Col>
@@ -26,8 +27,8 @@ const Navbar = props => (
           <Col>
             <Scroll.Link to={'Service'} spy smooth duration={500}>
               <AnimatedBorder>
-              SERVICES
-            </AnimatedBorder>
+                SERVICES
+              </AnimatedBorder>
             </Scroll.Link>
           </Col>
           <Col>

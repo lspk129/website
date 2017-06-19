@@ -9,7 +9,6 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import Hero from './';
 import Division from '../../atoms/Division';
 import Title from '../../atoms/Title';
-import Subtitle from '../../atoms/Subtitle';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -38,13 +37,13 @@ describe('Hero', () => {
   });
 
   it('renders Title component with content "Moka Haiku:web app agency"', () => {
-    expect(mountWrapper.find(Title)).toBePresent();
-    expect(mountWrapper.find(Title)).toHaveText('Moka Haiku:web app agency');
+    expect(mountWrapper.find(Title).at(0)).toBePresent();
+    expect(mountWrapper.find(Title).at(0)).toHaveText('Moka Haiku:web app agency');
   });
 
-  it('renders Subtitle component with content "Creating fast & interactive web applications with React and Meteor"', () => {
-    expect(mountWrapper.find(Subtitle)).toBePresent();
-    expect(mountWrapper.find(Subtitle)).toHaveText('Creating fast & interactive web applications with React and Meteor');
+  it('renders Title component with content "Creating fast & interactive web applications with React and Meteor"', () => {
+    expect(mountWrapper.find(Title).at(1)).toBePresent();
+    expect(mountWrapper.find(Title).at(1)).toHaveText('Creating fast & interactive web applications with React and Meteor');
   });
 
   it('renders RaisedButton component', () => {

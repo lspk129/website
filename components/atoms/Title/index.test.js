@@ -4,16 +4,17 @@ import renderer from 'react-test-renderer';
 
 import Title from './';
 
-describe('HeroTitle', () => {
+describe('Title', () => {
+  const shallowWrapper = shallow(<Title />);
+
   it('renders correctly', () => {
     const wrapper = renderer.create(<Title />);
     const tree = wrapper.toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('renders h1 element', () => {
-    const wrapper = shallow(<Title />);
-    expect(wrapper).toBePresent();
-    expect(wrapper).toHaveTagName('h1');
+  it('renders Title component', () => {
+    expect(shallowWrapper).toBePresent();
+    expect(shallowWrapper.find(Title)).toBePresent();
   });
 });

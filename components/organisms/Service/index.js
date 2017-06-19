@@ -4,13 +4,13 @@ import { Row, Col } from 'react-styled-flexboxgrid';
 
 import Card from '../../molecules/Card';
 import Division from '../../atoms/Division';
-import Subtitle from '../../atoms/Subtitle';
 import DivisionHover from '../../atoms/DivisionHover';
+import Title from '../../atoms/Title';
 
 const Service = () => (
   <Division bg src={'../../../static/Service_image.jpg'} pb={3}>
     <Division py={3}>
-      <Subtitle>What we do</Subtitle>
+      <Title tag={'h2'}>What we do</Title>
     </Division>
     <Row center={'xs'}>
       <Col md={3} sm={4} xs={12}>

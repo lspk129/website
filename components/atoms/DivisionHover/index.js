@@ -9,7 +9,7 @@ const DivisionHover = styled.div`
       height: 200px;
     }
     &:hover {
-    transform: scale(1.1);
+      transform: scale(1.1);
   }
 
   `}

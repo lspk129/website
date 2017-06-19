@@ -8,7 +8,7 @@ import { TextField, SelectField, RaisedButton } from 'material-ui/';
 import { FaEnvelope, FaTwitter, FaGlobe } from 'react-icons/lib/fa';
 
 import Contact from './';
-import Heading from '../../atoms/Heading';
+import Title from '../../atoms/Title';
 import IconWithLabel from '../../molecules/IconWithLabel';
 import Division from '../../atoms/Division';
 import ColStyled from '../../atoms/ColStyled';
@@ -32,11 +32,11 @@ describe('Contact', () => {
   });
 
   it('renders text "Get free consultation"', () => {
-    expect(mountWrapper.find(Heading).at(0)).toHaveText('Contact us');
+    expect(mountWrapper.find(Title).at(0)).toHaveText('Contact us');
   });
 
   it('renders text "Get free consultation"', () => {
-    expect(mountWrapper.find(Heading).at(1)).toHaveText('Get a free consultation');
+    expect(mountWrapper.find(Title).at(1)).toHaveText('Get a free consultation');
   });
 
   it('renders input field with text "Name"', () => {

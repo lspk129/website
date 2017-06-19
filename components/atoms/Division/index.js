@@ -1,34 +1,35 @@
 import styled from 'styled-components';
 
 const Division = styled.div`
-  ${props => props.textAlign && `text-align: ${props.textAlign}`};
+  ${({ textAlign }) => textAlign && `text-align: ${textAlign}`};
   // margin properties
-  ${props => props.m && `margin: ${props.m}rem;`}
-  ${props => props.mx && `margin: 0rem ${props.mx}rem;`}
-  ${props => props.my && `margin: ${props.my}rem 0rem;`}
-  ${props => props.mt && `margin-top: ${props.mt}rem;`}
-  ${props => props.mb && `margin-bottom: ${props.mb}rem;`}
-  ${props => props.mr && `margin-right: ${props.mr}rem;`}
-  ${props => props.ml && `margin-left: ${props.ml}rem;`}
+  ${({ m }) => m && `margin: ${m}rem;`}
+  ${({ mx }) => mx && `margin: 0rem ${mx}rem;`}
+  ${({ my }) => my && `margin: ${my}rem 0rem;`}
+  ${({ mt }) => mt && `margin-top: ${mt}rem;`}
+  ${({ mb }) => mb && `margin-bottom: ${mb}rem;`}
+  ${({ mr }) => mr && `margin-right: ${mr}rem;`}
+  ${({ ml }) => ml && `margin-left: ${ml}rem;`}
   // padding properties
-  ${props => props.p && `padding: ${props.p}rem;`}
-  ${props => props.px && `padding: 0rem ${props.px}rem;`}
-  ${props => props.py && `padding: ${props.py}rem 0rem;`}
-  ${props => props.pt && `padding-top: ${props.pt}rem;`}
-  ${props => props.pb && `padding-bottom: ${props.pb}rem;`}
-  ${props => props.pr && `padding-right: ${props.pr}rem;`}
-  ${props => props.pl && `padding-left: ${props.pl}rem;`}
+  ${({ p }) => p && `padding: ${p}rem;`}
+  ${({ px }) => px && `padding: 0rem ${px}rem;`}
+  ${({ py }) => py && `padding: ${py}rem 0rem;`}
+  ${({ pt }) => pt && `padding-top: ${pt}rem;`}
+  ${({ pb }) => pb && `padding-bottom: ${pb}rem;`}
+  ${({ pr }) => pr && `padding-right: ${pr}rem;`}
+  ${({ pl }) => pl && `padding-left: ${pl}rem;`}
   // background properties
-  ${props => props.bg && `
-    background-image: url(${props.src});
+  ${({ bg, src }) => bg && `
+    background-image: url(${src});
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     display: grid;
   `}
-  ${props => props.bgColor && `
-    background-color: ${props.bgColor};
-   `}
+  ${({ bgColor }) => bgColor && `
+    background-color: ${bgColor};
+  `}
+  ${({ zIndex }) => zIndex && `z-index: ${zIndex};`}
 `;
 
 export default Division;
