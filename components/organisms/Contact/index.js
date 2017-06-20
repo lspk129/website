@@ -57,30 +57,30 @@ class Contact extends Component {
               <Row center={'xs'}>
                 <Col md={5} sm={5} xs={10}>
                   <Division px={1}>
-                    <TextField floatingLabelText="Name" fullWidth />
+                    <TextField floatingLabelText={'Name'} fullWidth />
                   </Division>
                 </Col>
                 <Col md={5} sm={5} xs={10}>
                   <Division px={1}>
-                    <TextField floatingLabelText="Your email" fullWidth />
+                    <TextField floatingLabelText={'Your email'} fullWidth />
                   </Division>
                 </Col>
 
                 <Col xs={10}>
                   <Division px={1} textAlign={'left'}>
                     <SelectField
-                      floatingLabelText="Choose a subject"
+                      floatingLabelText={'Choose a subject'}
                       value={this.state.value}
                       onChange={this.handleChange}
                       fullWidth
                     >
-                      <MenuItem value={1} primaryText="I want an introduction to your services..." />
-                      <MenuItem value={2} primaryText="I want a free price quote..." />
-                      <MenuItem value={3} primaryText="I want to ask a question" />
+                      <MenuItem value={1} primaryText={'I want an introduction to your services...'} />
+                      <MenuItem value={2} primaryText={'I want a free price quote...'} />
+                      <MenuItem value={3} primaryText={'I want to ask a question'} />
                     </SelectField>
                     {this.state.value === 3 && (
                       <TextField
-                        floatingLabelText="Your question"
+                        floatingLabelText={'Your question'}
                         multiLine
                         rows={4}
                         fullWidth

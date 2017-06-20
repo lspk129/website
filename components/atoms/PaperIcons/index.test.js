@@ -20,6 +20,11 @@ describe('PaperIcon', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('renders with circle props', () => {
+    const tree = toJson(mountWithContext(<PaperIcon circle />));
+    expect(tree).toMatchSnapshot();
+  });
+
   it('renders Paper component', () => {
     expect(mountWrapper).toBePresent();
     expect(mountWrapper.find(Paper)).toBePresent();

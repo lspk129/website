@@ -13,6 +13,21 @@ describe('DivisionHover', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('renders height props', () => {
+    const wrapper = renderer.create(<DivisionHover height={100} />);
+    expect(wrapper.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders scale boolean props', () => {
+    const wrapper = renderer.create(<DivisionHover scale />);
+    expect(wrapper.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders background color boolean props with theme props', () => {
+    const wrapper = renderer.create(<DivisionHover bgcolor />);
+    expect(wrapper.toJSON()).toMatchSnapshot();
+  });
+
   it('renders div tag', () => {
     expect(shallowWrapper).toBePresent();
     expect(shallowWrapper).toHaveTagName('div');

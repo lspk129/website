@@ -2,13 +2,13 @@
 
 exports[`Technology  renders correctly 1`] = `
 <div
-  className="sc-bdVaJa fJFMoJ"
+  className="sc-bdVaJa fFGhMS"
 >
   <div
-    className="sc-bdVaJa eroyXJ"
+    className="sc-bdVaJa esXjej"
   >
     <h2
-      className="sc-bxivhb kixuJS"
+      className="sc-bwzfXH rANkV"
     >
       We use cutting-edge technologies
     </h2>
@@ -20,23 +20,23 @@ exports[`Technology  renders correctly 1`] = `
       className="Col__Col-hCQanm fyLqBb"
     >
       <div
-        className="sc-ifAKCX haIUXD"
+        className="sc-htpNat jGdCrf"
         scale={true}
       >
         <div
-          className="sc-bdVaJa jKGJER"
+          className="sc-bdVaJa iOpgTO"
         >
           <img
             alt="React"
             src="/static/React_logo.png"
           />
           <h3
-            className="sc-bwzfXH gCrSZp"
+            className="sc-bwzfXH dyhvQZ"
           >
             React
           </h3>
           <p
-            className="sc-htpNat iLNOgD"
+            className="sc-bwzfXH hcrUCW"
           >
             
           </p>
@@ -47,23 +47,23 @@ exports[`Technology  renders correctly 1`] = `
       className="Col__Col-hCQanm fyLqBb"
     >
       <div
-        className="sc-ifAKCX haIUXD"
+        className="sc-htpNat jGdCrf"
         scale={true}
       >
         <div
-          className="sc-bdVaJa jKGJER"
+          className="sc-bdVaJa iOpgTO"
         >
           <img
             alt="Meteor"
             src="/static/Meteor_logo.png"
           />
           <h3
-            className="sc-bwzfXH gCrSZp"
+            className="sc-bwzfXH dyhvQZ"
           >
             Meteor
           </h3>
           <p
-            className="sc-htpNat iLNOgD"
+            className="sc-bwzfXH hcrUCW"
           >
             
           </p>
@@ -74,23 +74,23 @@ exports[`Technology  renders correctly 1`] = `
       className="Col__Col-hCQanm fyLqBb"
     >
       <div
-        className="sc-ifAKCX haIUXD"
+        className="sc-htpNat jGdCrf"
         scale={true}
       >
         <div
-          className="sc-bdVaJa jKGJER"
+          className="sc-bdVaJa iOpgTO"
         >
           <img
             alt="Next.js"
             src="/static/Nextjs_logo.png"
           />
           <h3
-            className="sc-bwzfXH gCrSZp"
+            className="sc-bwzfXH dyhvQZ"
           >
             Next.js
           </h3>
           <p
-            className="sc-htpNat iLNOgD"
+            className="sc-bwzfXH hcrUCW"
           >
             
           </p>

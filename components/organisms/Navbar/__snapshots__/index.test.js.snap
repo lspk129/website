@@ -439,9 +439,10 @@ exports[`Navbar renders correctly 1`] = `
             <styled.div
               bgColor="#ff4081"
               style={Object {}}
+              zIndex={2}
             >
               <div
-                className="sc-htpNat fcQaSL"
+                className="sc-htpNat jbwUTh"
                 style={Object {}}
               >
                 <Row
@@ -458,7 +459,7 @@ exports[`Navbar renders correctly 1`] = `
                           onClick={[Function]}
                         >
                           <div
-                            className="sc-bdVaJa hgwNKU"
+                            className="sc-bdVaJa udBkl"
                             onClick={[Function]}
                           >
                             HOME
@@ -485,7 +486,7 @@ exports[`Navbar renders correctly 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="sc-bdVaJa hgwNKU"
+                                  className="sc-bdVaJa udBkl"
                                 >
                                   SERVICES
                                 </div>
@@ -514,7 +515,7 @@ exports[`Navbar renders correctly 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="sc-bdVaJa hgwNKU"
+                                  className="sc-bdVaJa udBkl"
                                 >
                                   TECHNOLOGIES
                                 </div>
@@ -529,10 +530,10 @@ exports[`Navbar renders correctly 1`] = `
                     >
                       <Col
                         align="center"
-                        className="sc-bwzfXH ixDvrf"
+                        className="sc-bwzfXH fRAwPK"
                       >
                         <div
-                          className="sc-bwzfXH ixDvrf Col__Col-hCQanm rqKxU"
+                          className="sc-bwzfXH fRAwPK Col__Col-hCQanm rqKxU"
                         >
                           <RaisedButton
                             disabled={false}

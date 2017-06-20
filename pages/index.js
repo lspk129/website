@@ -32,6 +32,7 @@ const themeProvider = (isMUI = false) => {
       palette: {
         accent1Color: theme.mainColor,
         backgroundColor: theme.backgroundColor,
+        whiteText: theme.textColor,
       },
     };
   }

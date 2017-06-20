@@ -4,7 +4,7 @@ import { Row, Col } from 'react-styled-flexboxgrid';
 
 import PaperIcons from '../../atoms/PaperIcons';
 import Division from '../../atoms/Division';
-import Paragraph from '../../atoms/Paragraph';
+import Title from '../../atoms/Title';
 
 const IconWithLabel = ({ icon, label }) => (
   <Division m={2}>
@@ -14,9 +14,11 @@ const IconWithLabel = ({ icon, label }) => (
           <PaperIcons circle>
             {icon}
           </PaperIcons>
-          <Paragraph px={1}>
-            {label}
-          </Paragraph>
+          <Division px={1}>
+            <Title tag={'p'}>
+              {label}
+            </Title>
+          </Division>
         </Row>
       </Col>
     </Row>

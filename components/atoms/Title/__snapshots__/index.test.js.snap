@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title renders correctly 1`] = `
+<h1
+  className="sc-bdVaJa hBPRng"
+/>
+`;
+
+exports[`Title renders with hero boolean props 1`] = `
+<h1
+  className="sc-bdVaJa hYxtiD"
+/>
+`;
+
+exports[`Title renders with tag props 1`] = `
+<h1
+  className="sc-bdVaJa hBPRng"
+/>
+`;
+
+exports[`Title renders with upperCase props 1`] = `
+<h1
+  className="sc-bdVaJa hBPRng"
+/>
+`;

@@ -5,16 +5,19 @@ import renderer from 'react-test-renderer';
 import AnimatedBorder from './';
 
 describe('AnimatedBorder', () => {
-  const shallowWrapper = shallow(<AnimatedBorder />);
-
   it('renders correctly', () => {
     const wrapper = renderer.create(<AnimatedBorder />);
-    const tree = wrapper.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(wrapper.toJSON()).toMatchSnapshot();
   });
 
-  it('render div tag', () => {
-    expect(shallowWrapper).toBePresent();
-    expect(shallowWrapper).toHaveTagName('div');
+  it('renders with text color props', () => {
+    const wrapper = renderer.create(<AnimatedBorder color={'white'} />);
+    expect(wrapper.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders div component', () => {
+    const wrapper = shallow(<AnimatedBorder />);
+    expect(wrapper).toBePresent();
+    expect(wrapper).toHaveTagName('div');
   });
 });

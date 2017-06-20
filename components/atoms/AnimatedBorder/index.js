@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const AnimatedBorder = styled.div`
-  color: ${({ theme }) => theme.text};
+  ${({ color }) => color && `color: ${color}`};
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -10,14 +10,13 @@ const AnimatedBorder = styled.div`
   &:after {
     display: grid;
     content: '';
-    border-bottom: solid 2px ${({ theme }) => theme.text};  
+    border-bottom: solid 2px ${({ color }) => color};  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
   }
   &:hover:after {
     transform: scaleX(1);
   }
-
 `;
 
 export default AnimatedBorder;

@@ -2,6 +2,19 @@
 
 exports[`ColStyled renders correctly 1`] = `
 <div
-  className="sc-bdVaJa cvjFud Col__Col-hCQanm rqKxU"
+  className="sc-bdVaJa ifUQXn Col__Col-hCQanm rqKxU"
+/>
+`;
+
+exports[`ColStyled renders with align props 1`] = `
+<div
+  className="sc-bdVaJa jTFsIO Col__Col-hCQanm rqKxU"
+/>
+`;
+
+exports[`ColStyled renders with color props 1`] = `
+<div
+  className="sc-bdVaJa gchyjS Col__Col-hCQanm rqKxU"
+  color="red"
 />
 `;

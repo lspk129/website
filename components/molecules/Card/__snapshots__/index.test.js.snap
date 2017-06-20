@@ -2,18 +2,75 @@
 
 exports[`Card renders correctly 1`] = `
 <div
-  className="sc-bdVaJa jKGJER"
+  className="sc-bdVaJa iOpgTO"
 >
   
   <h3
-    className="sc-bwzfXH gCrSZp"
+    className="sc-bwzfXH dyhvQZ"
   >
     
   </h3>
   <p
-    className="sc-htpNat iLNOgD"
+    className="sc-bwzfXH hcrUCW"
   >
     
+  </p>
+</div>
+`;
+
+exports[`Card renders with image props 1`] = `
+<div
+  className="sc-bdVaJa iOpgTO"
+>
+  <img
+    alt="React"
+    src="../../../static/React_logo.png"
+  />
+  <h3
+    className="sc-bwzfXH dyhvQZ"
+  >
+    
+  </h3>
+  <p
+    className="sc-bwzfXH hcrUCW"
+  >
+    
+  </p>
+</div>
+`;
+
+exports[`Card renders with label props 1`] = `
+<div
+  className="sc-bdVaJa iOpgTO"
+>
+  
+  <h3
+    className="sc-bwzfXH dyhvQZ"
+  >
+    test label
+  </h3>
+  <p
+    className="sc-bwzfXH hcrUCW"
+  >
+    
+  </p>
+</div>
+`;
+
+exports[`Card renders with text props 1`] = `
+<div
+  className="sc-bdVaJa iOpgTO"
+>
+  
+  <h3
+    className="sc-bwzfXH dyhvQZ"
+  >
+    
+  </h3>
+  <p
+    className="sc-bwzfXH hcrUCW"
+  >
+    testing text
   </p>
 </div>
 `;

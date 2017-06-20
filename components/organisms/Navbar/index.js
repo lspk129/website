@@ -20,20 +20,23 @@ const Navbar = props => (
       >
         <Row center={'xs'}>
           <Col>
-            <AnimatedBorder onClick={() => Scroll.animateScroll.scrollToTop()}>
+            <AnimatedBorder
+              color={props.muiTheme.palette.whiteText}
+              onClick={() => Scroll.animateScroll.scrollToTop()}
+            >
               HOME
             </AnimatedBorder>
           </Col>
           <Col>
             <Scroll.Link to={'Service'} spy smooth duration={500}>
-              <AnimatedBorder>
+              <AnimatedBorder color={props.muiTheme.palette.whiteText}>
                 SERVICES
               </AnimatedBorder>
             </Scroll.Link>
           </Col>
           <Col>
             <Scroll.Link to={'Technology'} spy smooth duration={500}>
-              <AnimatedBorder>
+              <AnimatedBorder color={props.muiTheme.palette.whiteText}>
                 TECHNOLOGIES
               </AnimatedBorder>
             </Scroll.Link>
@@ -56,6 +59,7 @@ Navbar.propTypes = {
   muiTheme: PropTypes.shape({
     palette: PropTypes.shape({
       accent1Color: PropTypes.string.isRequired,
+      whiteText: PropTypes.string,
     }).isRequired,
   }).isRequired,
 };

@@ -14,28 +14,28 @@ describe('NavbarLogo', () => {
     context: { muiTheme },
     childContextTypes: { muiTheme: PropTypes.object.isRequired },
   });
-  const mountWrapper = mountWithContext(<NavbarLogo />);
+  const wrapper = mountWithContext(<NavbarLogo />);
 
   it('renders correctly', () => {
-    const tree = toJson(mountWrapper);
+    const tree = toJson(wrapper);
     expect(tree).toMatchSnapshot();
   });
 
   it('renders Division component with bgColor property #ff4081', () => {
-    expect(mountWrapper.find(Division)).toBePresent();
-    expect(mountWrapper.find(Division)).toHaveProp('bgColor', '#ff4081');
+    expect(wrapper.find(Division)).toBePresent();
+    expect(wrapper.find(Division)).toHaveProp('bgColor', '#ff4081');
   });
 
   it('renders Image component with source property "../../../static/MokaHaiku_main.png"', () => {
-    expect(mountWrapper.find(Image)).toBePresent();
-    expect(mountWrapper.find(Image)).toHaveProp('src', '../../../static/MokaHaiku_main.png');
+    expect(wrapper.find(Image)).toBePresent();
+    expect(wrapper.find(Image)).toHaveProp('src', '../../../static/MokaHaiku_main.png');
   });
 
   it('renders Image component with alt property "Moka Haiku web development agency"', () => {
-    expect(mountWrapper.find(Image)).toHaveProp('alt', 'Moka Haiku web development agency');
+    expect(wrapper.find(Image)).toHaveProp('alt', 'Moka Haiku web development agency');
   });
 
   it('renders Image component with width property of 5', () => {
-    expect(mountWrapper.find(Image)).toHaveProp('width', 5);
+    expect(wrapper.find(Image)).toHaveProp('width', 5);
   });
 });

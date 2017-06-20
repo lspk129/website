@@ -427,7 +427,7 @@ exports[`NavbarLogo renders correctly 1`] = `
       textAlign="center"
     >
       <div
-        className="sc-bdVaJa hMSQGf"
+        className="sc-bdVaJa kJARha"
       >
         <styled.img
           alt="Moka Haiku web development agency"

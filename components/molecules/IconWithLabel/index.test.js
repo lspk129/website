@@ -4,11 +4,12 @@ import { mount } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
+import { FaEnvelope } from 'react-icons/lib/fa';
 
 import IconWithLabel from './';
 import PaperIcons from '../../atoms/PaperIcons';
 import Division from '../../atoms/Division';
-import Paragraph from '../../atoms/Paragraph';
+import Title from '../../atoms/Title';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -21,25 +22,39 @@ describe('IconWithLabel', () => {
     context: { muiTheme },
     childContextTypes: { muiTheme: PropTypes.object },
   });
-  const mountWrapper = mountWithContext(<IconWithLabel />);
+  const wrapper = mountWithContext(<IconWithLabel />);
 
   it('renders correctly', () => {
-    const tree = toJson(mountWrapper);
-    expect(tree).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
+
+  it('renders with icon pops', () => {
+    const wrapperWithProps = mountWithContext(
+      <IconWithLabel icon={<FaEnvelope />} />,
+    );
+    expect(toJson(wrapperWithProps)).toMatchSnapshot();
+  });
+
+  it('renders with label props', () => {
+    const wrapperWithProps = mountWithContext(
+      <IconWithLabel label={'info@mokahaiku.com'} />,
+    );
+    expect(toJson(wrapperWithProps)).toMatchSnapshot();
+  });
+
   it('renders IconWithLabel component', () => {
-    expect(mountWrapper).toBePresent();
+    expect(wrapper).toBePresent();
   });
 
   it('renders PaperIcons component', () => {
-    expect(mountWrapper.find(PaperIcons)).toBePresent();
+    expect(wrapper.find(PaperIcons)).toBePresent();
   });
 
   it('renders Division component', () => {
-    expect(mountWrapper.find(Division)).toBePresent();
+    expect(wrapper.find(Division)).toBePresent();
   });
 
   it('renders Paragraph component', () => {
-    expect(mountWrapper.find(Paragraph)).toBePresent();
+    expect(wrapper.find(Title)).toBePresent();
   });
 });

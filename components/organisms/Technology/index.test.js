@@ -23,7 +23,7 @@ describe('Technology ', () => {
   });
 
   it('renders Title component with content "We use cutting-edge technologies"', () => {
-    expect(mountWrapper.find(Title)).toHaveText('We use cutting-edge technologies');
+    expect(mountWrapper.find(Title).at(0)).toHaveText('We use cutting-edge technologies');
   });
 
   it('renders DivisionHover component', () => {

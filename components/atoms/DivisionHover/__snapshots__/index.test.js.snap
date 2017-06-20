@@ -1,7 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`DivisionHover renders background color boolean props with theme props 1`] = `
+<div
+  className="sc-bdVaJa ialuuP"
+/>
+`;
+
 exports[`DivisionHover renders correctly 1`] = `
 <div
   className="sc-bdVaJa gTxdXK"
+/>
+`;
+
+exports[`DivisionHover renders height props 1`] = `
+<div
+  className="sc-bdVaJa cvWOwL"
+  height={100}
+/>
+`;
+
+exports[`DivisionHover renders scale boolean props 1`] = `
+<div
+  className="sc-bdVaJa liLKLb"
+  scale={true}
 />
 `;

@@ -24,44 +24,44 @@ describe('Navbar', () => {
     context: { muiTheme },
     childContextTypes: { muiTheme: PropTypes.object.isRequired },
   });
-  const mountWrapper = mountWithContext(<StickyContainer><Navbar /></StickyContainer>);
+  const wrapper = mountWithContext(<StickyContainer><Navbar /></StickyContainer>);
 
   it('renders correctly', () => {
-    const tree = toJson(mountWrapper);
+    const tree = toJson(wrapper);
     expect(tree).toMatchSnapshot();
   });
 
   it('renders Navbar component', () => {
-    expect(mountWrapper).toBePresent();
+    expect(wrapper).toBePresent();
   });
 
   it('renders ColStyled component', () => {
-    expect(mountWrapper.find(ColStyled)).toBePresent();
+    expect(wrapper.find(ColStyled)).toBePresent();
   });
 
   it('renders Division component', () => {
-    expect(mountWrapper.find(Division)).toBePresent();
+    expect(wrapper.find(Division)).toBePresent();
   });
 
   it('renders AnimatedBorder component', () => {
-    expect(mountWrapper.find(AnimatedBorder)).toBePresent();
+    expect(wrapper.find(AnimatedBorder)).toBePresent();
   });
 
   it('renders Sticky component', () => {
-    expect(mountWrapper.find(Sticky)).toBePresent();
+    expect(wrapper.find(Sticky)).toBePresent();
   });
 
   it('renders Scroll.Link component with link to Services section', () => {
-    expect(mountWrapper.find(Scroll.Link)).toBePresent();
-    expect(mountWrapper.find(Scroll.Link).at(0)).toHaveProp('to', 'Service');
+    expect(wrapper.find(Scroll.Link)).toBePresent();
+    expect(wrapper.find(Scroll.Link).at(0)).toHaveProp('to', 'Service');
   });
 
   it('renders Scroll.Link component with link to Technologies section', () => {
-    expect(mountWrapper.find(Scroll.Link).at(1)).toHaveProp('to', 'Technology');
+    expect(wrapper.find(Scroll.Link).at(1)).toHaveProp('to', 'Technology');
   });
 
   it('renders RaisedButton component', () => {
-    expect(mountWrapper.find(RaisedButton)).toBePresent();
-    expect(mountWrapper.find(RaisedButton)).toHaveProp('label', 'Contact us');
+    expect(wrapper.find(RaisedButton)).toBePresent();
+    expect(wrapper.find(RaisedButton)).toHaveProp('label', 'Contact us');
   });
 });

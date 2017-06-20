@@ -5,30 +5,39 @@ import renderer from 'react-test-renderer';
 import Card from './';
 import Division from '../../atoms/Division';
 import Title from '../../atoms/Title';
-import Paragraph from '../../atoms/Paragraph';
 
 describe('Card', () => {
-  const shallowWrapper = shallow(<Card />);
-
   it('renders correctly', () => {
     const wrapper = renderer.create(<Card />);
     const tree = wrapper.toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('renders Card component', () => {
-    expect(shallowWrapper).toBePresent();
+  it('renders with image props', () => {
+    const wrapper = renderer.create(<Card image={<img src={'../../../static/React_logo.png'} alt={'React'} />} />);
+    const tree = wrapper.toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('renders with label props', () => {
+    const wrapper = renderer.create(<Card label={'test label'} />);
+    const tree = wrapper.toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('renders with text props', () => {
+    const wrapper = renderer.create(<Card text={'testing text'} />);
+    const tree = wrapper.toJSON();
+    expect(tree).toMatchSnapshot();
   });
 
   it('renders Division component', () => {
-    expect(shallowWrapper.find(Division)).toBePresent();
+    const wrapper = shallow(<Card />);
+    expect(wrapper.find(Division)).toBePresent();
   });
 
   it('renders Title component', () => {
-    expect(shallowWrapper.find(Title)).toBePresent();
-  });
-
-  it('renders Paragraph component', () => {
-    expect(shallowWrapper.find(Paragraph)).toBePresent();
+    const wrapper = shallow(<Card />);
+    expect(wrapper.find(Title)).toBePresent();
   });
 });

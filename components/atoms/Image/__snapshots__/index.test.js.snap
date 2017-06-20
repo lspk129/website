@@ -5,3 +5,10 @@ exports[`Image renders correctly 1`] = `
   className="sc-bdVaJa ibTDPh"
 />
 `;
+
+exports[`Image renders with width props 1`] = `
+<img
+  className="sc-bdVaJa errckc"
+  width={200}
+/>
+`;

@@ -9,8 +9,12 @@ describe('Image', () => {
 
   it('renders correctly', () => {
     const wrapper = renderer.create(<Image />);
-    const tree = wrapper.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(wrapper.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders with width props', () => {
+    const wrapper = renderer.create(<Image width={200} />);
+    expect(wrapper.toJSON()).toMatchSnapshot();
   });
 
   it('renders img tag', () => {

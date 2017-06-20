@@ -21,34 +21,34 @@ describe('Hero', () => {
     context: { muiTheme },
     childContextTypes: { muiTheme: PropTypes.object },
   });
-  const mountWrapper = mountWithContext(<Hero />);
+  const wrapper = mountWithContext(<Hero />);
 
   it('renders correctly', () => {
-    const tree = toJson(mountWrapper);
+    const tree = toJson(wrapper);
     expect(tree).toMatchSnapshot();
   });
 
   it('renders Hero component', () => {
-    expect(mountWrapper).toBePresent();
+    expect(wrapper).toBePresent();
   });
 
   it('renders Division component', () => {
-    expect(mountWrapper.find(Division)).toBePresent();
+    expect(wrapper.find(Division)).toBePresent();
   });
 
   it('renders Title component with content "Moka Haiku:web app agency"', () => {
-    expect(mountWrapper.find(Title).at(0)).toBePresent();
-    expect(mountWrapper.find(Title).at(0)).toHaveText('Moka Haiku:web app agency');
+    expect(wrapper.find(Title).at(0)).toBePresent();
+    expect(wrapper.find(Title).at(0)).toHaveText('Moka Haiku:web app agency');
   });
 
   it('renders Title component with content "Creating fast & interactive web applications with React and Meteor"', () => {
-    expect(mountWrapper.find(Title).at(1)).toBePresent();
-    expect(mountWrapper.find(Title).at(1)).toHaveText('Creating fast & interactive web applications with React and Meteor');
+    expect(wrapper.find(Title).at(1)).toBePresent();
+    expect(wrapper.find(Title).at(1)).toHaveText('Creating fast & interactive web applications with React and Meteor');
   });
 
   it('renders RaisedButton component', () => {
-    expect(mountWrapper.find(RaisedButton)).toBePresent();
-    expect(mountWrapper.find(RaisedButton)).toHaveProp('label', 'get a free consultation');
+    expect(wrapper.find(RaisedButton)).toBePresent();
+    expect(wrapper.find(RaisedButton)).toHaveProp('label', 'get a free consultation');
   });
 });
 

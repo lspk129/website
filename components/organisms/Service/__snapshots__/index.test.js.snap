@@ -2,14 +2,14 @@
 
 exports[`Service renders correctly 1`] = `
 <div
-  className="sc-bdVaJa khZUEa"
+  className="sc-bdVaJa eWpeJB"
   src="../../../static/Service_image.jpg"
 >
   <div
-    className="sc-bdVaJa eroyXJ"
+    className="sc-bdVaJa esXjej"
   >
     <h2
-      className="sc-bxivhb kixuJS"
+      className="sc-bwzfXH rANkV"
     >
       What we do
     </h2>
@@ -21,11 +21,11 @@ exports[`Service renders correctly 1`] = `
       className="Col__Col-hCQanm fyLqBb"
     >
       <div
-        className="sc-ifAKCX bpFcba"
+        className="sc-htpNat jgyVMn"
         height={260}
       >
         <div
-          className="sc-bdVaJa jKGJER"
+          className="sc-bdVaJa iOpgTO"
         >
           <svg
             className="icons"
@@ -48,12 +48,12 @@ exports[`Service renders correctly 1`] = `
             </g>
           </svg>
           <h3
-            className="sc-bwzfXH gCrSZp"
+            className="sc-bwzfXH dyhvQZ"
           >
             Web development
           </h3>
           <p
-            className="sc-htpNat iLNOgD"
+            className="sc-bwzfXH hcrUCW"
           >
             We help you build fast, functional, performance oriented websites and web apps
           </p>
@@ -64,11 +64,11 @@ exports[`Service renders correctly 1`] = `
       className="Col__Col-hCQanm fyLqBb"
     >
       <div
-        className="sc-ifAKCX bpFcba"
+        className="sc-htpNat jgyVMn"
         height={260}
       >
         <div
-          className="sc-bdVaJa jKGJER"
+          className="sc-bdVaJa iOpgTO"
         >
           <svg
             className="icons"
@@ -91,12 +91,12 @@ exports[`Service renders correctly 1`] = `
             </g>
           </svg>
           <h3
-            className="sc-bwzfXH gCrSZp"
+            className="sc-bwzfXH dyhvQZ"
           >
             Web design
           </h3>
           <p
-            className="sc-htpNat iLNOgD"
+            className="sc-bwzfXH hcrUCW"
           >
             We are creating unique and adaptive designs to engage customers
           </p>

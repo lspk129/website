@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Title = styled(({ tag, children, ...props }) => React.createElement(tag, props, children))`
+const Title = styled(({ tag, children, hero, upperCase, ...props }) => React.createElement(tag, props, children))`
   text-align: center;
 
   ${({ tag, hero, theme }) => tag === 'h1' && `

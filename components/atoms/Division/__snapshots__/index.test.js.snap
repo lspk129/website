@@ -1,7 +1,116 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Division render with margin left and right props 1`] = `
+<div
+  className="sc-bdVaJa dPUpKu"
+/>
+`;
+
+exports[`Division render with margin props 1`] = `
+<div
+  className="sc-bdVaJa iUKSdz"
+/>
+`;
+
+exports[`Division render with margin top and bottom props 1`] = `
+<div
+  className="sc-bdVaJa dEDre"
+/>
+`;
+
+exports[`Division render with margin top props 1`] = `
+<div
+  className="sc-bdVaJa cUdROZ"
+/>
+`;
+
+exports[`Division render with textAlign props 1`] = `
+<div
+  className="sc-bdVaJa fTiIyF"
+/>
+`;
+
+exports[`Division renders Division with padding left and right props 1`] = `
+<div
+  className="sc-bdVaJa bcZfmO"
+/>
+`;
+
 exports[`Division renders correctly 1`] = `
 <div
-  className="sc-bdVaJa qEUiT"
+  className="sc-bdVaJa ismQjC"
+/>
+`;
+
+exports[`Division renders with background color props 1`] = `
+<div
+  className="sc-bdVaJa caIcIH"
+/>
+`;
+
+exports[`Division renders with background image source props 1`] = `
+<div
+  className="sc-bdVaJa ismQjC"
+  src="../../../static/Service_image.jpg"
+/>
+`;
+
+exports[`Division renders with margin bottom props 1`] = `
+<div
+  className="sc-bdVaJa etlXbv"
+/>
+`;
+
+exports[`Division renders with margin left props 1`] = `
+<div
+  className="sc-bdVaJa hxHntJ"
+/>
+`;
+
+exports[`Division renders with margin right props 1`] = `
+<div
+  className="sc-bdVaJa cFRzvk"
+/>
+`;
+
+exports[`Division renders with padding bottom props 1`] = `
+<div
+  className="sc-bdVaJa kQEfeK"
+/>
+`;
+
+exports[`Division renders with padding left props 1`] = `
+<div
+  className="sc-bdVaJa iiOrUx"
+/>
+`;
+
+exports[`Division renders with padding props 1`] = `
+<div
+  className="sc-bdVaJa dmhyKl"
+/>
+`;
+
+exports[`Division renders with padding right props 1`] = `
+<div
+  className="sc-bdVaJa BftaD"
+/>
+`;
+
+exports[`Division renders with padding top and bottom props 1`] = `
+<div
+  className="sc-bdVaJa AXapn"
+/>
+`;
+
+exports[`Division renders with padding top props 1`] = `
+<div
+  className="sc-bdVaJa jYcWAw"
+/>
+`;
+
+exports[`Division renders with z-index props 1`] = `
+<div
+  className="sc-bdVaJa etyaed"
 />
 `;

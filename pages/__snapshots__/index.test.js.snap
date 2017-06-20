@@ -43,6 +43,7 @@ exports[`IndexPage renders correctly 1`] = `
           "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
           "shadowColor": "rgba(0, 0, 0, 1)",
           "textColor": "rgba(0, 0, 0, 0.87)",
+          "whiteText": "#ffffff",
         },
         "spacing": Object {
           "desktopDrawerMenuItemHeight": 48,
@@ -201,6 +202,7 @@ exports[`IndexPage renders correctly 1`] = `
         "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
         "shadowColor": "rgba(0, 0, 0, 1)",
         "textColor": "rgba(0, 0, 0, 0.87)",
+        "whiteText": "#ffffff",
       },
       "paper": Object {
         "backgroundColor": "#ffffff",
@@ -260,6 +262,7 @@ exports[`IndexPage renders correctly 1`] = `
           "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
           "shadowColor": "rgba(0, 0, 0, 1)",
           "textColor": "rgba(0, 0, 0, 0.87)",
+          "whiteText": "#ffffff",
         },
         "spacing": Object {
           "desktopDrawerMenuItemHeight": 48,

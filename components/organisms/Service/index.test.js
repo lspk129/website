@@ -10,62 +10,60 @@ import Card from '../../molecules/Card';
 import Title from '../../atoms/Title';
 
 describe('Service', () => {
-  const mountWrapper = mount(<Service />);
+  const wrapper = mount(<Service />);
 
   it('renders correctly', () => {
-    const wrapper = renderer.create(<Service />);
-    const tree = wrapper.toJSON();
+    const tree = renderer.create(<Service />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('renders Title component', () => {
-    expect(mountWrapper).toBePresent();
-    expect(mountWrapper.find(Title)).toBePresent();
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(Title)).toBePresent();
   });
 
   it('renders text "What we do"', () => {
-    const wrapper = mount(<Service />);
-    expect(wrapper.find(Title)).toHaveText('What we do');
+    expect(wrapper.find(Title).at(0)).toHaveText('What we do');
   });
   it('renders Card component', () => {
-    expect(mountWrapper.find(Card)).toBePresent();
+    expect(wrapper.find(Card)).toBePresent();
   });
 
   it('renders Division component', () => {
-    expect(mountWrapper.find(Division)).toBePresent();
+    expect(wrapper.find(Division)).toBePresent();
   });
 
   it('renders DivisionHover component', () => {
-    expect(mountWrapper.find(DivisionHover)).toBePresent();
+    expect(wrapper.find(DivisionHover)).toBePresent();
   });
 
   it('renders Card component with text "Web development"', () => {
-    expect(mountWrapper.find(Card).at(0)).toHaveProp('label', 'Web development');
+    expect(wrapper.find(Card).at(0)).toHaveProp('label', 'Web development');
   });
 
   it('renders Card component with content "We help you build fast, functional, performance oriented websites and web apps"', () => {
-    expect(mountWrapper.find(Card).at(0)).toHaveProp(
+    expect(wrapper.find(Card).at(0)).toHaveProp(
       'text',
       'We help you build fast, functional, performance oriented websites and web apps',
     );
   });
 
   it('renders Card component with text "Web design"', () => {
-    expect(mountWrapper.find(Card).at(1)).toHaveProp('label', 'Web design');
+    expect(wrapper.find(Card).at(1)).toHaveProp('label', 'Web design');
   });
 
   it('renders Card component with content "We are creating unique and adaptive designs to engage customers"', () => {
-    expect(mountWrapper.find(Card).at(1)).toHaveProp(
+    expect(wrapper.find(Card).at(1)).toHaveProp(
       'text',
       'We are creating unique and adaptive designs to engage customers',
     );
   });
 
   it('renders MdDesktopMac component with desktop icon', () => {
-    expect(mountWrapper.find(MdDesktopMac)).toBePresent();
+    expect(wrapper.find(MdDesktopMac)).toBePresent();
   });
 
   it('renders MdColorLens component with color lens icon', () => {
-    expect(mountWrapper.find(MdColorLens)).toBePresent();
+    expect(wrapper.find(MdColorLens)).toBePresent();
   });
 });

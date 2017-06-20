@@ -2,6 +2,13 @@
 
 exports[`AnimatedBorder renders correctly 1`] = `
 <div
-  className="sc-bdVaJa hgwNKU"
+  className="sc-bdVaJa udBkl"
+/>
+`;
+
+exports[`AnimatedBorder renders with text color props 1`] = `
+<div
+  className="sc-bdVaJa kUbMBk"
+  color="white"
 />
 `;

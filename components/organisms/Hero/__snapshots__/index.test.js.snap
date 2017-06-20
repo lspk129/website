@@ -8,35 +8,49 @@ exports[`Hero renders correctly 1`] = `
     src="../../../static/Hero_image.jpg"
   >
     <div
-      className="sc-bdVaJa idNquV"
+      className="sc-bdVaJa gBUvSn"
       src="../../../static/Hero_image.jpg"
     >
-      <styled.h1
+      <Styled(Component)
         hero={true}
+        tag="h1"
       >
-        <h1
-          className="sc-bwzfXH dQODAc"
+        <Component
+          className="sc-bwzfXH djSkak"
+          hero={true}
+          tag="h1"
         >
-          Moka Haiku:
-          <br />
-          web app agency
-        </h1>
-      </styled.h1>
-      <styled.h2
+          <h1
+            className="sc-bwzfXH djSkak"
+          >
+            Moka Haiku:
+            <br />
+            web app agency
+          </h1>
+        </Component>
+      </Styled(Component)>
+      <Styled(Component)
         hero={true}
+        tag="h2"
       >
-        <h2
-          className="sc-htpNat jgiGjd"
+        <Component
+          className="sc-bwzfXH hiUGRp"
+          hero={true}
+          tag="h2"
         >
-          Creating fast & interactive web applications with React and Meteor
-        </h2>
-      </styled.h2>
+          <h2
+            className="sc-bwzfXH hiUGRp"
+          >
+            Creating fast & interactive web applications with React and Meteor
+          </h2>
+        </Component>
+      </Styled(Component)>
       <styled.div
         pt={2}
         textAlign="center"
       >
         <div
-          className="sc-bdVaJa gzFADh"
+          className="sc-bdVaJa cMmdAJ"
         >
           <RaisedButton
             disabled={false}
