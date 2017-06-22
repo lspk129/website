@@ -1,24 +1,20 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import renderer from 'react-test-renderer';
+import toJson from 'enzyme-to-json';
 
 import Image from './';
 
 describe('Image', () => {
-  const shallowWrapper = shallow(<Image />);
-
   it('renders correctly', () => {
-    const wrapper = renderer.create(<Image />);
-    expect(wrapper.toJSON()).toMatchSnapshot();
+    const wrapper = shallow(<Image />);
+    expect(shallow(<Image />)).toBePresent();
+    expect(shallow(<Image />)).toHaveTagName('img');
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('renders with width props', () => {
-    const wrapper = renderer.create(<Image width={200} />);
-    expect(wrapper.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders img tag', () => {
-    expect(shallowWrapper).toBePresent();
-    expect(shallowWrapper).toHaveTagName('img');
+    const wrapper = shallow(<Image width={300} />);
+    expect(wrapper).toHaveProp('width', 300);
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 });

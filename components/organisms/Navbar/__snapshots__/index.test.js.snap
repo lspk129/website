@@ -437,12 +437,12 @@ exports[`Navbar renders correctly 1`] = `
           <div>
             <div />
             <styled.div
-              bgColor="#ff4081"
+              backgroundColor="#ff4081"
               style={Object {}}
               zIndex={2}
             >
               <div
-                className="sc-htpNat jbwUTh"
+                className="sc-htpNat bhxTPt"
                 style={Object {}}
               >
                 <Row
@@ -459,10 +459,25 @@ exports[`Navbar renders correctly 1`] = `
                           onClick={[Function]}
                         >
                           <div
-                            className="sc-bdVaJa udBkl"
+                            className="sc-bdVaJa jGBEhv"
                             onClick={[Function]}
                           >
-                            HOME
+                            <Styled(Component)
+                              tag="span"
+                              upperCase={true}
+                            >
+                              <Component
+                                className="sc-bxivhb cZcLZa"
+                                tag="span"
+                                upperCase={true}
+                              >
+                                <span
+                                  className="sc-bxivhb cZcLZa"
+                                >
+                                  Home
+                                </span>
+                              </Component>
+                            </Styled(Component)>
                           </div>
                         </styled.div>
                       </div>
@@ -486,9 +501,24 @@ exports[`Navbar renders correctly 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="sc-bdVaJa udBkl"
+                                  className="sc-bdVaJa jGBEhv"
                                 >
-                                  SERVICES
+                                  <Styled(Component)
+                                    tag="span"
+                                    upperCase={true}
+                                  >
+                                    <Component
+                                      className="sc-bxivhb cZcLZa"
+                                      tag="span"
+                                      upperCase={true}
+                                    >
+                                      <span
+                                        className="sc-bxivhb cZcLZa"
+                                      >
+                                        Services
+                                      </span>
+                                    </Component>
+                                  </Styled(Component)>
                                 </div>
                               </styled.div>
                             </a>
@@ -515,9 +545,24 @@ exports[`Navbar renders correctly 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="sc-bdVaJa udBkl"
+                                  className="sc-bdVaJa jGBEhv"
                                 >
-                                  TECHNOLOGIES
+                                  <Styled(Component)
+                                    tag="span"
+                                    upperCase={true}
+                                  >
+                                    <Component
+                                      className="sc-bxivhb cZcLZa"
+                                      tag="span"
+                                      upperCase={true}
+                                    >
+                                      <span
+                                        className="sc-bxivhb cZcLZa"
+                                      >
+                                        Technologies
+                                      </span>
+                                    </Component>
+                                  </Styled(Component)>
                                 </div>
                               </styled.div>
                             </a>

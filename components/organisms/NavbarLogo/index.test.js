@@ -17,13 +17,13 @@ describe('NavbarLogo', () => {
   const wrapper = mountWithContext(<NavbarLogo />);
 
   it('renders correctly', () => {
-    const tree = toJson(wrapper);
-    expect(tree).toMatchSnapshot();
+    expect(wrapper).toBePresent();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
-  it('renders Division component with bgColor property #ff4081', () => {
+  it('renders Division component with backgroundColor property #ff4081', () => {
     expect(wrapper.find(Division)).toBePresent();
-    expect(wrapper.find(Division)).toHaveProp('bgColor', '#ff4081');
+    expect(wrapper.find(Division)).toHaveProp('backgroundColor', '#ff4081');
   });
 
   it('renders Image component with source property "../../../static/MokaHaiku_main.png"', () => {
@@ -35,7 +35,7 @@ describe('NavbarLogo', () => {
     expect(wrapper.find(Image)).toHaveProp('alt', 'Moka Haiku web development agency');
   });
 
-  it('renders Image component with width property of 5', () => {
-    expect(wrapper.find(Image)).toHaveProp('width', 5);
+  it('renders Image component with width property of 75', () => {
+    expect(wrapper.find(Image)).toHaveProp('width', 75);
   });
 });

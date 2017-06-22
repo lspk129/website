@@ -13,20 +13,17 @@ describe('PaperIcon', () => {
     context: { muiTheme },
     childContextTypes: { muiTheme: PropTypes.object },
   });
-  const mountWrapper = mountWithContext(<PaperIcon />);
 
   it('renders correctly', () => {
-    const tree = toJson(mountWrapper);
-    expect(tree).toMatchSnapshot();
+    const wrapper = mountWithContext(<PaperIcon />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(Paper)).toBePresent();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('renders with circle props', () => {
-    const tree = toJson(mountWithContext(<PaperIcon circle />));
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('renders Paper component', () => {
-    expect(mountWrapper).toBePresent();
-    expect(mountWrapper.find(Paper)).toBePresent();
+    const wrapper = mountWithContext(<PaperIcon circle />);
+    expect(wrapper).toHaveProp('circle', true);
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 });

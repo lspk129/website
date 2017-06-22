@@ -5,16 +5,16 @@ import { Row, Col } from 'react-styled-flexboxgrid';
 import Card from '../../molecules/Card';
 import Division from '../../atoms/Division';
 import DivisionHover from '../../atoms/DivisionHover';
-import Title from '../../atoms/Title';
+import Text from '../../atoms/Text';
 
 const Service = () => (
   <Division bg src={'../../../static/Service_image.jpg'} pb={3}>
     <Division py={3}>
-      <Title tag={'h2'}>What we do</Title>
+      <Text tag={'h2'}>What we do</Text>
     </Division>
     <Row center={'xs'}>
       <Col md={3} sm={4} xs={12}>
-        <DivisionHover bgcolor height={260}>
+        <DivisionHover backgroundColor>
           <Card
             image={<MdDesktopMac className={'icons'} size={48} />}
             label={'Web development'}
@@ -23,7 +23,7 @@ const Service = () => (
         </DivisionHover>
       </Col>
       <Col md={3} sm={4} xs={12}>
-        <DivisionHover bgcolor height={260}>
+        <DivisionHover backgroundColor>
           <Card
             image={<MdColorLens className={'icons'} size={48} />}
             label={'Web design'}

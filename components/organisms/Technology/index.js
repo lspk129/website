@@ -2,20 +2,20 @@ import React from 'react';
 import { Row, Col } from 'react-styled-flexboxgrid';
 
 import Card from '../../molecules/Card';
-import Title from '../../atoms/Title';
+import Text from '../../atoms/Text';
 import Division from '../../atoms/Division';
 import DivisionHover from '../../atoms/DivisionHover';
 
 const Technology = () => (
   <Division pb={3}>
     <Division py={3}>
-      <Title tag={'h2'}>
+      <Text tag={'h2'}>
         We use cutting-edge technologies
-      </Title>
+      </Text>
     </Division>
     <Row center={'xs'}>
       <Col md={3} sm={4} xs={12}>
-        <DivisionHover scale>
+        <DivisionHover scale={1.1}>
           <Card
             image={<img src="/static/React_logo.png" alt="React" />}
             label={'React'}
@@ -23,7 +23,7 @@ const Technology = () => (
         </DivisionHover>
       </Col>
       <Col md={3} sm={4} xs={12}>
-        <DivisionHover scale>
+        <DivisionHover scale={1.1}>
           <Card
             image={<img src="/static/Meteor_logo.png" alt="Meteor" />}
             label={'Meteor'}
@@ -31,7 +31,7 @@ const Technology = () => (
         </DivisionHover>
       </Col>
       <Col md={3} sm={4} xs={12}>
-        <DivisionHover scale>
+        <DivisionHover scale={1.1}>
           <Card
             image={<img src="/static/Nextjs_logo.png" alt="Next.js" />}
             label={'Next.js'}

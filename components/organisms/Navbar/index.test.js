@@ -27,12 +27,9 @@ describe('Navbar', () => {
   const wrapper = mountWithContext(<StickyContainer><Navbar /></StickyContainer>);
 
   it('renders correctly', () => {
-    const tree = toJson(wrapper);
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('renders Navbar component', () => {
     expect(wrapper).toBePresent();
+    expect(wrapper.find(Navbar)).toBePresent();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('renders ColStyled component', () => {

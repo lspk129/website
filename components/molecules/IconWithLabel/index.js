@@ -1,38 +1,33 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Row, Col } from 'react-styled-flexboxgrid';
 
-import PaperIcons from '../../atoms/PaperIcons';
+import PaperIcon from '../../atoms/PaperIcon';
 import Division from '../../atoms/Division';
-import Title from '../../atoms/Title';
+import Text from '../../atoms/Text';
 
-const IconWithLabel = ({ icon, label }) => (
-  <Division m={2}>
-    <Row center={'xs'}>
-      <Col xs>
-        <Row>
-          <PaperIcons circle>
-            {icon}
-          </PaperIcons>
-          <Division px={1}>
-            <Title tag={'p'}>
-              {label}
-            </Title>
-          </Division>
-        </Row>
-      </Col>
-    </Row>
+const IconWithLabel = ({ icon, label, tag }) => (
+  <Division m={2} display={'flex'}>
+    <PaperIcon circle>
+      {icon}
+    </PaperIcon>
+    <Division px={1} alignSelf={'center'}>
+      <Text tag={tag}>
+        {label}
+      </Text>
+    </Division>
   </Division>
 );
 
 IconWithLabel.propTypes = {
   icon: PropTypes.node,
   label: PropTypes.string,
+  tag: PropTypes.string,
 };
 
 IconWithLabel.defaultProps = {
   icon: '',
   label: '',
+  tag: 'span',
 };
 
 export default IconWithLabel;

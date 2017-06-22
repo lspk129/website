@@ -8,7 +8,7 @@ import { FaEnvelope, FaTwitter, FaGlobe } from 'react-icons/lib/fa';
 import IconWithLabel from '../../molecules/IconWithLabel';
 import ColStyled from '../../atoms/ColStyled';
 import Division from '../../atoms/Division';
-import Title from '../../atoms/Title';
+import Text from '../../atoms/Text';
 
 class Contact extends Component {
   state = {
@@ -25,9 +25,9 @@ class Contact extends Component {
             <Col>
               <Division py={3}>
                 <Division pb={1}>
-                  <Title tag={'h3'} upperCase>
+                  <Text tag={'h3'} upperCase>
                     Contact us
-                  </Title>
+                  </Text>
                 </Division>
                 <IconWithLabel
                   icon={<FaEnvelope color={this.props.muiTheme.palette.accent1Color} />}
@@ -49,9 +49,9 @@ class Contact extends Component {
         <Col xs={10} sm={6}>
           <Division py={3}>
             <Division pb={1}>
-              <Title tag={'h3'} upperCase>
+              <Text tag={'h3'} upperCase>
                 Get a free consultation
-              </Title>
+              </Text>
             </Division>
             <form>
               <Row center={'xs'}>

@@ -8,7 +8,7 @@ exports[`Hero renders correctly 1`] = `
     src="../../../static/Hero_image.jpg"
   >
     <div
-      className="sc-bdVaJa gBUvSn"
+      className="sc-bdVaJa jomBZL"
       src="../../../static/Hero_image.jpg"
     >
       <Styled(Component)
@@ -16,12 +16,12 @@ exports[`Hero renders correctly 1`] = `
         tag="h1"
       >
         <Component
-          className="sc-bwzfXH djSkak"
+          className="sc-bwzfXH kDeLAv"
           hero={true}
           tag="h1"
         >
           <h1
-            className="sc-bwzfXH djSkak"
+            className="sc-bwzfXH kDeLAv"
           >
             Moka Haiku:
             <br />
@@ -34,12 +34,12 @@ exports[`Hero renders correctly 1`] = `
         tag="h2"
       >
         <Component
-          className="sc-bwzfXH hiUGRp"
+          className="sc-bwzfXH iUDRwd"
           hero={true}
           tag="h2"
         >
           <h2
-            className="sc-bwzfXH hiUGRp"
+            className="sc-bwzfXH iUDRwd"
           >
             Creating fast & interactive web applications with React and Meteor
           </h2>
@@ -50,7 +50,7 @@ exports[`Hero renders correctly 1`] = `
         textAlign="center"
       >
         <div
-          className="sc-bdVaJa cMmdAJ"
+          className="sc-bdVaJa hNJaJD"
         >
           <RaisedButton
             disabled={false}

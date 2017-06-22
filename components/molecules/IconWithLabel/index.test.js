@@ -7,9 +7,9 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import { FaEnvelope } from 'react-icons/lib/fa';
 
 import IconWithLabel from './';
-import PaperIcons from '../../atoms/PaperIcons';
+import PaperIcon from '../../atoms/PaperIcon';
 import Division from '../../atoms/Division';
-import Title from '../../atoms/Title';
+import Text from '../../atoms/Text';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -22,39 +22,41 @@ describe('IconWithLabel', () => {
     context: { muiTheme },
     childContextTypes: { muiTheme: PropTypes.object },
   });
-  const wrapper = mountWithContext(<IconWithLabel />);
 
   it('renders correctly', () => {
+    const wrapper = mountWithContext(<IconWithLabel />);
+    expect(wrapper).toBePresent();
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('renders with icon pops', () => {
-    const wrapperWithProps = mountWithContext(
+    const wrapper = mountWithContext(
       <IconWithLabel icon={<FaEnvelope />} />,
     );
-    expect(toJson(wrapperWithProps)).toMatchSnapshot();
+    expect(wrapper).toHaveProp('icon', <FaEnvelope />);
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('renders with label props', () => {
-    const wrapperWithProps = mountWithContext(
+    const wrapper = mountWithContext(
       <IconWithLabel label={'info@mokahaiku.com'} />,
     );
-    expect(toJson(wrapperWithProps)).toMatchSnapshot();
+    expect(wrapper).toHaveProp('label', 'info@mokahaiku.com');
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
-  it('renders IconWithLabel component', () => {
-    expect(wrapper).toBePresent();
-  });
-
-  it('renders PaperIcons component', () => {
-    expect(wrapper.find(PaperIcons)).toBePresent();
+  it('renders PaperIcon component', () => {
+    const wrapper = mountWithContext(<IconWithLabel />);
+    expect(wrapper.find(PaperIcon)).toBePresent();
   });
 
   it('renders Division component', () => {
+    const wrapper = mountWithContext(<IconWithLabel />);
     expect(wrapper.find(Division)).toBePresent();
   });
 
   it('renders Paragraph component', () => {
-    expect(wrapper.find(Title)).toBePresent();
+    const wrapper = mountWithContext(<IconWithLabel />);
+    expect(wrapper.find(Text)).toBePresent();
   });
 });

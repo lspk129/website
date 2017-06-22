@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 const Division = styled.div`
+  ${({ display }) => display && `display: ${display}`}
   ${({ textAlign }) => textAlign && `text-align: ${textAlign}`};
+  ${({ alignSelf }) => alignSelf && `align-self: ${alignSelf}`};
   // margin properties
   ${({ m }) => m && `margin: ${m}rem;`}
   ${({ mx }) => mx && `margin: 0rem ${mx}rem;`}
@@ -26,8 +28,8 @@ const Division = styled.div`
     background-size: cover;
     display: grid;
   `}
-  ${({ bgColor }) => bgColor && `
-    background-color: ${bgColor};
+  ${({ backgroundColor }) => backgroundColor && `
+    background-color: ${backgroundColor};
   `}
   ${({ zIndex }) => zIndex && `z-index: ${zIndex};`}
 `;

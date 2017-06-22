@@ -9,13 +9,14 @@ import { Row, Col } from 'react-styled-flexboxgrid';
 import AnimatedBorder from '../../atoms/AnimatedBorder';
 import ColStyled from '../../atoms/ColStyled';
 import Division from '../../atoms/Division';
+import Text from '../../atoms/Text';
 
 const Navbar = props => (
   <Sticky>
     {({ style }) => (
       <Division
         style={style}
-        bgColor={props.muiTheme.palette.accent1Color}
+        backgroundColor={props.muiTheme.palette.accent1Color}
         zIndex={2}
       >
         <Row center={'xs'}>
@@ -24,20 +25,21 @@ const Navbar = props => (
               color={props.muiTheme.palette.whiteText}
               onClick={() => Scroll.animateScroll.scrollToTop()}
             >
-              HOME
+              <Text upperCase>Home</Text>
+
             </AnimatedBorder>
           </Col>
           <Col>
             <Scroll.Link to={'Service'} spy smooth duration={500}>
               <AnimatedBorder color={props.muiTheme.palette.whiteText}>
-                SERVICES
+                <Text upperCase>Services</Text>
               </AnimatedBorder>
             </Scroll.Link>
           </Col>
           <Col>
             <Scroll.Link to={'Technology'} spy smooth duration={500}>
               <AnimatedBorder color={props.muiTheme.palette.whiteText}>
-                TECHNOLOGIES
+                <Text upperCase>Technologies</Text>
               </AnimatedBorder>
             </Scroll.Link>
           </Col>

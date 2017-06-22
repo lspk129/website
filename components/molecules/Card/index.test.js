@@ -1,34 +1,34 @@
 import React from 'react';
-import { shallow } from 'enzyme';
-import renderer from 'react-test-renderer';
+import { mount, shallow } from 'enzyme';
+import toJson from 'enzyme-to-json';
 
 import Card from './';
 import Division from '../../atoms/Division';
-import Title from '../../atoms/Title';
+import Text from '../../atoms/Text';
 
 describe('Card', () => {
   it('renders correctly', () => {
-    const wrapper = renderer.create(<Card />);
-    const tree = wrapper.toJSON();
-    expect(tree).toMatchSnapshot();
+    const wrapper = shallow(<Card />);
+    expect(wrapper).toBePresent();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('renders with image props', () => {
-    const wrapper = renderer.create(<Card image={<img src={'../../../static/React_logo.png'} alt={'React'} />} />);
-    const tree = wrapper.toJSON();
-    expect(tree).toMatchSnapshot();
+    const wrapper = mount(<Card image={<img src={'../../../static/React_logo.png'} alt={'React'} />} />);
+    expect(wrapper).toHaveProp('image');
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('renders with label props', () => {
-    const wrapper = renderer.create(<Card label={'test label'} />);
-    const tree = wrapper.toJSON();
-    expect(tree).toMatchSnapshot();
+    const wrapper = mount(<Card label={'test label'} />);
+    expect(wrapper).toHaveProp('label', 'test label');
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('renders with text props', () => {
-    const wrapper = renderer.create(<Card text={'testing text'} />);
-    const tree = wrapper.toJSON();
-    expect(tree).toMatchSnapshot();
+    const wrapper = mount(<Card text={'testing text'} />);
+    expect(wrapper).toHaveProp('text', 'testing text');
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('renders Division component', () => {
@@ -36,8 +36,8 @@ describe('Card', () => {
     expect(wrapper.find(Division)).toBePresent();
   });
 
-  it('renders Title component', () => {
+  it('renders Text component', () => {
     const wrapper = shallow(<Card />);
-    expect(wrapper.find(Title)).toBePresent();
+    expect(wrapper.find(Text)).toBePresent();
   });
 });

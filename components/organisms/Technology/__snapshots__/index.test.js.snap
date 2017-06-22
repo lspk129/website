@@ -1,102 +1,257 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Technology  renders correctly 1`] = `
-<div
-  className="sc-bdVaJa fFGhMS"
->
-  <div
-    className="sc-bdVaJa esXjej"
-  >
-    <h2
-      className="sc-bwzfXH rANkV"
-    >
-      We use cutting-edge technologies
-    </h2>
-  </div>
-  <div
-    className="Row__Row-kNtYPA jaQNpG"
+<Technology>
+  <styled.div
+    pb={3}
   >
     <div
-      className="Col__Col-hCQanm fyLqBb"
+      className="sc-bdVaJa kxVaou"
     >
-      <div
-        className="sc-htpNat jGdCrf"
-        scale={true}
+      <styled.div
+        py={3}
       >
         <div
-          className="sc-bdVaJa iOpgTO"
+          className="sc-bdVaJa jIYEcv"
         >
-          <img
-            alt="React"
-            src="/static/React_logo.png"
-          />
-          <h3
-            className="sc-bwzfXH dyhvQZ"
+          <Styled(Component)
+            tag="h2"
           >
-            React
-          </h3>
-          <p
-            className="sc-bwzfXH hcrUCW"
-          >
-            
-          </p>
+            <Component
+              className="sc-bwzfXH fbaTre"
+              tag="h2"
+            >
+              <h2
+                className="sc-bwzfXH fbaTre"
+              >
+                We use cutting-edge technologies
+              </h2>
+            </Component>
+          </Styled(Component)>
         </div>
-      </div>
-    </div>
-    <div
-      className="Col__Col-hCQanm fyLqBb"
-    >
-      <div
-        className="sc-htpNat jGdCrf"
-        scale={true}
+      </styled.div>
+      <Row
+        center="xs"
       >
         <div
-          className="sc-bdVaJa iOpgTO"
+          className="Row__Row-kNtYPA jaQNpG"
         >
-          <img
-            alt="Meteor"
-            src="/static/Meteor_logo.png"
-          />
-          <h3
-            className="sc-bwzfXH dyhvQZ"
+          <Col
+            md={3}
+            sm={4}
+            xs={12}
           >
-            Meteor
-          </h3>
-          <p
-            className="sc-bwzfXH hcrUCW"
+            <div
+              className="Col__Col-hCQanm fyLqBb"
+            >
+              <styled.div
+                scale={1.1}
+              >
+                <div
+                  className="sc-htpNat htwcWI"
+                  scale={1.1}
+                >
+                  <Card
+                    image={
+                      <img
+                        alt="React"
+                        src="/static/React_logo.png"
+                      />
+                    }
+                    label="React"
+                    text=""
+                  >
+                    <styled.div
+                      pl={1}
+                      pr={1}
+                      py={3}
+                      textAlign="center"
+                    >
+                      <div
+                        className="sc-bdVaJa jJDreq"
+                      >
+                        <img
+                          alt="React"
+                          src="/static/React_logo.png"
+                        />
+                        <Styled(Component)
+                          tag="h3"
+                        >
+                          <Component
+                            className="sc-bwzfXH elPfnD"
+                            tag="h3"
+                          >
+                            <h3
+                              className="sc-bwzfXH elPfnD"
+                            >
+                              React
+                            </h3>
+                          </Component>
+                        </Styled(Component)>
+                        <Styled(Component)
+                          tag="p"
+                        >
+                          <Component
+                            className="sc-bwzfXH elPfnD"
+                            tag="p"
+                          >
+                            <p
+                              className="sc-bwzfXH elPfnD"
+                            />
+                          </Component>
+                        </Styled(Component)>
+                      </div>
+                    </styled.div>
+                  </Card>
+                </div>
+              </styled.div>
+            </div>
+          </Col>
+          <Col
+            md={3}
+            sm={4}
+            xs={12}
           >
-            
-          </p>
+            <div
+              className="Col__Col-hCQanm fyLqBb"
+            >
+              <styled.div
+                scale={1.1}
+              >
+                <div
+                  className="sc-htpNat htwcWI"
+                  scale={1.1}
+                >
+                  <Card
+                    image={
+                      <img
+                        alt="Meteor"
+                        src="/static/Meteor_logo.png"
+                      />
+                    }
+                    label="Meteor"
+                    text=""
+                  >
+                    <styled.div
+                      pl={1}
+                      pr={1}
+                      py={3}
+                      textAlign="center"
+                    >
+                      <div
+                        className="sc-bdVaJa jJDreq"
+                      >
+                        <img
+                          alt="Meteor"
+                          src="/static/Meteor_logo.png"
+                        />
+                        <Styled(Component)
+                          tag="h3"
+                        >
+                          <Component
+                            className="sc-bwzfXH elPfnD"
+                            tag="h3"
+                          >
+                            <h3
+                              className="sc-bwzfXH elPfnD"
+                            >
+                              Meteor
+                            </h3>
+                          </Component>
+                        </Styled(Component)>
+                        <Styled(Component)
+                          tag="p"
+                        >
+                          <Component
+                            className="sc-bwzfXH elPfnD"
+                            tag="p"
+                          >
+                            <p
+                              className="sc-bwzfXH elPfnD"
+                            />
+                          </Component>
+                        </Styled(Component)>
+                      </div>
+                    </styled.div>
+                  </Card>
+                </div>
+              </styled.div>
+            </div>
+          </Col>
+          <Col
+            md={3}
+            sm={4}
+            xs={12}
+          >
+            <div
+              className="Col__Col-hCQanm fyLqBb"
+            >
+              <styled.div
+                scale={1.1}
+              >
+                <div
+                  className="sc-htpNat htwcWI"
+                  scale={1.1}
+                >
+                  <Card
+                    image={
+                      <img
+                        alt="Next.js"
+                        src="/static/Nextjs_logo.png"
+                      />
+                    }
+                    label="Next.js"
+                    text=""
+                  >
+                    <styled.div
+                      pl={1}
+                      pr={1}
+                      py={3}
+                      textAlign="center"
+                    >
+                      <div
+                        className="sc-bdVaJa jJDreq"
+                      >
+                        <img
+                          alt="Next.js"
+                          src="/static/Nextjs_logo.png"
+                        />
+                        <Styled(Component)
+                          tag="h3"
+                        >
+                          <Component
+                            className="sc-bwzfXH elPfnD"
+                            tag="h3"
+                          >
+                            <h3
+                              className="sc-bwzfXH elPfnD"
+                            >
+                              Next.js
+                            </h3>
+                          </Component>
+                        </Styled(Component)>
+                        <Styled(Component)
+                          tag="p"
+                        >
+                          <Component
+                            className="sc-bwzfXH elPfnD"
+                            tag="p"
+                          >
+                            <p
+                              className="sc-bwzfXH elPfnD"
+                            />
+                          </Component>
+                        </Styled(Component)>
+                      </div>
+                    </styled.div>
+                  </Card>
+                </div>
+              </styled.div>
+            </div>
+          </Col>
         </div>
-      </div>
+      </Row>
     </div>
-    <div
-      className="Col__Col-hCQanm fyLqBb"
-    >
-      <div
-        className="sc-htpNat jGdCrf"
-        scale={true}
-      >
-        <div
-          className="sc-bdVaJa iOpgTO"
-        >
-          <img
-            alt="Next.js"
-            src="/static/Nextjs_logo.png"
-          />
-          <h3
-            className="sc-bwzfXH dyhvQZ"
-          >
-            Next.js
-          </h3>
-          <p
-            className="sc-bwzfXH hcrUCW"
-          >
-            
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+  </styled.div>
+</Technology>
 `;

@@ -8,7 +8,7 @@ import { TextField, SelectField, RaisedButton } from 'material-ui/';
 import { FaEnvelope, FaTwitter, FaGlobe } from 'react-icons/lib/fa';
 
 import Contact from './';
-import Title from '../../atoms/Title';
+import Text from '../../atoms/Text';
 import IconWithLabel from '../../molecules/IconWithLabel';
 import Division from '../../atoms/Division';
 import ColStyled from '../../atoms/ColStyled';
@@ -27,16 +27,16 @@ describe('Contact', () => {
   const wrapper = mountWithContext(<Contact />);
 
   it('renders correctly', () => {
-    const tree = toJson(wrapper);
-    expect(tree).toMatchSnapshot();
+    expect(wrapper.find(Contact)).toBePresent();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('renders text "Get free consultation"', () => {
-    expect(wrapper.find(Title).at(0)).toHaveText('Contact us');
+    expect(wrapper.find(Text).at(0)).toHaveText('Contact us');
   });
 
   it('renders text "Get free consultation"', () => {
-    expect(wrapper.find(Title).at(4)).toHaveText('Get a free consultation');
+    expect(wrapper.find(Text).at(4)).toHaveText('Get a free consultation');
   });
 
   it('renders input field with text "Name"', () => {

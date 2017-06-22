@@ -1,20 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ColStyled renders correctly 1`] = `
-<div
-  className="sc-bdVaJa ifUQXn Col__Col-hCQanm rqKxU"
+<Col
+  className="sc-bdVaJa ifUQXn"
 />
 `;
 
 exports[`ColStyled renders with align props 1`] = `
-<div
-  className="sc-bdVaJa jTFsIO Col__Col-hCQanm rqKxU"
+<Col
+  align="center"
+  className="sc-bdVaJa jTFsIO"
 />
 `;
 
 exports[`ColStyled renders with color props 1`] = `
-<div
-  className="sc-bdVaJa gchyjS Col__Col-hCQanm rqKxU"
-  color="red"
+<Col
+  className="sc-bdVaJa fKSVuE"
+  color="#BADA55"
 />
 `;

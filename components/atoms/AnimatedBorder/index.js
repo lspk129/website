@@ -8,7 +8,7 @@ const AnimatedBorder = styled.div`
   font-size: 16px;
   cursor: pointer;
   &:after {
-    display: grid;
+    display: block;
     content: '';
     border-bottom: solid 2px ${({ color }) => color};  
     transform: scaleX(0);  

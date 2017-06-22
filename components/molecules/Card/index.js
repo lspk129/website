@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Division from '../../atoms/Division';
-import Title from '../../atoms/Title';
+import Text from '../../atoms/Text';
 
 const Card = ({ image, label, text }) => (
   <Division textAlign={'center'} py={3} pr={1} pl={1}>
     {image}
-    <Title tag={'h3'}>{label}</Title>
-    <Title tag={'p'}>{text}</Title>
+    <Text tag={'h3'}>{label}</Text>
+    <Text tag={'p'}>{text}</Text>
   </Division>
 );
 

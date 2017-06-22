@@ -1,29 +1,29 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import renderer from 'react-test-renderer';
+import toJson from 'enzyme-to-json';
 import { MdDesktopMac, MdColorLens } from 'react-icons/lib/md';
 
 import Service from './';
 import Division from '../../atoms/Division';
 import DivisionHover from '../../atoms/DivisionHover';
 import Card from '../../molecules/Card';
-import Title from '../../atoms/Title';
+import Text from '../../atoms/Text';
 
 describe('Service', () => {
   const wrapper = mount(<Service />);
 
   it('renders correctly', () => {
-    const tree = renderer.create(<Service />).toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(wrapper).toBePresent();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
-  it('renders Title component', () => {
+  it('renders Text component', () => {
     expect(wrapper).toBePresent();
-    expect(wrapper.find(Title)).toBePresent();
+    expect(wrapper.find(Text)).toBePresent();
   });
 
   it('renders text "What we do"', () => {
-    expect(wrapper.find(Title).at(0)).toHaveText('What we do');
+    expect(wrapper.find(Text).at(0)).toHaveText('What we do');
   });
   it('renders Card component', () => {
     expect(wrapper.find(Card)).toBePresent();

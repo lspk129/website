@@ -2,18 +2,16 @@ import styled from 'styled-components';
 
 const DivisionHover = styled.div`
   transition: all 0.5s ease-in-out;
-  ${({ height }) => height && `height: ${height}px`};
   ${({ scale }) => scale && `
     img {
       width: 200px;
       height: 200px;
     }
     &:hover {
-      transform: scale(1.1);
-  }
-
+      transform: scale(${scale});
+    }
   `}
-  ${({ bgcolor, theme }) => bgcolor && `
+  ${({ backgroundColor, theme }) => backgroundColor && `
     &:hover {
       background: ${theme.background};
       color: ${theme.text};

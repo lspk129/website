@@ -1,8 +1,15 @@
-import React from 'react';
+import { createElement } from 'react';
 import styled from 'styled-components';
 
-const Title = styled(({ tag, children, hero, upperCase, ...props }) => React.createElement(tag, props, children))`
+const Text = styled(({ tag, hero, upperCase, children, ...props }) => createElement(tag, props, children))`
   text-align: center;
+
+  ${({ tag, theme }) => tag === 'a' && `
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    &:hover { color: ${theme.main}}
+  `}
 
   ${({ tag, hero, theme }) => tag === 'h1' && `
     ${hero && `
@@ -22,13 +29,11 @@ const Title = styled(({ tag, children, hero, upperCase, ...props }) => React.cre
     `}
   `}
 
-  ${({ tag, upperCase }) => tag === 'h3' && `
-    ${upperCase && 'text-transform: uppercase'}
-  `}
+  ${({ upperCase }) => upperCase && 'text-transform: uppercase'};
 `;
 
-Title.defaultProps = {
-  tag: 'h1',
+Text.defaultProps = {
+  tag: 'span',
 };
 
-export default Title;
+export default Text;

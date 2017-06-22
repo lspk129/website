@@ -421,24 +421,24 @@ exports[`NavbarLogo renders correctly 1`] = `
     }
   >
     <styled.div
-      bgColor="#ff4081"
+      backgroundColor="#ff4081"
       mb={-1}
       pt={0.62}
       textAlign="center"
     >
       <div
-        className="sc-bdVaJa kJARha"
+        className="sc-bdVaJa hggNKs"
       >
         <styled.img
           alt="Moka Haiku web development agency"
           src="../../../static/MokaHaiku_main.png"
-          width={5}
+          width={75}
         >
           <img
             alt="Moka Haiku web development agency"
-            className="sc-bwzfXH lhdcfK"
+            className="sc-bwzfXH jAPEAb"
             src="../../../static/MokaHaiku_main.png"
-            width={5}
+            width={75}
           />
         </styled.img>
       </div>

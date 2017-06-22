@@ -1,28 +1,27 @@
 import React from 'react';
-import { mount } from 'enzyme';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
+import toJson from 'enzyme-to-json';
 import { Col } from 'react-styled-flexboxgrid';
 
 import ColStyled from './';
 
 describe('ColStyled', () => {
   it('renders correctly', () => {
-    const wrapper = renderer.create(<ColStyled />);
-    expect(wrapper.toJSON()).toMatchSnapshot();
+    const wrapper = shallow(<ColStyled />);
+    expect(wrapper).toBePresent();
+    expect(wrapper.find(Col)).toBePresent();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('renders with color props', () => {
-    const wrapper = renderer.create(<ColStyled color={'red'} />);
-    expect(wrapper.toJSON()).toMatchSnapshot();
-  });
-  it('renders with align props', () => {
-    const wrapper = renderer.create(<ColStyled align={'center'} />);
-    expect(wrapper.toJSON()).toMatchSnapshot();
+    const wrapper = shallow(<ColStyled color={'#BADA55'} />);
+    expect(wrapper).toHaveProp('color', '#BADA55');
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
-  it('renders Col component', () => {
-    const wrapper = mount(<ColStyled />);
-    expect(wrapper).toBePresent();
-    expect(wrapper.find(Col)).toBePresent();
+  it('renders with align props', () => {
+    const wrapper = shallow(<ColStyled align={'center'} />);
+    expect(wrapper).toHaveProp('align', 'center');
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 });
