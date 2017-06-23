@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text renders correctly 1`] = `
+<Component
+  className="sc-bdVaJa jUDgql"
+  tag="span"
+/>
+`;
+
+exports[`Text renders with hero boolean props 1`] = `
+<Component
+  className="sc-bdVaJa jUDgql"
+  hero={true}
+  tag="span"
+/>
+`;
+
+exports[`Text renders with tag prop h1 1`] = `
+<Component
+  className="sc-bdVaJa jUgipb"
+  tag="h1"
+/>
+`;
+
+exports[`Text renders with upperCase props 1`] = `
+<Component
+  className="sc-bdVaJa eBqvIR"
+  tag="span"
+  upperCase={true}
+/>
+`;

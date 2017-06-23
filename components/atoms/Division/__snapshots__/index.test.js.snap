@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Division render with alignSelf props 1`] = `
+<styled.div
+  alignSelf="flex-end"
+>
+  <div
+    className="sc-bdVaJa cEBrkt"
+  />
+</styled.div>
+`;
+
+exports[`Division render with display props 1`] = `
+<styled.div
+  display="grid"
+>
+  <div
+    className="sc-bdVaJa dTHwgT"
+    display="grid"
+  />
+</styled.div>
+`;
+
+exports[`Division render with margin left and right props 1`] = `
+<styled.div
+  mx={2}
+>
+  <div
+    className="sc-bdVaJa ilxqAx"
+  />
+</styled.div>
+`;
+
+exports[`Division render with margin props 1`] = `
+<styled.div
+  mx="1"
+>
+  <div
+    className="sc-bdVaJa jXJpnX"
+  />
+</styled.div>
+`;
+
+exports[`Division render with margin top and bottom props 1`] = `
+<styled.div
+  my={3}
+>
+  <div
+    className="sc-bdVaJa lmeHzE"
+  />
+</styled.div>
+`;
+
+exports[`Division render with margin top props 1`] = `
+<styled.div
+  mt={4}
+>
+  <div
+    className="sc-bdVaJa gYtvID"
+  />
+</styled.div>
+`;
+
+exports[`Division render with textAlign props 1`] = `
+<styled.div
+  textAlign="center"
+>
+  <div
+    className="sc-bdVaJa iJcYAt"
+  />
+</styled.div>
+`;
+
+exports[`Division renders Division with padding left and right props 1`] = `
+<styled.div
+  px={7}
+>
+  <div
+    className="sc-bdVaJa hdAlWL"
+  />
+</styled.div>
+`;
+
+exports[`Division renders correctly 1`] = `
+<div
+  className="sc-bdVaJa fthQnV"
+/>
+`;
+
+exports[`Division renders with background color props 1`] = `
+<styled.div
+  backgroundColor="#BADA55"
+>
+  <div
+    className="sc-bdVaJa glKLAE"
+  />
+</styled.div>
+`;
+
+exports[`Division renders with background image source props 1`] = `
+<styled.div
+  src="../../../static/Service_image.jpg"
+>
+  <div
+    className="sc-bdVaJa fthQnV"
+    src="../../../static/Service_image.jpg"
+  />
+</styled.div>
+`;
+
+exports[`Division renders with margin bottom props 1`] = `
+<styled.div
+  mb={5}
+>
+  <div
+    className="sc-bdVaJa eithum"
+  />
+</styled.div>
+`;
+
+exports[`Division renders with margin left props 1`] = `
+<styled.div
+  ml={7}
+>
+  <div
+    className="sc-bdVaJa fzarwM"
+  />
+</styled.div>
+`;
+
+exports[`Division renders with margin right props 1`] = `
+<styled.div
+  mr={6}
+>
+  <div
+    className="sc-bdVaJa jnpxjq"
+  />
+</styled.div>
+`;
+
+exports[`Division renders with padding bottom props 1`] = `
+<styled.div
+  pb={4}
+>
+  <div
+    className="sc-bdVaJa kjEHXC"
+  />
+</styled.div>
+`;
+
+exports[`Division renders with padding left props 1`] = `
+<styled.div
+  pl={2}
+>
+  <div
+    className="sc-bdVaJa exLYtm"
+  />
+</styled.div>
+`;
+
+exports[`Division renders with padding props 1`] = `
+<styled.div
+  p={8}
+>
+  <div
+    className="sc-bdVaJa cVVcIm"
+  />
+</styled.div>
+`;
+
+exports[`Division renders with padding right props 1`] = `
+<styled.div
+  pr={3}
+>
+  <div
+    className="sc-bdVaJa gCPqJO"
+  />
+</styled.div>
+`;
+
+exports[`Division renders with padding top and bottom props 1`] = `
+<styled.div
+  py={6}
+>
+  <div
+    className="sc-bdVaJa dpSxJI"
+  />
+</styled.div>
+`;
+
+exports[`Division renders with padding top props 1`] = `
+<styled.div
+  pt={5}
+>
+  <div
+    className="sc-bdVaJa eusvgv"
+  />
+</styled.div>
+`;
+
+exports[`Division renders with z-index props 1`] = `
+<styled.div
+  zIndex={10}
+>
+  <div
+    className="sc-bdVaJa dYLwOd"
+  />
+</styled.div>
+`;

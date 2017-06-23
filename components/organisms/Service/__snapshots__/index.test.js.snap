@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Service renders correctly 1`] = `
+<Service>
+  <styled.div
+    bg={true}
+    pb={3}
+    src="../../../static/Service_image.jpg"
+  >
+    <div
+      className="sc-bdVaJa kqfIku"
+      src="../../../static/Service_image.jpg"
+    >
+      <styled.div
+        py={3}
+      >
+        <div
+          className="sc-bdVaJa jIYEcv"
+        >
+          <Styled(Component)
+            tag="h2"
+          >
+            <Component
+              className="sc-bwzfXH fbaTre"
+              tag="h2"
+            >
+              <h2
+                className="sc-bwzfXH fbaTre"
+              >
+                What we do
+              </h2>
+            </Component>
+          </Styled(Component)>
+        </div>
+      </styled.div>
+      <Row
+        center="xs"
+      >
+        <div
+          className="Row__Row-kNtYPA jaQNpG"
+        >
+          <Col
+            md={3}
+            sm={4}
+            xs={12}
+          >
+            <div
+              className="Col__Col-hCQanm fyLqBb"
+            >
+              <styled.div
+                backgroundColor={true}
+              >
+                <div
+                  className="sc-htpNat fjrTib"
+                >
+                  <Card
+                    image={
+                      <MdDesktopMac
+                        className="icons"
+                        size={48}
+                      />
+                    }
+                    label="Web development"
+                    text="We help you build fast, functional, performance oriented websites and web apps"
+                  >
+                    <styled.div
+                      pl={1}
+                      pr={1}
+                      py={3}
+                      textAlign="center"
+                    >
+                      <div
+                        className="sc-bdVaJa jJDreq"
+                      >
+                        <MdDesktopMac
+                          className="icons"
+                          size={48}
+                        >
+                          <IconBase
+                            className="icons"
+                            size={48}
+                            viewBox="0 0 40 40"
+                          >
+                            <svg
+                              className="icons"
+                              fill="currentColor"
+                              height={48}
+                              preserveAspectRatio="xMidYMid meet"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "verticalAlign": "middle",
+                                }
+                              }
+                              viewBox="0 0 40 40"
+                              width={48}
+                            >
+                              <g>
+                                <path
+                                  d="m35 23.4v-16.8h-30v16.8h30z m0-20c1.8 0 3.4 1.4 3.4 3.2v20c0 1.8-1.6 3.4-3.4 3.4h-11.6l3.2 5v1.6h-13.2v-1.6l3.2-5h-11.6c-1.8 0-3.4-1.6-3.4-3.4v-20c0-1.8 1.6-3.2 3.4-3.2h30z"
+                                />
+                              </g>
+                            </svg>
+                          </IconBase>
+                        </MdDesktopMac>
+                        <Styled(Component)
+                          tag="h3"
+                        >
+                          <Component
+                            className="sc-bwzfXH elPfnD"
+                            tag="h3"
+                          >
+                            <h3
+                              className="sc-bwzfXH elPfnD"
+                            >
+                              Web development
+                            </h3>
+                          </Component>
+                        </Styled(Component)>
+                        <Styled(Component)
+                          tag="p"
+                        >
+                          <Component
+                            className="sc-bwzfXH elPfnD"
+                            tag="p"
+                          >
+                            <p
+                              className="sc-bwzfXH elPfnD"
+                            >
+                              We help you build fast, functional, performance oriented websites and web apps
+                            </p>
+                          </Component>
+                        </Styled(Component)>
+                      </div>
+                    </styled.div>
+                  </Card>
+                </div>
+              </styled.div>
+            </div>
+          </Col>
+          <Col
+            md={3}
+            sm={4}
+            xs={12}
+          >
+            <div
+              className="Col__Col-hCQanm fyLqBb"
+            >
+              <styled.div
+                backgroundColor={true}
+              >
+                <div
+                  className="sc-htpNat fjrTib"
+                >
+                  <Card
+                    image={
+                      <MdColorLens
+                        className="icons"
+                        size={48}
+                      />
+                    }
+                    label="Web design"
+                    text="We are creating unique and adaptive designs to engage customers"
+                  >
+                    <styled.div
+                      pl={1}
+                      pr={1}
+                      py={3}
+                      textAlign="center"
+                    >
+                      <div
+                        className="sc-bdVaJa jJDreq"
+                      >
+                        <MdColorLens
+                          className="icons"
+                          size={48}
+                        >
+                          <IconBase
+                            className="icons"
+                            size={48}
+                            viewBox="0 0 40 40"
+                          >
+                            <svg
+                              className="icons"
+                              fill="currentColor"
+                              height={48}
+                              preserveAspectRatio="xMidYMid meet"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "verticalAlign": "middle",
+                                }
+                              }
+                              viewBox="0 0 40 40"
+                              width={48}
+                            >
+                              <g>
+                                <path
+                                  d="m29.1 20q1.1 0 1.8-0.7t0.7-1.8-0.7-1.8-1.8-0.7-1.7 0.7-0.8 1.8 0.8 1.8 1.7 0.7z m-5-6.6q1.1 0 1.8-0.8t0.7-1.7-0.7-1.8-1.8-0.7-1.7 0.7-0.8 1.8 0.8 1.7 1.7 0.8z m-8.2 0q1 0 1.7-0.8t0.8-1.7-0.8-1.8-1.7-0.7-1.8 0.7-0.7 1.8 0.7 1.7 1.8 0.8z m-5 6.6q1 0 1.7-0.7t0.8-1.8-0.8-1.8-1.7-0.7-1.8 0.7-0.7 1.8 0.7 1.8 1.8 0.7z m9.1-15q6.2 0 10.6 3.9t4.4 9.5q0 3.4-2.5 5.8t-5.9 2.4h-2.8q-1.1 0-1.8 0.8t-0.7 1.7q0 0.9 0.6 1.7t0.6 1.7q0 1.1-0.7 1.8t-1.8 0.7q-6.2 0-10.6-4.4t-4.4-10.6 4.4-10.6 10.6-4.4z"
+                                />
+                              </g>
+                            </svg>
+                          </IconBase>
+                        </MdColorLens>
+                        <Styled(Component)
+                          tag="h3"
+                        >
+                          <Component
+                            className="sc-bwzfXH elPfnD"
+                            tag="h3"
+                          >
+                            <h3
+                              className="sc-bwzfXH elPfnD"
+                            >
+                              Web design
+                            </h3>
+                          </Component>
+                        </Styled(Component)>
+                        <Styled(Component)
+                          tag="p"
+                        >
+                          <Component
+                            className="sc-bwzfXH elPfnD"
+                            tag="p"
+                          >
+                            <p
+                              className="sc-bwzfXH elPfnD"
+                            >
+                              We are creating unique and adaptive designs to engage customers
+                            </p>
+                          </Component>
+                        </Styled(Component)>
+                      </div>
+                    </styled.div>
+                  </Card>
+                </div>
+              </styled.div>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </div>
+  </styled.div>
+</Service>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image renders correctly 1`] = `
+<img
+  className="sc-bdVaJa ibTDPh"
+/>
+`;
+
+exports[`Image renders with width props 1`] = `
+<img
+  className="sc-bdVaJa fbrXsZ"
+  width={300}
+/>
+`;

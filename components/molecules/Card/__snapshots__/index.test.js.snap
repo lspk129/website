@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+<styled.div
+  pl={1}
+  pr={1}
+  py={3}
+  textAlign="center"
+>
+  <Styled(Component)
+    tag="h3"
+  />
+  <Styled(Component)
+    tag="p"
+  />
+</styled.div>
+`;
+
+exports[`Card renders with image props 1`] = `
+<Card
+  image={
+    <img
+      alt="React"
+      src="../../../static/React_logo.png"
+    />
+  }
+  label=""
+  text=""
+>
+  <styled.div
+    pl={1}
+    pr={1}
+    py={3}
+    textAlign="center"
+  >
+    <div
+      className="sc-bdVaJa jJDreq"
+    >
+      <img
+        alt="React"
+        src="../../../static/React_logo.png"
+      />
+      <Styled(Component)
+        tag="h3"
+      >
+        <Component
+          className="sc-bwzfXH elPfnD"
+          tag="h3"
+        >
+          <h3
+            className="sc-bwzfXH elPfnD"
+          />
+        </Component>
+      </Styled(Component)>
+      <Styled(Component)
+        tag="p"
+      >
+        <Component
+          className="sc-bwzfXH elPfnD"
+          tag="p"
+        >
+          <p
+            className="sc-bwzfXH elPfnD"
+          />
+        </Component>
+      </Styled(Component)>
+    </div>
+  </styled.div>
+</Card>
+`;
+
+exports[`Card renders with label props 1`] = `
+<Card
+  image=""
+  label="test label"
+  text=""
+>
+  <styled.div
+    pl={1}
+    pr={1}
+    py={3}
+    textAlign="center"
+  >
+    <div
+      className="sc-bdVaJa jJDreq"
+    >
+      <Styled(Component)
+        tag="h3"
+      >
+        <Component
+          className="sc-bwzfXH elPfnD"
+          tag="h3"
+        >
+          <h3
+            className="sc-bwzfXH elPfnD"
+          >
+            test label
+          </h3>
+        </Component>
+      </Styled(Component)>
+      <Styled(Component)
+        tag="p"
+      >
+        <Component
+          className="sc-bwzfXH elPfnD"
+          tag="p"
+        >
+          <p
+            className="sc-bwzfXH elPfnD"
+          />
+        </Component>
+      </Styled(Component)>
+    </div>
+  </styled.div>
+</Card>
+`;
+
+exports[`Card renders with text props 1`] = `
+<Card
+  image=""
+  label=""
+  text="testing text"
+>
+  <styled.div
+    pl={1}
+    pr={1}
+    py={3}
+    textAlign="center"
+  >
+    <div
+      className="sc-bdVaJa jJDreq"
+    >
+      <Styled(Component)
+        tag="h3"
+      >
+        <Component
+          className="sc-bwzfXH elPfnD"
+          tag="h3"
+        >
+          <h3
+            className="sc-bwzfXH elPfnD"
+          />
+        </Component>
+      </Styled(Component)>
+      <Styled(Component)
+        tag="p"
+      >
+        <Component
+          className="sc-bwzfXH elPfnD"
+          tag="p"
+        >
+          <p
+            className="sc-bwzfXH elPfnD"
+          >
+            testing text
+          </p>
+        </Component>
+      </Styled(Component)>
+    </div>
+  </styled.div>
+</Card>
+`;

@@ -4,10 +4,10 @@ import toJson from 'enzyme-to-json';
 import Scroll from 'react-scroll';
 
 import IndexPage from './index';
-import Hero from '../components/Hero';
-import Service from '../components/Service';
-import Technology from '../components/Technology';
-import Contact from '../components/Contact';
+import Hero from '../components/organisms/Hero';
+import Service from '../components/organisms/Service';
+import Technology from '../components/organisms/Technology';
+import Contact from '../components/organisms/Contact';
 
 describe('IndexPage', () => {
   const shallowWrapper = shallow(<IndexPage />);

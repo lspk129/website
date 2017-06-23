@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`NavbarSection renders correctly 1`] = `
-<nav
-  className="sc-bdVaJa kcDfjc"
-/>
-`;
