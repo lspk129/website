@@ -6,25 +6,26 @@
   "scripts": {
     "test": "jest --watch",
     "dev": "next",
+    "build": "next build",
+    "start": "next start",
     "lint": "eslint --ext .js pages/ components/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "global": "^4.3.2",
     "material-ui": "^0.18.4",
     "next": "beta",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
+    "react-addons-test-utils": "^15.6.0",
     "react-dom": "^15.6.1",
     "react-icons": "^2.2.5",
     "react-scroll": "^1.5.3",
     "react-sticky": "^6.0.1",
     "react-styled-flexboxgrid": "^2.0.3",
     "react-tap-event-plugin": "^2.0.1",
-    "styled-components": "^2.1.0",
-    "yarn-upgrade-all": "^0.1.5"
+    "styled-components": "^2.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
