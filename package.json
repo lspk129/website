@@ -14,7 +14,7 @@
   "dependencies": {
     "global": "^4.3.2",
     "material-ui": "^0.18.4",
-    "next": "^2.4.4",
+    "next": "beta",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
