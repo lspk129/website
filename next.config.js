@@ -5,8 +5,11 @@ module.exports = {
       delete config.resolve.alias.react;
       delete config.resolve.alias['react-dom'];
     }
+    config.externals = config.externals || {};
+    config.externals['react/addons'] = true;
+    config.externals['react/lib/ExecutionEnvironment'] = true;
+    config.externals['react/lib/ReactContext'] = true;
 
     return config;
   },
-}
-;
+};
