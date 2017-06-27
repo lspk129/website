@@ -2,8 +2,6 @@ import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
-import Body from '../components/atoms/Body';
-
 export default class MyDocument extends Document {
   render() {
     const sheet = new ServerStyleSheet();
@@ -18,12 +16,12 @@ export default class MyDocument extends Document {
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
           {styleTags}
         </Head>
-        <Body>
+        <body>
           <div className="root">
             {main}
           </div>
           <NextScript />
-        </Body>
+        </body>
       </html>
     );
   }

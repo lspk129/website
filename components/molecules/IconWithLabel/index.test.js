@@ -10,6 +10,7 @@ import IconWithLabel from './';
 import PaperIcon from '../../atoms/PaperIcon';
 import Division from '../../atoms/Division';
 import Text from '../../atoms/Text';
+import Link from '../../atoms/Link';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -53,6 +54,11 @@ describe('IconWithLabel', () => {
   it('renders Division component', () => {
     const wrapper = mountWithContext(<IconWithLabel />);
     expect(wrapper.find(Division)).toBePresent();
+  });
+
+  it('renders Link component', () => {
+    const wrapper = mountWithContext(<IconWithLabel />);
+    expect(wrapper.find(Link)).toBePresent();
   });
 
   it('renders Paragraph component', () => {

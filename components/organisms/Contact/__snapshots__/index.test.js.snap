@@ -431,12 +431,12 @@ exports[`Contact renders correctly 1`] = `
           xs={12}
         >
           <Col
-            className="sc-bxivhb bzUbSR"
+            className="sc-ifAKCX hOXuFE"
             sm={6}
             xs={12}
           >
             <div
-              className="sc-bxivhb bzUbSR Col__Col-hCQanm SZedk"
+              className="sc-ifAKCX hOXuFE Col__Col-hCQanm SZedk"
             >
               <Row
                 center="xs"
@@ -479,6 +479,7 @@ exports[`Contact renders correctly 1`] = `
                             </div>
                           </styled.div>
                           <IconWithLabel
+                            href=""
                             icon={
                               <FaEnvelope
                                 color="#ff4081"
@@ -495,91 +496,103 @@ exports[`Contact renders correctly 1`] = `
                                 className="sc-bwzfXH jKfSor"
                                 display="flex"
                               >
-                                <Styled(Paper)
-                                  circle={true}
+                                <styled.a
+                                  href={null}
+                                  target="_blank"
                                 >
-                                  <Paper
-                                    circle={true}
-                                    className="sc-bdVaJa fGDlZB"
-                                    rounded={true}
-                                    transitionEnabled={true}
-                                    zDepth={1}
+                                  <a
+                                    className="sc-bxivhb hjwDPl"
+                                    href={null}
+                                    target="_blank"
                                   >
-                                    <div
-                                      className="sc-bdVaJa fGDlZB"
-                                      style={
-                                        Object {
-                                          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-                                          "backgroundColor": "#ffffff",
-                                          "borderRadius": "50%",
-                                          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
-                                                 0 1px 4px rgba(0, 0, 0, 0.12)",
-                                          "boxSizing": "border-box",
-                                          "color": "rgba(0, 0, 0, 0.87)",
-                                          "fontFamily": "Roboto, sans-serif",
-                                          "muiPrepared": true,
-                                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                                        }
-                                      }
+                                    <Styled(Paper)
+                                      circle={true}
                                     >
-                                      <FaEnvelope
-                                        color="#ff4081"
+                                      <Paper
+                                        circle={true}
+                                        className="sc-bdVaJa fGDlZB"
+                                        rounded={true}
+                                        transitionEnabled={true}
+                                        zDepth={1}
                                       >
-                                        <IconBase
-                                          color="#ff4081"
-                                          viewBox="0 0 40 40"
-                                        >
-                                          <svg
-                                            fill="currentColor"
-                                            height="1em"
-                                            preserveAspectRatio="xMidYMid meet"
-                                            style={
-                                              Object {
-                                                "color": "#ff4081",
-                                                "verticalAlign": "middle",
-                                              }
+                                        <div
+                                          className="sc-bdVaJa fGDlZB"
+                                          style={
+                                            Object {
+                                              "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                                              "backgroundColor": "#ffffff",
+                                              "borderRadius": "50%",
+                                              "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                                                     0 1px 4px rgba(0, 0, 0, 0.12)",
+                                              "boxSizing": "border-box",
+                                              "color": "rgba(0, 0, 0, 0.87)",
+                                              "fontFamily": "Roboto, sans-serif",
+                                              "muiPrepared": true,
+                                              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                                             }
-                                            viewBox="0 0 40 40"
-                                            width="1em"
-                                          >
-                                            <g>
-                                              <path
-                                                d="m40 15.8v17.8q0 1.4-1 2.5t-2.6 1h-32.8q-1.5 0-2.6-1t-1-2.5v-17.8q1 1.1 2.3 2 8 5.5 11 7.7 1.3 0.9 2.1 1.5t2.1 1 2.5 0.6h0q1.2 0 2.5-0.6t2.1-1 2.1-1.5q3.7-2.8 11.1-7.7 1.2-0.9 2.2-1.9z m0-6.5q0 1.7-1.1 3.4t-2.7 2.7q-8.4 5.8-10.5 7.3-0.2 0.1-0.9 0.6t-1.2 0.9-1.2 0.7-1.3 0.6-1.1 0.2h0q-0.5 0-1.1-0.2t-1.3-0.6-1.2-0.7-1.2-0.9-0.9-0.6q-2.1-1.5-5.9-4.1t-4.6-3.2q-1.3-0.9-2.6-2.6t-1.2-3q0-1.8 0.9-2.9t2.7-1.2h32.8q1.5 0 2.5 1.1t1.1 2.5z"
-                                              />
-                                            </g>
-                                          </svg>
-                                        </IconBase>
-                                      </FaEnvelope>
-                                    </div>
-                                  </Paper>
-                                </Styled(Paper)>
-                                <styled.div
-                                  alignSelf="center"
-                                  px={1}
-                                >
-                                  <div
-                                    className="sc-bwzfXH huROMH"
-                                  >
-                                    <Styled(Component)
-                                      tag="span"
-                                    >
-                                      <Component
-                                        className="sc-htpNat kkanad"
-                                        tag="span"
-                                      >
-                                        <span
-                                          className="sc-htpNat kkanad"
+                                          }
                                         >
-                                          info@mokahaiku.com
-                                        </span>
-                                      </Component>
-                                    </Styled(Component)>
-                                  </div>
-                                </styled.div>
+                                          <FaEnvelope
+                                            color="#ff4081"
+                                          >
+                                            <IconBase
+                                              color="#ff4081"
+                                              viewBox="0 0 40 40"
+                                            >
+                                              <svg
+                                                fill="currentColor"
+                                                height="1em"
+                                                preserveAspectRatio="xMidYMid meet"
+                                                style={
+                                                  Object {
+                                                    "color": "#ff4081",
+                                                    "verticalAlign": "middle",
+                                                  }
+                                                }
+                                                viewBox="0 0 40 40"
+                                                width="1em"
+                                              >
+                                                <g>
+                                                  <path
+                                                    d="m40 15.8v17.8q0 1.4-1 2.5t-2.6 1h-32.8q-1.5 0-2.6-1t-1-2.5v-17.8q1 1.1 2.3 2 8 5.5 11 7.7 1.3 0.9 2.1 1.5t2.1 1 2.5 0.6h0q1.2 0 2.5-0.6t2.1-1 2.1-1.5q3.7-2.8 11.1-7.7 1.2-0.9 2.2-1.9z m0-6.5q0 1.7-1.1 3.4t-2.7 2.7q-8.4 5.8-10.5 7.3-0.2 0.1-0.9 0.6t-1.2 0.9-1.2 0.7-1.3 0.6-1.1 0.2h0q-0.5 0-1.1-0.2t-1.3-0.6-1.2-0.7-1.2-0.9-0.9-0.6q-2.1-1.5-5.9-4.1t-4.6-3.2q-1.3-0.9-2.6-2.6t-1.2-3q0-1.8 0.9-2.9t2.7-1.2h32.8q1.5 0 2.5 1.1t1.1 2.5z"
+                                                  />
+                                                </g>
+                                              </svg>
+                                            </IconBase>
+                                          </FaEnvelope>
+                                        </div>
+                                      </Paper>
+                                    </Styled(Paper)>
+                                    <styled.div
+                                      alignSelf="center"
+                                      px={1}
+                                    >
+                                      <div
+                                        className="sc-bwzfXH huROMH"
+                                      >
+                                        <Styled(Component)
+                                          tag="span"
+                                        >
+                                          <Component
+                                            className="sc-htpNat kkanad"
+                                            tag="span"
+                                          >
+                                            <span
+                                              className="sc-htpNat kkanad"
+                                            >
+                                              info@mokahaiku.com
+                                            </span>
+                                          </Component>
+                                        </Styled(Component)>
+                                      </div>
+                                    </styled.div>
+                                  </a>
+                                </styled.a>
                               </div>
                             </styled.div>
                           </IconWithLabel>
                           <IconWithLabel
+                            href="http://twitter.com/MokaHaiku"
                             icon={
                               <FaTwitter
                                 color="#ff4081"
@@ -596,91 +609,103 @@ exports[`Contact renders correctly 1`] = `
                                 className="sc-bwzfXH jKfSor"
                                 display="flex"
                               >
-                                <Styled(Paper)
-                                  circle={true}
+                                <styled.a
+                                  href="http://twitter.com/MokaHaiku"
+                                  target="_blank"
                                 >
-                                  <Paper
-                                    circle={true}
-                                    className="sc-bdVaJa fGDlZB"
-                                    rounded={true}
-                                    transitionEnabled={true}
-                                    zDepth={1}
+                                  <a
+                                    className="sc-bxivhb cjZrCM"
+                                    href="http://twitter.com/MokaHaiku"
+                                    target="_blank"
                                   >
-                                    <div
-                                      className="sc-bdVaJa fGDlZB"
-                                      style={
-                                        Object {
-                                          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-                                          "backgroundColor": "#ffffff",
-                                          "borderRadius": "50%",
-                                          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
-                                                 0 1px 4px rgba(0, 0, 0, 0.12)",
-                                          "boxSizing": "border-box",
-                                          "color": "rgba(0, 0, 0, 0.87)",
-                                          "fontFamily": "Roboto, sans-serif",
-                                          "muiPrepared": true,
-                                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                                        }
-                                      }
+                                    <Styled(Paper)
+                                      circle={true}
                                     >
-                                      <FaTwitter
-                                        color="#ff4081"
+                                      <Paper
+                                        circle={true}
+                                        className="sc-bdVaJa fGDlZB"
+                                        rounded={true}
+                                        transitionEnabled={true}
+                                        zDepth={1}
                                       >
-                                        <IconBase
-                                          color="#ff4081"
-                                          viewBox="0 0 40 40"
-                                        >
-                                          <svg
-                                            fill="currentColor"
-                                            height="1em"
-                                            preserveAspectRatio="xMidYMid meet"
-                                            style={
-                                              Object {
-                                                "color": "#ff4081",
-                                                "verticalAlign": "middle",
-                                              }
+                                        <div
+                                          className="sc-bdVaJa fGDlZB"
+                                          style={
+                                            Object {
+                                              "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                                              "backgroundColor": "#ffffff",
+                                              "borderRadius": "50%",
+                                              "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                                                     0 1px 4px rgba(0, 0, 0, 0.12)",
+                                              "boxSizing": "border-box",
+                                              "color": "rgba(0, 0, 0, 0.87)",
+                                              "fontFamily": "Roboto, sans-serif",
+                                              "muiPrepared": true,
+                                              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                                             }
-                                            viewBox="0 0 40 40"
-                                            width="1em"
-                                          >
-                                            <g>
-                                              <path
-                                                d="m37.7 9.1q-1.5 2.2-3.7 3.7 0.1 0.3 0.1 1 0 2.9-0.9 5.8t-2.6 5.5-4.1 4.7-5.7 3.3-7.2 1.2q-6.1 0-11.1-3.3 0.8 0.1 1.7 0.1 5 0 9-3-2.4-0.1-4.2-1.5t-2.6-3.5q0.8 0.1 1.4 0.1 1 0 1.9-0.3-2.5-0.5-4.1-2.5t-1.7-4.6v0q1.5 0.8 3.3 0.9-1.5-1-2.4-2.6t-0.8-3.4q0-2 0.9-3.7 2.7 3.4 6.6 5.4t8.3 2.2q-0.2-0.9-0.2-1.7 0-3 2.1-5.1t5.1-2.1q3.2 0 5.3 2.3 2.4-0.5 4.6-1.7-0.8 2.5-3.2 3.9 2.1-0.2 4.2-1.1z"
-                                              />
-                                            </g>
-                                          </svg>
-                                        </IconBase>
-                                      </FaTwitter>
-                                    </div>
-                                  </Paper>
-                                </Styled(Paper)>
-                                <styled.div
-                                  alignSelf="center"
-                                  px={1}
-                                >
-                                  <div
-                                    className="sc-bwzfXH huROMH"
-                                  >
-                                    <Styled(Component)
-                                      tag="span"
-                                    >
-                                      <Component
-                                        className="sc-htpNat kkanad"
-                                        tag="span"
-                                      >
-                                        <span
-                                          className="sc-htpNat kkanad"
+                                          }
                                         >
-                                          @mokahaiku
-                                        </span>
-                                      </Component>
-                                    </Styled(Component)>
-                                  </div>
-                                </styled.div>
+                                          <FaTwitter
+                                            color="#ff4081"
+                                          >
+                                            <IconBase
+                                              color="#ff4081"
+                                              viewBox="0 0 40 40"
+                                            >
+                                              <svg
+                                                fill="currentColor"
+                                                height="1em"
+                                                preserveAspectRatio="xMidYMid meet"
+                                                style={
+                                                  Object {
+                                                    "color": "#ff4081",
+                                                    "verticalAlign": "middle",
+                                                  }
+                                                }
+                                                viewBox="0 0 40 40"
+                                                width="1em"
+                                              >
+                                                <g>
+                                                  <path
+                                                    d="m37.7 9.1q-1.5 2.2-3.7 3.7 0.1 0.3 0.1 1 0 2.9-0.9 5.8t-2.6 5.5-4.1 4.7-5.7 3.3-7.2 1.2q-6.1 0-11.1-3.3 0.8 0.1 1.7 0.1 5 0 9-3-2.4-0.1-4.2-1.5t-2.6-3.5q0.8 0.1 1.4 0.1 1 0 1.9-0.3-2.5-0.5-4.1-2.5t-1.7-4.6v0q1.5 0.8 3.3 0.9-1.5-1-2.4-2.6t-0.8-3.4q0-2 0.9-3.7 2.7 3.4 6.6 5.4t8.3 2.2q-0.2-0.9-0.2-1.7 0-3 2.1-5.1t5.1-2.1q3.2 0 5.3 2.3 2.4-0.5 4.6-1.7-0.8 2.5-3.2 3.9 2.1-0.2 4.2-1.1z"
+                                                  />
+                                                </g>
+                                              </svg>
+                                            </IconBase>
+                                          </FaTwitter>
+                                        </div>
+                                      </Paper>
+                                    </Styled(Paper)>
+                                    <styled.div
+                                      alignSelf="center"
+                                      px={1}
+                                    >
+                                      <div
+                                        className="sc-bwzfXH huROMH"
+                                      >
+                                        <Styled(Component)
+                                          tag="span"
+                                        >
+                                          <Component
+                                            className="sc-htpNat kkanad"
+                                            tag="span"
+                                          >
+                                            <span
+                                              className="sc-htpNat kkanad"
+                                            >
+                                              @mokahaiku
+                                            </span>
+                                          </Component>
+                                        </Styled(Component)>
+                                      </div>
+                                    </styled.div>
+                                  </a>
+                                </styled.a>
                               </div>
                             </styled.div>
                           </IconWithLabel>
                           <IconWithLabel
+                            href=""
                             icon={
                               <FaGlobe
                                 color="#ff4081"
@@ -697,87 +722,98 @@ exports[`Contact renders correctly 1`] = `
                                 className="sc-bwzfXH jKfSor"
                                 display="flex"
                               >
-                                <Styled(Paper)
-                                  circle={true}
+                                <styled.a
+                                  href={null}
+                                  target="_blank"
                                 >
-                                  <Paper
-                                    circle={true}
-                                    className="sc-bdVaJa fGDlZB"
-                                    rounded={true}
-                                    transitionEnabled={true}
-                                    zDepth={1}
+                                  <a
+                                    className="sc-bxivhb hjwDPl"
+                                    href={null}
+                                    target="_blank"
                                   >
-                                    <div
-                                      className="sc-bdVaJa fGDlZB"
-                                      style={
-                                        Object {
-                                          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-                                          "backgroundColor": "#ffffff",
-                                          "borderRadius": "50%",
-                                          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
-                                                 0 1px 4px rgba(0, 0, 0, 0.12)",
-                                          "boxSizing": "border-box",
-                                          "color": "rgba(0, 0, 0, 0.87)",
-                                          "fontFamily": "Roboto, sans-serif",
-                                          "muiPrepared": true,
-                                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                                        }
-                                      }
+                                    <Styled(Paper)
+                                      circle={true}
                                     >
-                                      <FaGlobe
-                                        color="#ff4081"
+                                      <Paper
+                                        circle={true}
+                                        className="sc-bdVaJa fGDlZB"
+                                        rounded={true}
+                                        transitionEnabled={true}
+                                        zDepth={1}
                                       >
-                                        <IconBase
-                                          color="#ff4081"
-                                          viewBox="0 0 40 40"
-                                        >
-                                          <svg
-                                            fill="currentColor"
-                                            height="1em"
-                                            preserveAspectRatio="xMidYMid meet"
-                                            style={
-                                              Object {
-                                                "color": "#ff4081",
-                                                "verticalAlign": "middle",
-                                              }
+                                        <div
+                                          className="sc-bdVaJa fGDlZB"
+                                          style={
+                                            Object {
+                                              "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                                              "backgroundColor": "#ffffff",
+                                              "borderRadius": "50%",
+                                              "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                                                     0 1px 4px rgba(0, 0, 0, 0.12)",
+                                              "boxSizing": "border-box",
+                                              "color": "rgba(0, 0, 0, 0.87)",
+                                              "fontFamily": "Roboto, sans-serif",
+                                              "muiPrepared": true,
+                                              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                                             }
-                                            viewBox="0 0 40 40"
-                                            width="1em"
-                                          >
-                                            <g>
-                                              <path
-                                                d="m20.1 2.9q4.7 0 8.6 2.3t6.3 6.2 2.3 8.6-2.3 8.6-6.3 6.2-8.6 2.3-8.6-2.3-6.2-6.2-2.3-8.6 2.3-8.6 6.2-6.2 8.6-2.3z m6.2 11.6q-0.1 0-0.3 0.2t-0.3 0.2q0.1 0 0.1-0.1t0.2-0.2 0-0.2q0.2-0.2 0.5-0.3 0.3-0.2 1.2-0.3 0.7-0.2 1.1 0.2 0 0 0.2-0.3t0.4-0.2q0-0.1 0.3-0.1t0.3-0.2l0.1-0.5q-0.3 0-0.4-0.1t-0.2-0.5q0 0-0.1 0.2 0-0.2-0.1-0.2t-0.3 0-0.2 0q-0.2 0-0.3-0.1t-0.2-0.4-0.1-0.3q0-0.1-0.2-0.3t-0.2-0.2q0 0 0-0.1t-0.1-0.2-0.1-0.1-0.1 0-0.2 0.1-0.1 0.2-0.1 0.1q-0.1 0-0.2 0t-0.1 0-0.1 0.1-0.1 0q0 0.1-0.2 0.1t-0.2 0.1q0.4-0.2 0-0.3-0.2-0.1-0.3-0.1 0.2-0.1 0.1-0.2t-0.2-0.3h0.1q0-0.1-0.1-0.2t-0.4-0.2-0.3-0.2q-0.2-0.1-0.8-0.2t-0.7 0q-0.1 0.2-0.1 0.3t0.1 0.3 0 0.2q0.1 0.2-0.1 0.3t-0.1 0.3q0 0.2 0.3 0.4t0.2 0.4q-0.1 0.2-0.3 0.4t-0.4 0.3q-0.1 0.1 0 0.4t0.2 0.3q0 0.1 0 0.1t0 0.1-0.2 0.1-0.1 0.1l-0.1 0q-0.2 0.2-0.4-0.1t-0.3-0.6q-0.2-0.5-0.4-0.6-0.5-0.2-0.6 0-0.2-0.3-1-0.6-0.5-0.2-1.3-0.1 0.2 0 0-0.3-0.1-0.4-0.4-0.3 0.1-0.1 0.1-0.4t0-0.3q0.1-0.3 0.3-0.5 0 0 0.2-0.2t0.2-0.3 0-0.1q0.8 0.1 1.1-0.3 0.1-0.1 0.3-0.3t0.2-0.4q0.2-0.2 0.3-0.2t0.3 0.2 0.4 0.1q0.3 0 0.3-0.3t-0.2-0.4q0.3 0 0.1-0.4-0.1-0.1-0.2-0.2-0.2-0.1-0.6 0.1-0.2 0.1 0.1 0.2-0.1 0-0.2 0.2t-0.4 0.4-0.4-0.1q0 0-0.1-0.3t-0.2-0.3q-0.2 0-0.4 0.3 0.1-0.1-0.2-0.3t-0.5-0.2q0.4-0.2-0.2-0.6-0.2-0.1-0.5-0.1t-0.4 0.1q-0.1 0.2-0.1 0.3t0.1 0.1 0.2 0.2 0.3 0.1 0.2 0q0.3 0.2 0.1 0.3 0 0.1-0.2 0.1t-0.2 0.1-0.2 0.1q0 0.1 0 0.3t0 0.3q-0.1-0.1-0.2-0.4t-0.2-0.3q0.2 0.2-0.5 0.1l-0.2 0q-0.1 0-0.4 0t-0.4 0-0.3-0.1q-0.1-0.2 0-0.5 0-0.1 0 0 0-0.1-0.2-0.2t-0.2-0.2q-1.1 0.3-2.1 0.9 0.1 0 0.2 0 0.2-0.1 0.3-0.2t0.3-0.1q0.7-0.3 0.9-0.2l0.1-0.1q0.3 0.4 0.4 0.6-0.1-0.1-0.6 0-0.5 0.1-0.5 0.2 0.1 0.3 0.1 0.4-0.1 0-0.3-0.2t-0.3-0.2-0.3-0.1q-0.4 0-0.5 0-3.3 1.8-5.3 4.9 0.2 0.2 0.3 0.2 0.1 0 0.1 0.2t0.1 0.3 0.2-0.1q0.2 0.2 0.1 0.4 0 0 1 0.6 0.4 0.4 0.5 0.5 0 0.2-0.3 0.4 0-0.1-0.2-0.2t-0.2-0.1q0 0.1 0 0.4t0.3 0.3q-0.2 0-0.2 0.4t-0.1 0.7 0 0.6l0 0q0 0.3 0.2 0.8t0.4 0.4q-0.3 0.1 0.5 1 0.1 0.1 0.2 0.2 0 0 0.2 0.1t0.4 0.2 0.2 0.3q0.1 0.1 0.2 0.5t0.3 0.5q0 0.1 0.2 0.4t0.3 0.6q-0.1 0-0.1 0t0 0q0 0.2 0.3 0.3t0.4 0.3q0 0.1 0 0.2t0.1 0.3 0.1 0q0.1-0.4-0.5-1.4-0.3-0.5-0.4-0.6 0-0.1-0.1-0.4t-0.1-0.3q0 0 0.1 0.1t0.2 0 0.2 0.1 0 0.1q0 0.1 0.1 0.4t0.3 0.4 0.3 0.4 0.3 0.3q0.1 0.1 0.3 0.4t0 0.3q0.2 0 0.5 0.3t0.3 0.4q0.1 0.2 0.2 0.6t0.1 0.5q0.1 0.2 0.2 0.3t0.3 0.2l0.4 0.2 0.2 0.2q0.2 0 0.5 0.2t0.4 0.3q0.3 0.1 0.4 0.1t0.3-0.1 0.3-0.1q0.4 0 0.7 0.4t0.4 0.4q0.8 0.4 1.3 0.3-0.1 0 0 0.1t0.2 0.4 0.2 0.3 0.1 0.2q0.1 0.1 0.4 0.3t0.4 0.4q0.1-0.1 0.1-0.2 0 0.1 0.2 0.4t0.4 0.2q0.3 0 0.3-0.7-0.7 0.4-1.1-0.4 0 0 0-0.1t-0.1-0.2-0.1-0.2 0-0.1 0.1-0.1q0.2 0 0.2-0.1t0-0.3-0.1-0.3q0-0.1-0.2-0.4t-0.3-0.3q-0.1 0.2-0.4 0.1t-0.3-0.2q0 0.1-0.1 0.2t0 0.1q-0.3 0-0.3 0 0-0.1 0-0.4t0.1-0.5q0-0.1 0.1-0.3t0.2-0.3 0.1-0.3-0.1-0.2-0.4-0.1q-0.4 0.1-0.6 0.5 0 0.1 0 0.2t-0.2 0.3-0.2 0.1q-0.1 0.1-0.5 0.1t-0.5-0.1q-0.3-0.2-0.5-0.7t-0.2-0.8q0-0.2 0-0.6t0.1-0.5-0.1-0.6q0 0 0.2-0.2t0.2-0.2q0-0.1 0.1-0.1t0.1 0 0.1 0 0-0.1q0-0.1-0.1-0.1 0-0.1 0-0.1 0.1 0.1 0.6 0t0.6 0q0.3 0.3 0.5 0 0 0-0.1-0.2t0-0.3q0.1 0.6 0.7 0.2 0 0 0.3 0.1t0.4 0.1q0.1 0 0.2 0.1t0.1 0.1 0.1 0 0.2-0.1q0.2 0.3 0.3 0.5 0.2 0.9 0.4 1 0.1 0 0.2 0t0.1-0.2 0-0.3 0-0.3l0-0.2v-0.4l0-0.1q-0.4-0.1-0.5-0.3t0.1-0.4 0.3-0.4q0-0.1 0.2-0.1t0.3-0.2 0.3-0.1q0.5-0.5 0.4-0.8 0.1 0 0.2-0.2 0 0-0.1-0.1t-0.2-0.1-0.1 0q0.2-0.2 0.1-0.4 0.1-0.1 0.1-0.2t0.2-0.3q0.2 0.3 0.5 0.1 0.1-0.2 0-0.4 0.1-0.1 0.4-0.2t0.5-0.2q0.1 0 0.1-0.1t0.1-0.2 0-0.3q0.1-0.1 0.4-0.2t0.2-0.1l0.4-0.3q0.1-0.1 0-0.1 0.4 0.1 0.7-0.2 0.2-0.2-0.1-0.4 0.1-0.2-0.1-0.3t-0.3-0.1q0.1 0 0.2 0t0.3 0q0.3-0.2-0.2-0.4-0.4-0.1-0.9 0.3z m-3.7 19.6q4.6-0.8 7.9-4.3-0.1 0-0.3-0.1t-0.3 0q-0.4-0.2-0.5-0.2 0-0.2-0.1-0.3t-0.2-0.2-0.3-0.2-0.2-0.1q0-0.1-0.2-0.2t-0.1-0.1-0.2-0.1-0.2 0-0.2 0l-0.1 0q0 0-0.1 0.1t-0.1 0-0.1 0.1 0 0q-0.5-0.3-0.8-0.4-0.1-0.1-0.2-0.2t-0.3-0.1-0.2-0.1-0.3 0.2q-0.1 0.1-0.1 0.3t0 0.3q-0.2-0.1 0-0.4t0-0.4q-0.1-0.1-0.2-0.1t-0.3 0.1-0.2 0.2-0.2 0.2-0.2 0.1-0.2 0.1q-0.1 0.1-0.2 0.3t-0.1 0.3q0-0.1-0.2-0.2t-0.2-0.1q0 0.2 0 0.8t0.2 0.8q0.1 0.7-0.3 1.1-0.6 0.5-0.7 0.9 0 0.5 0.3 0.6 0 0.1-0.2 0.4t-0.1 0.5q0 0.1 0 0.4z"
-                                              />
-                                            </g>
-                                          </svg>
-                                        </IconBase>
-                                      </FaGlobe>
-                                    </div>
-                                  </Paper>
-                                </Styled(Paper)>
-                                <styled.div
-                                  alignSelf="center"
-                                  px={1}
-                                >
-                                  <div
-                                    className="sc-bwzfXH huROMH"
-                                  >
-                                    <Styled(Component)
-                                      tag="span"
-                                    >
-                                      <Component
-                                        className="sc-htpNat kkanad"
-                                        tag="span"
-                                      >
-                                        <span
-                                          className="sc-htpNat kkanad"
+                                          }
                                         >
-                                          www.mokahaiku.com
-                                        </span>
-                                      </Component>
-                                    </Styled(Component)>
-                                  </div>
-                                </styled.div>
+                                          <FaGlobe
+                                            color="#ff4081"
+                                          >
+                                            <IconBase
+                                              color="#ff4081"
+                                              viewBox="0 0 40 40"
+                                            >
+                                              <svg
+                                                fill="currentColor"
+                                                height="1em"
+                                                preserveAspectRatio="xMidYMid meet"
+                                                style={
+                                                  Object {
+                                                    "color": "#ff4081",
+                                                    "verticalAlign": "middle",
+                                                  }
+                                                }
+                                                viewBox="0 0 40 40"
+                                                width="1em"
+                                              >
+                                                <g>
+                                                  <path
+                                                    d="m20.1 2.9q4.7 0 8.6 2.3t6.3 6.2 2.3 8.6-2.3 8.6-6.3 6.2-8.6 2.3-8.6-2.3-6.2-6.2-2.3-8.6 2.3-8.6 6.2-6.2 8.6-2.3z m6.2 11.6q-0.1 0-0.3 0.2t-0.3 0.2q0.1 0 0.1-0.1t0.2-0.2 0-0.2q0.2-0.2 0.5-0.3 0.3-0.2 1.2-0.3 0.7-0.2 1.1 0.2 0 0 0.2-0.3t0.4-0.2q0-0.1 0.3-0.1t0.3-0.2l0.1-0.5q-0.3 0-0.4-0.1t-0.2-0.5q0 0-0.1 0.2 0-0.2-0.1-0.2t-0.3 0-0.2 0q-0.2 0-0.3-0.1t-0.2-0.4-0.1-0.3q0-0.1-0.2-0.3t-0.2-0.2q0 0 0-0.1t-0.1-0.2-0.1-0.1-0.1 0-0.2 0.1-0.1 0.2-0.1 0.1q-0.1 0-0.2 0t-0.1 0-0.1 0.1-0.1 0q0 0.1-0.2 0.1t-0.2 0.1q0.4-0.2 0-0.3-0.2-0.1-0.3-0.1 0.2-0.1 0.1-0.2t-0.2-0.3h0.1q0-0.1-0.1-0.2t-0.4-0.2-0.3-0.2q-0.2-0.1-0.8-0.2t-0.7 0q-0.1 0.2-0.1 0.3t0.1 0.3 0 0.2q0.1 0.2-0.1 0.3t-0.1 0.3q0 0.2 0.3 0.4t0.2 0.4q-0.1 0.2-0.3 0.4t-0.4 0.3q-0.1 0.1 0 0.4t0.2 0.3q0 0.1 0 0.1t0 0.1-0.2 0.1-0.1 0.1l-0.1 0q-0.2 0.2-0.4-0.1t-0.3-0.6q-0.2-0.5-0.4-0.6-0.5-0.2-0.6 0-0.2-0.3-1-0.6-0.5-0.2-1.3-0.1 0.2 0 0-0.3-0.1-0.4-0.4-0.3 0.1-0.1 0.1-0.4t0-0.3q0.1-0.3 0.3-0.5 0 0 0.2-0.2t0.2-0.3 0-0.1q0.8 0.1 1.1-0.3 0.1-0.1 0.3-0.3t0.2-0.4q0.2-0.2 0.3-0.2t0.3 0.2 0.4 0.1q0.3 0 0.3-0.3t-0.2-0.4q0.3 0 0.1-0.4-0.1-0.1-0.2-0.2-0.2-0.1-0.6 0.1-0.2 0.1 0.1 0.2-0.1 0-0.2 0.2t-0.4 0.4-0.4-0.1q0 0-0.1-0.3t-0.2-0.3q-0.2 0-0.4 0.3 0.1-0.1-0.2-0.3t-0.5-0.2q0.4-0.2-0.2-0.6-0.2-0.1-0.5-0.1t-0.4 0.1q-0.1 0.2-0.1 0.3t0.1 0.1 0.2 0.2 0.3 0.1 0.2 0q0.3 0.2 0.1 0.3 0 0.1-0.2 0.1t-0.2 0.1-0.2 0.1q0 0.1 0 0.3t0 0.3q-0.1-0.1-0.2-0.4t-0.2-0.3q0.2 0.2-0.5 0.1l-0.2 0q-0.1 0-0.4 0t-0.4 0-0.3-0.1q-0.1-0.2 0-0.5 0-0.1 0 0 0-0.1-0.2-0.2t-0.2-0.2q-1.1 0.3-2.1 0.9 0.1 0 0.2 0 0.2-0.1 0.3-0.2t0.3-0.1q0.7-0.3 0.9-0.2l0.1-0.1q0.3 0.4 0.4 0.6-0.1-0.1-0.6 0-0.5 0.1-0.5 0.2 0.1 0.3 0.1 0.4-0.1 0-0.3-0.2t-0.3-0.2-0.3-0.1q-0.4 0-0.5 0-3.3 1.8-5.3 4.9 0.2 0.2 0.3 0.2 0.1 0 0.1 0.2t0.1 0.3 0.2-0.1q0.2 0.2 0.1 0.4 0 0 1 0.6 0.4 0.4 0.5 0.5 0 0.2-0.3 0.4 0-0.1-0.2-0.2t-0.2-0.1q0 0.1 0 0.4t0.3 0.3q-0.2 0-0.2 0.4t-0.1 0.7 0 0.6l0 0q0 0.3 0.2 0.8t0.4 0.4q-0.3 0.1 0.5 1 0.1 0.1 0.2 0.2 0 0 0.2 0.1t0.4 0.2 0.2 0.3q0.1 0.1 0.2 0.5t0.3 0.5q0 0.1 0.2 0.4t0.3 0.6q-0.1 0-0.1 0t0 0q0 0.2 0.3 0.3t0.4 0.3q0 0.1 0 0.2t0.1 0.3 0.1 0q0.1-0.4-0.5-1.4-0.3-0.5-0.4-0.6 0-0.1-0.1-0.4t-0.1-0.3q0 0 0.1 0.1t0.2 0 0.2 0.1 0 0.1q0 0.1 0.1 0.4t0.3 0.4 0.3 0.4 0.3 0.3q0.1 0.1 0.3 0.4t0 0.3q0.2 0 0.5 0.3t0.3 0.4q0.1 0.2 0.2 0.6t0.1 0.5q0.1 0.2 0.2 0.3t0.3 0.2l0.4 0.2 0.2 0.2q0.2 0 0.5 0.2t0.4 0.3q0.3 0.1 0.4 0.1t0.3-0.1 0.3-0.1q0.4 0 0.7 0.4t0.4 0.4q0.8 0.4 1.3 0.3-0.1 0 0 0.1t0.2 0.4 0.2 0.3 0.1 0.2q0.1 0.1 0.4 0.3t0.4 0.4q0.1-0.1 0.1-0.2 0 0.1 0.2 0.4t0.4 0.2q0.3 0 0.3-0.7-0.7 0.4-1.1-0.4 0 0 0-0.1t-0.1-0.2-0.1-0.2 0-0.1 0.1-0.1q0.2 0 0.2-0.1t0-0.3-0.1-0.3q0-0.1-0.2-0.4t-0.3-0.3q-0.1 0.2-0.4 0.1t-0.3-0.2q0 0.1-0.1 0.2t0 0.1q-0.3 0-0.3 0 0-0.1 0-0.4t0.1-0.5q0-0.1 0.1-0.3t0.2-0.3 0.1-0.3-0.1-0.2-0.4-0.1q-0.4 0.1-0.6 0.5 0 0.1 0 0.2t-0.2 0.3-0.2 0.1q-0.1 0.1-0.5 0.1t-0.5-0.1q-0.3-0.2-0.5-0.7t-0.2-0.8q0-0.2 0-0.6t0.1-0.5-0.1-0.6q0 0 0.2-0.2t0.2-0.2q0-0.1 0.1-0.1t0.1 0 0.1 0 0-0.1q0-0.1-0.1-0.1 0-0.1 0-0.1 0.1 0.1 0.6 0t0.6 0q0.3 0.3 0.5 0 0 0-0.1-0.2t0-0.3q0.1 0.6 0.7 0.2 0 0 0.3 0.1t0.4 0.1q0.1 0 0.2 0.1t0.1 0.1 0.1 0 0.2-0.1q0.2 0.3 0.3 0.5 0.2 0.9 0.4 1 0.1 0 0.2 0t0.1-0.2 0-0.3 0-0.3l0-0.2v-0.4l0-0.1q-0.4-0.1-0.5-0.3t0.1-0.4 0.3-0.4q0-0.1 0.2-0.1t0.3-0.2 0.3-0.1q0.5-0.5 0.4-0.8 0.1 0 0.2-0.2 0 0-0.1-0.1t-0.2-0.1-0.1 0q0.2-0.2 0.1-0.4 0.1-0.1 0.1-0.2t0.2-0.3q0.2 0.3 0.5 0.1 0.1-0.2 0-0.4 0.1-0.1 0.4-0.2t0.5-0.2q0.1 0 0.1-0.1t0.1-0.2 0-0.3q0.1-0.1 0.4-0.2t0.2-0.1l0.4-0.3q0.1-0.1 0-0.1 0.4 0.1 0.7-0.2 0.2-0.2-0.1-0.4 0.1-0.2-0.1-0.3t-0.3-0.1q0.1 0 0.2 0t0.3 0q0.3-0.2-0.2-0.4-0.4-0.1-0.9 0.3z m-3.7 19.6q4.6-0.8 7.9-4.3-0.1 0-0.3-0.1t-0.3 0q-0.4-0.2-0.5-0.2 0-0.2-0.1-0.3t-0.2-0.2-0.3-0.2-0.2-0.1q0-0.1-0.2-0.2t-0.1-0.1-0.2-0.1-0.2 0-0.2 0l-0.1 0q0 0-0.1 0.1t-0.1 0-0.1 0.1 0 0q-0.5-0.3-0.8-0.4-0.1-0.1-0.2-0.2t-0.3-0.1-0.2-0.1-0.3 0.2q-0.1 0.1-0.1 0.3t0 0.3q-0.2-0.1 0-0.4t0-0.4q-0.1-0.1-0.2-0.1t-0.3 0.1-0.2 0.2-0.2 0.2-0.2 0.1-0.2 0.1q-0.1 0.1-0.2 0.3t-0.1 0.3q0-0.1-0.2-0.2t-0.2-0.1q0 0.2 0 0.8t0.2 0.8q0.1 0.7-0.3 1.1-0.6 0.5-0.7 0.9 0 0.5 0.3 0.6 0 0.1-0.2 0.4t-0.1 0.5q0 0.1 0 0.4z"
+                                                  />
+                                                </g>
+                                              </svg>
+                                            </IconBase>
+                                          </FaGlobe>
+                                        </div>
+                                      </Paper>
+                                    </Styled(Paper)>
+                                    <styled.div
+                                      alignSelf="center"
+                                      px={1}
+                                    >
+                                      <div
+                                        className="sc-bwzfXH huROMH"
+                                      >
+                                        <Styled(Component)
+                                          tag="span"
+                                        >
+                                          <Component
+                                            className="sc-htpNat kkanad"
+                                            tag="span"
+                                          >
+                                            <span
+                                              className="sc-htpNat kkanad"
+                                            >
+                                              www.mokahaiku.com
+                                            </span>
+                                          </Component>
+                                        </Styled(Component)>
+                                      </div>
+                                    </styled.div>
+                                  </a>
+                                </styled.a>
                               </div>
                             </styled.div>
                           </IconWithLabel>
@@ -877,7 +913,7 @@ exports[`Contact renders correctly 1`] = `
                                 >
                                   <TextFieldLabel
                                     disabled={false}
-                                    htmlFor="undefined-undefined-Name-22608"
+                                    htmlFor="undefined-undefined-Name-30324"
                                     muiTheme={
                                       Object {
                                         "appBar": Object {
@@ -1303,7 +1339,7 @@ exports[`Contact renders correctly 1`] = `
                                     }
                                   >
                                     <label
-                                      htmlFor="undefined-undefined-Name-22608"
+                                      htmlFor="undefined-undefined-Name-30324"
                                       style={
                                         Object {
                                           "color": "rgba(0, 0, 0, 0.3)",
@@ -1325,12 +1361,13 @@ exports[`Contact renders correctly 1`] = `
                                   </TextFieldLabel>
                                   <input
                                     disabled={false}
-                                    id="undefined-undefined-Name-22608"
+                                    id="undefined-undefined-Name-30324"
                                     onBlur={[Function]}
                                     onChange={[Function]}
                                     onFocus={[Function]}
                                     style={
                                       Object {
+                                        "WebkitOpacity": 1,
                                         "WebkitTapHighlightColor": "rgba(0,0,0,0)",
                                         "appearance": "textfield",
                                         "backgroundColor": "rgba(0,0,0,0)",
@@ -1780,7 +1817,8 @@ exports[`Contact renders correctly 1`] = `
                                         aria-hidden="true"
                                         style={
                                           Object {
-                                            "borderBottom": "solid 1px",
+                                            "borderBottomStyle": "solid",
+                                            "borderBottomWidth": 1,
                                             "borderColor": "#e0e0e0",
                                             "borderLeft": "none",
                                             "borderRight": "none",
@@ -1798,7 +1836,8 @@ exports[`Contact renders correctly 1`] = `
                                         aria-hidden="true"
                                         style={
                                           Object {
-                                            "borderBottom": "solid 2px",
+                                            "borderBottomStyle": "solid",
+                                            "borderBottomWidth": 2,
                                             "borderColor": "#00bcd4",
                                             "borderLeft": "none",
                                             "borderRight": "none",
@@ -1865,7 +1904,7 @@ exports[`Contact renders correctly 1`] = `
                                 >
                                   <TextFieldLabel
                                     disabled={false}
-                                    htmlFor="undefined-undefined-Youremail-41293"
+                                    htmlFor="undefined-undefined-Youremail-19586"
                                     muiTheme={
                                       Object {
                                         "appBar": Object {
@@ -2291,7 +2330,7 @@ exports[`Contact renders correctly 1`] = `
                                     }
                                   >
                                     <label
-                                      htmlFor="undefined-undefined-Youremail-41293"
+                                      htmlFor="undefined-undefined-Youremail-19586"
                                       style={
                                         Object {
                                           "color": "rgba(0, 0, 0, 0.3)",
@@ -2313,12 +2352,13 @@ exports[`Contact renders correctly 1`] = `
                                   </TextFieldLabel>
                                   <input
                                     disabled={false}
-                                    id="undefined-undefined-Youremail-41293"
+                                    id="undefined-undefined-Youremail-19586"
                                     onBlur={[Function]}
                                     onChange={[Function]}
                                     onFocus={[Function]}
                                     style={
                                       Object {
+                                        "WebkitOpacity": 1,
                                         "WebkitTapHighlightColor": "rgba(0,0,0,0)",
                                         "appearance": "textfield",
                                         "backgroundColor": "rgba(0,0,0,0)",
@@ -2768,7 +2808,8 @@ exports[`Contact renders correctly 1`] = `
                                         aria-hidden="true"
                                         style={
                                           Object {
-                                            "borderBottom": "solid 1px",
+                                            "borderBottomStyle": "solid",
+                                            "borderBottomWidth": 1,
                                             "borderColor": "#e0e0e0",
                                             "borderLeft": "none",
                                             "borderRight": "none",
@@ -2786,7 +2827,8 @@ exports[`Contact renders correctly 1`] = `
                                         aria-hidden="true"
                                         style={
                                           Object {
-                                            "borderBottom": "solid 2px",
+                                            "borderBottomStyle": "solid",
+                                            "borderBottomWidth": 2,
                                             "borderColor": "#00bcd4",
                                             "borderLeft": "none",
                                             "borderRight": "none",
@@ -2861,7 +2903,7 @@ exports[`Contact renders correctly 1`] = `
                                   >
                                     <TextFieldLabel
                                       disabled={false}
-                                      htmlFor="undefined-undefined-Chooseasubject-41976"
+                                      htmlFor="undefined-undefined-Chooseasubject-27212"
                                       muiTheme={
                                         Object {
                                           "appBar": Object {
@@ -3287,7 +3329,7 @@ exports[`Contact renders correctly 1`] = `
                                       }
                                     >
                                       <label
-                                        htmlFor="undefined-undefined-Chooseasubject-41976"
+                                        htmlFor="undefined-undefined-Chooseasubject-27212"
                                         style={
                                           Object {
                                             "color": "rgba(0, 0, 0, 0.3)",
@@ -3324,7 +3366,7 @@ exports[`Contact renders correctly 1`] = `
                                           "top": 8,
                                         }
                                       }
-                                      id="undefined-undefined-Chooseasubject-41976"
+                                      id="undefined-undefined-Chooseasubject-27212"
                                       labelStyle={
                                         Object {
                                           "paddingLeft": 0,
@@ -3339,6 +3381,7 @@ exports[`Contact renders correctly 1`] = `
                                       openImmediately={false}
                                       style={
                                         Object {
+                                          "WebkitOpacity": 1,
                                           "WebkitTapHighlightColor": "rgba(0,0,0,0)",
                                           "backgroundColor": "rgba(0,0,0,0)",
                                           "border": "none",
@@ -3363,12 +3406,13 @@ exports[`Contact renders correctly 1`] = `
                                       value=""
                                     >
                                       <div
-                                        id="undefined-undefined-Chooseasubject-41976"
+                                        id="undefined-undefined-Chooseasubject-27212"
                                         onBlur={[Function]}
                                         onChange={[Function]}
                                         onFocus={[Function]}
                                         style={
                                           Object {
+                                            "WebkitOpacity": 1,
                                             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
                                             "backgroundColor": "rgba(0,0,0,0)",
                                             "border": "none",
@@ -4127,7 +4171,8 @@ exports[`Contact renders correctly 1`] = `
                                           aria-hidden="true"
                                           style={
                                             Object {
-                                              "borderBottom": "solid 1px",
+                                              "borderBottomStyle": "solid",
+                                              "borderBottomWidth": 1,
                                               "borderColor": "#e0e0e0",
                                               "borderLeft": "none",
                                               "borderRight": "none",
@@ -4145,7 +4190,8 @@ exports[`Contact renders correctly 1`] = `
                                           aria-hidden="true"
                                           style={
                                             Object {
-                                              "borderBottom": "solid 2px",
+                                              "borderBottomStyle": "solid",
+                                              "borderBottomWidth": 2,
                                               "borderColor": "#00bcd4",
                                               "borderLeft": "none",
                                               "borderRight": "none",
@@ -4255,6 +4301,7 @@ exports[`Contact renders correctly 1`] = `
                                           "borderRadius": 2,
                                           "height": 36,
                                           "lineHeight": "36px",
+                                          "overflow": "hidden",
                                           "padding": 0,
                                           "textAlign": "center",
                                           "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
@@ -4297,6 +4344,7 @@ exports[`Contact renders correctly 1`] = `
                                             "margin": 0,
                                             "muiPrepared": true,
                                             "outline": "none",
+                                            "overflow": "hidden",
                                             "padding": 0,
                                             "position": "relative",
                                             "textAlign": "center",

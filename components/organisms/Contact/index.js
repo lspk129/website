@@ -36,6 +36,7 @@ class Contact extends Component {
                 <IconWithLabel
                   icon={<FaTwitter color={this.props.muiTheme.palette.accent1Color} />}
                   label={'@mokahaiku'}
+                  href={'http://twitter.com/MokaHaiku'}
                 />
                 <IconWithLabel
                   icon={<FaGlobe color={this.props.muiTheme.palette.accent1Color} />}

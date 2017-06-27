@@ -440,6 +440,16 @@ exports[`IndexPage renders correctly 1`] = `
     }
   >
     <div>
+      <SideEffect(Head)>
+        <style>
+          
+                          body {
+                            margin: 0;
+                            font-family: 'Roboto', sans-serif
+                          }
+                        
+        </style>
+      </SideEffect(Head)>
       <MuiComponent />
       <Container>
         <MuiComponent />

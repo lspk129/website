@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders correctly 1`] = `
+<a
+  className="sc-bdVaJa jMbCSO"
+/>
+`;
+
+exports[`Link renders with href props 1`] = `
+<a
+  className="sc-bdVaJa jrjzxL"
+  href="http://www.delfi.lt"
+/>
+`;
