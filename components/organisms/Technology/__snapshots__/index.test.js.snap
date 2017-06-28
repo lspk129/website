@@ -6,13 +6,13 @@ exports[`Technology  renders correctly 1`] = `
     pb={3}
   >
     <div
-      className="sc-bdVaJa kxVaou"
+      className="sc-bdVaJa iRmPXp"
     >
       <styled.div
         py={3}
       >
         <div
-          className="sc-bdVaJa jIYEcv"
+          className="sc-bdVaJa jsaKJq"
         >
           <Styled(Component)
             tag="h2"
@@ -48,7 +48,7 @@ exports[`Technology  renders correctly 1`] = `
                 scale={1.1}
               >
                 <div
-                  className="sc-htpNat htwcWI"
+                  className="sc-htpNat ixwFJB"
                   scale={1.1}
                 >
                   <Card
@@ -68,7 +68,7 @@ exports[`Technology  renders correctly 1`] = `
                       textAlign="center"
                     >
                       <div
-                        className="sc-bdVaJa jJDreq"
+                        className="sc-bdVaJa fzMAtu"
                       >
                         <img
                           alt="React"
@@ -119,7 +119,7 @@ exports[`Technology  renders correctly 1`] = `
                 scale={1.1}
               >
                 <div
-                  className="sc-htpNat htwcWI"
+                  className="sc-htpNat ixwFJB"
                   scale={1.1}
                 >
                   <Card
@@ -139,7 +139,7 @@ exports[`Technology  renders correctly 1`] = `
                       textAlign="center"
                     >
                       <div
-                        className="sc-bdVaJa jJDreq"
+                        className="sc-bdVaJa fzMAtu"
                       >
                         <img
                           alt="Meteor"
@@ -190,7 +190,7 @@ exports[`Technology  renders correctly 1`] = `
                 scale={1.1}
               >
                 <div
-                  className="sc-htpNat htwcWI"
+                  className="sc-htpNat ixwFJB"
                   scale={1.1}
                 >
                   <Card
@@ -210,7 +210,7 @@ exports[`Technology  renders correctly 1`] = `
                       textAlign="center"
                     >
                       <div
-                        className="sc-bdVaJa jJDreq"
+                        className="sc-bdVaJa fzMAtu"
                       >
                         <img
                           alt="Next.js"

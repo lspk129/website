@@ -1,11 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Division render with alignItems props 1`] = `
+<styled.div
+  alignItems="flex-end"
+>
+  <div
+    className="sc-bdVaJa gtqFVS"
+  />
+</styled.div>
+`;
+
 exports[`Division render with alignSelf props 1`] = `
 <styled.div
   alignSelf="flex-end"
 >
   <div
-    className="sc-bdVaJa cEBrkt"
+    className="sc-bdVaJa ljFKUl"
   />
 </styled.div>
 `;
@@ -15,7 +25,7 @@ exports[`Division render with display props 1`] = `
   display="grid"
 >
   <div
-    className="sc-bdVaJa dTHwgT"
+    className="sc-bdVaJa hZNMen"
     display="grid"
   />
 </styled.div>
@@ -26,7 +36,7 @@ exports[`Division render with margin left and right props 1`] = `
   mx={2}
 >
   <div
-    className="sc-bdVaJa ilxqAx"
+    className="sc-bdVaJa gFdapX"
   />
 </styled.div>
 `;
@@ -36,7 +46,7 @@ exports[`Division render with margin props 1`] = `
   mx="1"
 >
   <div
-    className="sc-bdVaJa jXJpnX"
+    className="sc-bdVaJa cPcdQu"
   />
 </styled.div>
 `;
@@ -46,7 +56,7 @@ exports[`Division render with margin top and bottom props 1`] = `
   my={3}
 >
   <div
-    className="sc-bdVaJa lmeHzE"
+    className="sc-bdVaJa kcIRCd"
   />
 </styled.div>
 `;
@@ -56,7 +66,7 @@ exports[`Division render with margin top props 1`] = `
   mt={4}
 >
   <div
-    className="sc-bdVaJa gYtvID"
+    className="sc-bdVaJa QgfOx"
   />
 </styled.div>
 `;
@@ -66,7 +76,7 @@ exports[`Division render with textAlign props 1`] = `
   textAlign="center"
 >
   <div
-    className="sc-bdVaJa iJcYAt"
+    className="sc-bdVaJa kDuLde"
   />
 </styled.div>
 `;
@@ -76,14 +86,14 @@ exports[`Division renders Division with padding left and right props 1`] = `
   px={7}
 >
   <div
-    className="sc-bdVaJa hdAlWL"
+    className="sc-bdVaJa ilpvEk"
   />
 </styled.div>
 `;
 
 exports[`Division renders correctly 1`] = `
 <div
-  className="sc-bdVaJa fthQnV"
+  className="sc-bdVaJa krulIk"
 />
 `;
 
@@ -92,7 +102,7 @@ exports[`Division renders with background color props 1`] = `
   backgroundColor="#BADA55"
 >
   <div
-    className="sc-bdVaJa glKLAE"
+    className="sc-bdVaJa jkpNnC"
   />
 </styled.div>
 `;
@@ -102,7 +112,7 @@ exports[`Division renders with background image source props 1`] = `
   src="../../../static/Service_image.jpg"
 >
   <div
-    className="sc-bdVaJa fthQnV"
+    className="sc-bdVaJa krulIk"
     src="../../../static/Service_image.jpg"
   />
 </styled.div>
@@ -113,7 +123,7 @@ exports[`Division renders with margin bottom props 1`] = `
   mb={5}
 >
   <div
-    className="sc-bdVaJa eithum"
+    className="sc-bdVaJa iuEEUi"
   />
 </styled.div>
 `;
@@ -123,7 +133,7 @@ exports[`Division renders with margin left props 1`] = `
   ml={7}
 >
   <div
-    className="sc-bdVaJa fzarwM"
+    className="sc-bdVaJa eLUbNz"
   />
 </styled.div>
 `;
@@ -133,7 +143,7 @@ exports[`Division renders with margin right props 1`] = `
   mr={6}
 >
   <div
-    className="sc-bdVaJa jnpxjq"
+    className="sc-bdVaJa jwQvFS"
   />
 </styled.div>
 `;
@@ -143,7 +153,7 @@ exports[`Division renders with padding bottom props 1`] = `
   pb={4}
 >
   <div
-    className="sc-bdVaJa kjEHXC"
+    className="sc-bdVaJa iOxZvf"
   />
 </styled.div>
 `;
@@ -153,7 +163,7 @@ exports[`Division renders with padding left props 1`] = `
   pl={2}
 >
   <div
-    className="sc-bdVaJa exLYtm"
+    className="sc-bdVaJa gkAnra"
   />
 </styled.div>
 `;
@@ -163,7 +173,7 @@ exports[`Division renders with padding props 1`] = `
   p={8}
 >
   <div
-    className="sc-bdVaJa cVVcIm"
+    className="sc-bdVaJa ccbJFG"
   />
 </styled.div>
 `;
@@ -173,7 +183,7 @@ exports[`Division renders with padding right props 1`] = `
   pr={3}
 >
   <div
-    className="sc-bdVaJa gCPqJO"
+    className="sc-bdVaJa bvotjn"
   />
 </styled.div>
 `;
@@ -183,7 +193,7 @@ exports[`Division renders with padding top and bottom props 1`] = `
   py={6}
 >
   <div
-    className="sc-bdVaJa dpSxJI"
+    className="sc-bdVaJa bfxFee"
   />
 </styled.div>
 `;
@@ -193,7 +203,7 @@ exports[`Division renders with padding top props 1`] = `
   pt={5}
 >
   <div
-    className="sc-bdVaJa eusvgv"
+    className="sc-bdVaJa ilHIHY"
   />
 </styled.div>
 `;
@@ -203,7 +213,7 @@ exports[`Division renders with z-index props 1`] = `
   zIndex={10}
 >
   <div
-    className="sc-bdVaJa dYLwOd"
+    className="sc-bdVaJa eqZxnH"
   />
 </styled.div>
 `;

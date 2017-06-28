@@ -4,6 +4,7 @@ const Division = styled.div`
   ${({ display }) => display && `display: ${display}`}
   ${({ textAlign }) => textAlign && `text-align: ${textAlign}`};
   ${({ alignSelf }) => alignSelf && `align-self: ${alignSelf}`};
+  ${({ alignItems }) => alignItems && `align-items: ${alignItems}`};
   // margin properties
   ${({ m }) => m && `margin: ${m}rem;`}
   ${({ mx }) => mx && `margin: 0rem ${mx}rem;`}

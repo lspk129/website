@@ -2,19 +2,19 @@
 
 exports[`DivisionHover renders background color boolean props with theme props 1`] = `
 <div
-  className="sc-bdVaJa bTdroG"
+  className="sc-bdVaJa fvVKxK"
 />
 `;
 
 exports[`DivisionHover renders correctly 1`] = `
 <div
-  className="sc-bdVaJa dqJWti"
+  className="sc-bdVaJa klJskJ"
 />
 `;
 
 exports[`DivisionHover renders scale boolean props 1`] = `
 <div
-  className="sc-bdVaJa dJeJgI"
+  className="sc-bdVaJa esKmAd"
   scale={2}
 />
 `;

@@ -7,6 +7,7 @@ import { red400, cyan700, white, grey200 } from 'material-ui/styles/colors';
 import { ThemeProvider } from 'styled-components';
 import Scroll from 'react-scroll';
 import { StickyContainer } from 'react-sticky';
+import Head from 'next/head';
 
 import NavbarLogo from '../components/organisms/NavbarLogo';
 import Navbar from '../components/organisms/Navbar';
@@ -60,6 +61,14 @@ class IndexPage extends Component {
       <MuiThemeProvider muiTheme={getMuiTheme({ userAgent, ...themeProvider(isMUI) })}>
         <ThemeProvider theme={themeProvider()}>
           <div>
+            <Head>
+              <style>{`
+                body {
+                  margin: 0;
+                  font-family: 'Roboto', sans-serif
+                }
+              `}</style>
+            </Head>
             <NavbarLogo />
             <StickyContainer>
               <Navbar />

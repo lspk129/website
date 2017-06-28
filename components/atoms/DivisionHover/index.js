@@ -11,6 +11,10 @@ const DivisionHover = styled.div`
       transform: scale(${scale});
     }
   `}
+  .icons {
+    transition: all 0.5s ease-in-out;
+    color: ${({ theme }) => theme.background};
+  }
   ${({ backgroundColor, theme }) => backgroundColor && `
     &:hover {
       background: ${theme.background};
@@ -19,10 +23,6 @@ const DivisionHover = styled.div`
         color: ${theme.text};
       }
     };
-    .icons {
-      transition: all 0.5s ease-in-out;
-      color: ${theme.background};
-    }
   `}
 `;
 

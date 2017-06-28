@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders correctly 1`] = `
+<a
+  className="sc-bdVaJa hRisBC"
+/>
+`;
+
+exports[`Link renders with text color props 1`] = `
+<a
+  className="sc-bdVaJa dCxIBt"
+  color="#BADA55"
+/>
+`;
