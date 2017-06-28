@@ -34,7 +34,7 @@ exports[`Card renders with image props 1`] = `
     textAlign="center"
   >
     <div
-      className="sc-bdVaJa jJDreq"
+      className="sc-bdVaJa fzMAtu"
     >
       <img
         alt="React"
@@ -82,7 +82,7 @@ exports[`Card renders with label props 1`] = `
     textAlign="center"
   >
     <div
-      className="sc-bdVaJa jJDreq"
+      className="sc-bdVaJa fzMAtu"
     >
       <Styled(Component)
         tag="h3"
@@ -128,7 +128,7 @@ exports[`Card renders with text props 1`] = `
     textAlign="center"
   >
     <div
-      className="sc-bdVaJa jJDreq"
+      className="sc-bdVaJa fzMAtu"
     >
       <Styled(Component)
         tag="h3"

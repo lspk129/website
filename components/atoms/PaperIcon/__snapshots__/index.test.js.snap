@@ -4,13 +4,13 @@ exports[`PaperIcon renders correctly 1`] = `
 <Styled(Paper)>
   <Paper
     circle={false}
-    className="sc-bdVaJa fGDlZB"
+    className="sc-bdVaJa dnbqBo"
     rounded={true}
     transitionEnabled={true}
     zDepth={1}
   >
     <div
-      className="sc-bdVaJa fGDlZB"
+      className="sc-bdVaJa dnbqBo"
       style={
         Object {
           "WebkitTapHighlightColor": "rgba(0,0,0,0)",
@@ -36,13 +36,13 @@ exports[`PaperIcon renders with circle props 1`] = `
 >
   <Paper
     circle={true}
-    className="sc-bdVaJa fGDlZB"
+    className="sc-bdVaJa dnbqBo"
     rounded={true}
     transitionEnabled={true}
     zDepth={1}
   >
     <div
-      className="sc-bdVaJa fGDlZB"
+      className="sc-bdVaJa dnbqBo"
       style={
         Object {
           "WebkitTapHighlightColor": "rgba(0,0,0,0)",

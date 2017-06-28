@@ -12,9 +12,9 @@ describe('Link', () => {
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
-  it('renders with href props', () => {
-    const wrapper = shallow(<Link href="http://www.delfi.lt" />);
-    expect(wrapper).toHaveProp('href', 'http://www.delfi.lt');
+  it('renders with text color props', () => {
+    const wrapper = shallow(<Link color={'#BADA55'} />);
+    expect(wrapper).toHaveProp('color', '#BADA55');
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 });

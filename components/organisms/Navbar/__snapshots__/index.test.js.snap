@@ -442,7 +442,7 @@ exports[`Navbar renders correctly 1`] = `
               zIndex={2}
             >
               <div
-                className="sc-htpNat bhxTPt"
+                className="sc-htpNat ebtwFU"
                 style={Object {}}
               >
                 <Row
@@ -650,6 +650,7 @@ exports[`Navbar renders correctly 1`] = `
                                       "borderRadius": 2,
                                       "height": 36,
                                       "lineHeight": "36px",
+                                      "overflow": "hidden",
                                       "padding": 0,
                                       "textAlign": "center",
                                       "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
@@ -692,6 +693,7 @@ exports[`Navbar renders correctly 1`] = `
                                         "margin": 0,
                                         "muiPrepared": true,
                                         "outline": "none",
+                                        "overflow": "hidden",
                                         "padding": 0,
                                         "position": "relative",
                                         "textAlign": "center",

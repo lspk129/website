@@ -2,13 +2,13 @@
 
 exports[`Link renders correctly 1`] = `
 <a
-  className="sc-bdVaJa jMbCSO"
+  className="sc-bdVaJa hRisBC"
 />
 `;
 
-exports[`Link renders with href props 1`] = `
+exports[`Link renders with text color props 1`] = `
 <a
-  className="sc-bdVaJa jrjzxL"
-  href="http://www.delfi.lt"
+  className="sc-bdVaJa dCxIBt"
+  color="#BADA55"
 />
 `;

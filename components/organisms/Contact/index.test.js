@@ -9,9 +9,10 @@ import { FaEnvelope, FaTwitter, FaGlobe } from 'react-icons/lib/fa';
 
 import Contact from './';
 import Text from '../../atoms/Text';
-import IconWithLabel from '../../molecules/IconWithLabel';
 import Division from '../../atoms/Division';
 import ColStyled from '../../atoms/ColStyled';
+import Link from '../../atoms/Link';
+import PaperIcon from '../../atoms/PaperIcon';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -63,18 +64,39 @@ describe('Contact', () => {
     expect(wrapper.find(ColStyled)).toBePresent();
   });
 
-  it('renders IconWithLabel component with envelope icon and text "info@mokahaiku.com"', () => {
-    expect(wrapper.find(IconWithLabel).at(0).find(FaEnvelope)).toBePresent();
-    expect(wrapper.find(IconWithLabel).at(0)).toHaveText('info@mokahaiku.com');
+  it('renders Link component with link "http://twitter.com/mokaHaiku" in new window', () => {
+    expect(wrapper.find(Link)).toBePresent();
+    expect(wrapper.find(Link)).toHaveProp('href', 'http://twitter.com/mokaHaiku');
+    expect(wrapper.find(Link)).toHaveProp('target', '_blank');
   });
 
-  it('renders FaTwitter component with Twitter icon and text "@mokahaiku"', () => {
-    expect(wrapper.find(IconWithLabel).at(1).find(FaTwitter)).toBePresent();
-    expect(wrapper.find(IconWithLabel).at(1)).toHaveText('@mokahaiku');
+  it('renders PaperIcon component with circle prop and envelope icon', () => {
+    expect(wrapper.find(PaperIcon).at(0)).toBePresent();
+    expect(wrapper.find(PaperIcon).at(0)).toHaveProp('circle', true);
+    expect(wrapper.find(PaperIcon).at(0).find(FaEnvelope)).toBePresent();
   });
 
-  it('renders FaGlobe component with globe icon and text "www.mokahaiku.com"', () => {
-    expect(wrapper.find(IconWithLabel).at(2).find(FaGlobe)).toBePresent();
-    expect(wrapper.find(IconWithLabel).at(2)).toHaveText('www.mokahaiku.com');
+  it('renders PaperIcon component with circle prop and twitter icon', () => {
+    expect(wrapper.find(PaperIcon).at(1)).toBePresent();
+    expect(wrapper.find(PaperIcon).at(1)).toHaveProp('circle', true);
+    expect(wrapper.find(PaperIcon).at(1).find(FaTwitter)).toBePresent();
+  });
+
+  it('renders PaperIcon component with circle prop and globe icon', () => {
+    expect(wrapper.find(PaperIcon).at(2)).toBePresent();
+    expect(wrapper.find(PaperIcon).at(2)).toHaveProp('circle', true);
+    expect(wrapper.find(PaperIcon).at(2).find(FaGlobe)).toBePresent();
+  });
+
+  it('renders Text component with label "info@mokahaiku.com"', () => {
+    expect(wrapper.find(Text).at(1)).toHaveText('info@mokahaiku.com');
+  });
+
+  it('renders Text component with label "@mokahaiku"', () => {
+    expect(wrapper.find(Text).at(2)).toHaveText('@mokahaiku');
+  });
+
+  it('renders Text component with label "www.mokahaiku.com"', () => {
+    expect(wrapper.find(Text).at(3)).toHaveText('www.mokahaiku.com');
   });
 });

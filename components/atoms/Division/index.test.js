@@ -30,6 +30,12 @@ describe('Division', () => {
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
+  it('render with alignItems props', () => {
+    const wrapper = mount(<Division alignItems={'flex-end'} />);
+    expect(wrapper).toHaveProp('alignItems', 'flex-end');
+    expect(toJson(wrapper)).toMatchSnapshot();
+  });
+
   it('render with margin props', () => {
     const wrapper = mount(<Division mx={'1'} />);
     expect(wrapper).toHaveProp('mx', '1');

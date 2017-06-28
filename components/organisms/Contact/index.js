@@ -5,10 +5,11 @@ import muiThemeable from 'material-ui/styles/muiThemeable';
 import { TextField, SelectField, MenuItem, RaisedButton } from 'material-ui';
 import { FaEnvelope, FaTwitter, FaGlobe } from 'react-icons/lib/fa';
 
-import IconWithLabel from '../../molecules/IconWithLabel';
 import ColStyled from '../../atoms/ColStyled';
 import Division from '../../atoms/Division';
 import Text from '../../atoms/Text';
+import Link from '../../atoms/Link';
+import PaperIcon from '../../atoms/PaperIcon';
 
 class Contact extends Component {
   state = {
@@ -29,19 +30,26 @@ class Contact extends Component {
                     Contact us
                   </Text>
                 </Division>
-                <IconWithLabel
-                  icon={<FaEnvelope color={this.props.muiTheme.palette.accent1Color} />}
-                  label={'info@mokahaiku.com'}
-                />
-                <IconWithLabel
-                  icon={<FaTwitter color={this.props.muiTheme.palette.accent1Color} />}
-                  label={'@mokahaiku'}
-                  href={'http://twitter.com/MokaHaiku'}
-                />
-                <IconWithLabel
-                  icon={<FaGlobe color={this.props.muiTheme.palette.accent1Color} />}
-                  label={'www.mokahaiku.com'}
-                />
+                <Division display={'flex'} alignItems={'center'} py={1}>
+                  <PaperIcon circle>
+                    <FaEnvelope color={this.props.muiTheme.palette.accent1Color} />
+                  </PaperIcon>
+                  <Text>info@mokahaiku.com</Text>
+                </Division>
+                <Link href={'http://twitter.com/mokaHaiku'} target={'_blank'}>
+                  <Division display={'flex'} alignItems={'center'} py={1}>
+                    <PaperIcon circle>
+                      <FaTwitter color={this.props.muiTheme.palette.accent1Color} />
+                    </PaperIcon>
+                    <Text>@mokahaiku</Text>
+                  </Division>
+                </Link>
+                <Division display={'flex'} alignItems={'center'} py={1}>
+                  <PaperIcon circle>
+                    <FaGlobe color={this.props.muiTheme.palette.accent1Color} />
+                  </PaperIcon>
+                  <Text>www.mokahaiku.com</Text>
+                </Division>
               </Division>
             </Col>
           </Row>
