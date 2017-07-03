@@ -5,7 +5,8 @@ const Division = styled.div`
   ${({ textAlign }) => textAlign && `text-align: ${textAlign}`};
   ${({ alignSelf }) => alignSelf && `align-self: ${alignSelf}`};
   ${({ alignItems }) => alignItems && `align-items: ${alignItems}`};
-  // margin properties
+
+  /* margin properties */
   ${({ m }) => m && `margin: ${m}rem;`}
   ${({ mx }) => mx && `margin: 0rem ${mx}rem;`}
   ${({ my }) => my && `margin: ${my}rem 0rem;`}
@@ -13,7 +14,8 @@ const Division = styled.div`
   ${({ mb }) => mb && `margin-bottom: ${mb}rem;`}
   ${({ mr }) => mr && `margin-right: ${mr}rem;`}
   ${({ ml }) => ml && `margin-left: ${ml}rem;`}
-  // padding properties
+
+  /* padding properties */
   ${({ p }) => p && `padding: ${p}rem;`}
   ${({ px }) => px && `padding: 0rem ${px}rem;`}
   ${({ py }) => py && `padding: ${py}rem 0rem;`}
@@ -21,7 +23,8 @@ const Division = styled.div`
   ${({ pb }) => pb && `padding-bottom: ${pb}rem;`}
   ${({ pr }) => pr && `padding-right: ${pr}rem;`}
   ${({ pl }) => pl && `padding-left: ${pl}rem;`}
-  // background properties
+
+  /* background properties */
   ${({ bg, src }) => bg && `
     background-image: url(${src});
     background-repeat: no-repeat;
