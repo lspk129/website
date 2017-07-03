@@ -7,14 +7,16 @@ const AnimatedBorder = styled.div`
   text-decoration: none;
   font-size: 16px;
   cursor: pointer;
-  &:after {
+
+  &::after {
     display: block;
     content: '';
-    border-bottom: solid 2px ${({ color }) => color};  
-    transform: scaleX(0);  
+    border-bottom: solid 2px ${({ color }) => color};
+    transform: scaleX(0);
     transition: transform 250ms ease-in-out;
   }
-  &:hover:after {
+
+  &:hover::after {
     transform: scaleX(1);
   }
 `;
