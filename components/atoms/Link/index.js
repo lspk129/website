@@ -6,8 +6,8 @@ const Link = styled.a`
   cursor: pointer;
   color: ${({ color }) => color || 'inherit'};
   &:hover {
-    color: ${({ theme }) => theme.main}
-  } 
+    color: ${({ theme }) => theme.main};
+  }
 `;
 
 export default Link;
