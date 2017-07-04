@@ -14,6 +14,7 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+          <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css" />
           {styleTags}
         </Head>
         <body>

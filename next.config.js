@@ -10,6 +10,11 @@ module.exports = {
     config.externals['react/lib/ExecutionEnvironment'] = true;
     config.externals['react/lib/ReactContext'] = true;
 
+    // config for loading css modules
+    config.module.rules.push(
+      { test: /\.(css|scss)/, loader: 'emit-file-loader', options: { name: 'dist/[path][name].[ext]' } },
+      { test: /\.css$/, use: ['babel-loader', 'raw-loader'] });
+
     return config;
   },
 };
