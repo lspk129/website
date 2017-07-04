@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import muiThemeable from 'material-ui/styles/muiThemeable';
 
-import Division from '../../atoms/Division';
+import Container from '../../atoms/Container';
 import Image from '../../atoms/Image';
 
 const NavbarLogo = props => (
-  <Division
+  <Container
     textAlign={'center'}
     backgroundColor={props.muiTheme.palette.accent1Color}
     mb={-1}
@@ -17,7 +17,7 @@ const NavbarLogo = props => (
       alt={'Moka Haiku web development agency'}
       width={75}
     />
-  </Division>
+  </Container>
 );
 
 NavbarLogo.propTypes = {

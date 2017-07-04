@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContainerHover renders background color boolean props with theme props 1`] = `
+<div
+  className="sc-bdVaJa fvVKxK"
+/>
+`;
+
+exports[`ContainerHover renders correctly 1`] = `
+<div
+  className="sc-bdVaJa klJskJ"
+/>
+`;
+
+exports[`ContainerHover renders scale boolean props 1`] = `
+<div
+  className="sc-bdVaJa esKmAd"
+  scale={2}
+/>
+`;

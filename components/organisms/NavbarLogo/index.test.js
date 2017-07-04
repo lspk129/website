@@ -6,7 +6,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 import NavbarLogo from './';
 import Image from '../../atoms/Image';
-import Division from '../../atoms/Division';
+import Container from '../../atoms/Container';
 
 describe('NavbarLogo', () => {
   const muiTheme = getMuiTheme();
@@ -21,9 +21,9 @@ describe('NavbarLogo', () => {
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
-  it('renders Division component with backgroundColor property #ff4081', () => {
-    expect(wrapper.find(Division)).toBePresent();
-    expect(wrapper.find(Division)).toHaveProp('backgroundColor', '#ff4081');
+  it('renders Container component with backgroundColor property #ff4081', () => {
+    expect(wrapper.find(Container)).toBePresent();
+    expect(wrapper.find(Container)).toHaveProp('backgroundColor', '#ff4081');
   });
 
   it('renders Image component with source property "../../../static/MokaHaiku_main.png"', () => {

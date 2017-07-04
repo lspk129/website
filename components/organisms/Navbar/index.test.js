@@ -11,7 +11,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import Navbar from './';
 import AnimatedBorder from '../../atoms/AnimatedBorder';
 import ColStyled from '../../atoms/ColStyled';
-import Division from '../../atoms/Division';
+import Container from '../../atoms/Container';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -36,8 +36,8 @@ describe('Navbar', () => {
     expect(wrapper.find(ColStyled)).toBePresent();
   });
 
-  it('renders Division component', () => {
-    expect(wrapper.find(Division)).toBePresent();
+  it('renders Container component', () => {
+    expect(wrapper.find(Container)).toBePresent();
   });
 
   it('renders AnimatedBorder component', () => {

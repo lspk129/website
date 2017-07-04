@@ -6,13 +6,13 @@ exports[`Technology  renders correctly 1`] = `
     pb={3}
   >
     <div
-      className="sc-bdVaJa iRmPXp"
+      className="sc-bdVaJa dtpYan"
     >
       <styled.div
         py={3}
       >
         <div
-          className="sc-bdVaJa jsaKJq"
+          className="sc-bdVaJa gnRkQa"
         >
           <Styled(Component)
             tag="h2"
@@ -68,7 +68,7 @@ exports[`Technology  renders correctly 1`] = `
                       textAlign="center"
                     >
                       <div
-                        className="sc-bdVaJa fzMAtu"
+                        className="sc-bdVaJa khboWb"
                       >
                         <img
                           alt="React"
@@ -139,7 +139,7 @@ exports[`Technology  renders correctly 1`] = `
                       textAlign="center"
                     >
                       <div
-                        className="sc-bdVaJa fzMAtu"
+                        className="sc-bdVaJa khboWb"
                       >
                         <img
                           alt="Meteor"
@@ -210,7 +210,7 @@ exports[`Technology  renders correctly 1`] = `
                       textAlign="center"
                     >
                       <div
-                        className="sc-bdVaJa fzMAtu"
+                        className="sc-bdVaJa khboWb"
                       >
                         <img
                           alt="Next.js"

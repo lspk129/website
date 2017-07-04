@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const DivisionHover = styled.div`
+const ContainerHover = styled.div`
   transition: all 0.5s ease-in-out;
   ${({ scale }) => scale && `
     img {
@@ -26,4 +26,4 @@ const DivisionHover = styled.div`
   `}
 `;
 
-export default DivisionHover;
+export default ContainerHover;

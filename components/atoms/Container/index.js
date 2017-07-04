@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Division = styled.div`
+const Container = styled.div`
   ${({ display }) => display && `display: ${display}`}
   ${({ textAlign }) => textAlign && `text-align: ${textAlign}`};
   ${({ alignSelf }) => alignSelf && `align-self: ${alignSelf}`};
@@ -38,4 +38,4 @@ const Division = styled.div`
   ${({ zIndex }) => zIndex && `z-index: ${zIndex};`}
 `;
 
-export default Division;
+export default Container;

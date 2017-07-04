@@ -8,13 +8,13 @@ import { Row, Col } from 'react-styled-flexboxgrid';
 
 import AnimatedBorder from '../../atoms/AnimatedBorder';
 import ColStyled from '../../atoms/ColStyled';
-import Division from '../../atoms/Division';
+import Container from '../../atoms/Container';
 import Text from '../../atoms/Text';
 
 const Navbar = props => (
   <Sticky>
     {({ style }) => (
-      <Division
+      <Container
         style={style}
         backgroundColor={props.muiTheme.palette.accent1Color}
         zIndex={2}
@@ -52,7 +52,7 @@ const Navbar = props => (
             />
           </ColStyled>
         </Row>
-      </Division>
+      </Container>
     )}
   </Sticky>
 );

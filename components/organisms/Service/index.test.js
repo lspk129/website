@@ -4,8 +4,8 @@ import toJson from 'enzyme-to-json';
 import { MdDesktopMac, MdColorLens } from 'react-icons/lib/md';
 
 import Service from './';
-import Division from '../../atoms/Division';
-import DivisionHover from '../../atoms/DivisionHover';
+import Container from '../../atoms/Container';
+import ContainerHover from '../../atoms/ContainerHover';
 import Card from '../../molecules/Card';
 import Text from '../../atoms/Text';
 
@@ -29,12 +29,12 @@ describe('Service', () => {
     expect(wrapper.find(Card)).toBePresent();
   });
 
-  it('renders Division component', () => {
-    expect(wrapper.find(Division)).toBePresent();
+  it('renders Container component', () => {
+    expect(wrapper.find(Container)).toBePresent();
   });
 
-  it('renders DivisionHover component', () => {
-    expect(wrapper.find(DivisionHover)).toBePresent();
+  it('renders ContainerHover component', () => {
+    expect(wrapper.find(ContainerHover)).toBePresent();
   });
 
   it('renders Card component with text "Web development"', () => {

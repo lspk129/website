@@ -7,7 +7,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
 import Hero from './';
-import Division from '../../atoms/Division';
+import Container from '../../atoms/Container';
 import Text from '../../atoms/Text';
 
 if (!process.tapEventInjected) {
@@ -28,8 +28,8 @@ describe('Hero', () => {
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
-  it('renders Division component', () => {
-    expect(wrapper.find(Division)).toBePresent();
+  it('renders Container component', () => {
+    expect(wrapper.find(Container)).toBePresent();
   });
 
   it('renders Text component with content "Moka Haiku:web app agency"', () => {
