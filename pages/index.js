@@ -15,6 +15,7 @@ import Hero from '../components/organisms/Hero';
 import Service from '../components/organisms/Service';
 import Technology from '../components/organisms/Technology';
 import Contact from '../components/organisms/Contact';
+import stylesheet from '../components/theme/index.css';
 
 if (!process.tapEventInjected) {
   injectTapEventPlugin();
@@ -62,12 +63,7 @@ class IndexPage extends Component {
         <ThemeProvider theme={themeProvider()}>
           <div>
             <Head>
-              <style>{`
-                body {
-                  margin: 0;
-                  font-family: 'Roboto', sans-serif
-                }
-              `}</style>
+              <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
             </Head>
             <NavbarLogo />
             <StickyContainer>
