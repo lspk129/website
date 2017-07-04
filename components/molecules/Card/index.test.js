@@ -3,7 +3,7 @@ import { mount, shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 
 import Card from './';
-import Division from '../../atoms/Division';
+import Container from '../../atoms/Container';
 import Text from '../../atoms/Text';
 
 describe('Card', () => {
@@ -31,9 +31,9 @@ describe('Card', () => {
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
-  it('renders Division component', () => {
+  it('renders Container component', () => {
     const wrapper = shallow(<Card />);
-    expect(wrapper.find(Division)).toBePresent();
+    expect(wrapper.find(Container)).toBePresent();
   });
 
   it('renders Text component', () => {

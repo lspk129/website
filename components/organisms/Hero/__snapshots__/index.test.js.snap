@@ -8,7 +8,7 @@ exports[`Hero renders correctly 1`] = `
     src="../../../static/Hero_image.jpg"
   >
     <div
-      className="sc-bdVaJa bzBOKc"
+      className="sc-bdVaJa gkHlzz"
       src="../../../static/Hero_image.jpg"
     >
       <Styled(Component)
@@ -50,7 +50,7 @@ exports[`Hero renders correctly 1`] = `
         textAlign="center"
       >
         <div
-          className="sc-bdVaJa dVHVv"
+          className="sc-bdVaJa caEinQ"
         >
           <RaisedButton
             disabled={false}

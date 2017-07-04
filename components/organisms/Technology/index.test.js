@@ -5,8 +5,8 @@ import toJson from 'enzyme-to-json';
 import Technology from './';
 import Card from '../../molecules/Card';
 import Text from '../../atoms/Text';
-import Division from '../../atoms/Division';
-import DivisionHover from '../../atoms/DivisionHover';
+import Container from '../../atoms/Container';
+import ContainerHover from '../../atoms/ContainerHover';
 
 describe('Technology ', () => {
   const wrapper = mount(<Technology />);
@@ -24,12 +24,12 @@ describe('Technology ', () => {
     expect(wrapper.find(Text).at(0)).toHaveText('We use cutting-edge technologies');
   });
 
-  it('renders DivisionHover component', () => {
-    expect(wrapper.find(DivisionHover)).toBePresent();
+  it('renders ContainerHover component', () => {
+    expect(wrapper.find(ContainerHover)).toBePresent();
   });
 
-  it('renders Division component', () => {
-    expect(wrapper.find(Division)).toBePresent();
+  it('renders Container component', () => {
+    expect(wrapper.find(Container)).toBePresent();
   });
 
   it('renders Card component with label "React"', () => {

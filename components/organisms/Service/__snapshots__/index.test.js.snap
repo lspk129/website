@@ -8,14 +8,14 @@ exports[`Service renders correctly 1`] = `
     src="../../../static/Service_image.jpg"
   >
     <div
-      className="sc-bdVaJa fACNsw"
+      className="sc-bdVaJa eAJuBK"
       src="../../../static/Service_image.jpg"
     >
       <styled.div
         py={3}
       >
         <div
-          className="sc-bdVaJa jsaKJq"
+          className="sc-bdVaJa gnRkQa"
         >
           <Styled(Component)
             tag="h2"
@@ -70,7 +70,7 @@ exports[`Service renders correctly 1`] = `
                       textAlign="center"
                     >
                       <div
-                        className="sc-bdVaJa fzMAtu"
+                        className="sc-bdVaJa khboWb"
                       >
                         <MdDesktopMac
                           className="icons"
@@ -169,7 +169,7 @@ exports[`Service renders correctly 1`] = `
                       textAlign="center"
                     >
                       <div
-                        className="sc-bdVaJa fzMAtu"
+                        className="sc-bdVaJa khboWb"
                       >
                         <MdColorLens
                           className="icons"

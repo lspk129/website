@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container render with alignItems props 1`] = `
+<styled.div
+  alignItems="flex-end"
+>
+  <div
+    className="sc-bdVaJa fYwkxx"
+  />
+</styled.div>
+`;
+
+exports[`Container render with alignSelf props 1`] = `
+<styled.div
+  alignSelf="flex-end"
+>
+  <div
+    className="sc-bdVaJa cCdSpl"
+  />
+</styled.div>
+`;
+
+exports[`Container render with display props 1`] = `
+<styled.div
+  display="grid"
+>
+  <div
+    className="sc-bdVaJa cFhjwl"
+    display="grid"
+  />
+</styled.div>
+`;
+
+exports[`Container render with margin left and right props 1`] = `
+<styled.div
+  mx={2}
+>
+  <div
+    className="sc-bdVaJa fbQCki"
+  />
+</styled.div>
+`;
+
+exports[`Container render with margin props 1`] = `
+<styled.div
+  mx="1"
+>
+  <div
+    className="sc-bdVaJa huvOTw"
+  />
+</styled.div>
+`;
+
+exports[`Container render with margin top and bottom props 1`] = `
+<styled.div
+  my={3}
+>
+  <div
+    className="sc-bdVaJa hJXbgd"
+  />
+</styled.div>
+`;
+
+exports[`Container render with margin top props 1`] = `
+<styled.div
+  mt={4}
+>
+  <div
+    className="sc-bdVaJa aGRRn"
+  />
+</styled.div>
+`;
+
+exports[`Container render with textAlign props 1`] = `
+<styled.div
+  textAlign="center"
+>
+  <div
+    className="sc-bdVaJa eFKGyX"
+  />
+</styled.div>
+`;
+
+exports[`Container renders Container with padding left and right props 1`] = `
+<styled.div
+  px={7}
+>
+  <div
+    className="sc-bdVaJa hWWkBz"
+  />
+</styled.div>
+`;
+
+exports[`Container renders correctly 1`] = `
+<div
+  className="sc-bdVaJa bYXxhh"
+/>
+`;
+
+exports[`Container renders with background color props 1`] = `
+<styled.div
+  backgroundColor="#BADA55"
+>
+  <div
+    className="sc-bdVaJa fObLte"
+  />
+</styled.div>
+`;
+
+exports[`Container renders with background image source props 1`] = `
+<styled.div
+  src="../../../static/Service_image.jpg"
+>
+  <div
+    className="sc-bdVaJa bYXxhh"
+    src="../../../static/Service_image.jpg"
+  />
+</styled.div>
+`;
+
+exports[`Container renders with margin bottom props 1`] = `
+<styled.div
+  mb={5}
+>
+  <div
+    className="sc-bdVaJa kSycwZ"
+  />
+</styled.div>
+`;
+
+exports[`Container renders with margin left props 1`] = `
+<styled.div
+  ml={7}
+>
+  <div
+    className="sc-bdVaJa gkjOyO"
+  />
+</styled.div>
+`;
+
+exports[`Container renders with margin right props 1`] = `
+<styled.div
+  mr={6}
+>
+  <div
+    className="sc-bdVaJa ldBSLb"
+  />
+</styled.div>
+`;
+
+exports[`Container renders with padding bottom props 1`] = `
+<styled.div
+  pb={4}
+>
+  <div
+    className="sc-bdVaJa ePBnOn"
+  />
+</styled.div>
+`;
+
+exports[`Container renders with padding left props 1`] = `
+<styled.div
+  pl={2}
+>
+  <div
+    className="sc-bdVaJa fqGAhs"
+  />
+</styled.div>
+`;
+
+exports[`Container renders with padding props 1`] = `
+<styled.div
+  p={8}
+>
+  <div
+    className="sc-bdVaJa lgLEEq"
+  />
+</styled.div>
+`;
+
+exports[`Container renders with padding right props 1`] = `
+<styled.div
+  pr={3}
+>
+  <div
+    className="sc-bdVaJa kGKvUv"
+  />
+</styled.div>
+`;
+
+exports[`Container renders with padding top and bottom props 1`] = `
+<styled.div
+  py={6}
+>
+  <div
+    className="sc-bdVaJa VSVdp"
+  />
+</styled.div>
+`;
+
+exports[`Container renders with padding top props 1`] = `
+<styled.div
+  pt={5}
+>
+  <div
+    className="sc-bdVaJa kJdgig"
+  />
+</styled.div>
+`;
+
+exports[`Container renders with z-index props 1`] = `
+<styled.div
+  zIndex={10}
+>
+  <div
+    className="sc-bdVaJa coDzJd"
+  />
+</styled.div>
+`;

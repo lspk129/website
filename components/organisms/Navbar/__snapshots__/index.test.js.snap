@@ -442,7 +442,7 @@ exports[`Navbar renders correctly 1`] = `
               zIndex={2}
             >
               <div
-                className="sc-htpNat ebtwFU"
+                className="sc-htpNat jgjScX"
                 style={Object {}}
               >
                 <Row
@@ -459,7 +459,7 @@ exports[`Navbar renders correctly 1`] = `
                           onClick={[Function]}
                         >
                           <div
-                            className="sc-bdVaJa jGBEhv"
+                            className="sc-bdVaJa fryeSu"
                             onClick={[Function]}
                           >
                             <Styled(Component)
@@ -501,7 +501,7 @@ exports[`Navbar renders correctly 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="sc-bdVaJa jGBEhv"
+                                  className="sc-bdVaJa fryeSu"
                                 >
                                   <Styled(Component)
                                     tag="span"
@@ -545,7 +545,7 @@ exports[`Navbar renders correctly 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="sc-bdVaJa jGBEhv"
+                                  className="sc-bdVaJa fryeSu"
                                 >
                                   <Styled(Component)
                                     tag="span"

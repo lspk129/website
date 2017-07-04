@@ -9,7 +9,7 @@ import { FaEnvelope, FaTwitter, FaGlobe } from 'react-icons/lib/fa';
 
 import Contact from './';
 import Text from '../../atoms/Text';
-import Division from '../../atoms/Division';
+import Container from '../../atoms/Container';
 import ColStyled from '../../atoms/ColStyled';
 import Link from '../../atoms/Link';
 import PaperIcon from '../../atoms/PaperIcon';
@@ -56,8 +56,8 @@ describe('Contact', () => {
     expect(wrapper.find(RaisedButton)).toBePresent();
   });
 
-  it('renders Division component', () => {
-    expect(wrapper.find(Division)).toBePresent();
+  it('renders Container component', () => {
+    expect(wrapper.find(Container)).toBePresent();
   });
 
   it('renders ColStyled component', () => {
